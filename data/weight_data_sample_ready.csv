@@ -1,0 +1,101 @@
+id,00_MSG_00_IMAGE,00_MSG_01_TEXT
+0,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/cc0236be-003c-4461-a923-2628da9296df,bière boxer
+1,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/32289b41-a85a-4563-8e38-c47e7693d2d0,galettes millet haricots noirs maïs
+2,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/b6659a8f-25e7-44f7-a351-7873f60f1586,gruyère
+3,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/5dc42db1-f52c-4035-ae62-bd9adc696284,carottes
+4,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/2cecd350-0715-4904-bc09-00937de43e96,jus d'orange 
+5,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/6dbfe332-dd6b-47e6-8e82-73440f9c9258,eau citronnée 
+6,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/4e021399-8a90-44fe-b06c-0955cd2280f7,pêche 
+7,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/4e021399-8a90-44fe-b06c-0955cd2280f7,tomate cerise
+8,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/6c348fb5-1e65-429a-959a-d2b13d5aeb82,brocolis
+9,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/564d4597-6c8d-4f21-897f-0dbcfec3c3ad,artichaut 
+10,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/afe7f5f8-85f4-4bf3-beff-1442e7dfbbe7,légumes (oignon en botte et champignon
+11,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/27f8d50b-e757-416c-9b64-37c5d34bf4e7,épinards 
+12,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/7e8fa753-bb2d-4ee9-983c-7c9ce95fe698,salade 
+13,https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/9631ea21-d42e-4129-bd57-c4a1aa521e20,gnocchi au basilic
+14,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/89b3294f-5dd2-4358-9633-2eb14dbff3ef,basilic
+15,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/0a9541fa-ce48-42c4-b35d-d9ffd753b7c5,café au lait 
+16,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/12babb66-d6e5-4c11-afc5-25290865b2a5,sardine à la tomate
+17,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/35b79dd1-192e-41e1-90e0-d735999f81e6,pain
+18,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/606063ba-5ba3-4664-aaf2-aadd1d945354,café au lait
+19,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/00056f27-22c2-4991-962f-b10ce2f94f89,mozzarella 
+20,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/59e31b5a-2c5c-48e7-b889-58ed408a3a0a,oignon frais
+21,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/1761d954-a2f9-48f1-b3ea-35ac22f6820c,lait dans le café 
+22,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/58d03bda-2fb4-4b77-bc7f-cb0b65df954e,café au lait
+23,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/3b030a9f-5375-420f-ab1d-20fe6d201bf4,eau 
+24,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/8c36c212-67bf-4a50-b2ec-e4b780749488,galette wraps
+25,https://www.myfoodrepo.org/api/v1/subjects/6fwmw2/dish_media/4198fd55-f46c-4b22-a0ab-215e7f648628,maïs en boîte
+26,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/2ffaa019-183a-4d82-84ba-ba831178b5b2,café au lait
+27,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/9e3bfdbf-2b6e-41be-93ee-6610250b8c4e,charcuterie poulet rôti 
+28,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/18685cd7-995e-4bd3-92cc-bbff2c7bcb42,oeuf
+29,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/ceb176a9-3e1f-48fe-a4ac-1ab12637221f,polenta 
+30,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/fd7babc2-1fff-4ed3-8da6-7850b5ffa9a1,eau 
+31,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/397afb74-d345-4fda-a427-ee570908ee67,compote rhubarbe
+32,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/e7f3470c-66d1-410d-8423-4bc12438ecb0,mais
+33,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/c34091b7-c42f-4e93-ae39-bb28aa3b7819,graines de chia
+34,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/f868b1f6-81b3-484e-96bf-327209241f0e,pain
+35,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/76d985ce-8fcc-4832-b51f-25c40d637743,glace noisette
+36,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/e07ed79b-166f-4cad-9e8b-40d0e6d68607,crêpe 
+37,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/8ac29275-d4b1-4944-a03a-38c7f8287e8c,eau
+38,https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/ce6ad05f-17db-4129-92da-3b0fd5ba0a70,eau 
+39,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/ffdb5f17-85f2-45e4-b19f-25d59724fa3a,comcombre et vinaigrette 
+40,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/273d9044-6fbe-4ba8-948d-3ce80f7976f0,patates sautés 
+41,https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/46c1d23a-f389-4a7e-9f37-e58c81310310,pain toast
+42,https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/9311b680-4c18-4f34-9536-9c475a0cd293,bière 
+43,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/a2817797-57d1-4c81-9361-842a43ba541f,mousse au chocolat 
+44,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/bba5cf64-1d08-40cb-bc6c-bfdd2a7c2116,concombre 
+45,https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/e9c0127e-52e5-4e2f-bb38-5ccb51150d20,espresso
+46,https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/4f610880-73e2-4dea-86d6-03986521b0b2,vin rouge
+47,https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/6f0647af-ce31-45ac-abc9-d335ba8bcd5e,poulet
+48,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/1e0291cb-b069-4a2b-9381-8db3239b367b,oeuf dur
+49,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/38b90b00-cd60-4ff1-a7b0-5dbfb9125944,concombre
+50,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/9b2c7383-a434-4260-ac30-86103e4546ea,artichaut 
+51,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/b4682560-f867-4247-8b79-e3964d7084a0,pomme
+52,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/e006559d-62c1-44d4-8a5c-ba881c44c149,galette au sarrasin 
+53,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/ce668b40-a61f-4ac1-abfd-a150071ddd76,graines de lin
+54,https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/d936efff-6fc8-4d66-8681-db5d7fd4f9c4,salade de carottes
+55,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/47cf5554-7da6-428f-9d33-a4c7052e185a,pomme
+56,https://www.myfoodrepo.org/api/v1/subjects/6fwmw2/dish_media/a2a7a39e-6053-4f38-806d-2bfed94b37c0,brocoli 
+57,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/e6ff6c15-5226-4f65-bb18-fa840dbff88b,pomme
+58,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/9bdb01fc-9658-43e7-9393-81aef96a46de,vin rouge 
+59,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/a11463a4-ab51-4b83-a55f-d4edfb527b13,truite
+60,https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/f62a6405-1433-483e-ac35-e0215d9f0f5c,eau
+61,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/f490015b-1246-4f64-b1f7-b1f486e3fe67,salade
+62,https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/0bf16927-b577-42d5-ad43-bd4264584ecc,beurre
+63,https://www.myfoodrepo.org/api/v1/subjects/6fwmw2/dish_media/1ddcaacb-fd1a-4ee3-a08b-a3721350d9a9,brochette de poulet façon thaï 
+64,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/ff685db2-7bab-4f77-b596-fb10a8287f84,quiche lorraine 
+65,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/bc9c353c-4fd3-41d7-b5ab-cc73e9587d47,tronc de brocolis cru
+66,https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/caf038e8-cc51-41c3-ae34-63959a1e6ad6,millet
+67,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/0bd218b2-a4c6-4605-8737-2055d3040f25,brioche au chocolat
+68,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/822baa8a-c478-4ea6-9796-c3fca89bfd1f,pomme
+69,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/12babb66-d6e5-4c11-afc5-25290865b2a5,œuf au plat
+70,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/68c48786-98a2-4f27-9007-24d28921d1b1,chips
+71,https://www.myfoodrepo.org/api/v1/subjects/6fwmw2/dish_media/f8cf7e83-ab09-4d49-823b-72e247e390f4,eau chaude
+72,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/39735aa7-25e8-4fa6-8b04-baa236c06a84,salade verte 
+73,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/d8aaea52-09df-4596-892c-0d03f5b6b9cd,huile de lin
+74,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/07e06a53-9541-4c97-af61-a82a3c6b9edb,banane
+75,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/0845ef8b-a437-4236-a4f5-49280aac5c51,barre de chocolat kinder
+76,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/d15f25db-272a-4f8a-a0ae-225438cf4b70,purée le tulle betterave
+77,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/586e0d02-4ce2-4d7f-8ebb-a46598eb749c,carotte
+78,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/a4e38412-a38e-4694-b4e7-30eff5684367,eau
+79,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/b0979eb7-5126-4d9e-9058-64093ecde7e0,beurre
+80,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/4a490097-e5f7-42a3-8928-9bdd835d4d17,café froid
+81,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/80d3017b-bc9a-4dcb-ad16-a46aa3c0048c,glace movenpick café-chocolat
+82,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/81cd8c1f-7614-4a96-bd24-ba89908675ff,pomme 
+83,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/1fa390c1-9169-42c0-abbd-3aa6e1a5c90b,carotte
+84,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/f0284a02-724e-4310-940d-e0fdd9893c70,ananas
+85,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/5dfa5302-a2e6-4c74-94fd-8e014ec012bc,poissons panés 
+86,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/712f4686-2c54-47d3-a8f2-811e15f6e76b,avocat 
+87,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/ce668b40-a61f-4ac1-abfd-a150071ddd76,huile d'olive
+88,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/8155f43d-34a0-4b8f-b57c-9c17b005eacb,thé 
+89,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/4f96d4f3-ccf5-48a1-bc78-4d09451b3545,ratatouille
+90,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/2e7b02f3-969a-4269-bf8a-ee2710c121bc,pépites chocolat noir
+91,https://www.myfoodrepo.org/api/v1/subjects/6fwmw2/dish_media/a2a7a39e-6053-4f38-806d-2bfed94b37c0,œufs au plat
+92,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/2a854c3d-0ba9-4c3f-b22c-630cbe2d37cd,fraises 
+93,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/1be13f84-6a0b-4b1c-bff5-fc0a0fcf87b8,fondant au chocolat maison
+94,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/f57e0ec8-3670-4090-ba32-233b99bdb475,oeuf
+95,https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/75bf7e4d-ba50-445f-bfd0-c6a7a970d869,pâtes à la crème
+96,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/bf22a1b3-a8b6-4823-a44b-0893c3097763,boulettes au légumes à la sauce tomate 
+97,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/97ae8755-25a7-40bd-8169-ed8a261699c5,yogourt framboise
+98,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/72fef3aa-7322-4d9d-8e88-12de6bb439db,yogourt vanille
+99,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/bfd79fcd-95ad-4e79-86c2-b3ea477a9d81,gressins sésame 
