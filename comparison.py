@@ -70,6 +70,6 @@ output_filename = f"./data/comparison_data/comparison_{args.json.split('.')[0]}.
 df_comparison["url"] = df_comparison.apply(lambda row: f"https://www.myfoodrepo.org/api/v1/subjects/{row['key']}/dish_media/{row['image_id']}", axis=1)
 df_comparison.to_csv(output_filename, index=False, columns=["key", "image_id", "url", "description", "weight", "predicted_weight", "absolute_error"])
 
-
-print(df_comparison.sort_values(by="absolute_error", ascending=False).head(10))
+print("5 food items with highest absolute error")
+print(df_comparison.sort_values(by="absolute_error", ascending=False).head(5))
 print(f"Comparison results saved to {output_filename}.")
