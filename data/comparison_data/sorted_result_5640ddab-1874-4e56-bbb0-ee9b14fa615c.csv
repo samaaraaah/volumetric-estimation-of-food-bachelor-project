@@ -1,0 +1,23 @@
+key,description,weight,predicted_weight,absolute_error,weighed_absolute_error,url
+xjvrtk,artichaut,560.0,250,310.0,56.6394779771615,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/564d4597-6c8d-4f21-897f-0dbcfec3c3ad
+2ahgvr,bière boxer,250.0,500,250.0,20.391517128874387,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/cc0236be-003c-4461-a923-2628da9296df
+m4egh2,gnocchi au basilic,239.0,120,119.0,9.279282218597064,https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/9631ea21-d42e-4129-bd57-c4a1aa521e20
+2ahgvr,carottes,48.0,150,102.0,1.5973898858075042,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/5dc42db1-f52c-4035-ae62-bd9adc696284
+p8a2w5,café au lait,317.0,240,77.0,7.963784665579119,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/606063ba-5ba3-4664-aaf2-aadd1d945354
+xjvrtk,oignon frais,80.0,25,55.0,1.435562805872757,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/59e31b5a-2c5c-48e7-b889-58ed408a3a0a
+xjvrtk,pomme,126.0,180,54.0,2.2199021207177814,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/47cf5554-7da6-428f-9d33-a4c7052e185a
+p96w4a,eau citronnée,301.0,250,51.0,5.0084828711256115,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/6dbfe332-dd6b-47e6-8e82-73440f9c9258
+xjvrtk,brocolis,95.0,50,45.0,1.394779771615008,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/6c348fb5-1e65-429a-959a-d2b13d5aeb82
+p8a2w5,légumes (oignon en botte et champignon),84.0,120,36.0,0.9866231647634583,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/afe7f5f8-85f4-4bf3-beff-1442e7dfbbe7
+xjvrtk,salade,15.0,45,30.0,0.1468189233278956,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/7e8fa753-bb2d-4ee9-983c-7c9ce95fe698
+p96w4a,jus d'orange,124.0,150,26.0,1.0518760195758565,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/2cecd350-0715-4904-bc09-00937de43e96
+wrah5h,mozzarella,34.0,60,26.0,0.28841761827079937,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/00056f27-22c2-4991-962f-b10ce2f94f89
+xjvrtk,galettes millet haricots noirs maïs,200.0,180,20.0,1.3050570962479608,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/32289b41-a85a-4563-8e38-c47e7693d2d0
+xjvrtk,pain,40.0,60,20.0,0.26101141924959215,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/35b79dd1-192e-41e1-90e0-d735999f81e6
+xjvrtk,sardine à la tomate,80.0,90,10.0,0.26101141924959215,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/12babb66-d6e5-4c11-afc5-25290865b2a5
+p96w4a,tomate cerise,43.0,35,8.0,0.11223491027732463,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/4e021399-8a90-44fe-b06c-0955cd2280f7
+p96w4a,pêche,27.0,30,3.0,0.026427406199021206,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/4e021399-8a90-44fe-b06c-0955cd2280f7
+p96w4a,café au lait,253.0,250,3.0,0.24763458401305058,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/0a9541fa-ce48-42c4-b35d-d9ffd753b7c5
+8japfq,gruyère,28.0,30,2.0,0.01827079934747145,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/b6659a8f-25e7-44f7-a351-7873f60f1586
+xjvrtk,basilic,2.0,3,1.0,0.0006525285481239804,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/89b3294f-5dd2-4358-9633-2eb14dbff3ef
+wrah5h,épinards,119.0,120,1.0,0.038825448613376834,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/27f8d50b-e757-416c-9b64-37c5d34bf4e7

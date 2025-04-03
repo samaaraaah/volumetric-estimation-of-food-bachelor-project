@@ -1,6 +1,6 @@
 import pandas as pd
 
-input_file = './data/weight_data.csv'  
+input_file = "./data/weight_data.csv" 
 output_file = "./data/weight_data_ready.csv" # Formatted for the benchmarking tool
 sample_file = "./data/weight_data_sample.csv"
 sample_output_file = "./data/weight_data_sample_ready.csv"  # Formatted for the benchmarking tool
