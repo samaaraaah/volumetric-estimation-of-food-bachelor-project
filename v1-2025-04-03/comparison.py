@@ -1,6 +1,9 @@
 import pandas as pd
 import json
 import argparse
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))) ##TODO: find a better way to do it
 import utils
 
 # Command line argument parsing
@@ -13,7 +16,7 @@ args = parser.parse_args()
 if args.sample:
     csv_file = "./data/weight_data_sample.csv"
 else:
-    csv_file = "./data/weight_data.csv"
+    csv_file = "../weight_data.csv"
 
 json_file = f"./data/result_data/{args.json}"  
 

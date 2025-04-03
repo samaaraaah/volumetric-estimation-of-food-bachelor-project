@@ -1,0 +1,4 @@
+key,dish_id,eaten_at,eaten_at_utc_offset,image_id,weight,description,remarks,reason_removed
+m4egh2,365894,2022-05-25T15:47:05Z,120,f62a6405-1433-483e-ac35-e0215d9f0f5c,730,Eau,,confusing picture
+xjvrtk,358980,2022-05-02T17:04:10Z,120,564d4597-6c8d-4f21-897f-0dbcfec3c3ad,560,artichaut ,soir souper,wrong ground truth
+2ahgvr,364188,2022-05-17T09:52:37Z,120,5dc42db1-f52c-4035-ae62-bd9adc696284,48,Carottes,,wrong ground truth
