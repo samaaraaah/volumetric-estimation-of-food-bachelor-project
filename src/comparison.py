@@ -14,11 +14,11 @@ args = parser.parse_args()
 
 # Load the dataset with ground truth labels 
 if args.sample:
-    csv_file = "./data/weight_data_sample.csv"
+    csv_file = "../data/cleaned/weight_data_cleaned_sample.csv"
 else:
-    csv_file = "../weight_data.csv"
+    csv_file = "../data/weight_data.csv"
 
-json_file = f"./data/result_data/{args.json}"  
+json_file = f"../data/result/{args.json}"  
 
 # Load the predictions JSON file
 with open(json_file, "r", encoding="utf-8") as f:
@@ -36,13 +36,15 @@ df_predictions = pd.DataFrame(predictions_list)
 # Load the ground truth CSV 
 df_ground_truth = pd.read_csv(csv_file)
 
+# Filter out rows where the description is 'eau'
+df_ground_truth = df_ground_truth[df_ground_truth["description"].str.strip().str.lower() != "eau"]
+
 # Keep only relevant columns
 df_ground_truth = df_ground_truth[["key", "image_id", "description", "weight"]]
 df_ground_truth["description"] = df_ground_truth["description"].str.strip() # Ensure consistency in names
 
 # Merge predictions with ground truth
 df_comparison = df_ground_truth.join(df_predictions)
-##TODO something to ensure that the columns really are about the same food item !!!! (manually checking it is right but try to do it better)
 
 # Check that the description and food_name are the same for each row
 df_comparison["description_match"] = df_comparison["description"] == df_comparison["food_name"]
@@ -78,10 +80,10 @@ utils.append_to_csv(mae, weighted_absolute_error, mape, json_file) ##TODO: choos
 
 # Save results to CSV
 # Create a unique filename using the LLM result filename
-output_filename = f"./data/comparison_data/comparison_{args.json.split('.')[0]}.csv"
+output_filename = f"../data/comparison/comparison_{args.json.split('.')[0]}.csv"
 df_comparison["url"] = df_comparison.apply(lambda row: f"https://www.myfoodrepo.org/api/v1/subjects/{row['key']}/dish_media/{row['image_id']}", axis=1)
 df_comparison.to_csv(output_filename, index=False, columns=["key", "image_id", "url", "description", "weight", "predicted_weight", "absolute_error"]) ##add weighed_absolute_error if want to visualize it
 
 sorted_df = df_comparison.sort_values(by="absolute_error", ascending=False)
-sorted_df.to_csv(f"./data/comparison_data/sorted_{args.json.split('.')[0]}.csv", index=False, columns=["key", "description", "weight", "predicted_weight", "absolute_error", "weighed_absolute_error", "url"])
+sorted_df.to_csv(f"../data/comparison/sorted_{args.json.split('.')[0]}.csv", index=False, columns=["key", "description", "weight", "predicted_weight", "absolute_error", "weighed_absolute_error", "url"])
 print(f"\nComparison results saved to {output_filename}.")

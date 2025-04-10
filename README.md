@@ -14,5 +14,17 @@ data/weight_data_ready.csv: original data formatted for the benchmarking tool
 data/weight_data_sample.csv: sample (100) from original data  
 data/weight_data_sample_ready.csv: sample (100) from original data formatted for the benchmarking tool  
 comparison.py: script that creates the files in the folder comparison_data from a result file and writes the results of the metrics in metrics_results.csv  
-format.py: script that creates the formattes files for the benchmarking tool  
+format.py: script that creates the formatted files for the benchmarking tool  
 metrics_results.csv: file containing the metrics results for each result file  
+
+## Version 2 :  
+give the llm all the food items on the image, ask it to evaluate the weight of only one food item
+data cleaned (in process)
+
+
+data/weight_data_cleaned.csv: original data, cleaned  
+data/weight_data_cleaned_grouped.csv: cleaned data with an additional column containing all the food items on the picture  
+data/weight_data_v2_ready.csv: cleaned data formatted for the benchmarking tool  
+data/weight_data_v2_sample.csv: sample (100) from cleaned data  
+data/weight_data_v2_sample_ready.csv: sample (100) from cleaned data formatted for the benchmarking tool  
+format.py: script that creates the formatted files for the benchmarking tool  

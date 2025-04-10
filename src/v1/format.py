@@ -1,9 +1,9 @@
 import pandas as pd
 
-input_file = "../weight_data.csv" 
-output_file = "./data/weight_data_ready.csv" # Formatted for the benchmarking tool
-sample_file = "./data/weight_data_sample.csv"
-sample_output_file = "./data/weight_data_sample_ready.csv"  # Formatted for the benchmarking tool
+input_file = "../../data/weight_data.csv" 
+output_file = "../../data/v1/weight_data_ready.csv" # Formatted for the benchmarking tool
+sample_file = "../../data/v1/weight_data_sample.csv"
+sample_output_file = "../../data/v1/weight_data_sample_ready.csv"  # Formatted for the benchmarking tool
 
 # Read the CSV into a DataFrame
 df = pd.read_csv(input_file)

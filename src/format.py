@@ -1,0 +1,48 @@
+import pandas as pd
+
+input_file = "../data/cleaned/weight_data_cleaned.csv" 
+grouped_file = "../data/cleaned/weight_data_cleaned_grouped.csv"
+output_file = "../data/ready/weight_data_cleaned_ready.csv" # Formatted for the benchmarking tool
+sample_file = "../data/cleaned/weight_data_cleaned_sample.csv"
+sample_output_file = "../data/ready/weight_data_cleaned_sample_ready.csv"  # Formatted for the benchmarking tool
+
+# Group all descriptions by image_id
+df = pd.read_csv(input_file)
+grouped_descriptions = df.groupby("image_id")["description"].apply(lambda x: ", ".join(x)).reset_index()
+grouped_descriptions.rename(columns={"description": "all_food_items"}, inplace=True)
+
+# Merge back to the original DataFrame
+df_grouped = pd.merge(df, grouped_descriptions, on="image_id", how="left")
+
+# Save to a new file
+df_grouped.to_csv(grouped_file, index=False)
+
+# Create the sample file
+random_seed = 30
+sample_df = df_grouped.sample(n=100, random_state=random_seed) # Fixed random sample
+sample_df["description"] = sample_df["description"].str.lower() 
+sample_df.to_csv(sample_file, index=False)
+
+# Create the new CSV with 'id', '00_MSG_00_TEXT', '00_MSG_01_IMAGE' and '00_MSG_02_TEXT'
+output_data = {
+    'id': range(len(df_grouped)),  
+    '00_MSG_00_TEXT': df_grouped['all_food_items'].str.lower(), # Retrieve all the food items present on the picture
+    '00_MSG_01_IMAGE': df_grouped.apply(lambda row: f"https://www.myfoodrepo.org/api/v1/subjects/{row['key']}/dish_media/{row['image_id']}", axis=1),  # Generate the URL
+    '00_MSG_02_TEXT': df_grouped['description'].str.lower() # Retrieve the description given by the user
+}
+sample_output_data = {
+    'id': range(len(sample_df)),  
+    '00_MSG_00_TEXT': sample_df['all_food_items'].str.lower(), # Retrieve all the food items present on the picture
+    '00_MSG_01_IMAGE': sample_df.apply(lambda row: f"https://www.myfoodrepo.org/api/v1/subjects/{row['key']}/dish_media/{row['image_id']}", axis=1),  # Generate the URL
+    '00_MSG_02_TEXT': sample_df['description'].str.lower() # Retrieve the description given by the user
+}
+
+# Create a new DataFrame for the output
+output_df = pd.DataFrame(output_data)
+sample_output_df = pd.DataFrame(sample_output_data)
+
+# Save the output DataFrame to a new CSV
+output_df.to_csv(output_file, index=False)
+sample_output_df.to_csv(sample_output_file, index=False)
+
+print(f"Output saved to {output_file} and {sample_output_file}")
