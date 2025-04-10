@@ -422,7 +422,6 @@ m4egh2,365859,2022-05-25T11:12:01Z,120,3e5798b3-c7e0-4d8e-a593-5298c2102755,154.
 m4egh2,365859,2022-05-25T11:12:01Z,120,3e5798b3-c7e0-4d8e-a593-5298c2102755,32.0,Fromage râpé,,"Gnocchi au basilic, Chou-fleur, Fromage râpé"
 m4egh2,365860,2022-05-25T11:21:06Z,120,0babd97c-30ea-4b6d-9a13-32aff4add8f8,156.0,Pêche,,"Pêche, pêche"
 m4egh2,365886,2022-05-25T14:43:19Z,120,47707a6b-caa3-4c30-9516-9498f0a4b9b3,27.0,Barre choco-muesli,,Barre choco-muesli
-m4egh2,365894,2022-05-25T15:47:05Z,120,f62a6405-1433-483e-ac35-e0215d9f0f5c,35.0,"Poudre ""compétition"" de Sponser à la framboise",,"Poudre ""compétition"" de Sponser à la framboise"
 m4egh2,365920,2022-05-25T18:38:39Z,120,9631ea21-d42e-4129-bd57-c4a1aa521e20,239.0,Gnocchi au basilic,,"Gnocchi au basilic, Chou-fleur, Oeufs brouillés"
 m4egh2,365920,2022-05-25T18:38:39Z,120,9631ea21-d42e-4129-bd57-c4a1aa521e20,208.0,Chou-fleur,,"Gnocchi au basilic, Chou-fleur, Oeufs brouillés"
 m4egh2,365920,2022-05-25T18:38:39Z,120,9631ea21-d42e-4129-bd57-c4a1aa521e20,145.0,Oeufs brouillés,,"Gnocchi au basilic, Chou-fleur, Oeufs brouillés"
@@ -501,10 +500,9 @@ p8a2w5,359103,2022-05-03T04:49:25Z,120,a97afef0-0a63-4252-9a07-818201610bd1,223.
 p8a2w5,359106,2022-05-03T05:05:44Z,120,fd55317a-e792-439f-bff1-811093d38657,51.0,céréales ,petit dej,"céréales , lait"
 p8a2w5,359106,2022-05-03T05:05:44Z,120,fd55317a-e792-439f-bff1-811093d38657,96.0,lait,petit dej,"céréales , lait"
 p8a2w5,359166,2022-05-03T08:08:54Z,120,c4fdb42e-5271-4719-844a-9baab6ebf586,216.0,banane,,banane
-p8a2w5,359259,2022-05-03T11:26:30Z,120,a78123a9-a71d-44cc-a512-4b8f9c048b9b,123.0,pain,repas,"pain, tranches de porc, saindoux, carottes"
-p8a2w5,359259,2022-05-03T11:26:30Z,120,a78123a9-a71d-44cc-a512-4b8f9c048b9b,66.0,tranches de porc,repas,"pain, tranches de porc, saindoux, carottes"
-p8a2w5,359259,2022-05-03T11:26:30Z,120,a78123a9-a71d-44cc-a512-4b8f9c048b9b,30.0,saindoux,Oubli de peser (j'avais trop faim) donc c'est une estimation,"pain, tranches de porc, saindoux, carottes"
-p8a2w5,359259,2022-05-03T11:26:30Z,120,a78123a9-a71d-44cc-a512-4b8f9c048b9b,85.0,carottes,repas,"pain, tranches de porc, saindoux, carottes"
+p8a2w5,359259,2022-05-03T11:26:30Z,120,a78123a9-a71d-44cc-a512-4b8f9c048b9b,123.0,pain,repas,"pain, tranches de porc, carottes"
+p8a2w5,359259,2022-05-03T11:26:30Z,120,a78123a9-a71d-44cc-a512-4b8f9c048b9b,66.0,tranches de porc,repas,"pain, tranches de porc, carottes"
+p8a2w5,359259,2022-05-03T11:26:30Z,120,a78123a9-a71d-44cc-a512-4b8f9c048b9b,85.0,carottes,repas,"pain, tranches de porc, carottes"
 p8a2w5,359261,2022-05-03T11:48:24Z,120,62774903-1b54-493b-9f6e-2c084eaf3ef5,109.0,yogourt nature avec coulis passion (perle de lait),dessert,yogourt nature avec coulis passion (perle de lait)
 p8a2w5,359283,2022-05-03T12:43:05Z,120,606063ba-5ba3-4664-aaf2-aadd1d945354,317.0,café au lait,,café au lait
 p8a2w5,359328,2022-05-03T14:25:59Z,120,0492af94-e971-4558-b676-48cc8de79062,40.0,pain,collation aprem,"pain, beurre de cacahuète "

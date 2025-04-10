@@ -8,7 +8,7 @@ import utils
 
 # Command line argument parsing
 parser = argparse.ArgumentParser(description="Benchmark food weight predictions.")
-parser.add_argument("--sample", type=bool, required=False, default=True, help="Set to False to run the comparison on the whole dataset.")
+parser.add_argument("--sample", action="store_false", required=False, default=True, help="Use it to run the comparison on the whole dataset.")
 parser.add_argument("--json", type=str, required=True, help="Path to the JSON predictions file.")
 args = parser.parse_args()
 
@@ -38,7 +38,7 @@ df_ground_truth = pd.read_csv(csv_file)
 
 # Keep only relevant columns
 df_ground_truth = df_ground_truth[["key", "image_id", "description", "weight"]]
-df_ground_truth["description"] = df_ground_truth["description"].str.strip() # Ensure consistency in names
+df_ground_truth["description"] = df_ground_truth["description"].str.strip().str.lower() # Ensure consistency in names
 
 # Merge predictions with ground truth
 df_comparison = df_ground_truth.join(df_predictions)
