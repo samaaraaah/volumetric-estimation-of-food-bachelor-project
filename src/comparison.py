@@ -16,7 +16,7 @@ args = parser.parse_args()
 if args.sample:
     csv_file = "../data/cleaned/weight_data_cleaned_sample.csv"
 else:
-    csv_file = "../data/weight_data.csv"
+    csv_file = "../data/cleaned/weight_data_cleaned.csv"
 
 json_file = f"../data/result/{args.json}"  
 
@@ -29,7 +29,8 @@ predictions_list = []
 for key, value in predictions_data.items():
     food_dict = json.loads(value)  # Convert stringified dictionary to actual dictionary
     for food_name, predicted_weight in food_dict.items():
-        predictions_list.append({"id": int(key),"food_name": food_name.strip().lower(), "predicted_weight": predicted_weight})
+        if food_name != "reasoning":
+            predictions_list.append({"id": int(key),"food_name": food_name.strip().lower(), "predicted_weight": predicted_weight})
 
 df_predictions = pd.DataFrame(predictions_list)
 

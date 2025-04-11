@@ -7,3 +7,7 @@ result_file, MAE, MAPE, Weighted_MAE, remarks
 ../data/result/result_44059e43-2ff8-4b88-82d4-007304749c70.json,27.626373626373628,45.20632074917339,51.90793733005309, removed water
 ../data/result/result_f30dc7ae-fb4f-4488-8936-dc76e122bf9f.json,26.923076923076923,45.57194540510416,50.766800466140104, role and removed water
 ../data/result/result_52a9cff1-1b49-43b9-aa8a-baf2e1016fc9.json,26.615384615384617,46.55766319340138,50.042470542535284, cot and removed water
+../data/result/result_a97df4c7-2866-4a9f-b673-45bc2488da6e.json,29.46153846153846,49.7620419864473,58.417065907030945, more examples and removed water
+../data/result/result_d2d43d7d-ea5e-4821-8ce9-b5090f7358f7.json,29.13186813186813,50.196668213337446,57.92645345073158, said to avoid assumptions about standard portion size and removed water
+../data/result/result_cc37a6b3-b8f6-4e62-b208-e65539a8f94e.json,33.6,62.42402921269281,63.41853823185772, with reasoning
+../data/result/result_d27c6de6-cb64-4f00-9ecd-b3cfaf25deee.json,30.16138497652582,52.603283902154566,52.094286449389394, on the whole dataset removed water and prompt cot
