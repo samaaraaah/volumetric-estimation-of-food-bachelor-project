@@ -28,9 +28,17 @@ with open(json_file, "r", encoding="utf-8") as f:
 predictions_list = []
 for key, value in predictions_data.items():
     food_dict = json.loads(value)  # Convert stringified dictionary to actual dictionary
+    reasoning = food_dict.get("reasoning", "")
+    
+    # Extract the food name and weight (excluding "reasoning")
     for food_name, predicted_weight in food_dict.items():
         if food_name != "reasoning":
-            predictions_list.append({"id": int(key),"food_name": food_name.strip().lower(), "predicted_weight": predicted_weight})
+            predictions_list.append({
+                "id": int(key),
+                "food_name": food_name.strip().lower(),
+                "predicted_weight": predicted_weight,
+                "reasoning": reasoning
+            })
 
 df_predictions = pd.DataFrame(predictions_list)
 
@@ -69,10 +77,25 @@ df_comparison["normalized_ae"] = df_comparison["absolute_error"] / df_comparison
 # Compute the errors
 total_weight = df_comparison["weight"].sum()
 mae = df_comparison["absolute_error"].mean()
-mape = df_comparison["normalized_ae"].sum() / len(df_comparison) *100 ##want this metric but in grams?
+mape = df_comparison["normalized_ae"].mean() *100 
 df_comparison["weighed_absolute_error"] = df_comparison["absolute_error"] * df_comparison["weight"] / total_weight
-weighted_absolute_error = (df_comparison["absolute_error"] * df_comparison["weight"]).sum() / total_weight
 
+if args.sample:
+    weighted_absolute_error = (df_comparison["absolute_error"] * df_comparison["weight"]).sum() / total_weight
+else:
+    df_dish_weights = df_comparison.groupby("image_id")["weight"].sum().reset_index()
+    df_dish_weights = df_dish_weights.rename(columns={"weight": "total_dish_weight"})
+    df_comparison = df_comparison.merge(df_dish_weights, on="image_id")
+
+    # Per item contibution to dish-level WMAE
+    df_comparison["dish_weighted_ae"] = df_comparison["absolute_error"] * df_comparison["weight"] / df_comparison["total_dish_weight"]
+    
+    # Sum per dish and then average across dishes
+    dish_wmae_df = df_comparison.groupby("image_id")["dish_weighted_ae"].sum().reset_index()
+    weighted_absolute_error = dish_wmae_df["dish_weighted_ae"].mean()
+    dish_wmae_df = dish_wmae_df.rename(columns={"dish_weighted_ae": "total_dish_wmae"})
+    df_comparison = df_comparison.merge(dish_wmae_df, on="image_id")
+    
 print(f"MAE (Mean Absolute Error): {mae:.4f} grams")
 print(f"Weighted MAE: {weighted_absolute_error:.4f} grams") ##probably the best
 print(f"MAPE (Mean Absolute Percentage Error): {mape:.4f}%\n")
@@ -81,10 +104,34 @@ utils.append_to_csv(mae, weighted_absolute_error, mape, json_file) ##TODO: choos
 
 # Save results to CSV
 # Create a unique filename using the LLM result filename
-output_filename = f"../data/comparison/comparison_{args.json.split('.')[0]}.csv"
+#output_filename = f"../data/comparison/comparison_{args.json.split('.')[0]}.csv"
 df_comparison["url"] = df_comparison.apply(lambda row: f"https://www.myfoodrepo.org/api/v1/subjects/{row['key']}/dish_media/{row['image_id']}", axis=1)
-df_comparison.to_csv(output_filename, index=False, columns=["key", "image_id", "url", "description", "weight", "predicted_weight", "absolute_error"]) ##add weighed_absolute_error if want to visualize it
+#df_comparison.to_csv(output_filename, index=False, columns=["key", "image_id", "url", "description", "weight", "predicted_weight", "absolute_error"]) ##add weighed_absolute_error if want to visualize it
+sorted_filename = f"../data/comparison/sorted_{args.json.split('.')[0]}.csv"
 
-sorted_df = df_comparison.sort_values(by="absolute_error", ascending=False)
-sorted_df.to_csv(f"../data/comparison/sorted_{args.json.split('.')[0]}.csv", index=False, columns=["key", "description", "weight", "predicted_weight", "absolute_error", "weighed_absolute_error", "url"])
-print(f"\nComparison results saved to {output_filename}.")
+if args.sample:
+    sorted_df = df_comparison.sort_values(by="absolute_error", ascending=False)
+    sorted_df.to_csv(sorted_filename, index=False, columns=["key", "description", "weight", "predicted_weight", "absolute_error", "weighed_absolute_error", "url", "reasoning"])
+else:
+    sorted_df = df_comparison.sort_values(by="total_dish_wmae", ascending=False)
+    sorted_df.to_csv(sorted_filename, index=False, columns=["key", "description", "weight", "predicted_weight", "absolute_error", "total_dish_wmae", "url", "reasoning"])
+
+print(f"\nSorted results saved to {sorted_filename}.")
+
+# Display the 10 highest absolute errors with wrapped reasoning
+import textwrap
+
+print("\nTop 10 highest absolute errors with reasoning:\n" + "-"*60)
+top_errors = df_comparison.sort_values(by="absolute_error", ascending=False).head(20)
+
+for i, row in top_errors.iterrows():
+    print(f"\n#{i+1} - Key: {row['key']}")
+    print(f"Description: {row['description']}")
+    print(f"True weight: {row['weight']} g")
+    print(f"Predicted weight: {row['predicted_weight']} g")
+    print(f"Absolute error: {row['absolute_error']} g")
+    print(f"URL: {row['url']}")
+    print("Reasoning:")
+    wrapped_reasoning = textwrap.fill(str(row['reasoning']), width=100)
+    print(wrapped_reasoning)
+    print("-" * 60)

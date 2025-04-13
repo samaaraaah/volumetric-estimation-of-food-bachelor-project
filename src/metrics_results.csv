@@ -11,3 +11,9 @@ result_file, MAE, MAPE, Weighted_MAE, remarks
 ../data/result/result_d2d43d7d-ea5e-4821-8ce9-b5090f7358f7.json,29.13186813186813,50.196668213337446,57.92645345073158, said to avoid assumptions about standard portion size and removed water
 ../data/result/result_cc37a6b3-b8f6-4e62-b208-e65539a8f94e.json,33.6,62.42402921269281,63.41853823185772, with reasoning
 ../data/result/result_d27c6de6-cb64-4f00-9ecd-b3cfaf25deee.json,30.16138497652582,52.603283902154566,52.094286449389394, on the whole dataset removed water and prompt cot
+../data/result/result_d27c6de6-cb64-4f00-9ecd-b3cfaf25deee.json,30.16138497652582,52.726765789248816,38.772902456664255, treats all dishes equally
+../data/result/result_bc3b5069-6b39-4789-984e-fcbffa97a2ae.json,29.15730337078652,48.2158508974314,59.596934548467274, zero shot cot with reasoning
+../data/result/result_92a5c004-0f1f-4b69-b735-79e927931785.json,29.544444444444444,43.21765309491026,60.88486623186477, zero shot cot without reasoning 
+../data/result/result_3282d95c-8a1b-44f5-ad39-7057019c2264.json,33.967032967032964,65.88419715688958,63.12456299365532, few shots cot with reasoning 
+../data/result/result_17ab87b1-5fab-438e-8325-712a0adf425a.json,32.59340659340659,62.47445730541978,57.01204195260909, few shots cot with reasoning and not include container  
+../data/result/result_d4b786e8-4bc7-4547-a99c-b55a82438a9f.json,31.54945054945055,61.02127718063793,55.5140489447106
