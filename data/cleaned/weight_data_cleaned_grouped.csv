@@ -64,7 +64,6 @@ key,dish_id,eaten_at,eaten_at_utc_offset,image_id,weight,description,remarks,all
 2ahgvr,364996,2022-05-20T21:33:25Z,120,86696374-9089-4002-b305-7567294a5da0,132.0,Verre de vin rouge,"Oublié de peser + faire photo du 2ème, donc duppliquer","Verre de vin rouge, Verre de vin rouge"
 2ahgvr,365114,2022-05-21T13:22:05Z,120,b24759a6-90ea-4f9e-a1ad-d52af234de62,177.0,Asperges,,"Asperges, Mayonnaise Thomy"
 2ahgvr,365114,2022-05-21T13:22:05Z,120,b24759a6-90ea-4f9e-a1ad-d52af234de62,21.0,Mayonnaise Thomy,,"Asperges, Mayonnaise Thomy"
-2ahgvr,365150,2022-05-21T16:24:06Z,120,7ee1c208-daaf-4d48-81d3-963dd1301857,63.0,Gauffres,,Gauffres
 2ahgvr,365213,2022-05-21T20:04:21Z,120,1f6bdacc-fe43-46a9-b1c9-76457fcdcaa8,95.0,Carotte,,"Carotte, Tomates cerises"
 2ahgvr,365213,2022-05-21T20:04:21Z,120,1f6bdacc-fe43-46a9-b1c9-76457fcdcaa8,124.0,Tomates cerises,,"Carotte, Tomates cerises"
 2ahgvr,365214,2022-05-21T20:06:23Z,120,1f9fee78-9967-4275-a8a5-59ec89cbbc67,48.0,Chèvres chauds,,"Chèvres chauds, Huile de colza HOLL"
@@ -1313,8 +1312,6 @@ r3bub9,365011,2022-05-21T05:48:13Z,120,ce304883-7d3b-40b4-9b6e-9ab28a656050,102.
 r3bub9,365041,2022-05-21T09:08:38Z,120,26574dbb-38f9-48c0-ad9a-ea913c9f2332,50.0,croissant,,croissant
 r3bub9,365051,2022-05-21T10:07:42Z,120,49cc1a16-4835-4fdb-abd0-02d5dd713314,170.0,petit pain au fromage d'italie,,petit pain au fromage d'italie
 r3bub9,365134,2022-05-21T15:24:52Z,120,aba4b4e9-dcb4-47cc-b113-116786ec97b1,118.0,kiwi,,kiwi
-r3bub9,365331,2022-05-22T12:01:00Z,120,59e98269-25b1-4c0c-9165-523243a50528,110.0,pâtes sauce tomates,,"pâtes sauce tomates, mozzarella"
-r3bub9,365331,2022-05-22T12:01:00Z,120,59e98269-25b1-4c0c-9165-523243a50528,40.0,mozzarella,,"pâtes sauce tomates, mozzarella"
 r3bub9,365343,2022-05-22T13:29:41Z,120,30aa1b8f-750b-4e85-b7fe-14bdad89188d,340.0,eau,,eau
 r3bub9,365435,2022-05-22T17:15:00Z,120,924e04e2-49da-426d-9e74-3a0f8b173f03,340.0,eau,,eau
 r3bub9,365436,2022-05-23T04:24:41Z,120,6da3acd7-23d1-4c66-baf1-93c7fc41087d,121.0,kiwi,,kiwi

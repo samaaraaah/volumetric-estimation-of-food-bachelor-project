@@ -6,6 +6,8 @@ import time
 parser = argparse.ArgumentParser(description="Formatting files for bechmarking tool.")
 parser.add_argument("--sample", action="store_true", help="Use it to indicate that the data needs to be sampled again")
 parser.add_argument("--no-sample", dest="sample", action="store_false", help="Use it to indicate that the data only needs to be cleaned")
+parser.add_argument("--liquid", action="store_true", required=False, help="The data will contain liquids")
+parser.add_argument("--no-liquid", dest="liquid", action="store_false", help="Use it to create a file with the whole data without liquids")
 args = parser.parse_args()
 
 input_file = "../data/cleaned/weight_data_cleaned.csv" 
@@ -16,9 +18,15 @@ if args.sample:
     timestamp = time.strftime("%Y%m%d")
     sample_file = f"../data/cleaned/weight_data_cleaned_sample_{timestamp}.csv"
     sample_output_file = f"../data/ready/weight_data_cleaned_sample_ready_{timestamp}.csv"  # Formatted for the benchmarking tool
+if not args.liquid:
+    grouped_file = "../data/cleaned/weight_data_cleaned_grouped_no_liquid.csv"
+    output_file = "../data/ready/weight_data_cleaned_ready_no_liquid.csv" 
 
 # Group all descriptions by image_id
 df = pd.read_csv(input_file)
+liquids = ["eau", "thé", "café", "lait", "bière", "vin"]
+pattern = "|".join(liquids)
+df = df[~df["description"].str.contains(pattern, case=False, na=False)]
 grouped_descriptions = df.groupby("image_id")["description"].apply(lambda x: ", ".join(x)).reset_index()
 grouped_descriptions.rename(columns={"description": "all_food_items"}, inplace=True)
 

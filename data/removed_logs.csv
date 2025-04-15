@@ -7,3 +7,9 @@ p8a2w5,359259,2022-05-03T11:26:30Z,120,a78123a9-a71d-44cc-a512-4b8f9c048b9b,30,s
 2ahgvr,365150,2022-05-21T16:24:06Z,120,7ee1c208-daaf-4d48-81d3-963dd1301857,63,Gauffres,, wrong ground truth
 r3bub9,365331,2022-05-22T12:01:00Z,120,59e98269-25b1-4c0c-9165-523243a50528,110,pâtes sauce tomates,, wrong ground truth (looked online)
 r3bub9,365331,2022-05-22T12:01:00Z,120,59e98269-25b1-4c0c-9165-523243a50528,40,mozzarella,, wrong ground truth (looked online)
+r3bub9,366362,2022-05-28T20:16:13Z,120,9311b680-4c18-4f34-9536-9c475a0cd293,,bière ,, no ground truth provided
+p8a2w5,365212,2022-05-21T20:00:09Z,120,faa4e3cc-5d10-4bd7-a2ae-7eb4a3945897,329,bière ,erreur de pesée,misleading picture
+p96w4a,359915,2022-05-05T08:08:08Z,120,87ad5ad5-a05a-4151-8f82-a6594d8c0f37,2,cacao,,cannot be estimated
+xjvrtk,362422,2022-05-11T17:50:17Z,120,d15f25db-272a-4f8a-a0ae-225438cf4b70,35,chocolat,goûter, not on the picture
+xjvrtk,362422,2022-05-11T17:50:17Z,120,d15f25db-272a-4f8a-a0ae-225438cf4b70,190,poire,goûter,not on the picture
+2ahgvr,358749,2022-05-02T07:41:31Z,120,aa859e5b-563f-472c-9914-036722ebf60e,238,Muesli,Mélange noté juste en dessous,not sure if should remove because has logged all individual items AND weight of the whole dish
