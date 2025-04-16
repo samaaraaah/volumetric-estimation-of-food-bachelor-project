@@ -22,3 +22,4 @@ result_file, MAE, MAPE, Weighted_MAE, remarks
 ../data/result/result_b023aa11-d5a2-44dc-87b6-9fc05ac26e54.json,28.171717171717173,48.057648280122635,39.62490400438837, same as above but removed "let's think ..."
 ../data/result/result_b28d51e3-4961-4555-a305-4ee7ba35f137.json,24.96969696969697,40.55916136237696,34.09610532089962, same as result_2845 but zero shot --> pretty good
 ../data/result/result_a5d2269f-440b-4759-9bcf-3dba93d9c9e2.json,26.823848238482384,49.69612532517006,33.71620427149805, prompt close to above but had to be more precise about the output format
+../data/result/result_a5d2269f-440b-4759-9bcf-3dba93d9c9e2.json,26.823848238482384,49.69612532517006,33.71620427149805
