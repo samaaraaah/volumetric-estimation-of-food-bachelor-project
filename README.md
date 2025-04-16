@@ -35,3 +35,17 @@ data/removed_logs.csv: contains the removed rows and the reason why it was remov
 src/format.py: script that creates the formatted files for the benchmarking tool  
 src/comparison.py: script that creates the files in the folder comparison from a result file and writes the results of the metrics in metrics_results.csv  
 src/metrics_results.csv: file containing the metrics results for each result file  
+  
+  
+When deleting rows in weight_data_cleaned.csv, always put the deleted row in removed_logs.csv and add a reason. Then run:  
+python format.py : to update the file weight_data_cleaned_ready.csv, the following arguments are available:  
+--sample: to generate a new sample file from the new cleaned data  
+--no-liquid: to generate a new file (ready and grouped) excluding the data that contains liquids such as water, milk, coffee, tea, bier and wine  
+
+Once a result has been obtained, put the corresponding file in data/result and run:  
+- If the data is a sample data : python comparison.py --json {result_file_name}: to create a sorted_{result_file_name} with the errors sorted by absolute value  
+- If the data is the whole data : python comparison.py --json {result_file_name} --wholedata: to create a sorted_{result_file_name} with the errors sorted by the total dish weighed absolute error
+The following arguments are available:
+--no-liquid: use it to indicate that the data doesn't contain liquids
+--errors: use it to display the 20 highest errors in the terminal
+

@@ -8,15 +8,24 @@ import utils
 
 # Command line argument parsing
 parser = argparse.ArgumentParser(description="Benchmark food weight predictions.")
-parser.add_argument("--sample", action="store_false", required=False, default=True, help="Use it to run the comparison on the whole dataset.")
+parser.add_argument("--wholedata", action="store_true", required=False, default=False, help="Use it to run the comparison on the whole dataset.")
 parser.add_argument("--json", type=str, required=True, help="Path to the JSON predictions file.")
+parser.add_argument("--liquid", action="store_true", required=False, help="The data will contains liquids.")
+parser.add_argument("--no-liquid", dest="liquid", action="store_false", help="Use it to indicate that the data doesn't contain liquids.")
+parser.add_argument("--errors", action="store_true", required=False, help="Use it to show top 20 highest errors in terminal.")
 args = parser.parse_args()
 
 # Load the dataset with ground truth labels 
-if args.sample:
-    csv_file = "../data/cleaned/weight_data_cleaned_sample.csv"
+if args.liquid:
+    if args.wholedata:
+        csv_file = "../data/cleaned/weight_data_cleaned.csv"
+    else:
+        csv_file = "../data/cleaned/weight_data_cleaned_sample.csv"
 else:
-    csv_file = "../data/cleaned/weight_data_cleaned.csv"
+    if args.wholedata:
+        csv_file = "../data/cleaned/weight_data_cleaned_no_liquid.csv" 
+    else:
+        csv_file = "../data/cleaned/weight_data_cleaned_sample_20250415.csv"
 
 json_file = f"../data/result/{args.json}"  
 
@@ -80,9 +89,7 @@ mae = df_comparison["absolute_error"].mean()
 mape = df_comparison["normalized_ae"].mean() *100 
 df_comparison["weighed_absolute_error"] = df_comparison["absolute_error"] * df_comparison["weight"] / total_weight
 
-if args.sample:
-    weighted_absolute_error = (df_comparison["absolute_error"] * df_comparison["weight"]).sum() / total_weight
-else:
+if args.wholedata:
     df_dish_weights = df_comparison.groupby("image_id")["weight"].sum().reset_index()
     df_dish_weights = df_dish_weights.rename(columns={"weight": "total_dish_weight"})
     df_comparison = df_comparison.merge(df_dish_weights, on="image_id")
@@ -95,6 +102,9 @@ else:
     weighted_absolute_error = dish_wmae_df["dish_weighted_ae"].mean()
     dish_wmae_df = dish_wmae_df.rename(columns={"dish_weighted_ae": "total_dish_wmae"})
     df_comparison = df_comparison.merge(dish_wmae_df, on="image_id")
+else:
+    weighted_absolute_error = (df_comparison["absolute_error"] * df_comparison["weight"]).sum() / total_weight
+    
     
 print(f"MAE (Mean Absolute Error): {mae:.4f} grams")
 print(f"Weighted MAE: {weighted_absolute_error:.4f} grams") ##probably the best
@@ -109,29 +119,30 @@ df_comparison["url"] = df_comparison.apply(lambda row: f"https://www.myfoodrepo.
 #df_comparison.to_csv(output_filename, index=False, columns=["key", "image_id", "url", "description", "weight", "predicted_weight", "absolute_error"]) ##add weighed_absolute_error if want to visualize it
 sorted_filename = f"../data/comparison/sorted_{args.json.split('.')[0]}.csv"
 
-if args.sample:
-    sorted_df = df_comparison.sort_values(by="absolute_error", ascending=False)
-    sorted_df.to_csv(sorted_filename, index=False, columns=["key", "description", "weight", "predicted_weight", "absolute_error", "weighed_absolute_error", "url", "reasoning"])
-else:
+if args.wholedata:
     sorted_df = df_comparison.sort_values(by="total_dish_wmae", ascending=False)
     sorted_df.to_csv(sorted_filename, index=False, columns=["key", "description", "weight", "predicted_weight", "absolute_error", "total_dish_wmae", "url", "reasoning"])
+else:
+    sorted_df = df_comparison.sort_values(by="absolute_error", ascending=False)
+    sorted_df.to_csv(sorted_filename, index=False, columns=["key", "description", "weight", "predicted_weight", "absolute_error", "weighed_absolute_error", "url", "reasoning"])
 
 print(f"\nSorted results saved to {sorted_filename}.")
 
-# Display the 10 highest absolute errors with wrapped reasoning
-import textwrap
+if args.errors:
+    # Display the 10 highest absolute errors with wrapped reasoning
+    import textwrap
 
-print("\nTop 10 highest absolute errors with reasoning:\n" + "-"*60)
-top_errors = df_comparison.sort_values(by="absolute_error", ascending=False).head(20)
+    print("\nTop 20 highest absolute errors with reasoning:\n" + "-"*60)
+    top_errors = df_comparison.sort_values(by="absolute_error", ascending=False).head(20)
 
-for i, row in top_errors.iterrows():
-    print(f"\n#{i+1} - Key: {row['key']}")
-    print(f"Description: {row['description']}")
-    print(f"True weight: {row['weight']} g")
-    print(f"Predicted weight: {row['predicted_weight']} g")
-    print(f"Absolute error: {row['absolute_error']} g")
-    print(f"URL: {row['url']}")
-    print("Reasoning:")
-    wrapped_reasoning = textwrap.fill(str(row['reasoning']), width=100)
-    print(wrapped_reasoning)
-    print("-" * 60)
+    for i, row in top_errors.iterrows():
+        print(f"\n#{i+1} - Key: {row['key']}")
+        print(f"Description: {row['description']}")
+        print(f"True weight: {row['weight']} g")
+        print(f"Predicted weight: {row['predicted_weight']} g")
+        print(f"Absolute error: {row['absolute_error']} g")
+        print(f"URL: {row['url']}")
+        print("Reasoning:")
+        wrapped_reasoning = textwrap.fill(str(row['reasoning']), width=100)
+        print(wrapped_reasoning)
+        print("-" * 60)

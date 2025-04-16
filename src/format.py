@@ -20,13 +20,17 @@ if args.sample:
     sample_output_file = f"../data/ready/weight_data_cleaned_sample_ready_{timestamp}.csv"  # Formatted for the benchmarking tool
 if not args.liquid:
     grouped_file = "../data/cleaned/weight_data_cleaned_grouped_no_liquid.csv"
-    output_file = "../data/ready/weight_data_cleaned_ready_no_liquid.csv" 
+    output_file = "../data/ready/weight_data_cleaned_ready_no_liquid.csv"
+    no_liquid_file = "../data/cleaned/weight_data_cleaned_no_liquid.csv" # Whole data without liquids
 
 # Group all descriptions by image_id
 df = pd.read_csv(input_file)
-liquids = ["eau", "thé", "café", "lait", "bière", "vin"]
-pattern = "|".join(liquids)
-df = df[~df["description"].str.contains(pattern, case=False, na=False)]
+if not args.liquid:
+    liquids = ["eau", "thé", "café", "lait", "bière", "vin"]
+    pattern = "|".join(liquids)
+    df = df[~df["description"].str.contains(pattern, case=False, na=False)]
+    df.to_csv(no_liquid_file, index=False)
+
 grouped_descriptions = df.groupby("image_id")["description"].apply(lambda x: ", ".join(x)).reset_index()
 grouped_descriptions.rename(columns={"description": "all_food_items"}, inplace=True)
 

@@ -1,0 +1,379 @@
+key,dish_id,eaten_at,eaten_at_utc_offset,image_id,weight,description,remarks,all_food_items
+2ahgvr,358749,2022-05-02T07:41:31Z,120,aa859e5b-563f-472c-9914-036722ebf60e,238.0,Muesli,Mélange noté juste en dessous,"Muesli, Blanc battu, Flocons d'avoine, Graines de chia, Miel"
+2ahgvr,364159,2022-05-17T07:39:03Z,120,1daf744b-ac33-4b3d-99b3-c6de4358a61a,9.0,Cerneaux de noix,2 cerneaux,"Porridge, Purée d'amande, Figue séchée, Cerneaux de noix"
+2ahgvr,364204,2022-05-17T10:17:52Z,120,1886c243-b497-4c0c-b749-b380873c5f23,16.0,Bout de pain au lait,,Bout de pain au lait
+2ahgvr,364205,2022-05-17T10:19:19Z,120,4f969f6c-979b-4e8e-878b-283d5bbc9ad5,14.0,Bout de pain au lait,,Bout de pain au lait
+2ahgvr,364867,2022-05-20T12:14:15Z,120,c954f821-fbb7-4a62-8de5-b783fd087c94,496.0,Bière pression,,Bière pression
+2ahgvr,364955,2022-05-20T18:45:53Z,120,cc0236be-003c-4461-a923-2628da9296df,250.0,Bière Boxer,,Bière Boxer
+2ahgvr,364997,2022-05-20T21:00:27Z,120,86696374-9089-4002-b305-7567294a5da0,132.0,Verre de vin rouge,,"Verre de vin rouge, Verre de vin rouge"
+2ahgvr,364996,2022-05-20T21:33:25Z,120,86696374-9089-4002-b305-7567294a5da0,132.0,Verre de vin rouge,"Oublié de peser + faire photo du 2ème, donc duppliquer","Verre de vin rouge, Verre de vin rouge"
+6fwmw2,358747,2022-05-02T07:37:18Z,120,7826992b-fc26-4b9a-86e5-fb003e3f80f5,21.0,Lait,,"Lait, Café "
+6fwmw2,358747,2022-05-02T07:37:18Z,120,7826992b-fc26-4b9a-86e5-fb003e3f80f5,77.0,Café ,,"Lait, Café "
+6fwmw2,358757,2022-05-02T08:07:55Z,120,cb3496da-5eda-49b3-9a80-48141380eba3,451.0,Eau chaude ,Avec jus de citron ,Eau chaude 
+6fwmw2,359921,2022-05-05T08:26:10Z,120,f8cf7e83-ab09-4d49-823b-72e247e390f4,332.0,Eau chaude,,"Eau chaude, Jus de citron "
+6fwmw2,360310,2022-05-06T07:21:50Z,120,e9f41c05-d4ed-4b6c-aba8-e5d17bb581eb,445.0,Thé ,,Thé 
+6fwmw2,360812,2022-05-07T11:39:52Z,120,32884400-96d3-4152-a9ec-565fe33a5b2d,100.0,Café,,"Café, Café "
+6fwmw2,365715,2022-05-24T14:38:58Z,120,32884400-96d3-4152-a9ec-565fe33a5b2d,100.0,Café ,,"Café, Café "
+8japfq,358392,2022-05-01T07:40:44Z,120,b0b63155-334f-4a68-958f-4195fa493daf,457.0,Thé,Sans sucre ,Thé
+8japfq,358483,2022-05-01T11:06:00Z,120,2a854c3d-0ba9-4c3f-b22c-630cbe2d37cd,57.0,Gâteau au chocolat,,"Fraises , Gâteau au chocolat"
+8japfq,358491,2022-05-01T11:22:40Z,120,8b8fc57f-7ffd-471d-aeb3-7b691bcf664d,32.0,Café noir,Sans sucre,"Café noir, Œufs en chocolat "
+8japfq,358605,2022-05-01T17:32:47Z,120,b4fdbc06-7591-4aee-83e3-ab3c60d47823,146.0,Vin rouge ,,Vin rouge 
+8japfq,358873,2022-05-02T11:48:18Z,120,9acfba1f-6eaa-4d72-84ed-f7653e464195,57.0,Gâteau au chocolat ,,Gâteau au chocolat 
+8japfq,359061,2022-05-02T20:00:05Z,120,94cbdf44-cfe4-4ad0-a930-e8769f6ee9ed,72.0,Gâteau aux amandes ,,Gâteau aux amandes 
+8japfq,362172,2022-05-11T08:00:37Z,120,f467f9d0-b394-4840-8091-ee00b38e0a96,31.0,Chocolat au lait ,,Chocolat au lait 
+8japfq,363507,2022-05-14T18:42:37Z,120,dcde0754-df32-469c-82c0-87095606c15d,235.0,Courgettes et maïs au lait de coco,,"Nouilles de riz, Courgettes et maïs au lait de coco, Amandes grillées "
+8japfq,363654,2022-05-15T11:10:42Z,120,80d3017b-bc9a-4dcb-ad16-a46aa3c0048c,111.0,Glace movenpick café-chocolat,,Glace movenpick café-chocolat
+8japfq,363658,2022-05-15T11:22:32Z,120,86ceb725-f8aa-4f49-a72d-d44fb229ea99,60.0,Café,,Café
+8japfq,363960,2022-05-16T11:14:28Z,120,5f8e5ef9-e248-4e8c-9975-e35edcd5fa6e,109.0,Glace movenpick café-chocolat,,Glace movenpick café-chocolat
+m4egh2,362902,2022-05-13T05:16:16Z,120,8320699a-53cb-43b0-aa0b-f53e921308af,123.0,Café,,Café
+m4egh2,364260,2022-05-17T14:09:22Z,120,253836a6-4175-4ae0-9f29-f0157d7141b1,163.0,Glace Movenpick café,,Glace Movenpick café
+m4egh2,365512,2022-05-23T12:39:56Z,120,5e46238f-a50e-4b2a-b205-7383c5aa9c5b,88.0,Glace café ,,Glace café 
+m4egh2,365764,2022-05-24T19:47:28Z,120,55d40c39-e6b8-407a-9e3e-881d42568328,10.0,vinaigre balsamique,,"Salade verte , Tomate, Mélange de graines, Viande séchée des grissons : porc, huile d'olive extra vierge , vinaigre balsamique, Pâtes aux légumes (aubergines et carottes)"
+m4egh2,366356,2022-05-28T19:28:58Z,120,444413a1-c868-455d-8634-7cce2244e9be,249.0,Bière grimbergen rouge,,Bière grimbergen rouge
+m4egh2,366361,2022-05-28T19:57:31Z,120,4f610880-73e2-4dea-86d6-03986521b0b2,155.0,vin rouge,,"vin rouge, vin rouge"
+m4egh2,366385,2022-05-28T20:16:26Z,120,4f610880-73e2-4dea-86d6-03986521b0b2,155.0,vin rouge,,"vin rouge, vin rouge"
+p8a2w5,358404,2022-05-01T07:40:00Z,120,0c5afb33-dd7e-4694-89a6-3ef978d55651,347.0,café au lait,,"café au lait, café au lait, café au lait"
+p8a2w5,358403,2022-05-01T08:13:26Z,120,0c5afb33-dd7e-4694-89a6-3ef978d55651,347.0,café au lait,,"café au lait, café au lait, café au lait"
+p8a2w5,358417,2022-05-01T08:38:53Z,120,9360a3db-de0a-4e11-83f4-8077839c7eca,137.0,lait dans céréales ,petit dej,"céréales au coco, lait dans céréales "
+p8a2w5,358440,2022-05-01T09:24:47Z,120,a2e8faf7-4e14-4204-a456-45fee0197424,217.0,eau,,"eau, eau, eau, eau, eau "
+p8a2w5,358644,2022-05-01T15:25:00Z,120,a2e8faf7-4e14-4204-a456-45fee0197424,217.0,eau,,"eau, eau, eau, eau, eau "
+p8a2w5,358645,2022-05-01T18:20:00Z,120,a2e8faf7-4e14-4204-a456-45fee0197424,217.0,eau,,"eau, eau, eau, eau, eau "
+p8a2w5,358637,2022-05-01T18:29:40Z,120,bdb25c53-2eb7-4a81-b33e-6d28997d0183,80.0,salade verte + carottes + vinaigrette,repas,"pains (provençales et blanc), pillons de poulet, salade verte + carottes + vinaigrette, salade tomate mozzarella concombre"
+p8a2w5,358724,2022-05-02T06:45:00Z,120,0c5afb33-dd7e-4694-89a6-3ef978d55651,347.0,café au lait,,"café au lait, café au lait, café au lait"
+p8a2w5,358738,2022-05-02T07:26:06Z,120,9909ddbe-3881-4bba-9d91-aa2a002a7bb7,99.0,lait,petit dej,"céréales , lait"
+p8a2w5,359065,2022-05-02T16:55:00Z,120,a2e8faf7-4e14-4204-a456-45fee0197424,217.0,eau,,"eau, eau, eau, eau, eau "
+p8a2w5,359055,2022-05-02T19:34:51Z,120,afe7f5f8-85f4-4bf3-beff-1442e7dfbbe7,345.0,"soupe (bouillon de poulet, sauce soja, vinaigre, huile)",repas nouilles,"légumes (oignon en botte et champignon, pâtes, soupe (bouillon de poulet, sauce soja, vinaigre, huile), oeuf"
+p8a2w5,359066,2022-05-02T20:04:00Z,120,a2e8faf7-4e14-4204-a456-45fee0197424,217.0,eau ,,"eau, eau, eau, eau, eau "
+p8a2w5,359103,2022-05-03T04:49:25Z,120,a97afef0-0a63-4252-9a07-818201610bd1,223.0,café au lait,petit dej,café au lait
+p8a2w5,359106,2022-05-03T05:05:44Z,120,fd55317a-e792-439f-bff1-811093d38657,96.0,lait,petit dej,"céréales , lait"
+p8a2w5,359261,2022-05-03T11:48:24Z,120,62774903-1b54-493b-9f6e-2c084eaf3ef5,109.0,yogourt nature avec coulis passion (perle de lait),dessert,yogourt nature avec coulis passion (perle de lait)
+p8a2w5,359283,2022-05-03T12:43:05Z,120,606063ba-5ba3-4664-aaf2-aadd1d945354,317.0,café au lait,,café au lait
+p8a2w5,359894,2022-05-05T07:12:57Z,120,03210130-04f7-45e1-babd-2c0693093101,207.0,café ,,"café , lait dans le café"
+p8a2w5,359894,2022-05-05T07:12:57Z,120,03210130-04f7-45e1-babd-2c0693093101,177.0,lait dans le café,,"café , lait dans le café"
+p8a2w5,359900,2022-05-05T07:39:07Z,120,8ac29275-d4b1-4944-a03a-38c7f8287e8c,264.0,eau ,,"eau , eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau , eau , eau, eau"
+p8a2w5,359905,2022-05-05T07:40:50Z,120,4c05ee25-7f4e-4aba-8d89-4b7c5345b4b8,114.0,lait,,"céréales , lait"
+p8a2w5,359941,2022-05-05T09:43:48Z,120,0e167b0e-8e66-409d-9beb-3f7879d1d8e5,287.0,thé au chanvre,,thé au chanvre
+p8a2w5,359976,2022-05-05T11:35:40Z,120,c68fefbc-cbb5-416b-9841-87bdfa83de36,163.0,"salade (salade verte, carottes, avocat, 1CS huile d'olive, 1 CS vinaigre)",,"oeuf fris, salade (salade verte, carottes, avocat, 1CS huile d'olive, 1 CS vinaigre), pain au sésames"
+p8a2w5,359980,2022-05-05T11:40:00Z,120,8ac29275-d4b1-4944-a03a-38c7f8287e8c,264.0,eau,,"eau , eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau , eau , eau, eau"
+p8a2w5,360036,2022-05-05T13:10:30Z,120,bbce7865-d72c-4095-a722-1c93b4b47e21,261.0,thé au chanvre,,thé au chanvre
+p8a2w5,360193,2022-05-05T19:02:47Z,120,62095991-e788-405d-a5d5-b5ad2d8bd2e0,86.0,"curry (lait de coco, tofu, oignon, carottes, poivrons verts)",,"riz, curry (lait de coco, tofu, oignon, carottes, poivrons verts)"
+p8a2w5,360204,2022-05-05T19:13:00Z,120,8ac29275-d4b1-4944-a03a-38c7f8287e8c,264.0,eau,,"eau , eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau , eau , eau, eau"
+p8a2w5,360226,2022-05-05T20:32:00Z,120,8ac29275-d4b1-4944-a03a-38c7f8287e8c,264.0,eau,,"eau , eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau , eau , eau, eau"
+p8a2w5,361054,2022-05-08T10:24:03Z,120,71c4ab0a-8e0c-44b1-afbd-8e8514f775e7,212.0,eau,,"eau, eau, eau, eau "
+p8a2w5,361091,2022-05-08T11:37:04Z,120,f34ff5fd-65d3-40a7-b440-cf05db977130,91.0,"salade(salade verte, tomate, oignon, vinaigrette)",,"salade(salade verte, tomate, oignon, vinaigrette), rosti, saucisse de St galle, moutarde, mayo"
+p8a2w5,361092,2022-05-08T11:38:00Z,120,71c4ab0a-8e0c-44b1-afbd-8e8514f775e7,212.0,eau,,"eau, eau, eau, eau "
+p8a2w5,361197,2022-05-08T15:20:00Z,120,71c4ab0a-8e0c-44b1-afbd-8e8514f775e7,212.0,eau,,"eau, eau, eau, eau "
+p8a2w5,361268,2022-05-08T18:35:00Z,120,71c4ab0a-8e0c-44b1-afbd-8e8514f775e7,212.0,eau ,,"eau, eau, eau, eau "
+p8a2w5,361270,2022-05-08T20:21:36Z,120,83699abd-f47a-42b9-ae54-0a892d8845ab,122.0,poireau,,"hallumi , sauce (huile d'olive, citron, persil), poireau, pain"
+p8a2w5,362551,2022-05-12T06:29:58Z,120,4e1ee2dc-ee7d-4814-97f4-73b0495d0d61,56.0,lait,,"céréales , lait"
+p8a2w5,362553,2022-05-12T06:31:09Z,120,67b9ee79-8278-4b71-b8fc-5e9cbe38bf4d,162.0,café,,"café, lait"
+p8a2w5,362553,2022-05-12T06:31:09Z,120,67b9ee79-8278-4b71-b8fc-5e9cbe38bf4d,102.0,lait,,"café, lait"
+p8a2w5,362560,2022-05-12T07:02:21Z,120,a416936b-b0a2-4ec7-97da-21c62ae6d7a0,218.0,eau,,"eau, eau"
+p8a2w5,362599,2022-05-12T08:18:00Z,120,a416936b-b0a2-4ec7-97da-21c62ae6d7a0,218.0,eau,,"eau, eau"
+p8a2w5,362710,2022-05-12T12:13:11Z,120,e4f800da-c429-4a04-823c-ac3792f64c00,171.0,yogourt industriel à l'abricot avec morceaux ,,yogourt industriel à l'abricot avec morceaux 
+p8a2w5,362920,2022-05-13T06:23:26Z,120,ca7991bc-4cd1-4134-b59e-4abec240c402,259.0,eau,,"eau, eau, eau, eau"
+p8a2w5,362923,2022-05-13T06:27:03Z,120,007504f0-436e-493e-8cfb-af76d54f2c7f,142.0,café,,"café, lait dans le café"
+p8a2w5,362923,2022-05-13T06:27:03Z,120,007504f0-436e-493e-8cfb-af76d54f2c7f,100.0,lait dans le café,,"café, lait dans le café"
+p8a2w5,362942,2022-05-13T07:27:31Z,120,72616968-1f43-46e2-9e10-00877527129b,54.0,lait,glace maison => donne 251 dans le bol,"bananes congelées, lait, beurre de cacahuète , cacao en poudre, fraises"
+p8a2w5,362996,2022-05-13T10:11:00Z,120,ca7991bc-4cd1-4134-b59e-4abec240c402,259.0,eau,,"eau, eau, eau, eau"
+p8a2w5,363161,2022-05-13T17:21:30Z,120,f4d68b41-ea3f-4429-83cf-9d9741ce7962,260.0,bière ,,bière 
+p8a2w5,363232,2022-05-13T20:30:00Z,120,ca7991bc-4cd1-4134-b59e-4abec240c402,259.0,eau,,"eau, eau, eau, eau"
+p8a2w5,363231,2022-05-13T20:45:00Z,120,ca7991bc-4cd1-4134-b59e-4abec240c402,259.0,eau,,"eau, eau, eau, eau"
+p8a2w5,364141,2022-05-17T06:40:26Z,120,1761d954-a2f9-48f1-b3ea-35ac22f6820c,152.0,café,,"café, lait dans le café , café "
+p8a2w5,364141,2022-05-17T06:40:26Z,120,1761d954-a2f9-48f1-b3ea-35ac22f6820c,62.0,lait dans le café ,,"café, lait dans le café , café "
+p8a2w5,364155,2022-05-17T07:17:54Z,120,ac28838e-2a46-49a2-98c8-d5c99aed7da4,90.0,lait d'avoine,,"céréales , lait d'avoine"
+p8a2w5,364158,2022-05-17T07:30:27Z,120,0f5fb90d-106d-4cdd-a2fd-0d4fa8b76d28,226.0,eau ,,"eau , eau, eau, eau, eau, eau"
+p8a2w5,364181,2022-05-17T08:55:00Z,120,0f5fb90d-106d-4cdd-a2fd-0d4fa8b76d28,226.0,eau,,"eau , eau, eau, eau, eau, eau"
+p8a2w5,364182,2022-05-17T09:46:00Z,120,0f5fb90d-106d-4cdd-a2fd-0d4fa8b76d28,226.0,eau,,"eau , eau, eau, eau, eau, eau"
+p8a2w5,364215,2022-05-17T10:31:50Z,120,9db1412f-0390-4151-9d81-2b27a4f9a0d9,21.0,vinaigrette,,"salade verte, carottes, vinaigrette, pommes de terre, viande"
+p8a2w5,364227,2022-05-17T11:08:00Z,120,0f5fb90d-106d-4cdd-a2fd-0d4fa8b76d28,226.0,eau,,"eau , eau, eau, eau, eau, eau"
+p8a2w5,364345,2022-05-17T15:40:00Z,120,0f5fb90d-106d-4cdd-a2fd-0d4fa8b76d28,226.0,eau,,"eau , eau, eau, eau, eau, eau"
+p8a2w5,364346,2022-05-17T18:42:00Z,120,0f5fb90d-106d-4cdd-a2fd-0d4fa8b76d28,226.0,eau,,"eau , eau, eau, eau, eau, eau"
+p8a2w5,364602,2022-05-19T07:19:47Z,120,ea4d3780-8834-4824-adc9-cdd0133a577d,653.0,café au lait,,café au lait
+p8a2w5,364612,2022-05-19T08:13:51Z,120,f831628d-4dd0-435f-9ae5-08c943df0864,123.0,lait dans les céréales ,,"céréales , lait dans les céréales "
+p8a2w5,364615,2022-05-19T08:24:15Z,120,3b030a9f-5375-420f-ab1d-20fe6d201bf4,232.0,eau,,"eau, eau, eau, eau, eau, eau , eau, eau, eau , eau, eau, eau, eau "
+p8a2w5,364621,2022-05-19T09:21:00Z,120,3b030a9f-5375-420f-ab1d-20fe6d201bf4,232.0,eau,,"eau, eau, eau, eau, eau, eau , eau, eau, eau , eau, eau, eau, eau "
+p8a2w5,364738,2022-05-19T20:38:00Z,120,3b030a9f-5375-420f-ab1d-20fe6d201bf4,232.0,eau,,"eau, eau, eau, eau, eau, eau , eau, eau, eau , eau, eau, eau, eau "
+p8a2w5,364771,2022-05-20T06:27:23Z,120,52833381-19d3-4e59-a033-3a6960572e57,324.0,café froid,,"café froid, café froid "
+p8a2w5,364784,2022-05-20T07:06:28Z,120,4fb4c5be-8035-4321-b876-62099731b721,117.0,lait dans céréales ,,"céréales , lait dans céréales "
+p8a2w5,364857,2022-05-20T07:34:00Z,120,3b030a9f-5375-420f-ab1d-20fe6d201bf4,232.0,eau,,"eau, eau, eau, eau, eau, eau , eau, eau, eau , eau, eau, eau, eau "
+p8a2w5,364858,2022-05-20T08:45:00Z,120,3b030a9f-5375-420f-ab1d-20fe6d201bf4,232.0,eau,,"eau, eau, eau, eau, eau, eau , eau, eau, eau , eau, eau, eau, eau "
+p8a2w5,364860,2022-05-20T09:50:00Z,120,3b030a9f-5375-420f-ab1d-20fe6d201bf4,232.0,eau ,,"eau, eau, eau, eau, eau, eau , eau, eau, eau , eau, eau, eau, eau "
+p8a2w5,364855,2022-05-20T11:27:00Z,120,52833381-19d3-4e59-a033-3a6960572e57,324.0,café froid ,,"café froid, café froid "
+p8a2w5,364941,2022-05-20T15:45:00Z,120,3b030a9f-5375-420f-ab1d-20fe6d201bf4,232.0,eau,,"eau, eau, eau, eau, eau, eau , eau, eau, eau , eau, eau, eau, eau "
+p8a2w5,364953,2022-05-20T18:42:09Z,120,71760726-d8e5-4439-bb79-f857678cc0ff,251.0,bière ,,bière 
+p8a2w5,364986,2022-05-20T20:44:00Z,120,3b030a9f-5375-420f-ab1d-20fe6d201bf4,232.0,eau,,"eau, eau, eau, eau, eau, eau , eau, eau, eau , eau, eau, eau, eau "
+p8a2w5,365036,2022-05-21T07:55:00Z,120,3b030a9f-5375-420f-ab1d-20fe6d201bf4,232.0,eau ,,"eau, eau, eau, eau, eau, eau , eau, eau, eau , eau, eau, eau, eau "
+p8a2w5,365035,2022-05-21T08:42:22Z,120,dacc4b11-9bfa-4447-8ad5-5bcf3bde997f,78.0,café ,,"café , lait dans le café froid"
+p8a2w5,365035,2022-05-21T08:42:22Z,120,dacc4b11-9bfa-4447-8ad5-5bcf3bde997f,250.0,lait dans le café froid,,"café , lait dans le café froid"
+p8a2w5,365089,2022-05-21T10:09:00Z,120,3b030a9f-5375-420f-ab1d-20fe6d201bf4,232.0,eau,,"eau, eau, eau, eau, eau, eau , eau, eau, eau , eau, eau, eau, eau "
+p8a2w5,365570,2022-05-21T14:45:00Z,120,3b030a9f-5375-420f-ab1d-20fe6d201bf4,232.0,eau,,"eau, eau, eau, eau, eau, eau , eau, eau, eau , eau, eau, eau, eau "
+p8a2w5,365568,2022-05-21T15:10:00Z,120,3b030a9f-5375-420f-ab1d-20fe6d201bf4,232.0,eau,,"eau, eau, eau, eau, eau, eau , eau, eau, eau , eau, eau, eau, eau "
+p8a2w5,365567,2022-05-21T17:20:00Z,120,3b030a9f-5375-420f-ab1d-20fe6d201bf4,232.0,eau ,,"eau, eau, eau, eau, eau, eau , eau, eau, eau , eau, eau, eau, eau "
+p8a2w5,365198,2022-05-21T18:48:57Z,120,1f60b628-e49e-4f68-9f67-ff32d77385ea,247.0,bière ,,"bière , bière "
+p8a2w5,365270,2022-05-21T19:30:00Z,120,1f60b628-e49e-4f68-9f67-ff32d77385ea,247.0,bière ,,"bière , bière "
+p8a2w5,365210,2022-05-21T19:50:57Z,120,9b2c7383-a434-4260-ac30-86103e4546ea,8.0,vinaigrette ,,"artichaut , vinaigrette "
+p8a2w5,365212,2022-05-21T20:00:09Z,120,faa4e3cc-5d10-4bd7-a2ae-7eb4a3945897,329.0,bière ,erreur de pesée,bière 
+p8a2w5,365218,2022-05-21T20:46:54Z,120,c9125670-8a67-4884-9958-ce18c6ccbe72,9.0,vinaigrette ,,"boeuf, saucisse , poulet , salade, vinaigrette "
+p8a2w5,365811,2022-05-25T07:43:59Z,120,4a490097-e5f7-42a3-8928-9bdd835d4d17,72.0,café,,"café, lait, café froid, lait dans café"
+p8a2w5,365811,2022-05-25T07:43:59Z,120,4a490097-e5f7-42a3-8928-9bdd835d4d17,231.0,lait,,"café, lait, café froid, lait dans café"
+p8a2w5,365840,2022-05-25T10:29:14Z,120,9e3bfdbf-2b6e-41be-93ee-6610250b8c4e,51.0,salade avec vinaigrette ,,"salade avec vinaigrette , tomates , mozzarella , petits pains grillés , beurre, charcuterie poulet rôti "
+p8a2w5,365862,2022-05-25T11:25:04Z,120,8ac29275-d4b1-4944-a03a-38c7f8287e8c,232.0,eau,,"eau , eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau , eau , eau, eau"
+p8a2w5,365911,2022-05-25T17:35:00Z,120,8ac29275-d4b1-4944-a03a-38c7f8287e8c,232.0,eau,,"eau , eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau , eau , eau, eau"
+p8a2w5,365946,2022-05-25T20:13:00Z,120,8ac29275-d4b1-4944-a03a-38c7f8287e8c,232.0,eau,,"eau , eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau , eau , eau, eau"
+p8a2w5,365979,2022-05-26T07:35:00Z,120,1761d954-a2f9-48f1-b3ea-35ac22f6820c,152.0,café ,,"café, lait dans le café , café "
+p8a2w5,365983,2022-05-26T07:58:00Z,120,8ac29275-d4b1-4944-a03a-38c7f8287e8c,232.0,eau,,"eau , eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau , eau , eau, eau"
+p8a2w5,365982,2022-05-26T08:38:44Z,120,7daff41f-6328-4146-8d14-b015551594c4,102.0,lait dans cereales,,"cereales, lait dans cereales"
+p8a2w5,365990,2022-05-26T09:27:00Z,120,8ac29275-d4b1-4944-a03a-38c7f8287e8c,232.0,eau,,"eau , eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau , eau , eau, eau"
+p8a2w5,365999,2022-05-26T11:02:03Z,120,e7f3470c-66d1-410d-8423-4bc12438ecb0,20.0,vinaigrette,,"salade , brocolis , mais, pois chiches , vinaigrette"
+p8a2w5,366011,2022-05-26T12:06:00Z,120,4a490097-e5f7-42a3-8928-9bdd835d4d17,72.0,café froid,,"café, lait, café froid, lait dans café"
+p8a2w5,366011,2022-05-26T12:06:00Z,120,4a490097-e5f7-42a3-8928-9bdd835d4d17,231.0,lait dans café,,"café, lait, café froid, lait dans café"
+p8a2w5,366100,2022-05-26T13:34:00Z,120,8ac29275-d4b1-4944-a03a-38c7f8287e8c,232.0,eau,,"eau , eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau , eau , eau, eau"
+p8a2w5,366099,2022-05-26T14:05:00Z,120,8ac29275-d4b1-4944-a03a-38c7f8287e8c,232.0,eau,,"eau , eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau , eau , eau, eau"
+p8a2w5,366101,2022-05-26T17:48:00Z,120,8ac29275-d4b1-4944-a03a-38c7f8287e8c,232.0,eau ,,"eau , eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau , eau , eau, eau"
+p8a2w5,366509,2022-05-30T06:56:31Z,120,0a95f4d6-8105-417e-9a7a-59969a8215a1,267.0,thé noir,,thé noir
+p8a2w5,366519,2022-05-30T07:37:45Z,120,0cff6731-b501-4414-b535-d1ebb4d6f08e,125.0,lait dans céréales ,,"céréales , lait dans céréales "
+p8a2w5,366536,2022-05-30T09:02:00Z,120,8ac29275-d4b1-4944-a03a-38c7f8287e8c,232.0,eau ,,"eau , eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau , eau , eau, eau"
+p8a2w5,366541,2022-05-30T09:51:00Z,120,8ac29275-d4b1-4944-a03a-38c7f8287e8c,232.0,eau,,"eau , eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau , eau , eau, eau"
+p8a2w5,366578,2022-05-30T12:55:53Z,120,94d3f2c1-ff20-432d-86fb-1e12050cc972,250.0,thé noire,,thé noire
+p8a2w5,366649,2022-05-30T18:40:44Z,120,a5c220bb-f0c3-473e-af6a-3b0b2d1edc0b,16.0,poireau,,"nouilles, sauce soja, poireau, gyozas, sauce aigre "
+p8a2w5,366665,2022-05-30T20:10:00Z,120,8ac29275-d4b1-4944-a03a-38c7f8287e8c,232.0,eau,,"eau , eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau , eau , eau, eau"
+p96w4a,359463,2022-05-04T03:59:18Z,120,bb1887b0-3f5b-45e4-952f-ddf0cf621341,147.0,Verre d'eau ,,Verre d'eau 
+p96w4a,359465,2022-05-04T04:01:33Z,120,7e59f8b9-ed70-4f16-ab18-a5c271f0dbfb,303.0,Café au lait + cacao,,Café au lait + cacao
+p96w4a,359574,2022-05-04T09:58:22Z,120,f88db701-d88b-4e81-a306-7e6b5c287582,210.0,Eau plate,,"Eau plate, Eau plate, Eau plate , Eau plate"
+p96w4a,359585,2022-05-04T10:15:00Z,120,f88db701-d88b-4e81-a306-7e6b5c287582,210.0,Eau plate,,"Eau plate, Eau plate, Eau plate , Eau plate"
+p96w4a,359622,2022-05-04T11:10:00Z,120,f88db701-d88b-4e81-a306-7e6b5c287582,210.0,Eau plate ,,"Eau plate, Eau plate, Eau plate , Eau plate"
+p96w4a,359642,2022-05-04T11:58:00Z,120,f88db701-d88b-4e81-a306-7e6b5c287582,210.0,Eau plate,,"Eau plate, Eau plate, Eau plate , Eau plate"
+p96w4a,359729,2022-05-04T16:04:14Z,120,6ad59878-45cb-41db-83e2-d19e6a055682,224.0,jus d'orange coupé à l'eau,,jus d'orange coupé à l'eau
+p96w4a,359771,2022-05-04T17:56:54Z,120,1fff3f0f-c381-4ef8-a9aa-023e9a174eee,173.0,Eau,,Eau
+p96w4a,359912,2022-05-05T07:55:43Z,120,11b1171d-d1e7-414e-a0d4-38d6224254e6,218.0,eau,,"eau, eau, eau, eau"
+p96w4a,359915,2022-05-05T08:08:08Z,120,87ad5ad5-a05a-4151-8f82-a6594d8c0f37,296.0,café au lait,,"café au lait, cacao"
+p96w4a,360087,2022-05-05T14:30:00Z,120,11b1171d-d1e7-414e-a0d4-38d6224254e6,218.0,eau,,"eau, eau, eau, eau"
+p96w4a,360109,2022-05-05T16:55:00Z,120,11b1171d-d1e7-414e-a0d4-38d6224254e6,215.0,eau,,"eau, eau, eau, eau"
+p96w4a,360120,2022-05-05T17:06:43Z,120,83eb98df-753c-4d3c-b80b-c91a38ed994a,65.0,Vin rouge ,,Vin rouge 
+p96w4a,360149,2022-05-05T17:49:46Z,120,9bdb01fc-9658-43e7-9393-81aef96a46de,70.0,vin rouge ,,vin rouge 
+p96w4a,360171,2022-05-05T18:14:00Z,120,11b1171d-d1e7-414e-a0d4-38d6224254e6,200.0,eau,,"eau, eau, eau, eau"
+p96w4a,360205,2022-05-05T19:15:33Z,120,30389a8f-3e18-4cf7-98d0-2d651df1c85d,248.0,thé ,,thé 
+p96w4a,360648,2022-05-07T07:39:38Z,120,745e6a00-3c5f-4fd2-9f7c-2c03bbaeb7a8,155.0,eau,,eau
+p96w4a,360671,2022-05-07T08:23:56Z,120,1fa43be0-8f68-4c17-926f-93ab2180fac1,260.0,café au lait,,"café au lait, cacao "
+p96w4a,360718,2022-05-07T10:44:41Z,120,4695156f-eaa8-4d51-b8df-23332b76ebbd,232.0,eau,,eau
+p96w4a,360893,2022-05-07T18:55:35Z,120,143953f6-6d14-4702-bb91-e9916fa77a82,226.0,eau,,eau
+p96w4a,360899,2022-05-07T19:10:29Z,120,81a27172-17cd-423d-ac22-db656478d898,77.0,vin rouge,,vin rouge
+p96w4a,360912,2022-05-07T19:38:34Z,120,07593b20-c5be-4aa6-a7f9-3cb3009e079e,215.0,eau,,eau
+p96w4a,360915,2022-05-07T19:57:55Z,120,bbd03934-4660-41b0-a2b5-cd4d92766f0d,80.0,eau,,eau
+p96w4a,360930,2022-05-07T20:49:46Z,120,33ce77d5-6d24-4e45-bffb-2aa8a7cbd5f4,229.0,eau,,"sirop, eau"
+p96w4a,360992,2022-05-08T07:50:03Z,120,df716541-77d9-493f-a69b-8cf20719be25,293.0,café au lait,,"café au lait, cacao, café au lait, cacao"
+p96w4a,360993,2022-05-08T07:51:37Z,120,c2971176-35d0-4098-b9d6-eed9b040fb4f,201.0,eau,,eau
+p96w4a,361055,2022-05-08T10:24:19Z,120,e723a10e-29dc-452b-9e25-d166215dcd2a,77.0,vin rouge,brunch,vin rouge
+p96w4a,361056,2022-05-08T10:26:00Z,120,df716541-77d9-493f-a69b-8cf20719be25,280.0,café au lait,brunch ,"café au lait, cacao, café au lait, cacao"
+p96w4a,361090,2022-05-08T11:36:34Z,120,cdb158f4-11fe-46ca-b597-c1898b559d58,189.0,thé ,,thé 
+p96w4a,361164,2022-05-08T15:49:10Z,120,6861fd64-0052-452e-919d-f173bfa03275,277.0,thé ,,thé 
+p96w4a,361239,2022-05-08T18:45:26Z,120,561f3df3-d5b2-4328-b7f8-014b4be461b3,233.0,eau,,eau
+p96w4a,361264,2022-05-08T19:39:00Z,120,a9174b8f-09ee-44c3-868a-f287a3f247b3,365.0,eau,,eau
+p96w4a,361402,2022-05-09T08:31:34Z,120,5ab475b4-42bf-4e4c-a30b-035fb7486d2f,290.0,café ,,"café , cacao"
+p96w4a,361439,2022-05-09T09:58:39Z,120,ccccd783-22e5-49ad-a1a0-206059d151f8,307.0,eau,,eau
+p96w4a,361519,2022-05-09T12:27:13Z,120,4d08d54e-5412-44bc-b1e9-f65413acf5d2,333.0,eau,,"sirop, eau"
+p96w4a,361650,2022-05-09T18:25:23Z,120,cf541a47-a6a7-4901-97af-346341dc773f,231.0,eau,,eau
+p96w4a,361690,2022-05-09T20:22:48Z,120,3b57bdc1-7a05-46ff-ba56-39489697807d,380.0,eau,,eau
+p96w4a,362581,2022-05-12T07:41:05Z,120,01f23918-3fb3-4721-96e4-7bad3ce8be53,302.0,café au lait,,"café au lait, cacao"
+p96w4a,362595,2022-05-12T08:13:17Z,120,bb2c0973-4650-4fd7-9903-378e6b2265b8,152.0,eau,,eau
+p96w4a,362698,2022-05-12T11:53:01Z,120,d4bb3701-31fa-465a-8e07-2ad1537483db,236.0,eau,,eau
+p96w4a,362826,2022-05-12T18:00:01Z,120,90bf5d99-c6f1-4063-b842-6eb5a65749a9,243.0,eau,,eau
+p96w4a,362936,2022-05-13T07:09:43Z,120,3f5d416b-d714-406e-b741-79162c7b5865,238.0,café au lait,,"café au lait, cacao"
+p96w4a,363112,2022-05-13T14:58:50Z,120,b919a838-60ef-4053-be96-e64d17fcf5b0,279.0,eau,,"eau, pomme, kiwi"
+p96w4a,363181,2022-05-13T18:15:06Z,120,8e09dfe1-3c68-435f-8352-e7d32f9f9de7,4.0,vinaigre aux herbes ,vinaigrette ,"salade, tomate, huile olive , vinaigre aux herbes , vinaigre balsamique "
+p96w4a,363181,2022-05-13T18:15:06Z,120,8e09dfe1-3c68-435f-8352-e7d32f9f9de7,9.0,vinaigre balsamique ,vinaigrette ,"salade, tomate, huile olive , vinaigre aux herbes , vinaigre balsamique "
+p96w4a,363183,2022-05-13T18:19:20Z,120,fd7babc2-1fff-4ed3-8da6-7850b5ffa9a1,242.0,eau ,,"eau , eau"
+p96w4a,363198,2022-05-13T18:55:00Z,120,fd7babc2-1fff-4ed3-8da6-7850b5ffa9a1,240.0,eau,,"eau , eau"
+p96w4a,363598,2022-05-15T08:20:28Z,120,0a9541fa-ce48-42c4-b35d-d9ffd753b7c5,253.0,café au lait ,,"café au lait , cacao"
+p96w4a,363637,2022-05-15T10:38:46Z,120,b948411c-820d-4c9e-b53f-b3c44d2249dd,196.0,eau,,"eau, rondelle de citron"
+p96w4a,363664,2022-05-15T11:48:18Z,120,d33cfc50-9b35-4b76-81f6-12e61a3ee100,214.0,eau,,"eau, rondelle citron "
+p96w4a,363697,2022-05-15T13:10:44Z,120,fab584a3-42d9-4217-a493-ec0d71878e56,8.0,oignons nouveaux ,,"mozarella , tomate , salade verte , oignons nouveaux , carotte, graine de tournesol, œuf , huile d'olive , vinaigre balsamique crème , houmous au basilic (acheté)"
+p96w4a,363697,2022-05-15T13:10:44Z,120,fab584a3-42d9-4217-a493-ec0d71878e56,9.0,vinaigre balsamique crème ,,"mozarella , tomate , salade verte , oignons nouveaux , carotte, graine de tournesol, œuf , huile d'olive , vinaigre balsamique crème , houmous au basilic (acheté)"
+p96w4a,363731,2022-05-15T15:13:29Z,120,fa947463-60ae-4d88-91f8-d3d83659663e,112.0,gâteau au fromage blanc ,,gâteau au fromage blanc 
+p96w4a,363787,2022-05-15T18:12:06Z,120,b0650424-9993-4d23-befe-8eda50d8bed0,91.0,vin rouge,,vin rouge
+p96w4a,363788,2022-05-15T18:13:13Z,120,0e75a693-3219-4062-9341-765b1fe3248e,221.0,eau,,eau
+p96w4a,363804,2022-05-15T19:09:57Z,120,d2b8a63e-c62e-4d11-af20-64bc2d6ac70b,122.0,café ,,café 
+p96w4a,363884,2022-05-16T06:18:22Z,120,6c6322fb-0b69-44bf-a2d9-5b4eb8f1a043,232.0,café au lait ,,"café au lait , cacao"
+p96w4a,363894,2022-05-16T07:03:36Z,120,891329a2-60a8-4aa6-a08b-3ef8a895419d,240.0,café au lait,,"café au lait, cacao"
+p96w4a,363934,2022-05-16T10:27:47Z,120,08e6b070-1991-4772-a94e-ea9818b2912f,236.0,eau,,eau
+p96w4a,363963,2022-05-16T11:19:22Z,120,92b7783e-b1df-41f6-be6a-598ffc355c4b,273.0,café au lait,,"café au lait, cacao"
+p96w4a,364036,2022-05-16T16:38:32Z,120,94d47a3d-d621-4678-8108-0e196b8af271,62.0,gâteau au fromage blanc,,"gâteau au fromage blanc, framboises "
+p96w4a,364061,2022-05-16T17:52:23Z,120,25f76b9e-9e65-459a-819a-edc179b53d81,216.0,eau,,eau
+p96w4a,364153,2022-05-17T07:11:33Z,120,2cecd350-0715-4904-bc09-00937de43e96,304.0,café au lait ,,"café au lait , cacao, jus d'orange , eau"
+p96w4a,364153,2022-05-17T07:11:33Z,120,2cecd350-0715-4904-bc09-00937de43e96,122.0,eau,,"café au lait , cacao, jus d'orange , eau"
+p96w4a,364226,2022-05-17T11:05:53Z,120,926395a7-4705-49b3-b9e5-6bd94566790a,204.0,eau,,eau
+p96w4a,364307,2022-05-17T17:34:33Z,120,7b1e3508-212f-4e7e-b0a4-cf4ea3ea6a27,212.0,eau,,eau
+p96w4a,365023,2022-05-21T07:42:27Z,120,2c4e64ed-e2fd-4403-a505-7d1cb04e0a66,233.0,café au lait,,"café au lait, cacao "
+p96w4a,365045,2022-05-21T09:26:22Z,120,f88b6f06-6928-4717-89a3-074ae05435c8,309.0,eau,,"eau, citron"
+p96w4a,365168,2022-05-21T17:28:57Z,120,7004d086-abf6-4e9f-a945-0d22f3a60a84,13.0,vinaigre balsamique ,,"salade verte, tomate, oignon, pomme, radis, huile d'olive , vinaigre balsamique "
+p96w4a,365169,2022-05-21T17:36:36Z,120,6dbfe332-dd6b-47e6-8e82-73440f9c9258,301.0,eau citronnée ,,eau citronnée 
+p96w4a,365273,2022-05-22T08:46:23Z,120,e6e48739-d38f-4794-92c9-6b3559f1ca49,296.0,café au lait ,,"café au lait , cacao "
+p96w4a,365402,2022-05-22T17:57:43Z,120,5702b7df-2173-4cf8-a6ac-14bd1ee80afe,206.0,eau,,"eau, eau"
+p96w4a,365405,2022-05-22T18:10:00Z,120,5702b7df-2173-4cf8-a6ac-14bd1ee80afe,206.0,eau,,"eau, eau"
+p96w4a,365650,2022-05-24T09:17:30Z,120,3c13eceb-1265-424c-ae03-e7183d9bb369,292.0,café au lait,,"café au lait, cacao"
+p96w4a,365659,2022-05-24T09:45:45Z,120,374f96d0-3d1c-4d2b-bbc1-1d1a57ea60de,200.0,eau,,eau
+p96w4a,365699,2022-05-24T12:28:12Z,120,2e188d66-49de-49c2-8b03-6533154f24b6,200.0,eau,,eau
+p96w4a,365753,2022-05-24T18:09:45Z,120,b551541c-3e37-4889-b523-ea688aa26efa,232.0,soupe lait de coco avec légumes ,,"riz, soupe lait de coco avec légumes , poulet"
+p96w4a,365805,2022-05-25T06:25:37Z,120,04b58eda-00be-4da6-9723-39f54fcac057,338.0,eau,,eau
+p96w4a,365806,2022-05-25T06:31:45Z,120,ecd4d183-e014-4ece-985a-4b271ab2bd3c,303.0,café au lait,,"café au lait, cacao"
+p96w4a,365837,2022-05-25T10:23:58Z,120,5ebafbd6-315d-44a6-8508-ba143d23adb2,4.0,vinaigre balsamique ,,"tomate, mozarella, huile d'olive , vinaigre balsamique , délice tomate mozzarella "
+p96w4a,365844,2022-05-25T10:36:37Z,120,749e14ac-ab3d-4313-a129-e06f0cfcc5ee,309.0,eau,,eau
+p96w4a,365861,2022-05-25T11:21:35Z,120,ef6c67b3-7e4b-49a8-a169-7ddcb4efc52a,203.0,café au lait,,"café au lait, cacao"
+p96w4a,365877,2022-05-25T13:04:28Z,120,efd25978-e06e-4bce-9571-4a7aa1428b03,316.0,eau ,,eau 
+p96w4a,365918,2022-05-25T18:12:45Z,120,0b30b5d8-e33f-4dd8-9031-8ca14d954da4,15.0,agneau ,,"salade verte, radis, tomate, oignon , huile d'olive, crème balsamique , pain libanais , poulet, agneau "
+p96w4a,365919,2022-05-25T18:20:37Z,120,bb0ab79e-4618-4cdf-90a8-71794949b191,212.0,eau,,eau
+p96w4a,365922,2022-05-25T18:45:17Z,120,24ae4408-8d2a-4a40-bf57-43efa13a74c4,230.0,eau,,eau
+ppf8hc,359097,2022-05-03T04:34:57Z,120,306a507c-a746-4e6b-bdd5-ef8e5aa4f7dc,290.0,thé chaud sans sucre ,,"thé chaud sans sucre , thé "
+ppf8hc,359256,2022-05-03T11:17:48Z,120,13ca38ef-bc31-407e-af5e-6d61f4317367,24.0,branches de chocolat au lait ,,branches de chocolat au lait 
+ppf8hc,359891,2022-05-05T07:07:07Z,120,66b9acee-e336-4260-8e14-75bfd6bd7ead,470.0,thé ,,thé 
+ppf8hc,360162,2022-05-05T18:07:53Z,120,bf091b2f-9737-468e-bfdc-01f8e30a2b78,168.0,Vin blanc ,,Vin blanc 
+ppf8hc,360189,2022-05-05T18:44:44Z,120,39735aa7-25e8-4fa6-8b04-baa236c06a84,13.0,vinaigrette ,,"salade verte , vinaigrette "
+ppf8hc,361502,2022-05-09T11:51:04Z,120,edf26042-41ab-4c7d-b4da-18cb0454f49f,20.0,chocolat au lait ,,chocolat au lait 
+ppf8hc,362940,2022-05-13T07:17:48Z,120,1037112f-6896-4926-934c-6587ac46a90c,282.0,thé ,,thé 
+ppf8hc,363899,2022-05-16T07:11:37Z,120,6d3f507b-ebd7-4be8-94ae-830fb1133ead,277.0,thé vert ,sans sucre ,thé vert 
+ppf8hc,363929,2022-05-16T10:20:39Z,120,bd4a56f1-0ae0-4536-8a91-7021c0f47548,10.0,vinaigrette ,,"salade verte , vinaigrette "
+ppf8hc,364135,2022-05-17T06:17:34Z,120,6a80dbfb-53c8-48e9-882a-ba7f60d757a4,284.0,thé ,,"thé , frites , poulet "
+ppf8hc,364324,2022-05-17T19:08:45Z,120,4791b05e-091d-47c9-bbd2-b039612d92c2,49.0,vin blanc ,,vin blanc 
+ppf8hc,364769,2022-05-20T06:09:48Z,120,ea440ae1-9672-4131-a371-29735bab4284,360.0,thé ,,thé 
+ppf8hc,364830,2022-05-20T10:22:21Z,120,9b6c62f6-4f81-4ec4-989f-ce06be0b6e9d,16.0,vinaigrette ,,"salade de carottes , vinaigrette "
+ppf8hc,364931,2022-05-20T17:28:32Z,120,ec73fad9-d93a-459b-a22b-af1051a9bd21,192.0,bière blanche ,,bière blanche 
+ppf8hc,365442,2022-05-23T04:48:00Z,120,306a507c-a746-4e6b-bdd5-ef8e5aa4f7dc,290.0,thé ,,"thé chaud sans sucre , thé "
+ppf8hc,365696,2022-05-24T12:16:37Z,120,8155f43d-34a0-4b8f-b57c-9c17b005eacb,276.0,thé ,,thé 
+ppf8hc,365738,2022-05-24T17:06:10Z,120,d5d1b6ed-fe80-4296-b470-2023b8956b95,328.0,bière ,,bière 
+ppf8hc,365832,2022-05-25T10:15:36Z,120,2ec0aa51-56ff-46ad-90f8-db9e5a9be2d5,20.0,vinaigrette ,,"salade verte , vinaigrette "
+ppf8hc,365915,2022-05-25T17:58:44Z,120,ffdb5f17-85f2-45e4-b19f-25d59724fa3a,97.0,comcombre et vinaigrette ,,comcombre et vinaigrette 
+ppf8hc,366406,2022-05-29T10:29:37Z,120,a171b602-f289-4978-81f8-95adbb5e4f7f,17.0,vinaigrette ,,"vinaigrette , comcombre "
+r3bub9,364147,2022-05-17T07:01:34Z,120,ce6ad05f-17db-4129-92da-3b0fd5ba0a70,200.0,eau ,,eau 
+r3bub9,364151,2022-05-17T07:04:54Z,120,808bb8d8-ec6f-49c8-9f4e-63f956f5d3ff,142.0,café ,,"café , sucre"
+r3bub9,364223,2022-05-17T10:56:13Z,120,17c1535c-dc84-4dbb-9668-1d3f9a4a135d,15.0,vinaigrette,,"vinaigrette, tomates cerises, salade iceberg, raviolis a la courge"
+r3bub9,364216,2022-05-17T10:32:52Z,120,b8a18caa-7f58-408b-82e3-6a66075fffa0,198.0,eau,,eau
+r3bub9,364282,2022-05-17T16:04:52Z,120,7956bf95-d221-49e2-8c19-8719f2848ef8,469.0,eau,,eau
+r3bub9,364461,2022-05-18T07:10:00Z,120,7a4cc300-1475-411a-b9d0-8c960e7b4fd2,487.0,eau,j'ai soif,eau
+r3bub9,364490,2022-05-18T14:51:19Z,120,13a4d182-33dc-4ecc-9df0-f0e5250636ed,422.0,eau,,eau
+r3bub9,364789,2022-05-19T18:30:00Z,120,2a9ae412-d5e7-426b-82af-3587d2d9765c,485.0,eau,,eau
+r3bub9,364790,2022-05-20T07:22:03Z,120,fece9dc7-9a21-4191-836f-76bd65e084a7,482.0,eau,,eau
+r3bub9,364822,2022-05-20T10:13:19Z,120,e1b663ab-ebf0-4e10-bb10-86e7f728d038,491.0,eau,,eau
+r3bub9,364999,2022-05-20T21:15:00Z,120,86870255-f738-41c8-8cab-cc309483b410,281.0,eau,un peu malade + le chaud.. j'ai pas beaucoup de repas ces derniers jours..,eau
+r3bub9,365011,2022-05-21T05:48:13Z,120,ce304883-7d3b-40b4-9b6e-9ab28a656050,270.0,eau,"""sauvergardé localement""","eau, café "
+r3bub9,365011,2022-05-21T05:48:13Z,120,ce304883-7d3b-40b4-9b6e-9ab28a656050,102.0,café ,,"eau, café "
+r3bub9,365343,2022-05-22T13:29:41Z,120,30aa1b8f-750b-4e85-b7fe-14bdad89188d,340.0,eau,,eau
+r3bub9,365435,2022-05-22T17:15:00Z,120,924e04e2-49da-426d-9e74-3a0f8b173f03,340.0,eau,,eau
+r3bub9,365434,2022-05-23T04:11:09Z,120,79cb06c7-9414-4155-b3f5-28e0197e5f88,337.0,eau,,eau
+r3bub9,365548,2022-05-23T17:18:48Z,120,cb07cb43-2ada-4a57-85a1-b0933c125136,332.0,eau,,eau
+r3bub9,365634,2022-05-24T07:18:10Z,120,1c4bae22-560b-49d3-91ad-2a534a19ffa1,107.0,café noir,,café noir
+r3bub9,365947,2022-05-25T20:14:38Z,120,67164cad-362d-47ea-851c-68e9ab0c90e5,493.0,eau,,eau
+r3bub9,366050,2022-05-26T16:17:41Z,120,5ad11378-0615-439a-9b27-6901f543bfcb,386.0,eau,,eau
+r3bub9,366272,2022-05-28T08:17:13Z,120,61eaf1c8-7064-4999-b8ad-2c1e429002bd,493.0,eau,,eau
+r3bub9,366362,2022-05-28T20:16:13Z,120,9311b680-4c18-4f34-9536-9c475a0cd293,,bière ,,bière 
+r3bub9,366426,2022-05-29T12:01:16Z,120,93b41067-ee5b-4946-bb4c-0652d6b84687,483.0,eau,,eau
+r3bub9,366481,2022-05-29T18:43:29Z,120,f84aa73d-e307-420e-ac24-8cd4c87d47ca,472.0,eau,,eau
+r3bub9,366530,2022-05-30T08:33:13Z,120,c6be9e2b-d21a-49a2-b02e-87bde47b820e,480.0,eau,,eau
+r3bub9,366538,2022-05-30T09:19:21Z,120,b52703d8-664c-4607-9016-34a311eaebb6,743.0,eau,,eau
+r3bub9,366713,2022-05-30T20:15:00Z,120,47934edb-d2f2-4d0a-86c8-0a34ebd0e018,498.0,eau,,eau
+r3bub9,366763,2022-05-31T13:54:37Z,120,dda8160f-d02b-43c8-8f72-95f943e39077,200.0,eau,,eau
+r3bub9,366805,2022-05-31T19:18:20Z,120,fa6f2a75-c65b-4528-897c-785a52ada5d1,500.0,eau,,eau
+wrah5h,358396,2022-05-01T08:05:26Z,120,fb87bb48-be94-44ef-89c2-c771f97586c7,275.0,eau,ça commence!,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,358407,2022-05-01T08:22:21Z,120,d1097393-f412-47b7-9197-c5af9e456d81,269.0,chocolat chaud au lait d'amande,déjeuner,chocolat chaud au lait d'amande
+wrah5h,358422,2022-05-01T08:44:03Z,120,fb87bb48-be94-44ef-89c2-c771f97586c7,275.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,358476,2022-05-01T10:49:24Z,120,fb87bb48-be94-44ef-89c2-c771f97586c7,275.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,358530,2022-05-01T13:23:26Z,120,fb87bb48-be94-44ef-89c2-c771f97586c7,275.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,358545,2022-05-01T14:26:15Z,120,fb87bb48-be94-44ef-89c2-c771f97586c7,275.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,358575,2022-05-01T15:58:07Z,120,a4e38412-a38e-4694-b4e7-30eff5684367,220.0,eau,,"eau, eau, eau, eau, eau"
+wrah5h,358621,2022-05-01T17:58:27Z,120,5e117510-fc82-4a06-a502-12983d55aac5,198.0,"légumes sautés (carottes, poireaux)",souper,"riz, poisson, légumes sautés (carottes, poireaux)"
+wrah5h,358635,2022-05-01T18:21:15Z,120,9e2250ed-1c83-419f-b8d5-d87845b2927e,179.0,eau,,"eau, eau, eau"
+wrah5h,358653,2022-05-01T19:21:28Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,358688,2022-05-02T04:42:43Z,120,9e2250ed-1c83-419f-b8d5-d87845b2927e,179.0,eau,,"eau, eau, eau"
+wrah5h,358689,2022-05-02T04:43:07Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,358691,2022-05-02T04:48:16Z,120,67b0dffa-f510-4356-979c-09189a0d604d,224.0,"porridge (avoine, lait de coco)",déjeuner,"porridge (avoine, lait de coco), purée cacahuète , pépites chocolat noir, 1/2 banane "
+wrah5h,358943,2022-05-02T15:23:44Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,358947,2022-05-02T15:35:47Z,120,d2097311-e228-4896-bc01-5592faab02f8,412.0,bubble tea (thé froid + perles de tapioca),"""collation""","bubble tea (thé froid + perles de tapioca), bubble tea (thé froid + perles de tapioca)"
+wrah5h,358990,2022-05-02T17:22:29Z,120,bba5cf64-1d08-40cb-bc6c-bfdd2a7c2116,27.0,sauce vinaigrette ,souper,"quinoa , betterave , mangue , concombre , tomate, avocat , sauce vinaigrette "
+wrah5h,358999,2022-05-02T17:31:21Z,120,fb87bb48-be94-44ef-89c2-c771f97586c7,275.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,359056,2022-05-02T19:35:06Z,120,fb87bb48-be94-44ef-89c2-c771f97586c7,275.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,359070,2022-05-02T20:15:26Z,120,fb87bb48-be94-44ef-89c2-c771f97586c7,275.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,359102,2022-05-03T04:48:12Z,120,97652ee3-3e16-4d7d-bafa-ffb83df2257c,186.0,"porridge (avoine, lait d'amande)",déjeuner,"porridge (avoine, lait d'amande), purée cacahuète , pépites de chocolat noir, 1/2 banane"
+wrah5h,359207,2022-05-03T10:17:17Z,120,712f4686-2c54-47d3-a8f2-811e15f6e76b,28.0,sauce vinaigrette ,dîner,"quinoa, mangue, betterave, avocat , carotte râpées, tomate, tofu à la mangue , échalotes , oignons en bottes , sauce vinaigrette "
+wrah5h,359220,2022-05-03T10:32:57Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,359395,2022-05-03T17:23:09Z,120,a4e38412-a38e-4694-b4e7-30eff5684367,220.0,eau,,"eau, eau, eau, eau, eau"
+wrah5h,359442,2022-05-03T19:56:50Z,120,a4e38412-a38e-4694-b4e7-30eff5684367,220.0,eau,,"eau, eau, eau, eau, eau"
+wrah5h,359471,2022-05-04T04:50:08Z,120,a4e38412-a38e-4694-b4e7-30eff5684367,220.0,eau,,"eau, eau, eau, eau, eau"
+wrah5h,359474,2022-05-04T05:00:28Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,359596,2022-05-04T10:42:27Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,359709,2022-05-04T15:17:22Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,359765,2022-05-04T17:45:48Z,120,a4e38412-a38e-4694-b4e7-30eff5684367,220.0,eau,,"eau, eau, eau, eau, eau"
+wrah5h,359812,2022-05-04T19:48:54Z,120,fb87bb48-be94-44ef-89c2-c771f97586c7,275.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,359853,2022-05-05T04:48:53Z,120,fb87bb48-be94-44ef-89c2-c771f97586c7,275.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,359952,2022-05-05T10:19:07Z,120,e7be3f13-307e-4e19-be7b-5a547b6f694c,11.0,sauce vinaigrette ,dîner,"betterave , carotte râpée , sauce vinaigrette "
+wrah5h,359978,2022-05-05T11:39:33Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,360046,2022-05-05T14:12:33Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,360185,2022-05-05T18:43:58Z,120,9e2250ed-1c83-419f-b8d5-d87845b2927e,179.0,eau,,"eau, eau, eau"
+wrah5h,361066,2022-05-08T10:50:35Z,120,535828f4-022b-4ca3-be60-0cf34fd8b107,220.0,eau gazeuse ,,"eau gazeuse , eau"
+wrah5h,361082,2022-05-08T11:17:53Z,120,535828f4-022b-4ca3-be60-0cf34fd8b107,220.0,eau,,"eau gazeuse , eau"
+wrah5h,361219,2022-05-08T17:56:45Z,120,fb87bb48-be94-44ef-89c2-c771f97586c7,275.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,361317,2022-05-09T04:50:13Z,120,c34091b7-c42f-4e93-ae39-bb28aa3b7819,97.0,lait d'amande nature ,déjeuner ,"flocons d'avoine, graines de chia, lait d'amande nature , pépites de chocolat , purée de cacahuète , banane "
+wrah5h,361573,2022-05-09T15:28:27Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,361837,2022-05-10T11:00:54Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,361992,2022-05-10T17:35:56Z,120,ce120f4a-1a53-4927-a9d6-931d184144e7,10.0,vinaigrette ,souper,"pommes de terre grillées à la poêle , brocolis à la vapeur , vinaigrette , bœuf strogonoff"
+wrah5h,363862,2022-05-16T04:49:49Z,120,c0fb0561-9aaf-42ef-b18e-2677b0c8f7d7,119.0,lait d'amande nature ,déjeuner ,"flocons d'avoine, graines de chia, lait d'amande nature , pépites de chocolat , purée de cacahuète , framboises, myrtilles"
+wrah5h,363866,2022-05-16T04:51:58Z,120,fb87bb48-be94-44ef-89c2-c771f97586c7,275.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,363867,2022-05-16T04:52:04Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,364059,2022-05-16T10:37:16Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,364026,2022-05-16T15:51:47Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,364058,2022-05-16T17:43:07Z,120,d483e228-d4ed-4708-b190-13338f41fd5e,304.0,thé vert menthe ,,thé vert menthe 
+wrah5h,364278,2022-05-17T13:45:42Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,364279,2022-05-17T15:46:53Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,364289,2022-05-17T16:23:33Z,120,430eb052-fb0e-4c31-bd54-a9567a305cff,386.0,eau,,"eau, sirop "
+wrah5h,364304,2022-05-17T17:25:06Z,120,b60a4dee-442d-447d-8d78-db9521763ffa,116.0,tranche gâteau rhubarbe ,dessert,tranche gâteau rhubarbe 
+wrah5h,364353,2022-05-17T19:12:20Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,364518,2022-05-18T12:00:22Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,364521,2022-05-18T15:02:40Z,120,d2097311-e228-4896-bc01-5592faab02f8,412.0,bubble tea (thé froid + perles de tapioca),"""collation""","bubble tea (thé froid + perles de tapioca), bubble tea (thé froid + perles de tapioca)"
+wrah5h,364542,2022-05-18T18:18:37Z,120,cd9c7853-44f5-4274-93db-ceb9c56a3fed,115.0,tranche gâteau rhubarbe ,dessert,tranche gâteau rhubarbe 
+wrah5h,364572,2022-05-18T19:16:57Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,365038,2022-05-21T08:57:32Z,120,fb87bb48-be94-44ef-89c2-c771f97586c7,275.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,365172,2022-05-21T10:32:38Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,365175,2022-05-21T14:39:48Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,365196,2022-05-21T18:46:46Z,120,23670e31-473b-4fa4-af4e-825aec324022,120.0,yogourt au café ,dessert,yogourt au café 
+wrah5h,365258,2022-05-22T07:25:57Z,120,6239cefa-ca3f-4627-8eb0-f96a13e51164,339.0,eau,,"eau, eau, eau"
+wrah5h,365304,2022-05-22T11:03:58Z,120,d4021afa-7ac3-4e6b-9e0e-5e1a54425f70,363.0,thé froid maison ,,thé froid maison 
+wrah5h,365413,2022-05-22T18:31:36Z,120,6239cefa-ca3f-4627-8eb0-f96a13e51164,339.0,eau,,"eau, eau, eau"
+wrah5h,365534,2022-05-23T11:13:37Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,365535,2022-05-23T14:08:39Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
+wrah5h,365561,2022-05-23T18:15:59Z,120,6239cefa-ca3f-4627-8eb0-f96a13e51164,339.0,eau,,"eau, eau, eau"
+xjvrtk,358379,2022-05-01T06:50:56Z,120,bde314fb-61a7-42fd-94d6-01669f396e31,275.0,café au lait,matin,café au lait
+xjvrtk,358481,2022-05-01T10:57:50Z,120,58d03bda-2fb4-4b77-bc7f-cb0b65df954e,275.0,café au lait,midi,café au lait
+xjvrtk,358600,2022-05-01T17:19:36Z,120,da3473b4-282c-4045-80b1-194b8fe5cbcb,298.0,café au lait,envie café ,café au lait
+xjvrtk,358669,2022-05-01T21:07:31Z,120,ce668b40-a61f-4ac1-abfd-a150071ddd76,20.0,vinaigre balsamique,salade soir,"salade de tomates , huile d'olive, vinaigre balsamique, graines de lin"
+xjvrtk,358743,2022-05-02T07:34:14Z,120,7ce0b676-394a-459f-897b-a86c075513c2,303.0,café au lait ,matin,café au lait 
+xjvrtk,358884,2022-05-02T12:34:09Z,120,1d85ed61-186b-4141-832b-ced8ca17c317,355.0,thé,midi,thé
+xjvrtk,358955,2022-05-02T16:27:09Z,120,2ffaa019-183a-4d82-84ba-ba831178b5b2,300.0,café au lait,envie café,café au lait
+xjvrtk,359117,2022-05-03T05:49:01Z,120,8dbf7ee9-8816-47ab-a74d-cd4838f6f7d3,100.0,lait écrémé ,matin bircher,"flocons d'avoine, flocons de soja, graines de chia, lait écrémé , pomme"
+xjvrtk,359120,2022-05-03T05:50:43Z,120,2f3c0299-3bb7-40c5-9616-290afd33a6cf,300.0,café au lait,matin,café au lait
+xjvrtk,359330,2022-05-03T14:40:09Z,120,794896b4-0506-4a92-8790-290fa76a94a2,168.0,café au lait,envie café,café au lait
+xjvrtk,359371,2022-05-03T16:45:06Z,120,1fa390c1-9169-42c0-abbd-3aa6e1a5c90b,20.0,vinaigre,souper,"concombre, tomate, carotte, graines de courge, huile de lin, vinaigre, sérac"
+xjvrtk,361366,2022-05-09T07:17:10Z,120,116568b0-83ed-45d1-a008-1cf06853afb0,300.0,café au lait,matin,café au lait
+xjvrtk,361421,2022-05-09T09:05:52Z,120,5a2a11cf-9b59-46bd-88cc-f5b4fbc4b946,500.0,thé vert menthe,soif,thé vert menthe
+xjvrtk,361636,2022-05-09T18:00:49Z,120,59e31b5a-2c5c-48e7-b889-58ed408a3a0a,20.0,vinaigre,soir souper,"tomates, oignon frais, huile de lin, moutarde, vinaigre, galettes millet, haricots noirs, maïs"
+xjvrtk,361746,2022-05-10T06:08:16Z,120,0c840828-067e-4249-80fd-ece782ed6762,230.0,café au lait,matin,café au lait
+xjvrtk,361906,2022-05-10T14:01:22Z,120,4da10dec-deba-442c-b0f0-ff4a2b7e0b1c,300.0,café au lait,goûter,café au lait
+xjvrtk,362052,2022-05-10T20:45:05Z,120,a99b0fbb-f247-46d0-b4e8-c87a0627ae75,355.0,thé rooibos,soirée,thé rooibos
+xjvrtk,362174,2022-05-11T08:04:20Z,120,e9bc78bf-12ec-4d28-83e0-50ccd9895f90,200.0,café au lait,pause,"café au lait, chocolat au lait"
+xjvrtk,362174,2022-05-11T08:04:20Z,120,e9bc78bf-12ec-4d28-83e0-50ccd9895f90,25.0,chocolat au lait,pause,"café au lait, chocolat au lait"
+xjvrtk,362546,2022-05-12T05:54:12Z,120,677d7b93-add0-4938-87c0-df978cfc49ec,300.0,café au lait,matin,café au lait
+xjvrtk,362646,2022-05-12T10:26:53Z,120,611431d0-f119-4ef8-ad73-bb27c5075c3c,30.0,vinaigre,midi,"concombre, couscous, thon, huile d'olive, vinaigre, graines de courge"
+xjvrtk,362852,2022-05-12T19:31:32Z,120,32289b41-a85a-4563-8e38-c47e7693d2d0,27.0,vinaigre balsamique,souper,"salade verte, champignons , galettes millet haricots noirs maïs, huile de colza, vinaigre balsamique, purée betterave lentilles"
+xjvrtk,363889,2022-05-16T06:45:33Z,120,3d38e1ba-4e2b-4cc7-8808-fdf798abe6ba,300.0,café au lait,matin,café au lait
+xjvrtk,363933,2022-05-16T10:27:34Z,120,bc9c353c-4fd3-41d7-b5ab-cc73e9587d47,500.0,eau menthe citron,midi,"pois chiches, oeufs au plat, brocolis, carottes, asperges, tronc de brocolis cru, huile d'olive, ciboulette, eau menthe citron"
+xjvrtk,363958,2022-05-16T11:11:15Z,120,280dbefa-c24d-42c5-abdb-94bd72ab25aa,170.0,café au lait,midi,café au lait
+xjvrtk,364139,2022-05-17T06:35:25Z,120,c9d20bd5-19ec-4cce-bf4a-dcf1df2064fe,300.0,café au lait,matin,café au lait
+xjvrtk,364203,2022-05-17T10:17:27Z,120,37bfcf23-9f55-4b85-856b-c70b3af5b56c,15.0,pain au lait,midi,pain au lait
+xjvrtk,364378,2022-05-18T05:35:10Z,120,542c5810-da93-4c91-96b1-04979dc1e028,300.0,café au lait,midi,café au lait
+xjvrtk,364420,2022-05-18T09:51:02Z,120,f0284a02-724e-4310-940d-e0fdd9893c70,20.0,vinaigre,midi,"brocolis, concombre, ananas, tomate, huile d'olive, vinaigre, graines de courge"
+xjvrtk,364597,2022-05-19T06:40:35Z,120,4f17096f-878b-4dd8-b909-b2cc438746e7,300.0,café au lait,matin,café au lait
+xjvrtk,364618,2022-05-19T08:36:31Z,120,9dd36be5-675b-413d-9c5f-f674c11e3fc6,179.0,café au lait,matin,café au lait
+xjvrtk,364868,2022-05-20T12:14:16Z,120,8ba6bd26-d99a-47da-bfd1-70dc4988ada4,200.0,eau au citron ,soif,"iced coffee, eau au citron "
+xjvrtk,364951,2022-05-20T18:39:04Z,120,38b90b00-cd60-4ff1-a7b0-5dbfb9125944,27.0,vinaigre ,souper,"betterave cuite, concombre, yogourt nature, vinaigre , gomasio"
+xjvrtk,365008,2022-05-21T05:29:22Z,120,0592d652-f532-481b-9c12-69365d51bae7,288.0,café au lait,matin,café au lait
+xjvrtk,365027,2022-05-21T07:56:00Z,120,38766a97-afd1-4bf2-b53d-ad1e0a1e52e8,500.0,thé froid zero,soif et envie,thé froid zero
+xjvrtk,365465,2022-05-23T08:13:21Z,120,197e0288-fa6f-45dc-9228-bdc58780ac7b,182.0,café au lait,pause matin,café au lait
+xjvrtk,365510,2022-05-23T11:52:33Z,120,a0191f87-2446-43b8-a520-d8ed6436baf3,137.0,café,midi,"mangue, café"

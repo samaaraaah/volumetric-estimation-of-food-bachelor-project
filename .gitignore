@@ -1,0 +1,55 @@
+# Ignore specific files
+smth.py
+src/liquids.py
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# Environment files
+.env
+*.env
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Byte-compiled or compiled files
+*.so
+*.o
+*.out
+*.class
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Package directories
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+
+# Notebook metadata
+*.nbconvert.ipynb
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# MyPy and Pytest
+.mypy_cache/
+.pytest_cache/
+
