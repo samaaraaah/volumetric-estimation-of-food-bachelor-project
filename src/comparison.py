@@ -10,9 +10,10 @@ import utils
 parser = argparse.ArgumentParser(description="Benchmark food weight predictions.")
 parser.add_argument("--wholedata", action="store_true", required=False, default=False, help="Use it to run the comparison on the whole dataset.")
 parser.add_argument("--json", type=str, required=True, help="Path to the JSON predictions file.")
-parser.add_argument("--liquid", action="store_true", required=False, help="The data will contains liquids.")
+parser.add_argument("--liquid", action="store_true", required=False, help="The data contains liquids.")
 parser.add_argument("--no-liquid", dest="liquid", action="store_false", help="Use it to indicate that the data doesn't contain liquids.")
 parser.add_argument("--errors", action="store_true", required=False, help="Use it to show top 20 highest errors in terminal.")
+parser.add_argument("--liquidsonly", action="store_true", required=False, help="The data contains only liquids.")
 args = parser.parse_args()
 
 # Load the dataset with ground truth labels 
@@ -25,9 +26,13 @@ else:
     if args.wholedata:
         csv_file = "../data/cleaned/weight_data_cleaned_no_liquid.csv" 
     else:
-        csv_file = "../data/cleaned/weight_data_cleaned_sample_20250415.csv"
-
+        csv_file = "../data/cleaned/weight_data_cleaned_sample_20250418.csv"
 json_file = f"../data/result/{args.json}"  
+
+if args.liquidsonly:
+    csv_file = "../data/liquids.csv"
+    json_file =  f"../data/result/liquids/{args.json}" 
+
 
 # Load the predictions JSON file
 with open(json_file, "r", encoding="utf-8") as f:
@@ -118,6 +123,9 @@ utils.append_to_csv(mae, weighted_absolute_error, mape, json_file) ##TODO: choos
 df_comparison["url"] = df_comparison.apply(lambda row: f"https://www.myfoodrepo.org/api/v1/subjects/{row['key']}/dish_media/{row['image_id']}", axis=1)
 #df_comparison.to_csv(output_filename, index=False, columns=["key", "image_id", "url", "description", "weight", "predicted_weight", "absolute_error"]) ##add weighed_absolute_error if want to visualize it
 sorted_filename = f"../data/comparison/sorted_{args.json.split('.')[0]}.csv"
+if args.liquidsonly:
+    sorted_filename = f"../data/comparison/liquids/sorted_{args.json.split('.')[0]}.csv"
+
 
 if args.wholedata:
     sorted_df = df_comparison.sort_values(by="total_dish_wmae", ascending=False)
@@ -125,7 +133,7 @@ if args.wholedata:
 else:
     sorted_df = df_comparison.sort_values(by="absolute_error", ascending=False)
     sorted_df.to_csv(sorted_filename, index=False, columns=["key", "description", "weight", "predicted_weight", "absolute_error", "weighed_absolute_error", "url", "reasoning"])
-
+    
 print(f"\nSorted results saved to {sorted_filename}.")
 
 if args.errors:

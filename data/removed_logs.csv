@@ -10,6 +10,31 @@ r3bub9,365331,2022-05-22T12:01:00Z,120,59e98269-25b1-4c0c-9165-523243a50528,40,m
 r3bub9,366362,2022-05-28T20:16:13Z,120,9311b680-4c18-4f34-9536-9c475a0cd293,,bière ,, no ground truth provided
 p8a2w5,365212,2022-05-21T20:00:09Z,120,faa4e3cc-5d10-4bd7-a2ae-7eb4a3945897,329,bière ,erreur de pesée,misleading picture
 p96w4a,359915,2022-05-05T08:08:08Z,120,87ad5ad5-a05a-4151-8f82-a6594d8c0f37,2,cacao,,cannot be estimated
-xjvrtk,362422,2022-05-11T17:50:17Z,120,d15f25db-272a-4f8a-a0ae-225438cf4b70,35,chocolat,goûter, not on the picture
-xjvrtk,362422,2022-05-11T17:50:17Z,120,d15f25db-272a-4f8a-a0ae-225438cf4b70,190,poire,goûter,not on the picture
+xjvrtk,362422,2022-05-11T17:50:17Z,120,d15f25db-272a-4f8a-a0ae-225438cf4b70,35,chocolat,goûter, wrong picture
+xjvrtk,362422,2022-05-11T17:50:17Z,120,d15f25db-272a-4f8a-a0ae-225438cf4b70,190,poire,goûter,wrong picture
 2ahgvr,358749,2022-05-02T07:41:31Z,120,aa859e5b-563f-472c-9914-036722ebf60e,238,Muesli,Mélange noté juste en dessous,not sure if should remove because has logged all individual items AND weight of the whole dish
+wrah5h,364202,2022-05-17T10:17:16Z,120,115dbd14-27ca-4200-a232-fa9f3eb9bad7,100,sauce tomate ,dîner, 100g clearly not visible
+p96w4a,359916,2022-05-05T08:11:20Z,120,a0fc1136-90f4-4311-ac49-169af42b0117,26,pain,,duplicate 
+p96w4a,359916,2022-05-05T08:11:20Z,120,a0fc1136-90f4-4311-ac49-169af42b0117,3,beurre,,duplicate 
+ppf8hc,362210,2022-05-11T09:56:22Z,120,a240c2fe-3f03-48ac-b042-ee673b3425b0,210,carottes cuites ,cuites a l'eau, most carrots are hidden
+--TO REMOVE FROM CLEAN DATA
+xjvrtk,362646,2022-05-12T10:26:53Z,120,611431d0-f119-4ef8-ad73-bb27c5075c3c,215.0,concombre,midi,most cucumbers are hidden 
+kind of impossible to tell:
+xjvrtk,364420,2022-05-18T09:51:02Z,120,f0284a02-724e-4310-940d-e0fdd9893c70,67,brocolis,mifi
+xjvrtk,364420,2022-05-18T09:51:02Z,120,f0284a02-724e-4310-940d-e0fdd9893c70,154,concombre,midi
+xjvrtk,364420,2022-05-18T09:51:02Z,120,f0284a02-724e-4310-940d-e0fdd9893c70,120,ananas,midi
+xjvrtk,364420,2022-05-18T09:51:02Z,120,f0284a02-724e-4310-940d-e0fdd9893c70,135,tomate,midi
+xjvrtk,364420,2022-05-18T09:51:02Z,120,f0284a02-724e-4310-940d-e0fdd9893c70,8,huile d'olive,midi
+xjvrtk,364420,2022-05-18T09:51:02Z,120,f0284a02-724e-4310-940d-e0fdd9893c70,20,vinaigre,midi
+xjvrtk,364420,2022-05-18T09:51:02Z,120,f0284a02-724e-4310-940d-e0fdd9893c70,15,graines de courge,midi
+ppf8hc,361571,2022-05-09T15:18:41Z,120,408c6404-8e44-4937-b197-324c0543480e,33,Cracotte craquinette fraise,,wrong picture
+ppf8hc,361641,2022-05-09T18:11:15Z,120,0e957dbb-5b7d-447c-a288-856a577f6b89,126,salade de tomate ,avec sauce balsamique (oublié de peser),wrong ground truth
+ppf8hc,361641,2022-05-09T18:11:15Z,120,0e957dbb-5b7d-447c-a288-856a577f6b89,1,basilic ,,wrong ground truth
+p96w4a,359728,2022-05-04T15:59:04Z,120,c0fc63a2-21db-448b-875a-c736a595bd0a,6,graines de chia,Bircher,not clearly visible
+2ahgvr,365214,2022-05-21T20:06:23Z,120,1f9fee78-9967-4275-a8a5-59ec89cbbc67,10,Huile de colza HOLL,,not clearly visible
+wrah5h,361618,2022-05-09T17:26:08Z,120,f298c84c-70c1-4dfb-bf55-e8647e33b230,691,velouté de champignons ,souper,wrong ground thruth
+xjvrtk,362852,2022-05-12T19:31:32Z,120,32289b41-a85a-4563-8e38-c47e7693d2d0,250,champignons ,souper, wrong ground truth
+
+
+
+

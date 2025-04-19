@@ -1,12 +1,13 @@
 import pandas as pd
 import argparse
 import time
+import re
 
 # Command line argument parsing
 parser = argparse.ArgumentParser(description="Formatting files for bechmarking tool.")
 parser.add_argument("--sample", action="store_true", help="Use it to indicate that the data needs to be sampled again")
 parser.add_argument("--no-sample", dest="sample", action="store_false", help="Use it to indicate that the data only needs to be cleaned")
-parser.add_argument("--liquid", action="store_true", required=False, help="The data will contain liquids")
+parser.add_argument("--liquid", action="store_true", help="The data will contain liquids")
 parser.add_argument("--no-liquid", dest="liquid", action="store_false", help="Use it to create a file with the whole data without liquids")
 args = parser.parse_args()
 
@@ -26,9 +27,10 @@ if not args.liquid:
 # Group all descriptions by image_id
 df = pd.read_csv(input_file)
 if not args.liquid:
-    liquids = ["eau", "thé", "café", "lait", "bière", "vin"]
-    pattern = "|".join(liquids)
-    df = df[~df["description"].str.contains(pattern, case=False, na=False)]
+    liquids = ["eau", "thé", "café", "lait", "bière", "vin", "sirop", "jus d'orange"] #to add: rosé, espresso, biere, cacao, jus de citron, capuccino, spritz, jus
+    pattern = r'\b(?:' + '|'.join(map(re.escape, liquids)) + r')\b'
+
+    df = df[~df["description"].str.contains(pattern, case=False, na=False, regex=True)]
     df.to_csv(no_liquid_file, index=False)
 
 grouped_descriptions = df.groupby("image_id")["description"].apply(lambda x: ", ".join(x)).reset_index()

@@ -38,9 +38,10 @@ src/metrics_results.csv: file containing the metrics results for each result fil
   
   
 When deleting rows in weight_data_cleaned.csv, always put the deleted row in removed_logs.csv and add a reason. Then run:  
-python format.py : to update the file weight_data_cleaned_ready.csv, the following arguments are available:  
+python format.py --liquid : to update the file weight_data_cleaned_ready.csv.  
+Then run python format.py --no-liquid with:  
 --sample: to generate a new sample file from the new cleaned data  
---no-liquid: to generate a new file (ready and grouped) excluding the data that contains liquids such as water, milk, coffee, tea, bier and wine  
+( --no-liquid: generates a new file (ready and grouped) excluding the data that contains liquids such as water, milk, coffee, tea, bier and wine  )
 
 Once a result has been obtained, put the corresponding file in data/result and run:  
 - If the data is a sample data : python comparison.py --json {result_file_name}: to create a sorted_{result_file_name} with the errors sorted by absolute value  
