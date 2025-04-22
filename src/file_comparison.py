@@ -41,6 +41,7 @@ output = merged[[
     "url_file1"
 ]]
 
+output["url_file1"] = output["url_file1"].astype(str) + " "
 output = output.sort_values(by="best", ascending=True)
 
 # Save to new CSV

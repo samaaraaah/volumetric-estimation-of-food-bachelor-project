@@ -742,8 +742,7 @@ p96w4a,359598,2022-05-04T10:44:20Z,120,7928425f-64bc-48a9-b067-7e23c9122796,26.0
 p96w4a,359622,2022-05-04T11:10:00Z,120,f88db701-d88b-4e81-a306-7e6b5c287582,210.0,Eau plate ,,"Eau plate, Eau plate, Eau plate , Eau plate"
 p96w4a,359642,2022-05-04T11:58:00Z,120,f88db701-d88b-4e81-a306-7e6b5c287582,210.0,Eau plate,,"Eau plate, Eau plate, Eau plate , Eau plate"
 p96w4a,359727,2022-05-04T15:57:03Z,120,c69d5abe-d221-481a-9503-d8bebb1a0e3f,77.0,yogourt myrtille,Bircher,yogourt myrtille
-p96w4a,359728,2022-05-04T15:59:04Z,120,c0fc63a2-21db-448b-875a-c736a595bd0a,6.0,graines de chia,Bircher,"graines de chia, flocon d'avoines"
-p96w4a,359728,2022-05-04T15:59:04Z,120,c0fc63a2-21db-448b-875a-c736a595bd0a,13.0,flocon d'avoines,Bircher,"graines de chia, flocon d'avoines"
+p96w4a,359728,2022-05-04T15:59:04Z,120,c0fc63a2-21db-448b-875a-c736a595bd0a,13.0,flocon d'avoines,Bircher,flocon d'avoines
 p96w4a,359729,2022-05-04T16:04:14Z,120,6ad59878-45cb-41db-83e2-d19e6a055682,224.0,jus d'orange coupé à l'eau,,jus d'orange coupé à l'eau
 p96w4a,359768,2022-05-04T17:53:19Z,120,230275f2-e079-4a55-be5d-fd5d26603c28,10.0,fromage gruyère ,,fromage gruyère 
 p96w4a,359772,2022-05-04T17:58:51Z,120,c8fb1da2-cafe-4017-9b64-7e1368ec957e,34.0,pain,,pain
@@ -861,13 +860,7 @@ p96w4a,362698,2022-05-12T11:53:01Z,120,d4bb3701-31fa-465a-8e07-2ad1537483db,236.
 p96w4a,362707,2022-05-12T12:04:20Z,120,86da771f-1d27-4626-b23c-0274d35df787,62.0,kiwi,,"kiwi, 2 biscuits Nutella "
 p96w4a,362707,2022-05-12T12:04:20Z,120,86da771f-1d27-4626-b23c-0274d35df787,28.0,2 biscuits Nutella ,,"kiwi, 2 biscuits Nutella "
 p96w4a,362736,2022-05-12T14:12:43Z,120,79b1fb93-b5d0-4c2e-a39a-3b7e149e8679,233.0,sirop,,sirop
-p96w4a,362816,2022-05-12T17:48:39Z,120,82f0bd88-ab57-46d8-83c6-99d636a8a3d4,120.0,pain pour piadina,piadina,"pain pour piadina, fromage frais, charcuterie , rucola, mozarella, tomate séchée , guacamole "
-p96w4a,362816,2022-05-12T17:48:39Z,120,82f0bd88-ab57-46d8-83c6-99d636a8a3d4,25.0,fromage frais,piadina,"pain pour piadina, fromage frais, charcuterie , rucola, mozarella, tomate séchée , guacamole "
-p96w4a,362816,2022-05-12T17:48:39Z,120,82f0bd88-ab57-46d8-83c6-99d636a8a3d4,20.0,charcuterie ,piadina,"pain pour piadina, fromage frais, charcuterie , rucola, mozarella, tomate séchée , guacamole "
-p96w4a,362816,2022-05-12T17:48:39Z,120,82f0bd88-ab57-46d8-83c6-99d636a8a3d4,15.0,rucola,piadina,"pain pour piadina, fromage frais, charcuterie , rucola, mozarella, tomate séchée , guacamole "
-p96w4a,362816,2022-05-12T17:48:39Z,120,82f0bd88-ab57-46d8-83c6-99d636a8a3d4,36.0,mozarella,piadina,"pain pour piadina, fromage frais, charcuterie , rucola, mozarella, tomate séchée , guacamole "
-p96w4a,362816,2022-05-12T17:48:39Z,120,82f0bd88-ab57-46d8-83c6-99d636a8a3d4,12.0,tomate séchée ,piadina,"pain pour piadina, fromage frais, charcuterie , rucola, mozarella, tomate séchée , guacamole "
-p96w4a,362816,2022-05-12T17:48:39Z,120,82f0bd88-ab57-46d8-83c6-99d636a8a3d4,53.0,guacamole ,piadina,"pain pour piadina, fromage frais, charcuterie , rucola, mozarella, tomate séchée , guacamole "
+p96w4a,362816,2022-05-12T17:48:39Z,120,82f0bd88-ab57-46d8-83c6-99d636a8a3d4,120.0,pain pour piadina,piadina,pain pour piadina
 p96w4a,362826,2022-05-12T18:00:01Z,120,90bf5d99-c6f1-4063-b842-6eb5a65749a9,243.0,eau,,eau
 p96w4a,362936,2022-05-13T07:09:43Z,120,3f5d416b-d714-406e-b741-79162c7b5865,238.0,café au lait,,"café au lait, cacao"
 p96w4a,362936,2022-05-13T07:09:43Z,120,3f5d416b-d714-406e-b741-79162c7b5865,3.0,cacao,,"café au lait, cacao"
@@ -1113,9 +1106,6 @@ ppf8hc,361335,2022-05-09T06:10:03Z,120,b3367551-bdba-49c7-bdbb-d616a8ab8b2c,20.0
 ppf8hc,361423,2022-05-09T09:17:18Z,120,a3b29f98-c619-45f6-b68a-d8489eb14614,41.0,pain ,,pain 
 ppf8hc,361434,2022-05-09T09:43:18Z,120,d4aceb15-3560-481e-844e-2f4c55b2ac02,145.0,pomme,,pomme
 ppf8hc,361502,2022-05-09T11:51:04Z,120,edf26042-41ab-4c7d-b4da-18cb0454f49f,20.0,chocolat au lait ,,chocolat au lait 
-ppf8hc,361571,2022-05-09T15:18:41Z,120,408c6404-8e44-4937-b197-324c0543480e,33.0,Cracotte craquinette fraise,,Cracotte craquinette fraise
-ppf8hc,361641,2022-05-09T18:11:15Z,120,0e957dbb-5b7d-447c-a288-856a577f6b89,126.0,salade de tomate ,avec sauce balsamique (oublié de peser),"salade de tomate , basilic "
-ppf8hc,361641,2022-05-09T18:11:15Z,120,0e957dbb-5b7d-447c-a288-856a577f6b89,1.0,basilic ,,"salade de tomate , basilic "
 ppf8hc,361657,2022-05-09T18:35:19Z,120,ff685db2-7bab-4f77-b596-fb10a8287f84,161.0,quiche lorraine ,,quiche lorraine 
 ppf8hc,361777,2022-05-10T07:46:13Z,120,8cef0fdf-b65b-4c28-8122-e30d10f57190,176.0,pomme,,pomme
 ppf8hc,361779,2022-05-10T08:02:20Z,120,76ceb612-b05c-49b8-bfb9-064eac488fd3,10.0,chocolat noir ,,chocolat noir 
@@ -1518,7 +1508,6 @@ wrah5h,361317,2022-05-09T04:50:13Z,120,c34091b7-c42f-4e93-ae39-bb28aa3b7819,10.0
 wrah5h,361317,2022-05-09T04:50:13Z,120,c34091b7-c42f-4e93-ae39-bb28aa3b7819,59.0,banane ,déjeuner ,"flocons d'avoine, graines de chia, lait d'amande nature , pépites de chocolat , purée de cacahuète , banane "
 wrah5h,361474,2022-05-09T10:50:30Z,120,6b584efc-e8bb-46a4-8a19-5e1cc53e7527,138.0,pomme,dessert,pomme
 wrah5h,361573,2022-05-09T15:28:27Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
-wrah5h,361618,2022-05-09T17:26:08Z,120,f298c84c-70c1-4dfb-bf55-e8647e33b230,691.0,velouté de champignons ,souper,velouté de champignons 
 wrah5h,361620,2022-05-09T17:32:44Z,120,e3691a00-e6be-49ac-8fb8-a0ad13b73d6f,97.0,pizza aux épinards et crevettes ,souper,pizza aux épinards et crevettes 
 wrah5h,361626,2022-05-09T17:46:32Z,120,ea624b96-5ac7-49de-85af-aad738eb7bdb,58.0,tartelette au citron ,dessert,"tartelette au citron , tartelette au citron "
 wrah5h,361718,2022-05-10T04:48:03Z,120,0cce400a-ac34-4562-a2f8-23658832e62e,242.0,semoule de blé dur à la vanille ,déjeuner ,semoule de blé dur à la vanille 
@@ -1542,9 +1531,7 @@ wrah5h,363862,2022-05-16T04:49:49Z,120,c0fb0561-9aaf-42ef-b18e-2677b0c8f7d7,35.0
 wrah5h,363862,2022-05-16T04:49:49Z,120,c0fb0561-9aaf-42ef-b18e-2677b0c8f7d7,27.0,myrtilles,déjeuner ,"flocons d'avoine, graines de chia, lait d'amande nature , pépites de chocolat , purée de cacahuète , framboises, myrtilles"
 wrah5h,363866,2022-05-16T04:51:58Z,120,fb87bb48-be94-44ef-89c2-c771f97586c7,275.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
 wrah5h,363867,2022-05-16T04:52:04Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
-wrah5h,363932,2022-05-16T10:22:58Z,120,e3bda09e-e437-4ac8-bfbf-4f282e801bfc,79.0,poulet grillé,dîner,"poulet grillé, ratatouille, pain/galette "
-wrah5h,363932,2022-05-16T10:22:58Z,120,e3bda09e-e437-4ac8-bfbf-4f282e801bfc,106.0,ratatouille,dîner,"poulet grillé, ratatouille, pain/galette "
-wrah5h,363932,2022-05-16T10:22:58Z,120,e3bda09e-e437-4ac8-bfbf-4f282e801bfc,90.0,pain/galette ,dîner,"poulet grillé, ratatouille, pain/galette "
+wrah5h,363932,2022-05-16T10:22:58Z,120,e3bda09e-e437-4ac8-bfbf-4f282e801bfc,90.0,pain/galette ,dîner,pain/galette 
 wrah5h,363941,2022-05-16T10:36:32Z,120,cb6a4333-4844-427b-b4a5-d13df89508f1,183.0,poire,dessert,poire
 wrah5h,364059,2022-05-16T10:37:16Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
 wrah5h,364026,2022-05-16T15:51:47Z,120,be53bf38-ca55-49a6-9b8b-9ab0ec32b38b,534.0,eau,,"eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau, eau"
@@ -1743,24 +1730,22 @@ xjvrtk,362422,2022-05-11T17:50:17Z,120,d15f25db-272a-4f8a-a0ae-225438cf4b70,8.0,
 xjvrtk,362443,2022-05-11T18:20:13Z,120,397afb74-d345-4fda-a427-ee570908ee67,240.0,compote rhubarbe,souper,"compote rhubarbe, yogourt"
 xjvrtk,362443,2022-05-11T18:20:13Z,120,397afb74-d345-4fda-a427-ee570908ee67,180.0,yogourt,souper,"compote rhubarbe, yogourt"
 xjvrtk,362546,2022-05-12T05:54:12Z,120,677d7b93-add0-4938-87c0-df978cfc49ec,300.0,café au lait,matin,café au lait
-xjvrtk,362646,2022-05-12T10:26:53Z,120,611431d0-f119-4ef8-ad73-bb27c5075c3c,215.0,concombre,midi,"concombre, couscous, thon, huile d'olive, vinaigre, graines de courge"
-xjvrtk,362646,2022-05-12T10:26:53Z,120,611431d0-f119-4ef8-ad73-bb27c5075c3c,100.0,couscous,midi,"concombre, couscous, thon, huile d'olive, vinaigre, graines de courge"
-xjvrtk,362646,2022-05-12T10:26:53Z,120,611431d0-f119-4ef8-ad73-bb27c5075c3c,100.0,thon,midi,"concombre, couscous, thon, huile d'olive, vinaigre, graines de courge"
-xjvrtk,362646,2022-05-12T10:26:53Z,120,611431d0-f119-4ef8-ad73-bb27c5075c3c,10.0,huile d'olive,midi,"concombre, couscous, thon, huile d'olive, vinaigre, graines de courge"
-xjvrtk,362646,2022-05-12T10:26:53Z,120,611431d0-f119-4ef8-ad73-bb27c5075c3c,30.0,vinaigre,midi,"concombre, couscous, thon, huile d'olive, vinaigre, graines de courge"
-xjvrtk,362646,2022-05-12T10:26:53Z,120,611431d0-f119-4ef8-ad73-bb27c5075c3c,15.0,graines de courge,midi,"concombre, couscous, thon, huile d'olive, vinaigre, graines de courge"
+xjvrtk,362646,2022-05-12T10:26:53Z,120,611431d0-f119-4ef8-ad73-bb27c5075c3c,100.0,couscous,midi,"couscous, thon, huile d'olive, vinaigre, graines de courge"
+xjvrtk,362646,2022-05-12T10:26:53Z,120,611431d0-f119-4ef8-ad73-bb27c5075c3c,100.0,thon,midi,"couscous, thon, huile d'olive, vinaigre, graines de courge"
+xjvrtk,362646,2022-05-12T10:26:53Z,120,611431d0-f119-4ef8-ad73-bb27c5075c3c,10.0,huile d'olive,midi,"couscous, thon, huile d'olive, vinaigre, graines de courge"
+xjvrtk,362646,2022-05-12T10:26:53Z,120,611431d0-f119-4ef8-ad73-bb27c5075c3c,30.0,vinaigre,midi,"couscous, thon, huile d'olive, vinaigre, graines de courge"
+xjvrtk,362646,2022-05-12T10:26:53Z,120,611431d0-f119-4ef8-ad73-bb27c5075c3c,15.0,graines de courge,midi,"couscous, thon, huile d'olive, vinaigre, graines de courge"
 xjvrtk,362656,2022-05-12T10:43:11Z,120,710f4a9d-6945-4c87-b3bb-dae03678471f,180.0,yogourt nature,midi,yogourt nature
 xjvrtk,362666,2022-05-12T10:52:06Z,120,88df9a21-c008-47a8-9b3e-bfd60b72f3bc,170.0,pomme,midi,pomme
 xjvrtk,362745,2022-05-12T14:34:20Z,120,3d828624-e384-44e7-99f6-4c8a4e6f0ba4,125.0,fraises,goûter,"fraises, fraises"
 xjvrtk,362747,2022-05-12T14:37:39Z,120,bb067d1c-3012-4e32-8c8b-b88b19e591c5,250.0,tomates cerises,goûter,tomates cerises
 xjvrtk,362757,2022-05-12T15:14:53Z,120,3d828624-e384-44e7-99f6-4c8a4e6f0ba4,125.0,fraises,super faim,"fraises, fraises"
 xjvrtk,362759,2022-05-12T15:17:03Z,120,0251a865-3502-4041-9805-7073b2e511f6,180.0,couscous,super faim,couscous
-xjvrtk,362852,2022-05-12T19:31:32Z,120,32289b41-a85a-4563-8e38-c47e7693d2d0,65.0,salade verte,souper,"salade verte, champignons , galettes millet haricots noirs maïs, huile de colza, vinaigre balsamique, purée betterave lentilles"
-xjvrtk,362852,2022-05-12T19:31:32Z,120,32289b41-a85a-4563-8e38-c47e7693d2d0,250.0,champignons ,souper,"salade verte, champignons , galettes millet haricots noirs maïs, huile de colza, vinaigre balsamique, purée betterave lentilles"
-xjvrtk,362852,2022-05-12T19:31:32Z,120,32289b41-a85a-4563-8e38-c47e7693d2d0,200.0,galettes millet haricots noirs maïs,souper,"salade verte, champignons , galettes millet haricots noirs maïs, huile de colza, vinaigre balsamique, purée betterave lentilles"
-xjvrtk,362852,2022-05-12T19:31:32Z,120,32289b41-a85a-4563-8e38-c47e7693d2d0,10.0,huile de colza,souper,"salade verte, champignons , galettes millet haricots noirs maïs, huile de colza, vinaigre balsamique, purée betterave lentilles"
-xjvrtk,362852,2022-05-12T19:31:32Z,120,32289b41-a85a-4563-8e38-c47e7693d2d0,27.0,vinaigre balsamique,souper,"salade verte, champignons , galettes millet haricots noirs maïs, huile de colza, vinaigre balsamique, purée betterave lentilles"
-xjvrtk,362852,2022-05-12T19:31:32Z,120,32289b41-a85a-4563-8e38-c47e7693d2d0,100.0,purée betterave lentilles,souper,"salade verte, champignons , galettes millet haricots noirs maïs, huile de colza, vinaigre balsamique, purée betterave lentilles"
+xjvrtk,362852,2022-05-12T19:31:32Z,120,32289b41-a85a-4563-8e38-c47e7693d2d0,65.0,salade verte,souper,"salade verte, galettes millet haricots noirs maïs, huile de colza, vinaigre balsamique, purée betterave lentilles"
+xjvrtk,362852,2022-05-12T19:31:32Z,120,32289b41-a85a-4563-8e38-c47e7693d2d0,200.0,galettes millet haricots noirs maïs,souper,"salade verte, galettes millet haricots noirs maïs, huile de colza, vinaigre balsamique, purée betterave lentilles"
+xjvrtk,362852,2022-05-12T19:31:32Z,120,32289b41-a85a-4563-8e38-c47e7693d2d0,10.0,huile de colza,souper,"salade verte, galettes millet haricots noirs maïs, huile de colza, vinaigre balsamique, purée betterave lentilles"
+xjvrtk,362852,2022-05-12T19:31:32Z,120,32289b41-a85a-4563-8e38-c47e7693d2d0,27.0,vinaigre balsamique,souper,"salade verte, galettes millet haricots noirs maïs, huile de colza, vinaigre balsamique, purée betterave lentilles"
+xjvrtk,362852,2022-05-12T19:31:32Z,120,32289b41-a85a-4563-8e38-c47e7693d2d0,100.0,purée betterave lentilles,souper,"salade verte, galettes millet haricots noirs maïs, huile de colza, vinaigre balsamique, purée betterave lentilles"
 xjvrtk,362861,2022-05-12T19:55:42Z,120,3cd99914-215e-449e-91bf-df5d8df2a5f6,100.0,myrtilles,souper,"myrtilles, gorgonzola"
 xjvrtk,362861,2022-05-12T19:55:42Z,120,3cd99914-215e-449e-91bf-df5d8df2a5f6,40.0,gorgonzola,souper,"myrtilles, gorgonzola"
 xjvrtk,363889,2022-05-16T06:45:33Z,120,3d38e1ba-4e2b-4cc7-8808-fdf798abe6ba,300.0,café au lait,matin,café au lait
@@ -1790,13 +1775,6 @@ xjvrtk,364271,2022-05-17T14:59:12Z,120,ca127da5-18b1-4f59-a79b-d74cca944f71,207.
 xjvrtk,364303,2022-05-17T17:22:05Z,120,b41068f9-5a0e-4c11-bf1b-7389d3917889,200.0,ananas,souper,ananas
 xjvrtk,364354,2022-05-17T21:20:28Z,120,45b7113f-e3e5-4fcf-897f-282946abaa05,187.0,ananas,collation,ananas
 xjvrtk,364378,2022-05-18T05:35:10Z,120,542c5810-da93-4c91-96b1-04979dc1e028,300.0,café au lait,midi,café au lait
-xjvrtk,364420,2022-05-18T09:51:02Z,120,f0284a02-724e-4310-940d-e0fdd9893c70,67.0,brocolis,mifi,"brocolis, concombre, ananas, tomate, huile d'olive, vinaigre, graines de courge"
-xjvrtk,364420,2022-05-18T09:51:02Z,120,f0284a02-724e-4310-940d-e0fdd9893c70,154.0,concombre,midi,"brocolis, concombre, ananas, tomate, huile d'olive, vinaigre, graines de courge"
-xjvrtk,364420,2022-05-18T09:51:02Z,120,f0284a02-724e-4310-940d-e0fdd9893c70,120.0,ananas,midi,"brocolis, concombre, ananas, tomate, huile d'olive, vinaigre, graines de courge"
-xjvrtk,364420,2022-05-18T09:51:02Z,120,f0284a02-724e-4310-940d-e0fdd9893c70,135.0,tomate,midi,"brocolis, concombre, ananas, tomate, huile d'olive, vinaigre, graines de courge"
-xjvrtk,364420,2022-05-18T09:51:02Z,120,f0284a02-724e-4310-940d-e0fdd9893c70,8.0,huile d'olive,midi,"brocolis, concombre, ananas, tomate, huile d'olive, vinaigre, graines de courge"
-xjvrtk,364420,2022-05-18T09:51:02Z,120,f0284a02-724e-4310-940d-e0fdd9893c70,20.0,vinaigre,midi,"brocolis, concombre, ananas, tomate, huile d'olive, vinaigre, graines de courge"
-xjvrtk,364420,2022-05-18T09:51:02Z,120,f0284a02-724e-4310-940d-e0fdd9893c70,15.0,graines de courge,midi,"brocolis, concombre, ananas, tomate, huile d'olive, vinaigre, graines de courge"
 xjvrtk,364428,2022-05-18T10:17:34Z,120,e6ff6c15-5226-4f65-bb18-fa840dbff88b,150.0,pomme,midi,pomme
 xjvrtk,364488,2022-05-18T14:45:45Z,120,40fed279-1654-4855-8e9f-b5f22a970695,180.0,yogourt nature,goûter,"yogourt nature, myrtilles"
 xjvrtk,364488,2022-05-18T14:45:45Z,120,40fed279-1654-4855-8e9f-b5f22a970695,120.0,myrtilles,goûter,"yogourt nature, myrtilles"

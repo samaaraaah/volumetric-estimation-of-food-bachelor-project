@@ -27,7 +27,7 @@ if not args.liquid:
 # Group all descriptions by image_id
 df = pd.read_csv(input_file)
 if not args.liquid:
-    liquids = ["eau", "thé", "café", "lait", "bière", "vin", "sirop", "jus d'orange"] #to add: rosé, espresso, biere, cacao, jus de citron, capuccino, spritz, jus
+    liquids = ["eau", "thé", "café", "lait", "bière", "vin", "sirop", "jus", "rosé", "espresso", "biere", "cacao", "capuccino", "spritz", "hugo", "jus", "huile de colza"] #to add: 
     pattern = r'\b(?:' + '|'.join(map(re.escape, liquids)) + r')\b'
 
     df = df[~df["description"].str.contains(pattern, case=False, na=False, regex=True)]

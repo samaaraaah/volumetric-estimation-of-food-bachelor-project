@@ -27,10 +27,18 @@ result_file, MAE, MAPE, Weighted_MAE, remarks
 ------------------------------------------
 ../data/result/result_379aca64-4d8a-4768-a976-2e255c32f26f.json,29.282828282828284,48.45707085762851,39.93771667662881,food from switzerland and pay attention to volume (depth)
 ../data/result/result_e3837957-e058-491d-8f87-a5f89001ce64.json,29.681818181818183,52.61883571296514,40.588224745965334,food from switzerland and removed other stuff i had added in the prompt above
-../data/result/result_c95a336d-4270-4261-9dcc-880293627fcd.json,27.5,46.761242995885894,35.21590062111801,reorganized prompt
+../data/result/result_c95a336d-4270-4261-9dcc-880293627fcd.json,27.5,46.761242995885894,35.21590062111801,reorganized prompt by adding a section "visual estimation tips"
 ../data/result/result_76d5d3e4-a66b-40d2-bbae-0aba707cb583.json,26.610480640854473,46.34834305404495,33.56878224946417,same prompt on whole data
 ../data/result/result_0ff1a703-4934-427c-9935-098fc8936b0a.json,28.782828282828284,49.880142750523646,37.418828451882845,food covered by sauce estimate whole portion --> overestimates too much
-../data/result/result_1cd29b0d-d2ea-4238-a99f-c07d0d7221da.json,31.12,51.23077344998839,46.45525475824566,same prompt as above but without reasoning and including examples
+../data/result/result_1cd29b0d-d2ea-4238-a99f-c07d0d7221da.json,31.12,51.23077344998839,46.45525475824566,same prompt as above but few shots and without reasoning
 idk what to do so far result_76d5d3e4-a66b-40d2-bbae-0aba707cb583 is the best 
 ../data/result/result_27c5bf30-7c35-4088-8b67-642ed4236e6c.json,27.914141414141415,43.14548395977463,41.047280334728036,tried to correct overestimation and dishes in bowls --> not good
-../data/result/result_3b9dba02-e05e-4f02-b59e-68ffa2e9e356.json,26.51010101010101,41.43500073205791,37.27047220561865,recheck
+../data/result/result_3b9dba02-e05e-4f02-b59e-68ffa2e9e356.json,26.51010101010101,41.43500073205791,37.27047220561865,specifications for bowls and spread out food and realistic weight
+../data/result/result_664de1d8-2293-4f1f-8a2c-8189b141fac1.json,25.838383838383837,48.44583490587036,32.00334728033473,tweaks in task and first section (given...) and pay attention to large portions -> hard time with foods that are not in the plate as a whole for example chuncks of apple
+../data/result/result_42d9ecda-0dd0-478e-84f9-e23bb4b8f88b.json,27.181818181818183,45.47443673756643,37.453078302450685, have removed '- Adjust for partial visibility: if the food is mixed or partially hidden estimate the full portion.' and added to adjust for food that is not present as a whole
+../data/result/result_e0a4e02b-959f-405a-857a-95c380e48a71.json,29.7979797979798,54.05564936882833,40.04736467236467, added this back ^ and added to infer weight from standard portion size if food is processed even if packaging not visible -> worse
+../data/result/result_ba64de88-0d39-4cc7-8e62-c5969bdabfac.json,29.484848484848484,47.860757236919156,53.93205299623192, new sample data and used prompt from result_664de1d8 (just cleaned the data again)
+../data/result/result_fdce660a-8af0-4a14-ad13-27770a4474f6.json,28.474747474747474,50.12249603207775,47.65965722620639, specified food item name is in french and added to always double check the answers
+../data/result/result_8fd7d825-b86b-4ee5-b4b5-f81ef84e020f.json,26.01013986013986,47.070056195710066,31.824408653810256,same prompt as result_664de1d8 on whole data
+../data/result/result_126ca656-54da-4896-8668-28db59e1bb8d.json,33.535353535353536,56.297914832849486,59.54187431627568, tried adding a section to treat mixed dishes but didn't perform well
+../data/result/result_ac75b333-9594-4b0c-9da4-24aa3a8c7b7f.json,30.51,50.905318969481975,63.350302598789604,prompt with Claude's suggestions

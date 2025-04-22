@@ -1,4 +1,4 @@
-key,dish_id,eaten_at,eaten_at_utc_offset,image_id,weight,description,remarks
+key,dish_id,eaten_at,eaten_at_utc_offset,image_id,weight,description,remarks,estimation average
 2ahgvr,363593,2022-05-15T07:58:02Z,120,b8540d8b-d377-4484-abcd-0071bf431d0d,46,Porridge,"Avoine, lait "
 2ahgvr,364088,2022-05-16T19:44:21Z,120,db02ddb8-4bbb-4f48-bc32-55a1cde35ba5,45,Humus,
 2ahgvr,363970,2022-05-16T11:36:47Z,120,a35f3211-3b33-4826-97b8-3af69655dada,48,Porridge salé,
