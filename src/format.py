@@ -9,6 +9,7 @@ parser.add_argument("--sample", action="store_true", help="Use it to indicate th
 parser.add_argument("--no-sample", dest="sample", action="store_false", help="Use it to indicate that the data only needs to be cleaned")
 parser.add_argument("--liquid", action="store_true", help="The data will contain liquids")
 parser.add_argument("--no-liquid", dest="liquid", action="store_false", help="Use it to create a file with the whole data without liquids")
+parser.add_argument("--testing", action="store_true")
 args = parser.parse_args()
 
 input_file = "../data/cleaned/weight_data_cleaned.csv" 
@@ -23,11 +24,17 @@ if not args.liquid:
     grouped_file = "../data/cleaned/weight_data_cleaned_grouped_no_liquid.csv"
     output_file = "../data/ready/weight_data_cleaned_ready_no_liquid.csv"
     no_liquid_file = "../data/cleaned/weight_data_cleaned_no_liquid.csv" # Whole data without liquids
+if args.testing:
+    testing = "testing"
+    input_file = f"../data/sample_for_testing.csv" 
+    grouped_file = f"../data/cleaned/{testing}_cleaned_grouped.csv"
+    output_file = f"../data/ready/{testing}_cleaned_ready.csv" # Formatted for the benchmarking tool
+    sample_output_file = "no sample output file modified"
 
 # Group all descriptions by image_id
 df = pd.read_csv(input_file)
 if not args.liquid:
-    liquids = ["eau", "thé", "café", "lait", "bière", "vin", "sirop", "jus", "rosé", "espresso", "biere", "cacao", "capuccino", "spritz", "hugo", "jus", "huile de colza"] #to add: 
+    liquids = ["eau", "thé", "café", "lait", "bière", "vin", "sirop", "jus", "rosé", "espresso", "biere", "cacao", "capuccino", "spritz", "hugo", "jus", "huile de colza"] #to add: "huile", "cappuccino"
     pattern = r'\b(?:' + '|'.join(map(re.escape, liquids)) + r')\b'
 
     df = df[~df["description"].str.contains(pattern, case=False, na=False, regex=True)]

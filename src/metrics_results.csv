@@ -34,7 +34,7 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc
 ../data/result/result_27c5bf30-7c35-4088-8b67-642ed4236e6c.json,27.914141414141415,43.14548395977463,41.047280334728036,tried to correct overestimation and dishes in bowls --> not good
 ../data/result/result_3b9dba02-e05e-4f02-b59e-68ffa2e9e356.json,26.51010101010101,41.43500073205791,37.27047220561865,specifications for bowls and spread out food and realistic weight
 ../data/result/result_664de1d8-2293-4f1f-8a2c-8189b141fac1.json,25.838383838383837,48.44583490587036,32.00334728033473,tweaks in task and first section (given...) and pay attention to large portions -> hard time with foods that are not in the plate as a whole for example chuncks of apple,specifications about large portions\n and dishes in bowls
-../data/result/result_8fd7d825-b86b-4ee5-b4b5-f81ef84e020f.json,26.01013986013986,47.070056195710066,31.824408653810256,same prompt as result_664de1d8 on whole data,on wholde dataset
+../data/result/result_8fd7d825-b86b-4ee5-b4b5-f81ef84e020f.json,26.01013986013986,47.070056195710066,31.824408653810256,same prompt as result_664de1d8 on whole data,on whole dataset
 ../data/result/result_42d9ecda-0dd0-478e-84f9-e23bb4b8f88b.json,27.181818181818183,45.47443673756643,37.453078302450685, have removed '- Adjust for partial visibility: if the food is mixed or partially hidden estimate the full portion.' and added to adjust for food that is not present as a whole
 ../data/result/result_e0a4e02b-959f-405a-857a-95c380e48a71.json,29.7979797979798,54.05564936882833,40.04736467236467, added this back ^ and added to infer weight from standard portion size if food is processed even if packaging not visible -> worse
 ----new sample data
@@ -47,3 +47,7 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc
 ../data/result/result_c6b41e20-b4d9-46e2-bb1e-2f0bc73dec2e.json,28.994897959183675,52.13987812018465,48.07238687644835,almost same prompt as result_81b1d8a4 -> let it output its reasoning without the let's think step by step part,same prompt but ouput \nwithout "Let's think step by step..."
 ../data/result/result_af6cb1d2-dd0f-4e10-ae1f-f434df2b938e.json,26.595959595959595,46.452774143219,48.060532393339,restructured prompt again --> reasoning steps/volume and density assessment/specific edge cases/special considerations
 ../data/result/result_670b6f6c-8179-41d1-ae5c-9e23606a63f5.json,26.88819007686932,47.74602643467282,32.421440530316346,same prompt as result_81b1d8a4 on whole data,on whole dataset
+../data/result/result_69531381-3aca-43e7-a81f-f7a2ba5d083d.json,27.31122448979592,49.14961605673513,48.75686059275522,simplified the instructions
+../data/result/result_d5bc9ca1-783c-4980-9c8c-90c12efc924f.json,24.96969696969697,42.22936256548063,40.32381183906649,mix of the 2 last prompt on whole data reorganized prompt and be especially cautious with small and large portions,"be especially cautious with small and large portions"
+../data/result/result_7991a4a9-4a77-43fa-bb39-65b6817a9271.json,29.606060606060606,47.81067385722631,56.11681050200559,added that it must act like it has no access to data and removed the examples in the specification about light and dense foods
+../data/result/result_d19c3270-5f4c-4cfb-9e21-8d7e14ece178.json,25.830779944289695,47.345422822243506,31.310931748284887,same prompt as result_d5bc9ca1 on whole data,on whole data
