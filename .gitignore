@@ -1,6 +1,7 @@
 # Ignore specific files
 ./smth.py
 ./src/liquids.py
+.env
 
 # Python cache files
 __pycache__/
