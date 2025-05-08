@@ -129,7 +129,7 @@ if args.liquidsonly:
 
 if args.wholedata:
     sorted_df = df_comparison.sort_values(by="total_dish_wmae", ascending=False)
-    sorted_df.to_csv(sorted_filename, index=False, columns=["key", "description", "weight", "predicted_weight", "absolute_error", "total_dish_wmae", "url", "reasoning"])
+    sorted_df.to_csv(sorted_filename, index=False, columns=["key", "description", "weight", "predicted_weight", "absolute_error", "total_dish_wmae", "weighed_absolute_error", "url", "reasoning"])
 else:
     sorted_df = df_comparison.sort_values(by="absolute_error", ascending=False)
     sorted_df.to_csv(sorted_filename, index=False, columns=["key", "description", "weight", "predicted_weight", "absolute_error", "weighed_absolute_error", "url", "reasoning"])

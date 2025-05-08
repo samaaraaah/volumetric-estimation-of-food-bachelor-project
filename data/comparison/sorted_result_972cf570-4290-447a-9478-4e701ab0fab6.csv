@@ -1,0 +1,1777 @@
+key,description,weight,predicted_weight,absolute_error,weighed_absolute_error,url,reasoning
+ppf8hc,spaghetti,217.0,1005.0,788.0,21.838569604086846,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/7c7d7932-0ffe-47e1-83e9-2289044511e5,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The spaghetti is clearly visible as the main component in the bowl. It is cooked and appears to be spread out in a mound-like shape. 
+
+2. Choose a physical reference: The bowl is a standard-sized dinner bowl, approximately 20 cm in diameter. This will help us estimate the volume of the spaghetti. 
+
+3. Volume assessment: The spaghetti mound appears to fill about 2/3 of the bowl's height. Assuming the bowl has a height of 6 cm, the spaghetti occupies a height of approximately 4 cm. The cross-sectional area of the bowl is roughly circular with a diameter of 20 cm, giving an area of π × (10 cm)^2 ≈ 314 cm². The volume of the spaghetti is therefore approximately 314 cm² × 4 cm = 1256 cm³.
+
+4. Density selection: Cooked spaghetti has a density of approximately 0.6–0.9 g/ml. We'll use 0.8 g/ml as a reasonable estimate for this cooked spaghetti.
+
+5. Weight calculation: Weight = volume × density = 1256 cm³ × 0.8 g/ml = 1004.8 g.
+
+6. Plausibility check: The estimated weight of 1004.8 g (approximately 1 kg) is reasonable for a large portion of cooked spaghetti in a bowl of this size. It is heavier than a smartphone (≈170 g) and aligns with expectations for a full bowl of spaghetti.
+
+7. Final estimate: The weight of the spaghetti is approximately 1005 g."
+xjvrtk,tomates cerises,500.0,82.0,418.0,26.69220945083014,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/5ccbcf64-3631-48df-9e8a-85fb33dbf912,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is 'tomates cerises' (cherry tomatoes), which are clearly visible in the image. They are whole and attached to their vine, placed in a small cardboard container.
+
+2. Choose at least one physical reference to calibrate scale:
+   - The cardboard container is approximately the size of a standard small produce box, which is typically about 15 cm long and 8 cm wide. This will serve as the reference.
+
+3. Volume assessment:
+   - The container is nearly full of cherry tomatoes. Assuming the tomatoes are spherical, their average diameter is about 2.5 cm (based on typical cherry tomato size).
+   - Volume of one cherry tomato = (4/3) × π × (radius)^3 = (4/3) × 3.14 × (1.25)^3 ≈ 8.2 cm³.
+   - There are approximately 20 cherry tomatoes visible in the container.
+   - Total volume = 20 × 8.2 cm³ ≈ 164 cm³.
+
+4. Density selection:
+   - Cherry tomatoes have a density similar to fresh fruit pieces, approximately 0.5 g/ml (or 0.5 g/cm³).
+
+5. Weight calculation:
+   - Weight = volume × density = 164 cm³ × 0.5 g/cm³ ≈ 82 g.
+
+6. Plausibility check:
+   - The estimated weight of 82 g for 20 cherry tomatoes is reasonable, as each tomato would weigh about 4 g, which aligns with typical cherry tomato weights.
+
+7. State final estimate:
+   - The estimated weight of the cherry tomatoes is 82 g."
+xjvrtk,courgette et oignons,300.0,38.0,262.0,10.03831417624521,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/8fb08d9a-4e44-4251-a0e4-26441252d211,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   The courgette et oignons (zucchini and onions) are on the left side of the glass container. They appear to be chopped into small pieces and cooked together, forming a mixed vegetable dish.
+
+2. Choose a physical reference to calibrate scale:
+   The glass container is a standard rectangular meal prep container, likely around 15 cm × 10 cm. The visible portion of the courgette et oignons occupies approximately half the container's length and width, with a depth of about 2 cm.
+
+3. Volume assessment:
+   The visible portion of the courgette et oignons is approximately 7.5 cm × 5 cm × 2 cm = 75 cm³.
+
+4. Density selection:
+   Cooked vegetables like zucchini and onions have a density of approximately 0.3–0.6 g/ml. I will use 0.5 g/ml as a reasonable average for this cooked mixture.
+
+5. Weight calculation:
+   Weight = volume × density = 75 cm³ × 0.5 g/ml = 37.5 g.
+
+6. Plausibility check:
+   The estimated weight of 37.5 g is reasonable for a small portion of cooked vegetables. It is lighter than a smartphone (≈170 g) and heavier than a large egg (≈60 g).
+
+7. Final estimate:
+   The weight of the courgette et oignons is approximately 38 g."
+2ahgvr,colrave crue,118.0,360.0,242.0,3.6469987228607916,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/3718d88c-ba98-4da1-84dc-7d5ad0a4df92,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The target food item is 'colrave crue' (raw kohlrabi). It is visible as peeled and chopped pieces on a rectangular plastic tray. The pieces are irregularly shaped, mostly triangular or wedge-like. 
+
+2. Reference object: The tray appears to be a standard small rectangular food container, approximately 20 cm × 15 cm. 
+
+3. Volume assessment: The kohlrabi pieces are spread out on the tray, forming a layer approximately 2 cm thick. The visible area of the tray is about 20 cm × 15 cm = 300 cm². The volume of the kohlrabi is approximately 300 cm² × 2 cm = 600 cm³. 
+
+4. Density selection: Raw kohlrabi has a density similar to fresh vegetables, approximately 0.6 g/ml (or 0.6 g/cm³). 
+
+5. Weight calculation: Weight = volume × density = 600 cm³ × 0.6 g/cm³ = 360 g. 
+
+6. Plausibility check: The estimated weight of 360 g is reasonable for the amount of kohlrabi visible on the tray. It is heavier than a smartphone (≈170 g) but lighter than a large loaf of bread (≈500 g). 
+
+Final estimate: 360 g."
+xjvrtk,séré maigre,145.0,380.0,235.0,4.351851851851852,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/6d7c5913-406a-449c-a95d-dae1cff11f27,"Let's work this out in a step-by-step way to be sure we have the right answer. 
+
+1. Locate & isolate: The target food item, 'séré maigre,' is the main component in the bowl. It appears as a creamy, thick mixture with chia seeds and hazelnut purée mixed in. 
+
+2. Reference object: The bowl is a medium-sized bowl, and the spoon is a standard teaspoon (bowl diameter ≈ 3.5 cm). The bowl's diameter is approximately 12 cm, and the visible fill height is about 4 cm. 
+
+3. Volume assessment: The bowl is not completely full, but the visible portion suggests a cylindrical volume. Using the formula for volume (π × radius² × height), the radius is 6 cm, and the height is 4 cm. Volume = 3.14 × 6² × 4 ≈ 452 cm³. Adjusting for the bowl not being completely full, the volume of the 'séré maigre' is approximately 400 cm³. 
+
+4. Density selection: Séré maigre is a soft cheese with a density of approximately 0.9–1.0 g/ml. Using 0.95 g/ml as a reasonable estimate. 
+
+5. Weight calculation: Weight = volume × density = 400 cm³ × 0.95 g/ml = 380 g. 
+
+6. Plausibility check: The implied density (380 g ÷ 400 cm³ = 0.95 g/ml) is consistent with the expected density of soft cheeses. The portion size is reasonable for a medium bowl. 
+
+7. Final estimate: The weight of the 'séré maigre' is approximately 380 g."
+8japfq,chips vaya beans,63.0,199.0,136.0,1.0942528735632184,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/b5ebde1f-ec96-4028-b545-b7a1679f39c5,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate: The target food item is the chips visible in the image. They are triangular in shape and appear to be thin and crispy, with visible green and black bean inclusions.
+
+2. Choose a physical reference: The chips are served on a standard dinner plate, which typically has a diameter of approximately 26 cm. The chips occupy most of the plate, forming a pile.
+
+3. Volume assessment: The chips are loosely piled, and the pile appears to be about 2–3 cm high. Estimating the area covered by the chips as roughly 75% of the plate's surface area (π × (13 cm)^2 × 0.75 ≈ 398 cm²), the volume of the pile is approximately 398 cm² × 2.5 cm ≈ 995 cm³.
+
+4. Density selection: Chips are light and crispy, with an estimated density of approximately 0.2 g/cm³.
+
+5. Weight calculation: Weight = volume × density = 995 cm³ × 0.2 g/cm³ = 199 g.
+
+6. Plausibility check: The estimated weight of 199 g is reasonable for a pile of chips of this size, as it is lighter than a smartphone (≈170 g) but heavier than a large egg (≈60 g).
+
+7. Final estimate: The weight of the chips is approximately 199 g."
+p8a2w5,"légumes (courgette, oignon, 1 cs d'huile d'olive)",182.0,60.0,122.0,2.835759897828863,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/18685cd7-995e-4bd3-92cc-bbff2c7bcb42,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   The target food item is the vegetables (courgette, onion, cooked with 1 tablespoon of olive oil). These are located on the left side of the plate. The vegetables are chopped and cooked, appearing as a mix of zucchini slices and onion strips.
+
+2. Choose a physical reference to calibrate scale:
+   The plate appears to be a standard dinner plate with a diameter of approximately 26 cm. The vegetable portion occupies about one-third of the plate's surface area.
+
+3. Volume assessment:
+   The vegetables are spread out but slightly piled. Based on the visible portion, the pile is approximately 10 cm × 10 cm in area and about 1.5 cm thick. This gives a volume of:
+   Volume = length × width × thickness = 10 cm × 10 cm × 1.5 cm = 150 cm³.
+
+4. Density selection:
+   Cooked vegetables (courgette and onion) have a density of approximately 0.3–0.6 g/ml. Since these are lightly cooked and not densely packed, I will use a density of 0.4 g/ml.
+
+5. Weight calculation:
+   Weight = volume × density = 150 cm³ × 0.4 g/ml = 60 g.
+
+6. Plausibility check:
+   The implied density is 60 g ÷ 150 cm³ = 0.4 g/ml, which is within the expected range for cooked vegetables. The portion size is reasonable for a single serving, and the weight aligns with expectations for a lightly cooked vegetable mix.
+
+7. Final estimate:
+   The weight of the vegetables (courgette, onion, 1 tablespoon of olive oil) is approximately 60 g."
+wrah5h,poire,175.0,65.0,110.0,2.458492975734355,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/8487ef93-2680-471e-986f-692657cd360f,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is 'poire' (pear), which is visible in the image as six pieces of chopped pear in a rectangular plastic container. The pieces are irregularly shaped but appear to be roughly wedge-like.
+
+2. Choose a physical reference to calibrate scale:
+   - The plastic container is a standard food storage box, likely around 12 cm in length and 8 cm in width. This will help estimate the size of the pear pieces.
+
+3. Volume assessment:
+   - Each pear piece is approximately 4–5 cm in length, 2–3 cm in width, and 1.5–2 cm in thickness. Assuming an average size of 4.5 × 2.5 × 1.75 cm, the volume of one piece is approximately 19.7 cm³.
+   - There are six pieces, so the total volume is approximately 6 × 19.7 = 118.2 cm³.
+
+4. Density selection:
+   - The density of fresh fruit pieces like pear is approximately 0.5–0.6 g/ml. Using an average density of 0.55 g/ml, the weight can be calculated.
+
+5. Weight calculation:
+   - Weight = volume × density = 118.2 cm³ × 0.55 g/ml = 65 g.
+
+6. Plausibility check:
+   - The estimated weight of 65 g for six small pear pieces is reasonable and consistent with expectations for chopped fruit.
+
+7. Final estimate:
+   - The weight of the 'poire' is approximately 65 g."
+ppf8hc,carotte,182.0,76.0,106.0,2.4638569604086844,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/586e0d02-4ce2-4d7f-8ebb-a46598eb749c,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is 'carotte' (carrot). It is located on the left side of the plate, cut into round slices of varying thickness.
+
+2. Choose a physical reference to calibrate scale:
+   - The plate appears to be a standard dinner plate with a diameter of approximately 26 cm. This will help us estimate the size of the carrot slices.
+
+3. Volume assessment:
+   - The carrot slices are roughly cylindrical. The average diameter of the slices is about 3 cm, and the average thickness is approximately 1.5 cm.
+   - There are about 12 slices visible. Assuming the slices are uniform, the volume of one slice is:
+     Volume of one slice = π × (radius)^2 × height = 3.14 × (1.5 cm)^2 × 1.5 cm ≈ 10.6 cm³.
+   - Total volume = 10.6 cm³ × 12 slices ≈ 127.2 cm³.
+
+4. Density selection:
+   - The density of cooked carrots is approximately 0.6 g/cm³.
+
+5. Weight calculation:
+   - Weight = volume × density = 127.2 cm³ × 0.6 g/cm³ ≈ 76.3 g.
+
+6. Plausibility check:
+   - The implied density is 76.3 g ÷ 127.2 cm³ ≈ 0.6 g/cm³, which is consistent with the expected density of cooked carrots. The portion size is reasonable for a single serving.
+
+7. State final estimate:
+   - The estimated weight of the 'carotte' is 76 g."
+8japfq,pomme,213.0,107.0,106.0,2.883524904214559,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/124b4ec0-4fda-4c14-aee4-e31ac6a94b5c,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate: The target food item is the 'pomme' (apple), which is whole and placed on the left side of the image. It has a typical apple shape, with a smooth surface and a visible stem.
+
+2. Choose a physical reference: The croissant next to the apple is a good reference. A typical croissant of this size is approximately 20 cm in length. The apple appears to be about 7–8 cm in height, which is consistent with a medium-sized apple.
+
+3. Volume assessment: A medium apple typically has a diameter of about 7 cm and a height of about 7 cm. Assuming it is roughly spherical, the volume can be estimated using the formula for the volume of a sphere: V = (4/3) × π × r³. Here, r = 3.5 cm, so V ≈ (4/3) × 3.14 × (3.5)³ ≈ 179 cm³.
+
+4. Density selection: The density of an apple is approximately 0.6 g/ml (or 0.6 g/cm³).
+
+5. Weight calculation: Weight = volume × density = 179 cm³ × 0.6 g/cm³ ≈ 107.4 g.
+
+6. Plausibility check: The estimated weight of 107 g is reasonable for a medium-sized apple, which typically weighs between 100–150 g. The estimate aligns with the visual size of the apple in the image.
+
+7. Final estimate: The weight of the apple is approximately 107 g."
+p8a2w5,"salade (salade verte, carottes, avocat, 1cs huile d'olive, 1 cs vinaigre)",163.0,60.0,103.0,2.1441890166028097,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/c68fefbc-cbb5-416b-9841-87bdfa83de36,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   The salad is located on the right side of the plate. It consists of leafy greens, shredded carrots, and avocado pieces, dressed with olive oil and vinegar. The salad appears to be a mixed pile of ingredients.
+
+2. Choose a physical reference to calibrate scale:
+   The plate is a standard dinner plate with a diameter of approximately 26 cm. The salad occupies about one-third of the plate's surface area.
+
+3. Volume assessment:
+   The salad pile is roughly 10 cm × 10 cm in area and about 3 cm thick. This gives a volume of approximately 300 cm³ (10 × 10 × 3).
+
+4. Density selection:
+   The salad is a mix of leafy greens (density 0.05–0.1 g/ml), shredded carrots (density 0.4–0.6 g/ml), and avocado (density 0.6–0.8 g/ml). Considering the mix, I estimate an average density of 0.2 g/ml.
+
+5. Weight calculation:
+   Weight = volume × density = 300 cm³ × 0.2 g/ml = 60 g.
+
+6. Plausibility check:
+   The estimated weight of 60 g is reasonable for a small mixed salad portion. It is lighter than a smartphone (≈170 g) and aligns with expectations for the visible portion size.
+
+7. Final estimate:
+   The weight of the salad is approximately 60 g."
+ppf8hc,poulet,98.0,198.0,100.0,1.251596424010217,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/9c8fc2f7-062d-4701-885c-184a8d501c5b,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate: The 'poulet' (chicken) is located in the bottom center of the plate. It appears to be a single piece of cooked chicken breast, whole and unchopped, with some sauce on it.
+
+2. Choose a physical reference: The plate is a standard dinner plate, approximately 26 cm in diameter. The chicken breast occupies about 1/4 of the plate's area, and its size is consistent with a typical chicken breast.
+
+3. Volume assessment: The chicken breast is roughly 12 cm long, 6 cm wide, and 2.5 cm thick. This gives a volume of approximately 12 × 6 × 2.5 = 180 cm³.
+
+4. Density selection: Cooked chicken has a density of approximately 1.0–1.2 g/ml. Using 1.1 g/ml as a reasonable average, the weight is estimated as 180 × 1.1 = 198 g.
+
+5. Plausibility check: The implied density (198 g ÷ 180 cm³ = 1.1 g/ml) is within the expected range for cooked chicken. The portion size is consistent with a typical chicken breast, which usually weighs between 150–250 g.
+
+6. Final estimate: The weight of the 'poulet' is approximately 198 g."
+p8a2w5,tarte aux fraises,164.0,65.0,99.0,2.0735632183908046,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/7b64b358-b611-4155-8e79-6f3ce5b4f11a,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item, 'tarte aux fraises,' is visible as a slice of strawberry tart on the plate. It consists of a crust base, a cream layer, and strawberries on top.
+
+2. Choose a physical reference to calibrate scale:
+   - The plate is a standard dessert plate with an approximate diameter of 20 cm. The slice occupies about one-sixth of the plate's area.
+
+3. Volume assessment:
+   - The slice appears triangular, with a base of about 8 cm and a height of 10 cm. Assuming an average thickness of 2.5 cm (including the crust, cream, and strawberries), the volume can be estimated as:
+     Volume = (1/2 × base × height) × thickness = (1/2 × 8 × 10) × 2.5 = 100 cm³.
+
+4. Density selection:
+   - The tart consists of multiple components:
+     - Crust: similar to dense bread or biscuit, density ≈ 0.5 g/ml.
+     - Cream: similar to soft cheese, density ≈ 0.9 g/ml.
+     - Strawberries: fresh fruit, density ≈ 0.5 g/ml.
+   - Averaging these densities, the overall density is approximately 0.65 g/ml.
+
+5. Weight calculation:
+   - Weight = volume × density = 100 cm³ × 0.65 g/ml = 65 g.
+
+6. Plausibility check:
+   - The estimated weight of 65 g is reasonable for a single slice of tart, lighter than a smartphone (≈170 g) but heavier than a large egg (≈60 g).
+
+7. Final estimate:
+   - The weight of the 'tarte aux fraises' slice is approximately 65 g."
+wrah5h,"salade de carotte, mais, tomates",133.0,40.0,93.0,1.5796934865900383,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/a7f54de1-9b6e-4edf-8f1f-0df19f00ceb0,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The 'salade de carotte, mais, tomates' is located at the top right of the plate. It appears as a mixed salad with shredded carrots, corn kernels, cherry tomato pieces, and some leafy greens. The salad is spread out in a mound-like shape. 
+
+2. Choose a physical reference: The plate is a standard dinner plate with a diameter of approximately 26 cm. The salad occupies a roughly circular area of about 8 cm in diameter. 
+
+3. Volume assessment: The salad mound is about 8 cm in diameter and approximately 2 cm thick. Using the formula for the volume of a cylinder (π × radius² × height), the volume is approximately 3.14 × (4 cm)² × 2 cm = 100.48 cm³. 
+
+4. Density selection: The salad is a mix of shredded carrots, corn, and tomatoes. Based on the density guide, a reasonable average density for this type of salad is 0.4 g/ml (or 0.4 g/cm³). 
+
+5. Weight calculation: Weight = volume × density = 100.48 cm³ × 0.4 g/cm³ = 40.2 g. 
+
+6. Plausibility check: The estimated weight of 40.2 g is reasonable for a small portion of mixed salad. It is lighter than a smartphone (≈170 g) and heavier than a large egg (≈60 g). 
+
+7. Final estimate: The weight of the 'salade de carotte, mais, tomates' is approximately 40 g."
+wrah5h,pâtes,148.0,240.0,92.0,1.7389527458492975,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/115dbd14-27ca-4200-a232-fa9f3eb9bad7,"Let's work this out in a step-by-step way to be sure we have the right answer.
+
+1. Locate & isolate: The pâtes (pasta) are located in the right half of the container, mixed with tomato sauce and topped with grated parmesan. The pasta is spiral-shaped (fusilli) and appears cooked.
+
+2. Choose a physical reference: The container is a standard rectangular metal lunchbox, approximately 20 cm × 15 cm. The pasta occupies about half the container's area.
+
+3. Volume assessment: The pasta occupies roughly 10 cm × 15 cm of the container's surface area, with an estimated thickness of 2 cm. This gives a volume of 10 × 15 × 2 = 300 cm³.
+
+4. Density selection: Cooked pasta has a density of approximately 0.6–0.9 g/ml. We'll use 0.8 g/ml as a reasonable estimate for this dish.
+
+5. Weight calculation: Weight = volume × density = 300 cm³ × 0.8 g/ml = 240 g.
+
+6. Plausibility check: The estimated weight of 240 g is reasonable for a portion of pasta in a lunchbox. It is heavier than a large egg (≈60 g) but lighter than a smartphone (≈170 g), aligning with expectations.
+
+7. Final estimate: The weight of the pâtes is approximately 240 g."
+xjvrtk,galettes millet haricots noirs maïs,200.0,115.0,85.0,2.1711366538952745,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/32289b41-a85a-4563-8e38-c47e7693d2d0,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The 'galettes millet haricots noirs maïs' are the round, compact patties visible in the bottom-right quadrant of the bowl. They are whole and appear to be dense, with visible black beans, corn, and millet grains. There are three patties in total. 
+
+2. Choose a physical reference: The bowl appears to be a standard medium-sized bowl with a diameter of approximately 20 cm. Each patty is roughly circular with a diameter of about 6 cm and a thickness of about 1.5 cm. 
+
+3. Volume assessment: The volume of one patty can be approximated as a cylinder: 
+   Volume = π × (radius²) × height 
+   Radius = 6 cm ÷ 2 = 3 cm, Height = 1.5 cm 
+   Volume of one patty = 3.14 × (3²) × 1.5 ≈ 42.4 cm³ 
+   Total volume for three patties = 42.4 × 3 ≈ 127.2 cm³ 
+
+4. Density selection: Based on the ingredients (millet, black beans, corn), the density is estimated at 0.9 g/cm³ (similar to cooked grains and legumes). 
+
+5. Weight calculation: 
+   Weight = Volume × Density 
+   Weight = 127.2 cm³ × 0.9 g/cm³ ≈ 114.5 g 
+
+6. Plausibility check: The implied density (114.5 g ÷ 127.2 cm³ ≈ 0.9 g/cm³) is consistent with the expected density for this type of food. The weight is reasonable for three patties of this size. 
+
+7. Final estimate: The weight of the 'galettes millet haricots noirs maïs' is approximately 115 g."
+xjvrtk,myrtilles,200.0,280.0,80.0,2.0434227330779056,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/4d153e2f-e2dc-478b-80de-472793d5b51e,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is 'myrtilles' (blueberries), which are clearly visible in the bowl. They are whole and unprocessed.
+
+2. Choose at least one physical reference to calibrate scale:
+   - The bowl is being held in a hand, and based on the size of the hand, the bowl appears to have a diameter of approximately 12 cm and a height of about 5 cm.
+
+3. Volume assessment:
+   - The bowl is nearly full of blueberries. Assuming the bowl is a cylinder, its volume can be estimated as:
+     Volume = π × (radius)^2 × height
+     Radius = 12 cm / 2 = 6 cm
+     Height = 5 cm
+     Volume ≈ 3.14 × (6)^2 × 5 ≈ 565 cm³
+   - Since the bowl is not completely full, we estimate the blueberries occupy about 90% of the bowl's volume:
+     Volume of blueberries ≈ 565 × 0.9 ≈ 509 cm³
+
+4. Density selection:
+   - Blueberries have a typical density of 0.5–0.6 g/ml. We'll use 0.55 g/ml as a reasonable average.
+
+5. Weight calculation:
+   - Weight = Volume × Density
+     Weight ≈ 509 × 0.55 ≈ 280 g
+
+6. Plausibility check:
+   - The implied density is 280 g ÷ 509 cm³ ≈ 0.55 g/ml, which is within the expected range for blueberries. The estimate is consistent with the visual portion size.
+
+7. State final estimate:
+   - The estimated weight of the blueberries is 280 g."
+p8a2w5,sauce bolognese,136.0,57.0,79.0,1.3721583652618135,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/abad1443-f704-4eb9-9657-7a67252ff801,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   The sauce bolognese is the reddish-brown layer spread over the pasta, partially covered by grated cheese. It appears to be a thick sauce with visible chunks, likely meat and vegetables.
+
+2. Choose a physical reference to calibrate scale:
+   The plate is a standard dinner plate, approximately 26 cm in diameter. The sauce covers a central area of about 12 cm in diameter.
+
+3. Volume assessment:
+   The sauce layer is spread unevenly but appears to have an average thickness of about 0.5 cm. Using the visible area (approximated as a circle with a 12 cm diameter), the area is π × (6 cm)^2 ≈ 113 cm². The volume is then 113 cm² × 0.5 cm ≈ 56.5 cm³.
+
+4. Density selection:
+   Sauce bolognese, being a thick meat-based sauce, has a density of approximately 1.0 g/ml (or 1.0 g/cm³).
+
+5. Weight calculation:
+   Weight = volume × density = 56.5 cm³ × 1.0 g/cm³ = 56.5 g.
+
+6. Plausibility check:
+   The estimated weight of 56.5 g is reasonable for the visible portion of sauce on a plate of pasta. It is lighter than a smartphone (≈170 g) and heavier than a large egg (≈60 g).
+
+7. Final estimate:
+   The weight of the sauce bolognese is approximately 57 g."
+p8a2w5,pillons de poulet,112.0,189.0,77.0,1.101404853128991,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/bdb25c53-2eb7-4a81-b33e-6d28997d0183,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   The 'pillons de poulet' (chicken drumsticks) are located in the bottom left quadrant of the plate. There are 5 drumsticks visible, and they appear to be cooked and seasoned.
+
+2. Choose a physical reference to calibrate scale:
+   The plate is a standard dinner plate with a diameter of approximately 26 cm. Each drumstick is about 6–8 cm long and 2–3 cm wide at the thickest part.
+
+3. Volume assessment:
+   Each drumstick is roughly cylindrical with a tapered end. Estimating the average dimensions as 7 cm in length and 2.5 cm in diameter, the volume of one drumstick is approximately:
+   Volume = π × (radius²) × height = 3.14 × (1.25²) × 7 ≈ 34.3 cm³ per drumstick.
+   For 5 drumsticks: Total volume = 34.3 × 5 ≈ 171.5 cm³.
+
+4. Density selection:
+   Cooked chicken has a density of approximately 1.0–1.2 g/cm³. Using 1.1 g/cm³ as a reasonable average:
+   Weight = Volume × Density = 171.5 × 1.1 ≈ 188.7 g.
+
+5. Plausibility check:
+   The estimated weight of 188.7 g for 5 drumsticks is reasonable, as each drumstick would weigh about 37.7 g on average, which aligns with typical cooked chicken drumstick weights.
+
+6. Final estimate:
+   The total weight of the 'pillons de poulet' is approximately 189 g."
+wrah5h,pain/galette,90.0,13.0,77.0,0.8850574712643678,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/e3bda09e-e437-4ac8-bfbf-4f282e801bfc,"Let's work this out in a step-by-step way to be sure we have the right answer. 
+
+1. Locate & isolate: The target food item is the flatbread (galette) used to wrap the filling. It is visible as a thin, rolled layer around the filling, with a portion cut open to reveal the contents. The flatbread is whole and unbroken except for the cut section. 
+
+2. Reference object: The flatbread is placed in a rectangular metal container. Based on typical lunchbox dimensions, the container is approximately 20 cm long and 15 cm wide. The flatbread appears to be about 18 cm long and 12 cm wide when unrolled. 
+
+3. Volume assessment: The flatbread is thin, with an estimated thickness of 2 mm (0.2 cm). The volume can be calculated as length × width × thickness: 18 cm × 12 cm × 0.2 cm = 43.2 cm³. 
+
+4. Density selection: Flatbreads like this typically have a density of 0.25–0.35 g/ml. Using an average density of 0.3 g/ml, the weight is calculated as volume × density: 43.2 cm³ × 0.3 g/ml = 12.96 g. 
+
+5. Plausibility check: The estimated weight of approximately 13 g is reasonable for a single thin flatbread of this size. It is consistent with expectations for similar flatbreads. 
+
+6. Final estimate: The weight of the flatbread is approximately 13 g."
+p96w4a,mélasse,6.0,81.0,75.0,0.05747126436781609,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/b0979eb7-5126-4d9e-9058-64093ecde7e0,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is 'mélasse' (molasses). It appears spread thinly on the top slice of bread, mixed with butter.
+   - The molasses is in a liquid/spread form and is distributed unevenly across the surface of the bread.
+
+2. Choose a physical reference to calibrate scale:
+   - The plate is a standard dinner plate with a diameter of approximately 26 cm. The slice of bread is about 12 cm long and 6 cm wide.
+
+3. Volume assessment:
+   - The molasses is spread thinly over the bread. Assuming an average thickness of 1 mm (0.1 cm) and covering about 80% of the bread's surface (12 cm × 6 cm × 0.8 = 57.6 cm²), the volume is approximately 57.6 cm³.
+
+4. Density selection:
+   - The density of molasses is approximately 1.4 g/ml (or 1.4 g/cm³).
+
+5. Weight calculation:
+   - Weight = volume × density = 57.6 cm³ × 1.4 g/cm³ = 80.64 g.
+
+6. Plausibility check:
+   - The implied density (80.64 g ÷ 57.6 cm³) is 1.4 g/cm³, which matches the expected density of molasses. The weight is reasonable for the amount visible.
+
+7. State final estimate:
+   - The estimated weight of the molasses is 81 g (rounded to the nearest gram)."
+8japfq,muesli nature,64.0,135.0,71.0,0.5803320561941252,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/c79855ed-5948-4858-9b6d-264b75558907,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The muesli nature is in the orange bowl on the right. It consists of chunky granola pieces.
+
+2. Choose a physical reference to calibrate scale:
+   - The orange bowl is a small bowl, approximately 8 cm in diameter and 4 cm in height, based on typical small bowl sizes.
+
+3. Volume assessment:
+   - The bowl appears to be filled to about 90% of its capacity. The volume of a small bowl like this is approximately 250 ml when full. Therefore, the volume of the muesli is about 0.9 × 250 ml = 225 ml.
+
+4. Density selection:
+   - Muesli or granola has a typical density of 0.5–0.7 g/ml. I will use 0.6 g/ml as a reasonable average for this chunky granola.
+
+5. Weight calculation:
+   - Weight = volume × density = 225 ml × 0.6 g/ml = 135 g.
+
+6. Plausibility check:
+   - The implied density is 135 g ÷ 225 ml = 0.6 g/ml, which is within the expected range for granola. The portion size also seems reasonable for a small bowl of muesli.
+
+7. Final estimate:
+   - The weight of the muesli nature is approximately 135 g."
+6fwmw2,fraises,146.0,79.0,67.0,1.2492975734355045,https://www.myfoodrepo.org/api/v1/subjects/6fwmw2/dish_media/fc43899a-21ef-45e8-95b0-d10af04f9539,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The target food is 'fraises' (strawberries). The image shows four whole strawberries in a small green bowl. The strawberries are intact and unchopped. 
+
+2. Choose a physical reference: The bowl appears to be a small dessert bowl, likely around 12 cm in diameter. This will help us estimate the size of the strawberries. 
+
+3. Volume assessment: The strawberries are large and occupy most of the bowl. Each strawberry is approximately 4–5 cm in length and 3–4 cm in width. Assuming an average thickness of 3 cm, the approximate volume of each strawberry is 4 × 3 × 3 = 36 cm³. For four strawberries, the total volume is 4 × 36 = 144 cm³. 
+
+4. Density selection: Fresh strawberries have a density of approximately 0.5–0.6 g/ml. Using 0.55 g/ml as a reasonable average, the weight is calculated as 144 cm³ × 0.55 g/ml = 79.2 g. 
+
+5. Plausibility check: The estimated weight of 79.2 g for four large strawberries is reasonable, as each strawberry would weigh around 20 g, which aligns with typical expectations for large strawberries. 
+
+6. Final estimate: The total weight of the strawberries is approximately 79 g."
+wrah5h,"légumes sautés (carottes, poireaux)",198.0,265.0,67.0,1.6942528735632183,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/5e117510-fc82-4a06-a502-12983d55aac5,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The sautéed vegetables (carrots and leeks) are located on the right side of the plate. They appear chopped and mixed, with visible orange carrot slices and green leek pieces.
+
+2. Choose a physical reference to calibrate scale:
+   - The plate is a standard dinner plate, approximately 26 cm in diameter. The sautéed vegetables occupy about 1/4 of the plate's surface area.
+
+3. Volume assessment:
+   - The sautéed vegetables are spread out but appear to have a thickness of about 1 cm. The area they occupy is roughly 1/4 of the plate, which is approximately 13 cm in diameter (1/2 the plate's radius).
+   - Area = π × (radius)^2 = 3.14 × (13 cm)^2 ≈ 530 cm².
+   - Volume = area × thickness = 530 cm² × 1 cm ≈ 530 cm³.
+
+4. Density selection:
+   - Cooked vegetables (carrots and leeks) have a density of approximately 0.3–0.6 g/ml. I will use 0.5 g/ml as a reasonable average.
+
+5. Weight calculation:
+   - Weight = volume × density = 530 cm³ × 0.5 g/ml = 265 g.
+
+6. Plausibility check:
+   - The estimated weight of 265 g for the sautéed vegetables is reasonable given the portion size and density. It is heavier than a large egg (≈60 g) but lighter than a smartphone (≈170 g).
+
+7. Final estimate:
+   - The weight of the sautéed vegetables is approximately 265 g."
+xjvrtk,salade de tomates,417.0,350.0,67.0,3.568199233716475,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/ce668b40-a61f-4ac1-abfd-a150071ddd76,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   The target food item, 'salade de tomates,' is the main component of the dish. It consists of sliced tomatoes arranged in a bowl, with visible seeds, herbs, and dressing on top. The tomatoes are cut into wedges, and their shape is consistent with medium-sized tomato slices.
+
+2. Choose a physical reference to calibrate scale:
+   The plate appears to be a standard dinner plate with a diameter of approximately 26 cm. The tomato slices occupy most of the plate, forming a layer about 1–2 slices thick.
+
+3. Volume assessment:
+   - The visible tomato slices are medium-sized wedges, likely from 4–5 medium tomatoes.
+   - A medium tomato typically weighs around 120–150 g. Assuming 5 tomatoes, the total weight of the tomatoes would be approximately 600–750 g.
+
+4. Density selection:
+   The density of fresh tomatoes is approximately 0.4–0.6 g/ml. Since the tomatoes are fresh and juicy, I will use 0.5 g/ml as a reasonable estimate.
+
+5. Weight calculation:
+   - Volume of 5 medium tomatoes: 600–750 ml (based on their weight and density).
+   - Weight = volume × density = 600–750 ml × 0.5 g/ml = 300–375 g.
+
+6. Plausibility check:
+   - The estimated weight of 300–375 g is reasonable for the amount of tomato slices visible on the plate. It aligns with the size of the plate and the thickness of the layer of tomatoes.
+
+7. Final estimate:
+   Based on the above calculations, the weight of the 'salade de tomates' is approximately 350 g."
+wrah5h,pomme,95.0,143.0,48.0,0.5823754789272031,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/383669c9-0f7c-4be9-a917-ab76ffae8ab0,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is the apple (""pomme""), which is clearly visible in the image. It is whole and uncut.
+
+2. Choose a physical reference to calibrate scale:
+   - The apple is placed on a flat surface with no other objects for direct comparison. Based on its appearance, it resembles a medium-sized apple, typically about 7–8 cm in diameter.
+
+3. Volume assessment:
+   - Assuming the apple is roughly spherical, its volume can be estimated using the formula for the volume of a sphere: V = (4/3) × π × r³.
+   - With an estimated diameter of 7.5 cm, the radius (r) is 3.75 cm.
+   - V = (4/3) × π × (3.75)³ ≈ 220 cm³.
+
+4. Density selection:
+   - The density of an apple is approximately 0.6–0.7 g/cm³. Using an average density of 0.65 g/cm³.
+
+5. Weight calculation:
+   - Weight = volume × density = 220 cm³ × 0.65 g/cm³ ≈ 143 g.
+
+6. Plausibility check:
+   - The estimated weight of 143 g is reasonable for a medium-sized apple, which typically weighs between 130–180 g. The calculation aligns with expectations.
+
+7. Final estimate:
+   - The weight of the apple is approximately 143 g."
+r3bub9,raviolis a la courge,143.0,96.0,47.0,0.8583652618135377,https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/17c1535c-dc84-4dbb-9668-1d3f9a4a135d,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The raviolis à la courge are located on the top left of the plate. They are whole, rectangular-shaped pasta pieces, and there appear to be 6 raviolis visible. 
+
+2. Choose a physical reference: The plate is a standard square dinner plate, approximately 26 cm in width. Each ravioli appears to be about 4 cm × 4 cm in size. 
+
+3. Volume assessment: Assuming each ravioli is 4 cm × 4 cm × 1 cm (thickness), the volume of one ravioli is 16 cm³. For 6 raviolis, the total volume is 6 × 16 = 96 cm³. 
+
+4. Density selection: Cooked ravioli has a density of approximately 1.0 g/cm³ (similar to cooked pasta). 
+
+5. Weight calculation: Weight = volume × density = 96 cm³ × 1.0 g/cm³ = 96 g. 
+
+6. Plausibility check: The estimated weight of 96 g for 6 raviolis is reasonable, as it aligns with typical expectations for cooked pasta portions. 
+
+Final estimate: 96 g."
+p96w4a,pain,49.0,94.0,45.0,0.28160919540229884,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/b0979eb7-5126-4d9e-9058-64093ecde7e0,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The target food item, 'pain' (bread), is visible as two slices on the plate. Each slice is a rectangular piece of bread with spreads (butter and molasses on one, Nutella on the other). 
+
+2. Choose a physical reference: The plate is a standard dinner plate with a diameter of approximately 26 cm. Each slice of bread occupies about one-third of the plate's width and length. 
+
+3. Volume assessment: Each slice of bread is approximately 13 cm long, 8 cm wide, and 1.5 cm thick. The volume of one slice is 13 × 8 × 1.5 = 156 cm³. For two slices, the total volume is 156 × 2 = 312 cm³. 
+
+4. Density selection: Bread has a typical density of 0.25–0.35 g/cm³. Using an average density of 0.3 g/cm³, the weight of the bread is 312 × 0.3 = 93.6 g. 
+
+5. Plausibility check: The implied density (93.6 g ÷ 312 cm³ = 0.3 g/cm³) is within the expected range for bread. The weight is reasonable for two slices of bread. 
+
+6. Final estimate: The total weight of the bread is approximately 94 g."
+2ahgvr,salade grecque,315.0,270.0,45.0,1.8103448275862069,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/c476a6d0-acb2-45fd-b168-84822bc98003,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The target food, 'salade grecque,' is visible in the plastic container. It consists of diced vegetables (cucumber, tomato, bell peppers), olives, onion rings, and small pieces of feta cheese, all mixed together. The salad is dressed with a homemade dressing. 
+
+2. Choose a physical reference: The container is a rectangular plastic box. Based on its size relative to the table, it appears to be approximately 15 cm long, 10 cm wide, and 5 cm tall. The salad fills about 60% of the container's height, so the fill height is approximately 3 cm. 
+
+3. Volume assessment: The container's base area is 15 cm × 10 cm = 150 cm². The salad's volume is 150 cm² × 3 cm = 450 cm³. 
+
+4. Density selection: The salad is a mix of vegetables, cheese, and dressing. A reasonable average density for such a mix is 0.6 g/ml (or 0.6 g/cm³). 
+
+5. Weight calculation: Weight = volume × density = 450 cm³ × 0.6 g/cm³ = 270 g. 
+
+6. Plausibility check: The implied density is 270 g ÷ 450 cm³ = 0.6 g/ml, which is within the expected range for a mixed salad. The weight is reasonable for the visible portion size. 
+
+7. Final estimate: The weight of the 'salade grecque' is approximately 270 g."
+p8a2w5,pizza,57.0,15.0,42.0,0.3057471264367816,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/eb0dd196-9c09-40d1-8e3d-e5f66c794af8,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is a single slice of pizza visible on the plate. It is triangular in shape with visible toppings, including mushrooms and cheese.
+
+2. Choose a physical reference to calibrate scale:
+   - The plate is a standard dinner plate with a diameter of approximately 26 cm. The pizza slice occupies a small portion of the plate, roughly 1/8th of the plate's area.
+
+3. Volume assessment:
+   - The pizza slice appears to be about 10 cm long (from crust to tip) and 6 cm wide at the crust. Assuming an average thickness of 1 cm (including crust and toppings), the volume is approximately:
+     Volume = 1/2 × base × height × thickness = 1/2 × 6 cm × 10 cm × 1 cm = 30 cm³.
+
+4. Density selection:
+   - Pizza (with crust, cheese, and toppings) has an estimated density of 0.4–0.6 g/cm³. Using an average density of 0.5 g/cm³:
+     Weight = Volume × Density = 30 cm³ × 0.5 g/cm³ = 15 g.
+
+5. Plausibility check:
+   - The estimated weight of 15 g is reasonable for a small slice of pizza with visible toppings. It is lighter than a smartphone (≈170 g) and heavier than a large egg (≈60 g).
+
+6. Final estimate:
+   - The weight of the pizza slice is approximately 15 g."
+xjvrtk,épautre cuit,160.0,120.0,40.0,0.8173690932311622,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/02911570-1e99-4b2c-9ad0-469321a8a342,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   The 'épautre cuit' (cooked spelt) is located in the top-left section of the glass container. It appears as small, plump grains, tightly packed together.
+
+2. Choose at least one physical reference to calibrate scale:
+   The container is a standard square glass meal prep container, approximately 15 cm × 15 cm. The spelt occupies about one-third of the container's area.
+
+3. Volume assessment:
+   The container's total area is 15 cm × 15 cm = 225 cm². The spelt occupies about one-third of this area, so its surface area is approximately 75 cm². The visible thickness of the spelt layer is about 2 cm. Thus, the volume of the spelt is 75 cm² × 2 cm = 150 cm³.
+
+4. Density selection:
+   Cooked spelt has a density of approximately 0.6–0.9 g/ml. I will use 0.8 g/ml as a reasonable estimate for this tightly packed spelt.
+
+5. Weight calculation:
+   Weight = volume × density = 150 cm³ × 0.8 g/ml = 120 g.
+
+6. Plausibility check:
+   The implied density is 120 g ÷ 150 cm³ = 0.8 g/ml, which is within the expected range for cooked grains. The portion size is reasonable for a meal.
+
+7. Final estimate:
+   The weight of the 'épautre cuit' is approximately 120 g."
+r3bub9,pain bis,35.0,72.0,37.0,0.16538952745849297,https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/b1cddb5b-7db0-4fb4-9340-d84cd4187243,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The pain bis (brown bread) is clearly visible as two slices forming the sandwich. Each slice is whole and appears to be a standard size for sandwich bread.
+
+2. Choose a physical reference: The hand holding the sandwich provides a reference. Assuming an average adult hand width of approximately 8 cm, the bread slices appear to be about 12 cm long and 10 cm wide.
+
+3. Volume assessment: The bread slices are about 1 cm thick. The volume of one slice is approximately 12 cm × 10 cm × 1 cm = 120 cm³. For two slices, the total volume is 120 cm³ × 2 = 240 cm³.
+
+4. Density selection: Bread typically has a density of 0.25–0.35 g/cm³. Using an average density of 0.3 g/cm³, the weight of the bread is 240 cm³ × 0.3 g/cm³ = 72 g.
+
+5. Plausibility check: The estimated weight of 72 g for two slices of bread is reasonable and aligns with expectations for sandwich bread.
+
+6. Final estimate: The weight of the pain bis is 72 g."
+r3bub9,poivron,43.0,6.0,37.0,0.20319284802043422,https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/6f0647af-ce31-45ac-abc9-d335ba8bcd5e,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   The poivron (red bell pepper) is visible in the lower center of the plate, cut into thin strips. It appears cooked and seasoned.
+
+2. Choose a physical reference to calibrate scale:
+   The plate is a standard rectangular plate, and the wraps on the left are approximately 20 cm in diameter. Using the wraps as a reference, the poivron strips collectively occupy an area of about 6 cm × 4 cm.
+
+3. Volume assessment:
+   The poivron strips are spread out but not stacked. Assuming an average thickness of 0.5 cm for the strips, the volume is approximately:
+   Volume = length × width × thickness = 6 cm × 4 cm × 0.5 cm = 12 cm³.
+
+4. Density selection:
+   Cooked vegetables like poivron have a density of approximately 0.4–0.6 g/ml. I will use 0.5 g/ml as a reasonable estimate.
+
+5. Weight calculation:
+   Weight = volume × density = 12 cm³ × 0.5 g/ml = 6 g.
+
+6. Plausibility check:
+   The estimated weight of 6 g is reasonable for the visible portion of cooked poivron strips. It is lighter than a smartphone (≈170 g) and consistent with expectations for a small serving of cooked vegetables.
+
+7. Final estimate:
+   The weight of the poivron is approximately 6 g."
+wrah5h,tiramisu,72.0,108.0,36.0,0.3310344827586207,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/7b0475df-5b02-4072-abb9-ef75acf0f031,"Let's work this out in a step by step way to be sure we have the right answer. The tiramisu is located on the left side of the plate. It is a layered dessert with visible sponge cake and cream layers, and it appears to be a portion of a larger dish. The plate is a standard dessert plate, approximately 20 cm in diameter, which will serve as the reference object. The tiramisu portion is roughly 10 cm long, 4 cm wide, and 3 cm thick, giving it a volume of approximately 120 cm³ (10 × 4 × 3). Tiramisu has a density similar to soft desserts, around 0.9 g/ml. Using the formula weight = volume × density, the estimated weight is 120 × 0.9 = 108 g. A plausibility check confirms this is reasonable for a dessert portion of this size."
+wrah5h,framboises,39.0,5.0,34.0,0.16934865900383142,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/c73a766e-70bf-435f-b53a-6b981cf634e3,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The framboises (raspberries) are visible on the bottom right of the plate. They are whole and appear to be fresh. There are 7 raspberries in total.
+
+2. Choose a physical reference: The plate is a standard dinner plate with a diameter of approximately 26 cm. This helps to estimate the size of the raspberries.
+
+3. Volume assessment: Each raspberry is roughly conical in shape. Based on the size relative to the plate, each raspberry is approximately 2 cm in height and 1.5 cm in diameter. The volume of a cone is (1/3)πr²h. For one raspberry:
+   - Radius (r) = 1.5 cm / 2 = 0.75 cm
+   - Height (h) = 2 cm
+   - Volume = (1/3)π(0.75)²(2) ≈ 1.18 cm³ per raspberry.
+   - Total volume for 7 raspberries = 1.18 × 7 ≈ 8.26 cm³.
+
+4. Density selection: The density of fresh raspberries is approximately 0.5–0.6 g/ml. Using 0.55 g/ml as a reasonable average:
+   - Weight = Volume × Density = 8.26 × 0.55 ≈ 4.54 g.
+
+5. Plausibility check: The estimated weight of 7 raspberries (≈4.5 g) is reasonable, as raspberries are light and low-density fruits. This aligns with expectations.
+
+6. Final estimate: The weight of the framboises is approximately 5 g."
+8japfq,hummous,42.0,12.0,30.0,0.16091954022988506,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/0bd218b2-a4c6-4605-8737-2055d3040f25,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   The hummus is located at the bottom left of the plate. It is a small dollop, spread in a slightly irregular mound shape.
+
+2. Choose a physical reference to calibrate scale:
+   The fork on the plate is a standard table fork, approximately 20 cm in length. Using this as a reference, the hummus mound appears to be about 4 cm in diameter and 2 cm in height.
+
+3. Volume assessment:
+   The hummus mound can be approximated as a half-sphere. The formula for the volume of a sphere is (4/3)πr³, and for a half-sphere, it is (2/3)πr³. The radius (r) is approximately 2 cm.
+   Volume = (2/3) × π × (2³) = (2/3) × π × 8 ≈ 16.75 cm³.
+
+4. Density selection:
+   Hummus has a density of approximately 0.6–0.8 g/ml. Using an average density of 0.7 g/ml:
+   Weight = Volume × Density = 16.75 × 0.7 ≈ 11.7 g.
+
+5. Plausibility check:
+   The estimated weight of 11.7 g is reasonable for a small dollop of hummus, as it is lighter than a large egg (≈60 g) and heavier than a teaspoon of water (≈5 g).
+
+6. Final estimate:
+   The weight of the hummus is approximately 12 g."
+p96w4a,asperges,73.0,43.0,30.0,0.2796934865900383,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/0513b8db-8592-4ef7-aacf-c117d4030b25,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   The asparagus (asperges) is located in the middle of the plate. It is whole and appears to be cooked. There are approximately 8 spears visible.
+
+2. Choose a physical reference to calibrate scale:
+   The plate appears to be a standard dinner plate with a diameter of approximately 26 cm. The asparagus spears are roughly 15–18 cm long, which is typical for asparagus.
+
+3. Volume assessment:
+   Each spear is approximately 15 cm long and 1 cm in diameter. The volume of a single spear can be approximated as a cylinder: 
+   Volume = π × (radius)^2 × height = 3.14 × (0.5 cm)^2 × 15 cm ≈ 11.8 cm³ per spear.
+   For 8 spears: Total volume = 8 × 11.8 cm³ ≈ 94.4 cm³.
+
+4. Density selection:
+   Cooked asparagus has a density of approximately 0.3–0.6 g/ml. Using an average density of 0.45 g/ml:
+   Weight = Volume × Density = 94.4 cm³ × 0.45 g/ml ≈ 42.5 g.
+
+5. Plausibility check:
+   The estimated weight of 42.5 g for 8 spears of cooked asparagus is reasonable and aligns with expectations for this portion size.
+
+6. Final estimate:
+   The weight of the asparagus is approximately 43 g (rounded to the nearest gram)."
+wrah5h,avocat,39.0,10.0,29.0,0.14444444444444443,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/19a2e7b0-7aad-44c5-b52a-d67294d4ef49,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The avocado (avocat) is visible as two slices placed on the top left of the wrap. The slices are curved and appear to be from a medium-sized avocado.
+
+2. Choose a physical reference to calibrate scale:
+   - The wrap is on a standard dinner plate (Ø ≈ 26 cm). The avocado slices together span approximately 6–7 cm in length and 2–3 cm in width.
+
+3. Volume assessment:
+   - The slices are about 1 cm thick. Using the approximate dimensions (6.5 cm × 2.5 cm × 1 cm), the total volume is about 16.25 cm³.
+
+4. Density selection:
+   - The density of avocado is approximately 0.6 g/ml (or 0.6 g/cm³).
+
+5. Weight calculation:
+   - Weight = volume × density = 16.25 cm³ × 0.6 g/cm³ = 9.75 g.
+
+6. Plausibility check:
+   - The estimated weight of 9.75 g is reasonable for two small slices of avocado. It is lighter than a smartphone (≈170 g) and heavier than a single cherry tomato (≈5 g).
+
+7. Final estimate:
+   - The weight of the avocado slices is approximately 10 g."
+6fwmw2,salade de céleri,49.0,25.0,24.0,0.15019157088122606,https://www.myfoodrepo.org/api/v1/subjects/6fwmw2/dish_media/1a96e805-fc15-4295-90a7-73a41fcb683f,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The 'salade de céleri' is the white shredded salad located at the bottom right of the plate. It appears to be finely grated and loosely piled.
+
+2. Choose a physical reference: The plate is a square dinner plate, likely around 26 cm in width. The portion of 'salade de céleri' occupies a small area, approximately 6 cm × 6 cm, and is loosely piled to a height of about 2 cm.
+
+3. Volume assessment: The volume of the 'salade de céleri' can be estimated as a rectangular prism: 6 cm × 6 cm × 2 cm = 72 cm³.
+
+4. Density selection: Shredded celery root salad typically has a density of about 0.3–0.4 g/ml. We'll use 0.35 g/ml as a reasonable estimate.
+
+5. Weight calculation: Weight = volume × density = 72 cm³ × 0.35 g/ml = 25.2 g.
+
+6. Plausibility check: The estimated weight of 25.2 g is reasonable for a small portion of shredded celery root salad. It is lighter than a smartphone (≈170 g) and consistent with expectations for this type of food.
+
+7. Final estimate: The weight of the 'salade de céleri' is approximately 25 g."
+xjvrtk,galettes millet haricots noirs maïs,155.0,133.0,22.0,0.4355044699872286,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/8fb08d9a-4e44-4251-a0e4-26441252d211,"Let's work this out in a step-by-step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   The target food item, 'galettes millet haricots noirs maïs,' is on the right side of the container. These are small, round patties made of millet, black beans, and corn. They are stacked in a single layer, with five patties visible.
+
+2. Choose a physical reference to calibrate scale:
+   The container is a standard glass meal prep container, approximately 15 cm × 15 cm. Each patty appears to be about 5 cm in diameter and 1.5 cm thick.
+
+3. Volume assessment:
+   Each patty is roughly cylindrical. The volume of one patty can be calculated as:
+   Volume = π × (radius)^2 × height
+   Radius = 5 cm ÷ 2 = 2.5 cm
+   Height = 1.5 cm
+   Volume of one patty = 3.14 × (2.5)^2 × 1.5 ≈ 29.45 cm³
+   Total volume for five patties = 29.45 cm³ × 5 ≈ 147.25 cm³
+
+4. Density selection:
+   The patties are dense, containing cooked millet, black beans, and corn. A reasonable density estimate is 0.9 g/cm³ (similar to cooked grains).
+
+5. Weight calculation:
+   Weight = Volume × Density
+   Weight = 147.25 cm³ × 0.9 g/cm³ ≈ 132.5 g
+
+6. Plausibility check:
+   The implied density is 132.5 g ÷ 147.25 cm³ ≈ 0.9 g/cm³, which is consistent with the expected density for this type of food. The weight is reasonable for five small patties.
+
+7. State final estimate:
+   The estimated weight of the 'galettes millet haricots noirs maïs' is 133 g (rounded to the nearest gram)."
+8japfq,pousses de graines,29.0,7.5,21.5,0.07962962962962963,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/b233fd7c-865a-4287-818f-8d4fe868585e,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   The 'pousses de graines' (sprouts) are visible in the center of the bowl, spread over the spinach leaves and under the cherry tomatoes. They appear as thin, light-colored strands with small seed-like ends. They are scattered loosely and not densely packed.
+
+2. Choose at least one physical reference to calibrate scale:
+   The bowl is a standard medium-sized salad bowl, approximately 20 cm in diameter. The cherry tomatoes are about 3 cm in length, which helps confirm the scale.
+
+3. Volume assessment:
+   The sprouts cover an area of about 10 cm × 10 cm in the center of the bowl. Their thickness is approximately 1 cm, as they are loosely layered. The volume is therefore approximately 10 × 10 × 1 = 100 cm³.
+
+4. Density selection:
+   Sprouts have a low density, similar to leafy greens, at approximately 0.05–0.1 g/ml. Using an average density of 0.075 g/ml, the weight is calculated as:
+   Weight = Volume × Density = 100 cm³ × 0.075 g/cm³ = 7.5 g.
+
+5. Plausibility check:
+   The estimated weight of 7.5 g is reasonable for the visible amount of sprouts, as they are light and loosely packed. This weight is consistent with expectations for a small handful of sprouts.
+
+6. Final estimate:
+   The weight of the 'pousses de graines' is approximately 7.5 g."
+m4egh2,oeufs,90.0,110.0,20.0,0.22988505747126436,https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/7e7c07da-f8a5-4c6a-96b0-28284727895f,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The target food item is 'oeufs' (eggs). In the image, the eggs are fried and placed on top of the pasta. They are whole fried eggs with visible yolks and whites, slightly spread out.
+
+2. Choose a physical reference: The plate is a standard dinner plate, approximately 26 cm in diameter. The eggs occupy a central portion of the plate, with each egg roughly 8–10 cm in diameter.
+
+3. Volume assessment: Based on the visible size, there appear to be two fried eggs. A typical fried egg has a volume of approximately 50–60 ml (yolk and white combined). For two eggs, the total volume is approximately 100–120 ml.
+
+4. Density selection: The density of cooked eggs is approximately 1.0 g/ml.
+
+5. Weight calculation: Weight = volume × density = 100–120 ml × 1.0 g/ml = 100–120 g. Taking the midpoint, the estimated weight is 110 g.
+
+6. Plausibility check: The implied density is 1.0 g/ml, which is reasonable for cooked eggs. The weight of two fried eggs aligns with expectations (slightly heavier than a large egg, which is about 60 g raw).
+
+7. Final estimate: The weight of the eggs is approximately 110 g."
+ppf8hc,salade de pâtes,73.0,54.0,19.0,0.17713920817369094,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/7e81c5ce-4e03-49fb-93d4-0aca33571c65,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   The 'salade de pâtes' is located at the bottom left of the plate. It consists of spiral pasta mixed with small pieces of vegetables (e.g., green bell pepper, tomato, and corn) and appears to be coated in a light dressing. The pasta is spread out in a small pile.
+
+2. Choose a physical reference to calibrate scale:
+   The plate is a standard dinner plate with a diameter of approximately 26 cm. The pasta salad occupies a roughly circular area of about 7 cm in diameter.
+
+3. Volume assessment:
+   The visible pile of pasta salad is approximately 7 cm in diameter and about 2 cm thick. Using the formula for the volume of a cylinder (V = π × r² × h):
+   - Radius (r) = 7 cm ÷ 2 = 3.5 cm
+   - Height (h) = 2 cm
+   - Volume = π × (3.5 cm)² × 2 cm ≈ 77 cm³
+
+4. Density selection:
+   Cooked pasta with vegetables and dressing has a density of approximately 0.7 g/ml (or 0.7 g/cm³).
+
+5. Weight calculation:
+   Weight = Volume × Density = 77 cm³ × 0.7 g/cm³ ≈ 53.9 g
+
+6. Plausibility check:
+   The estimated weight of 53.9 g is reasonable for a small portion of pasta salad. It is lighter than a smartphone (≈170 g) and heavier than a large egg (≈60 g).
+
+7. State final estimate:
+   The estimated weight of the 'salade de pâtes' is 54 g."
+wrah5h,riz complet,82.0,64.0,18.0,0.18850574712643678,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/ee492174-b956-48fe-a4cb-4f059c9bc233,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. **Locate & isolate**: The brown rice (riz complet) is located in the top left section of the plate. It is served as a loose pile of grains.
+
+2. **Choose a physical reference**: The plate appears to be a standard dinner plate with a diameter of approximately 26 cm. This will help us estimate the area occupied by the rice.
+
+3. **Volume assessment**: The rice occupies roughly 1/3 of the plate's surface area. Assuming the rice pile is about 1 cm thick, we can estimate the volume. The visible area of the rice is approximately 10 cm × 8 cm = 80 cm². With a thickness of 1 cm, the volume is 80 cm³.
+
+4. **Density selection**: Cooked brown rice has a density of approximately 0.6–0.9 g/ml. We'll use 0.8 g/ml as a reasonable average.
+
+5. **Weight calculation**: Weight = volume × density = 80 cm³ × 0.8 g/ml = 64 g.
+
+6. **Plausibility check**: The estimated weight of 64 g is reasonable for a portion of rice of this size. It is lighter than a smartphone (≈170 g) and heavier than a large egg (≈60 g), which aligns with expectations.
+
+7. **Final estimate**: The weight of the brown rice is approximately 64 g."
+p96w4a,flocon d'avoines,13.0,31.0,18.0,0.029885057471264367,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/c0fc63a2-21db-448b-875a-c736a595bd0a,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The flocons d'avoine (oat flakes) are on the right side of the bowl. They are small, flat, and irregularly shaped.
+
+2. Choose a physical reference to calibrate scale:
+   - The bowl is a standard cereal bowl with an approximate diameter of 20 cm. The oat flakes occupy about half of the bowl's base area.
+
+3. Volume assessment:
+   - The visible portion of oat flakes covers about half the base of the bowl. Assuming the base is circular with a diameter of 20 cm, the area is π × (10 cm)^2 ≈ 314 cm². Half of this is 157 cm². The thickness of the oat flakes layer is approximately 0.5 cm. Thus, the volume is 157 cm² × 0.5 cm = 78.5 cm³.
+
+4. Density selection:
+   - The density of oat flakes is approximately 0.4 g/ml (or 0.4 g/cm³).
+
+5. Weight calculation:
+   - Weight = volume × density = 78.5 cm³ × 0.4 g/cm³ = 31.4 g.
+
+6. Plausibility check:
+   - The estimated weight of 31.4 g is reasonable for the visible portion of oat flakes in the bowl. It is lighter than a smartphone (≈170 g) and heavier than a large egg (≈60 g).
+
+7. Final estimate:
+   - The weight of the flocons d'avoine is approximately 31 g."
+wrah5h,myrtilles,30.0,12.0,18.0,0.06896551724137931,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/a92ea4e8-63d4-40a4-86b7-b9274976c627,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is 'myrtilles' (blueberries). They are located on the left side of the plate. The blueberries are whole and spherical in shape.
+
+2. Choose at least one physical reference to calibrate scale:
+   - The plate appears to be a small dessert plate, approximately 20 cm in diameter. This will help us estimate the size of the blueberries.
+
+3. Volume assessment:
+   - There are approximately 12 blueberries visible. Each blueberry has an average diameter of about 1.5 cm (based on visual comparison with the plate).
+   - Volume of one blueberry (approximated as a sphere) = (4/3) × π × (radius)^3 = (4/3) × 3.14 × (0.75 cm)^3 ≈ 1.77 cm³.
+   - Total volume of 12 blueberries = 12 × 1.77 cm³ ≈ 21.24 cm³.
+
+4. Density selection:
+   - The density of fresh fruit pieces like blueberries is approximately 0.5–0.6 g/ml. We'll use 0.55 g/ml as a reasonable estimate.
+
+5. Weight calculation:
+   - Weight = volume × density = 21.24 cm³ × 0.55 g/ml ≈ 11.68 g.
+
+6. Plausibility check:
+   - The implied density is 11.68 g ÷ 21.24 cm³ ≈ 0.55 g/ml, which is within the expected range for fresh fruit. The weight is also reasonable for a small handful of blueberries.
+
+7. State final estimate:
+   - The estimated weight of the 'myrtilles' is 12 g."
+2ahgvr,graine de chia,6.0,23.0,17.0,0.013026819923371647,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/cca1db77-eb8e-454d-8ea2-e23840f01b97,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   The chia seeds (graines de chia) are visible as small black and white specks distributed throughout the mixture in the jar. They are mixed evenly with the other ingredients.
+
+2. Choose a physical reference to calibrate scale:
+   The jar appears to be a standard 370 ml Mason jar (height ≈ 12 cm). The jar is filled to about 90% of its capacity, so the total volume of the mixture is approximately 333 ml (370 ml × 0.9).
+
+3. Volume assessment:
+   Chia seeds typically expand when soaked, absorbing liquid and increasing in volume. Based on the visible distribution, chia seeds likely make up about 10% of the total mixture volume. Therefore, the volume of chia seeds is approximately 33 ml (333 ml × 0.1).
+
+4. Density selection:
+   The density of hydrated chia seeds is approximately 0.7 g/ml (as they absorb water and swell).
+
+5. Weight calculation:
+   Weight = volume × density = 33 ml × 0.7 g/ml = 23.1 g.
+
+6. Plausibility check:
+   The implied density (23.1 g ÷ 33 ml ≈ 0.7 g/ml) is consistent with the expected density of hydrated chia seeds. The estimate is reasonable given the visible distribution and typical chia seed behavior.
+
+7. State final estimate:
+   The estimated weight of the chia seeds is 23 g."
+wrah5h,tomates,28.0,12.0,16.0,0.057215836526181355,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/19a2e7b0-7aad-44c5-b52a-d67294d4ef49,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate: The tomatoes are visible as sliced pieces on the wrap, located near the top right of the image. They are cut into wedges or chunks.
+
+2. Choose a physical reference: The wrap is on a standard dinner plate (Ø ≈ 26 cm). The tomato pieces occupy a small section of the wrap, approximately 6 cm × 4 cm in area.
+
+3. Volume assessment: The tomato pieces are roughly 1 cm thick. The estimated volume is 6 cm × 4 cm × 1 cm = 24 cm³.
+
+4. Density selection: Fresh tomatoes have a density of approximately 0.4–0.6 g/ml. Using an average density of 0.5 g/ml, the weight is 24 cm³ × 0.5 g/ml = 12 g.
+
+5. Plausibility check: The estimated weight of 12 g is reasonable for the visible amount of tomato slices, which is a small portion compared to the other ingredients.
+
+6. Final estimate: The weight of the tomatoes is 12 g."
+p96w4a,pain,38.0,24.0,14.0,0.06794380587484036,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/1205e577-5f14-45a2-9590-646d80ba6107,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is 'pain' (bread). It is visible as a half-slice of bread with a rounded edge and an airy crumb structure. It appears to be a small piece of bread, likely from a baguette or similar loaf.
+
+2. Choose at least one physical reference to calibrate scale:
+   - The bread is placed on a standard dinner plate (Ø ≈ 26 cm). The bread occupies about 1/4 of the plate's diameter, suggesting a length of approximately 6.5 cm and a width of about 5 cm.
+
+3. Volume assessment:
+   - The bread is roughly rectangular with a thickness of about 2.5 cm (estimated from its side profile).
+   - Volume = length × width × thickness = 6.5 cm × 5 cm × 2.5 cm = 81.25 cm³.
+
+4. Density selection:
+   - Bread has a typical density of 0.25–0.35 g/ml. Using an average density of 0.3 g/ml for this type of bread.
+
+5. Weight calculation:
+   - Weight = volume × density = 81.25 cm³ × 0.3 g/ml = 24.375 g.
+   - Rounded to the nearest whole number: 24 g.
+
+6. Plausibility check:
+   - The implied density (24 g ÷ 81.25 cm³ ≈ 0.3 g/ml) is within the expected range for bread. The size and weight are consistent with a small piece of bread from a baguette.
+
+7. Final estimate:
+   - The weight of the bread is approximately 24 g."
+wrah5h,gaufre,47.0,33.0,14.0,0.08403575989782887,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/1c8bc1a8-fbe8-4520-b82e-b07adc59e499,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is the gaufre (waffle). It is clearly visible as a square-shaped waffle with a grid pattern. It appears whole and is topped with compote pomme (apple compote).
+
+2. Choose a physical reference to calibrate scale:
+   - The waffle is placed on a standard-sized dinner plate (Ø ≈ 26 cm). The waffle occupies about 1/3 of the plate's diameter, suggesting its side length is approximately 8–9 cm.
+
+3. Volume assessment:
+   - The waffle is square-shaped with a side length of approximately 8.5 cm and a thickness of about 1.5 cm (based on typical waffle proportions and visible thickness).
+   - Volume = length × width × thickness = 8.5 cm × 8.5 cm × 1.5 cm ≈ 108.375 cm³.
+
+4. Density selection:
+   - Waffles are similar to bread in density, which is approximately 0.25–0.35 g/ml. Using an average density of 0.3 g/ml:
+     Weight = volume × density = 108.375 cm³ × 0.3 g/ml ≈ 32.5 g.
+
+5. Plausibility check:
+   - The estimated weight of 32.5 g is reasonable for a single waffle of this size. It is lighter than a smartphone (≈170 g) and heavier than a large egg (≈60 g).
+
+6. Final estimate:
+   - The weight of the gaufre is approximately 33 g."
+wrah5h,pain,47.0,60.0,13.0,0.07803320561941252,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/c4d2e0f7-71f7-4e23-bc37-43a0aff738da,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The target food item, 'pain' (bread), is visible as two slices of brown bread placed on the plate. The slices are whole and unbroken. 
+
+2. Choose a physical reference: The plate appears to be a standard dinner plate with a diameter of approximately 26 cm. The bread slices occupy a significant portion of the plate, suggesting they are standard-sized sandwich bread slices. 
+
+3. Volume assessment: Each slice of bread is approximately 10 cm × 10 cm × 1 cm (length × width × thickness). The total volume for two slices is 10 × 10 × 1 × 2 = 200 cm³. 
+
+4. Density selection: Bread has a typical density of 0.25–0.35 g/cm³. Using an average density of 0.3 g/cm³, the weight is calculated as 200 cm³ × 0.3 g/cm³ = 60 g. 
+
+5. Plausibility check: The estimated weight of 60 g for two slices of bread is reasonable and aligns with expectations for standard sandwich bread. 
+
+6. Final estimate: The weight of the bread is 60 g."
+xjvrtk,salade,15.0,2.0,13.0,0.02490421455938697,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/7e8fa753-bb2d-4ee9-983c-7c9ce95fe698,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The salade is on the right side of the plate. It appears to be a small portion of leafy greens with some dressing and possibly small vegetable pieces.
+   - The shape is irregular, with the leaves layered and slightly wilted due to dressing.
+
+2. Choose a physical reference to calibrate scale:
+   - The plate is a standard dinner plate, approximately 26 cm in diameter. The salade occupies a small area, roughly 6 cm × 4 cm.
+
+3. Volume assessment:
+   - The salade is a loose pile of leaves. Assuming an average thickness of 1 cm, the volume is approximately 6 cm × 4 cm × 1 cm = 24 cm³.
+
+4. Density selection:
+   - Leafy greens have a density of approximately 0.05–0.1 g/ml. I will use 0.08 g/ml as a reasonable estimate for dressed greens.
+
+5. Weight calculation:
+   - Weight = volume × density = 24 cm³ × 0.08 g/ml = 1.92 g. Rounding to a reasonable value, the weight is approximately 2 g.
+
+6. Plausibility check:
+   - The estimated weight of 2 g is consistent with the small portion of leafy greens visible. It is lighter than a smartphone (≈170 g) and heavier than a single leaf (≈1 g).
+
+7. Final estimate:
+   - The weight of the salade is approximately 2 g."
+r3bub9,tomate,50.0,38.0,12.0,0.07662835249042145,https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/bb18e23e-6449-46ba-a82b-2f630af251aa,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The tomatoes are located in the middle section of the container. They are chopped into medium-sized pieces, with visible irregular shapes. 
+
+2. Choose a physical reference: The container appears to be a standard rectangular food container, approximately 15 cm long and 10 cm wide. The tomato pieces occupy about one-third of the container's area. 
+
+3. Volume assessment: The tomato pieces cover an area of approximately 50 cm² (1/3 of the container's base area). Assuming an average thickness of 1.5 cm for the chopped tomatoes, the volume is approximately 50 cm² × 1.5 cm = 75 cm³. 
+
+4. Density selection: The density of fresh tomato pieces is approximately 0.5 g/ml (or 0.5 g/cm³). 
+
+5. Weight calculation: Weight = volume × density = 75 cm³ × 0.5 g/cm³ = 37.5 g. 
+
+6. Plausibility check: The estimated weight of 37.5 g is reasonable for the visible portion of chopped tomatoes, as it is lighter than a smartphone (≈170 g) and heavier than a large egg (≈60 g). 
+
+7. Final estimate: The weight of the tomatoes is approximately 38 g (rounded to the nearest whole number)."
+m4egh2,oeufs brouillés,145.0,133.0,12.0,0.2222222222222222,https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/9631ea21-d42e-4129-bd57-c4a1aa521e20,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   The scrambled eggs (""oeufs brouillés"") are located in the top left section of the plate. They are irregularly shaped, cooked, and appear as small clumps of egg.
+
+2. Choose at least one physical reference to calibrate scale:
+   The plate is a standard dinner plate with an approximate diameter of 26 cm. This will help us estimate the size of the scrambled eggs portion.
+
+3. Volume assessment:
+   The scrambled eggs occupy roughly 1/4 of the plate's surface area. Assuming the plate's usable area is a circle with a diameter of 26 cm, the total area is π × (13 cm)^2 ≈ 530.93 cm². The scrambled eggs cover about 1/4 of this, so their area is approximately 530.93 / 4 ≈ 132.73 cm². Assuming an average thickness of 1 cm for scrambled eggs, the volume is 132.73 cm³.
+
+4. Density selection:
+   Cooked scrambled eggs have a density of approximately 1.0 g/ml (or 1.0 g/cm³).
+
+5. Weight calculation:
+   Weight = volume × density = 132.73 cm³ × 1.0 g/cm³ = 132.73 g.
+
+6. Plausibility check:
+   The estimated weight of 132.73 g is reasonable for a portion of scrambled eggs of this size. It is heavier than a large egg (≈60 g) but lighter than a smartphone (≈170 g), which aligns with expectations.
+
+7. State final estimate:
+   The estimated weight of the scrambled eggs is 133 g (rounded to the nearest gram)."
+xjvrtk,salade,30.0,40.0,10.0,0.038314176245210725,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/f490015b-1246-4f64-b1f7-b1f486e3fe67,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The salade (salad) is on the left side of the plate. It consists of leafy greens, likely lettuce, with some visible seeds or dressing. The leaves are whole and not chopped.
+
+2. Choose at least one physical reference to calibrate scale:
+   - The plate appears to be a standard dinner plate with a diameter of approximately 26 cm. The salad occupies roughly one-third of the plate's surface area.
+
+3. Volume assessment:
+   - The salad is loosely piled and occupies about one-third of the plate. Assuming a pile height of approximately 3 cm, the volume can be estimated as:
+     Surface area = (1/3) × π × (13 cm)^2 ≈ 176.7 cm²
+     Volume = Surface area × height ≈ 176.7 cm² × 3 cm ≈ 530 cm³
+
+4. Density selection:
+   - Leafy greens have a density of approximately 0.05–0.1 g/ml. Using an average density of 0.075 g/ml:
+     Weight = Volume × Density ≈ 530 cm³ × 0.075 g/ml ≈ 39.8 g
+
+5. Plausibility check:
+   - The estimated weight of 39.8 g is reasonable for a small portion of leafy greens. It is lighter than a smartphone (≈170 g) and consistent with expectations for a salad portion.
+
+6. Final estimate:
+   - The weight of the salade is approximately 40 g."
+8japfq,branche de chocolat,28.0,18.0,10.0,0.035759897828863345,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/327c0351-f7ed-43fe-8043-0687d8b0e848,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is the 'branche de chocolat' visible in the image. It is a single, elongated chocolate bar with a textured surface, likely due to nuts or crisped rice embedded in the chocolate.
+
+2. Choose at least one physical reference to calibrate scale:
+   - The chocolate bar is placed on a wooden surface. Based on typical dimensions of such bars, it appears to be approximately 10 cm in length and 1.5 cm in diameter.
+
+3. Volume assessment:
+   - The bar can be approximated as a cylinder. The volume of a cylinder is calculated as π × radius² × height.
+   - Radius = 1.5 cm ÷ 2 = 0.75 cm.
+   - Height (length) = 10 cm.
+   - Volume = π × (0.75 cm)² × 10 cm ≈ 17.7 cm³.
+
+4. Density selection:
+   - Chocolate with embedded nuts or crisped rice has an estimated density of 0.9–1.1 g/cm³. I will use 1.0 g/cm³ as a reasonable average.
+
+5. Weight calculation:
+   - Weight = volume × density = 17.7 cm³ × 1.0 g/cm³ ≈ 17.7 g.
+
+6. Plausibility check:
+   - The estimated weight of 17.7 g is reasonable for a small chocolate bar of this size. It is lighter than a smartphone (≈170 g) and heavier than a large egg (≈60 g).
+
+7. Final estimate:
+   - The weight of the 'branche de chocolat' is approximately 18 g."
+p8a2w5,mayonnaise,28.0,37.0,9.0,0.03218390804597701,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/d767c564-a3e6-4306-b022-ea44636699d8,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The mayonnaise is located on the left side of the plate. It is in a dollop form, appearing as a thick, creamy spread.
+
+2. Choose at least one physical reference to calibrate scale:
+   - The plate is a standard dinner plate with a diameter of approximately 26 cm. The fork visible in the background is about 20 cm long, which confirms the scale.
+
+3. Volume assessment:
+   - The mayonnaise dollop is roughly circular with a diameter of about 5 cm and a height of approximately 2 cm. Using the formula for the volume of a cylinder (V = π × r² × h):
+     - Radius (r) = 2.5 cm
+     - Height (h) = 2 cm
+     - Volume = π × (2.5)² × 2 ≈ 39.3 cm³
+
+4. Density selection:
+   - Mayonnaise has a density of approximately 0.9–1.0 g/ml. We'll use 0.95 g/ml as a reasonable estimate.
+
+5. Weight calculation:
+   - Weight = Volume × Density = 39.3 cm³ × 0.95 g/ml ≈ 37.3 g
+
+6. Plausibility check:
+   - The implied density (37.3 g ÷ 39.3 cm³ ≈ 0.95 g/ml) is within the expected range for mayonnaise. The portion size is consistent with a small serving of mayonnaise.
+
+7. State final estimate:
+   - The estimated weight of the mayonnaise is 37 g."
+p96w4a,beurre,5.0,14.0,9.0,0.005747126436781609,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/9c8dd558-21eb-4150-a872-af92749663ff,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate: The butter (beurre) is spread on both slices of bread, one with jam (confiture) and the other with Nutella. It appears as a thin layer beneath the spreads.
+
+2. Reference object: The plate is a standard dinner plate with a diameter of approximately 26 cm. Each slice of bread is roughly 10 cm × 8 cm in size.
+
+3. Volume assessment: The butter layer is very thin, likely around 1 mm thick. The area of each slice is approximately 10 cm × 8 cm = 80 cm². For two slices, the total area is 160 cm². The volume of butter is 160 cm² × 0.1 cm = 16 cm³.
+
+4. Density selection: Butter has a density of approximately 0.9 g/cm³.
+
+5. Weight calculation: Weight = volume × density = 16 cm³ × 0.9 g/cm³ = 14.4 g.
+
+6. Plausibility check: The estimated weight of 14.4 g for the butter spread across two slices of bread is reasonable, as it is a thin layer.
+
+7. Final estimate: The weight of the butter is approximately 14 g."
+p96w4a,pain,24.0,33.0,9.0,0.027586206896551724,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/e036b3f8-ccaa-47a4-af6e-0a6de159b9bc,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The target food item, 'pain' (bread), is visible as two slices on the plate. Each slice is rectangular and appears to be a piece of rustic bread with a crust on one side. 
+
+2. Choose a physical reference: The plate is a standard dinner plate with a diameter of approximately 26 cm. Each bread slice is about 1/3 the diameter of the plate in length (≈8.5 cm) and about 1/6 the diameter in width (≈4.3 cm). The thickness of the bread is approximately 1.5 cm, based on its visible profile. 
+
+3. Volume assessment: The volume of one slice is calculated as length × width × thickness: 8.5 cm × 4.3 cm × 1.5 cm = 54.8 cm³. Since there are two slices, the total volume is 54.8 cm³ × 2 = 109.6 cm³. 
+
+4. Density selection: Bread has a typical density of 0.25–0.35 g/cm³. Using an average density of 0.3 g/cm³, the weight of the bread is 109.6 cm³ × 0.3 g/cm³ = 32.88 g. 
+
+5. Plausibility check: The implied density (32.88 g ÷ 109.6 cm³) is 0.3 g/cm³, which is within the expected range for bread. The weight is reasonable for two small slices of bread. 
+
+6. Final estimate: The total weight of the bread is approximately 33 g."
+m4egh2,beurre,4.0,12.0,8.0,0.004086845466155811,https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/1f732396-f9f9-451f-bb51-ade259131e78,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate: The butter (beurre) is spread thinly on the four slices of bread under the strawberry jam. It is not visible as a distinct layer but is present as a base for the jam.
+
+2. Choose a physical reference: The plate is a standard-sized dinner plate (Ø ≈ 26 cm), and the bread slices are small, approximately 8 cm × 4 cm each.
+
+3. Volume assessment: The butter is spread thinly across the surface of the bread. The total surface area of the bread slices is approximately 8 cm × 4 cm × 4 slices = 128 cm². Assuming an average thickness of 1 mm (0.1 cm) for the butter layer, the volume is 128 cm² × 0.1 cm = 12.8 cm³.
+
+4. Density selection: Butter has a density of approximately 0.9 g/cm³.
+
+5. Weight calculation: Weight = volume × density = 12.8 cm³ × 0.9 g/cm³ = 11.52 g.
+
+6. Plausibility check: The estimated weight of 11.5 g is reasonable for a thin layer of butter spread across four small slices of bread. It is consistent with expectations for this portion size.
+
+7. Final estimate: The weight of the butter is approximately 12 g."
+m4egh2,carottes,38.0,30.0,8.0,0.038825031928480205,https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/768d6aed-623c-4cfb-8f4e-e33da1f18a76,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is 'carottes' (carrots). In the image, the carrots are visible as thin orange slices mixed with the pasta and other vegetables. They are chopped into small, irregular pieces.
+
+2. Choose at least one physical reference to calibrate scale:
+   - The bowl is a standard medium-sized bowl, approximately 15 cm in diameter. The pasta and vegetables fill about 2/3 of the bowl.
+
+3. Volume assessment:
+   - The carrots are mixed with other ingredients, but they appear to make up about 10% of the total visible volume of the food in the bowl. The total food volume in the bowl is approximately 500 ml (based on the bowl size and fill level). Therefore, the volume of the carrots is about 50 ml.
+
+4. Density selection:
+   - Cooked carrots have a density of approximately 0.6 g/ml.
+
+5. Weight calculation:
+   - Weight = volume × density = 50 ml × 0.6 g/ml = 30 g.
+
+6. Plausibility check:
+   - The estimated weight of 30 g for the small amount of chopped carrots is reasonable given their visible proportion in the bowl.
+
+7. State final estimate:
+   - The weight of the carrots is estimated to be 30 g."
+8japfq,épinards frais,52.0,60.0,8.0,0.05312899106002554,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/b233fd7c-865a-4287-818f-8d4fe868585e,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate: The fresh spinach (épinards frais) is the green leafy base of the salad, spread across the bottom of the bowl. The leaves are whole and unchopped.
+
+2. Choose a physical reference: The bowl appears to be a standard medium-sized salad bowl, approximately 20 cm in diameter. The spinach leaves occupy most of the visible area of the bowl, with other ingredients layered on top.
+
+3. Volume assessment: The spinach leaves are loosely packed, covering the bottom of the bowl. Based on the visible portion, the spinach likely occupies about 2/3 of the bowl's depth. Assuming the bowl has a depth of approximately 6 cm, the spinach occupies a volume of about 20 cm (diameter) × 20 cm (diameter) × 4 cm (height) × 0.5 (adjusting for air gaps between leaves) = 800 cm³.
+
+4. Density selection: Fresh spinach has a density of approximately 0.05–0.1 g/ml. Using an average density of 0.075 g/ml, the weight of the spinach is estimated as 800 cm³ × 0.075 g/ml = 60 g.
+
+5. Plausibility check: The estimated weight of 60 g is reasonable for a medium-sized salad bowl with loosely packed spinach leaves. It is consistent with expectations for a portion of fresh spinach in a salad.
+
+6. Final estimate: The weight of the fresh spinach is approximately 60 g."
+xjvrtk,huile de lin,8.0,0.0,8.0,0.008173690932311623,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/d15f25db-272a-4f8a-a0ae-225438cf4b70,"Let's work this out in a step by step way to be sure we have the right answer. The target food item is 'huile de lin' (flaxseed oil). However, there is no visible indication of flaxseed oil in the image. It is not clearly identifiable as a separate component or as a dressing on the food. Without visual evidence or a clear reference, it is impossible to estimate its weight accurately."
+p96w4a,beurre,5.0,13.0,8.0,0.005108556832694764,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/b0979eb7-5126-4d9e-9058-64093ecde7e0,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate: The butter (beurre) is visible as a spread on both slices of bread. It appears as a thin, uneven layer, with some areas more concentrated than others.
+
+2. Choose a physical reference: The plate is a standard dinner plate with a diameter of approximately 26 cm. Each slice of bread is about 12 cm long and 6 cm wide.
+
+3. Volume assessment: The butter layer is thin, approximately 1 mm thick, and covers most of the surface of both slices. The total surface area of the bread is approximately 12 cm × 6 cm × 2 slices = 144 cm². The volume of the butter is 144 cm² × 0.1 cm = 14.4 cm³.
+
+4. Density selection: Butter has a density of approximately 0.9 g/cm³.
+
+5. Weight calculation: Weight = volume × density = 14.4 cm³ × 0.9 g/cm³ = 12.96 g, rounded to 13 g.
+
+6. Plausibility check: The estimated weight of 13 g for the butter spread on two slices of bread is reasonable, as it is a thin layer and aligns with expectations for such a portion.
+
+7. Final estimate: The weight of the butter is approximately 13 g."
+m4egh2,biscuit,8.0,0.7,7.3,0.007458492975734355,https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/5350f0cd-e92a-44fc-9770-13b4bcca327e,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The biscuit is visible on top of the ice cream, appearing as a flat, irregularly shaped piece with a golden-brown color.
+
+2. Choose a physical reference to calibrate scale:
+   - The dessert glass is a standard sundae glass, approximately 12 cm tall. The biscuit appears to be about 4 cm in length and 3 cm in width.
+
+3. Volume assessment:
+   - The biscuit is flat and thin, with an estimated thickness of 2 mm (0.2 cm). Its volume is calculated as:
+     Volume = length × width × thickness = 4 cm × 3 cm × 0.2 cm = 2.4 cm³.
+
+4. Density selection:
+   - Biscuits typically have a density of around 0.25–0.35 g/ml. Using an average density of 0.3 g/ml:
+     Weight = volume × density = 2.4 cm³ × 0.3 g/cm³ = 0.72 g.
+
+5. Plausibility check:
+   - The estimated weight of 0.72 g is reasonable for a single, thin biscuit of this size. It is lighter than a smartphone (≈170 g) and heavier than a small paperclip (≈0.5 g).
+
+6. Final estimate:
+   - The weight of the biscuit is approximately 0.7 g."
+8japfq,branche de chocolat,25.0,18.0,7.0,0.02234993614303959,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/73d04325-9904-439c-a617-44a5061581a3,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is the chocolate branch visible in the image. It is a long, narrow, and irregularly shaped chocolate bar with a textured surface, likely due to nuts or crisped rice embedded in the chocolate.
+
+2. Choose at least one physical reference to calibrate scale:
+   - The hand holding the chocolate bar is used as a reference. The width of an adult thumb is approximately 2 cm. The chocolate bar appears to be about 10 cm long and 2 cm wide.
+
+3. Volume assessment:
+   - The chocolate bar is roughly cylindrical with a slightly irregular surface. Assuming an average thickness of 1 cm, the volume can be estimated as:
+     Volume = length × width × thickness = 10 cm × 2 cm × 1 cm = 20 cm³.
+
+4. Density selection:
+   - Chocolate with embedded nuts or crisped rice has an approximate density of 0.8–1.0 g/cm³. Using 0.9 g/cm³ as a reasonable estimate:
+     Weight = volume × density = 20 cm³ × 0.9 g/cm³ = 18 g.
+
+5. Plausibility check:
+   - The estimated weight of 18 g is reasonable for a small chocolate bar of this size. It is lighter than a smartphone (≈170 g) and heavier than a large egg (≈60 g).
+
+6. Final estimate:
+   - The weight of the chocolate branch is approximately 18 g."
+p96w4a,croissants au jambon,37.0,30.0,7.0,0.033077905491698596,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/7bd6e67d-b1ca-42e4-a5ca-713b7fadda27,"Let's work this out in a step-by-step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The croissants au jambon are visible on the plate, located in the upper left section. There are two croissants, and they appear whole and baked, with a golden-brown crust.
+
+2. Choose a physical reference to calibrate scale:
+   - The plate is a standard dinner plate with a diameter of approximately 26 cm. Each croissant is about 6 cm in length and 3 cm in width.
+
+3. Volume assessment:
+   - Each croissant is roughly cylindrical with rounded edges. Approximating the shape as a cylinder, the volume of one croissant is:
+     Volume = π × (radius)^2 × height
+     Radius ≈ 1.5 cm, Height ≈ 6 cm
+     Volume ≈ 3.14 × (1.5)^2 × 6 ≈ 42.4 cm³ per croissant.
+     For two croissants: Total volume ≈ 42.4 × 2 ≈ 84.8 cm³.
+
+4. Density selection:
+   - Croissants are light and flaky, with a density of approximately 0.25–0.35 g/cm³. Since these are filled with ham, I will use a slightly higher density of 0.35 g/cm³.
+
+5. Weight calculation:
+   - Weight = Volume × Density
+     Weight ≈ 84.8 cm³ × 0.35 g/cm³ ≈ 29.7 g.
+
+6. Plausibility check:
+   - The estimated weight of 29.7 g for two small croissants au jambon seems reasonable, as they are light and flaky but include a small amount of ham filling. The implied density (29.7 g ÷ 84.8 cm³ ≈ 0.35 g/cm³) is consistent with expectations for this type of food.
+
+7. State final estimate:
+   - The total weight of the croissants au jambon is approximately 30 g."
+wrah5h,mozzarella,54.0,60.0,6.0,0.041379310344827586,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/1550c506-8c95-461f-b658-8f427dc2a0af,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate: The mozzarella is the white, soft, creamy substance placed on top of the pasta. It appears to be a single dollop, roughly oval in shape.
+
+2. Choose a physical reference: The plate is a standard dinner plate, approximately 26 cm in diameter. The mozzarella occupies a small area relative to the pasta and other items, suggesting a moderate portion.
+
+3. Volume assessment: The mozzarella appears to be a single dollop with an approximate length of 6 cm, width of 4 cm, and height of 2.5 cm. Using the formula for volume (length × width × height), the estimated volume is 6 × 4 × 2.5 = 60 cm³.
+
+4. Density selection: Mozzarella has a density of approximately 0.9–1.0 g/ml. Using 1.0 g/ml for simplicity, the weight is equal to the volume in grams.
+
+5. Weight calculation: Weight = 60 cm³ × 1.0 g/cm³ = 60 g.
+
+6. Plausibility check: The estimated weight of 60 g is reasonable for a single dollop of mozzarella, as it is lighter than a smartphone (≈170 g) and heavier than a large egg (≈60 g).
+
+7. Final estimate: The weight of the mozzarella is approximately 60 g."
+8japfq,"pizza champignons, olives, courgettes",183.0,177.0,6.0,0.14022988505747128,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/9ac9736b-e0d1-4862-9981-1f47f8109d18,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The target food is the pizza with champignons, olives, and courgettes. It is spread across the plate in five slices, with visible toppings of mushrooms, olives, and zucchini slices. The pizza appears to have a thin crust. 
+
+2. Choose a physical reference: The plate is a standard dinner plate with a diameter of approximately 26 cm. The pizza covers most of the plate, suggesting a diameter of about 25 cm. 
+
+3. Volume assessment: The pizza is circular with a diameter of 25 cm. The area of the pizza is π × (12.5 cm)^2 ≈ 490.9 cm². Assuming an average thickness of 0.8 cm for a thin-crust pizza with toppings, the volume is 490.9 cm² × 0.8 cm ≈ 392.7 cm³. 
+
+4. Density selection: A thin-crust pizza with toppings has an approximate density of 0.4–0.5 g/cm³. Using 0.45 g/cm³ as a reasonable estimate, the weight is 392.7 cm³ × 0.45 g/cm³ ≈ 176.7 g. 
+
+5. Plausibility check: The implied density (176.7 g ÷ 392.7 cm³ ≈ 0.45 g/cm³) is within the expected range for a pizza. The weight is reasonable for a thin-crust pizza of this size. 
+
+6. Final estimate: The weight of the pizza is approximately 177 g."
+p96w4a,tartine mélasse + beurre,39.0,33.0,6.0,0.029885057471264367,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/c9db26cc-13d6-4355-97a6-2355ea46cf42,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The tartine mélasse + beurre is the lower slice of bread in the image. It is a slice of bread spread with butter and molasses. The bread is irregularly shaped, approximately half of a standard slice of bread.
+
+2. Choose a physical reference: The plate is a standard dessert plate with a diameter of approximately 20 cm. The tartine occupies about half the width of the plate, making its length approximately 10 cm. The width of the tartine is about 5 cm, and the thickness of the bread is about 1.5 cm.
+
+3. Volume assessment: The volume of the bread can be estimated as a rectangular prism: 10 cm × 5 cm × 1.5 cm = 75 cm³. The butter and molasses layer is thin, adding negligible volume.
+
+4. Density selection: Bread has a density of approximately 0.25–0.35 g/ml. Using an average density of 0.3 g/ml, the weight of the bread is 75 cm³ × 0.3 g/ml = 22.5 g. The butter and molasses layer is thin but dense. Estimating 5 g for butter and 5 g for molasses, the total weight of the spread is 10 g.
+
+5. Weight calculation: Total weight = 22.5 g (bread) + 10 g (spread) = 32.5 g.
+
+6. Plausibility check: The estimated weight is reasonable for a small slice of bread with a thin layer of butter and molasses.
+
+7. Final estimate: The weight of the tartine mélasse + beurre is approximately 33 g."
+ppf8hc,maréchal,15.0,9.6,5.4,0.010344827586206896,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/2d798449-e3c7-4b6e-9f74-d788f51b5ce7,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   The 'maréchal' refers to the cheese cubes visible on the plate. There are three small cubes of cheese, each roughly cubical in shape.
+
+2. Choose a physical reference to calibrate scale:
+   The plate is a standard dinner plate with a diameter of approximately 26 cm. Using this as a reference, each cheese cube appears to be about 1.5 cm on each side.
+
+3. Volume assessment:
+   Each cube has a volume of approximately 1.5 cm × 1.5 cm × 1.5 cm = 3.375 cm³. With three cubes, the total volume is 3 × 3.375 cm³ = 10.125 cm³.
+
+4. Density selection:
+   Cheese typically has a density of about 0.9–1.0 g/cm³. Using 0.95 g/cm³ as a reasonable estimate, the weight of the cheese is 10.125 cm³ × 0.95 g/cm³ = 9.61875 g.
+
+5. Weight calculation:
+   Rounding to one decimal place, the weight of the cheese is approximately 9.6 g.
+
+6. Plausibility check:
+   The implied density (9.6 g ÷ 10.125 cm³) is 0.95 g/cm³, which is consistent with the expected density of cheese. The estimate is plausible given the size and number of cubes.
+
+7. State final estimate:
+   The weight of the 'maréchal' is approximately 9.6 g."
+xjvrtk,glace noisette,48.0,53.0,5.0,0.03065134099616858,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/76d985ce-8fcc-4832-b51f-25c40d637743,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is the glace noisette (hazelnut ice cream), which is visible as a single scoop in the bowl. It has a roughly irregular, elongated shape.
+
+2. Choose at least one physical reference to calibrate scale:
+   - The bowl is a standard dessert bowl, approximately 15 cm in diameter. The scoop of ice cream occupies about 1/4 of the bowl's area.
+
+3. Volume assessment:
+   - The scoop appears to be about 8 cm long, 4 cm wide, and 3 cm thick on average. Using these dimensions, the volume is approximately:
+     Volume = 8 × 4 × 3 = 96 cm³.
+
+4. Density selection:
+   - Ice cream has a typical density of 0.5–0.6 g/ml. For this calculation, I will use 0.55 g/ml as a reasonable estimate.
+
+5. Weight calculation:
+   - Weight = Volume × Density = 96 × 0.55 = 52.8 g.
+
+6. Plausibility check:
+   - The implied density is 52.8 g ÷ 96 cm³ = 0.55 g/ml, which is within the expected range for ice cream. The portion size is consistent with a small scoop of ice cream, which typically weighs around 50–60 g.
+
+7. State final estimate:
+   - The estimated weight of the glace noisette is 53 g."
+p8a2w5,barre de chocolat kinder,21.0,26.0,5.0,0.013409961685823755,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/0845ef8b-a437-4236-a4f5-49280aac5c51,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is a 'barre de chocolat kinder,' visible in the image as a single, intact chocolate bar with a white base and brown chocolate ridges.
+   - Its shape is a rectangular bar with five distinct segments.
+
+2. Choose a physical reference to calibrate scale:
+   - The chocolate bar is placed on a wooden table. Based on typical dimensions of a Kinder chocolate bar, its length is approximately 10 cm, and its width is about 2 cm.
+
+3. Volume assessment:
+   - The bar is roughly rectangular. Using the estimated dimensions:
+     Length = 10 cm, Width = 2 cm, Thickness = 1 cm.
+     Volume = Length × Width × Thickness = 10 × 2 × 1 = 20 cm³.
+
+4. Density selection:
+   - Chocolate has a density of approximately 1.3 g/cm³.
+
+5. Weight calculation:
+   - Weight = Volume × Density = 20 cm³ × 1.3 g/cm³ = 26 g.
+
+6. Plausibility check:
+   - The estimated weight of 26 g aligns with the typical weight of a Kinder chocolate bar, which is around 21–28 g depending on the specific product.
+
+7. Final estimate:
+   - The weight of the 'barre de chocolat kinder' is approximately 26 g."
+2ahgvr,toast,55.0,60.0,5.0,0.0351213282247765,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/feb15752-d5e3-4f73-8eeb-9fb560cc6f6b,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The toast is clearly visible as two slices of bread on the plate. Each slice is rectangular and appears to be standard sandwich bread size. 
+
+2. Choose a physical reference: The plate is a standard dinner plate (Ø ≈ 26 cm), and the toast slices occupy a reasonable portion of the plate, confirming they are standard-sized slices (≈ 10 cm × 10 cm). 
+
+3. Volume assessment: A standard slice of toast is approximately 10 cm × 10 cm × 1 cm, giving a volume of 100 cm³ per slice. For two slices, the total volume is 200 cm³. 
+
+4. Density selection: Bread has a typical density of 0.25–0.35 g/cm³. Using an average density of 0.3 g/cm³, the weight of the toast is calculated as 200 cm³ × 0.3 g/cm³ = 60 g. 
+
+5. Plausibility check: The estimated weight of 60 g for two slices of toast is reasonable and aligns with expectations for standard sandwich bread. 
+
+6. Final estimate: The weight of the toast is 60 g."
+p8a2w5,barre de chocolat kinder,21.0,26.0,5.0,0.013409961685823755,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/0845ef8b-a437-4236-a4f5-49280aac5c51,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is a 'barre de chocolat kinder,' visible in the image as a single chocolate bar with a white base and brown stripes.
+   - It is whole and intact, with a segmented design.
+
+2. Choose at least one physical reference to calibrate scale:
+   - The chocolate bar is placed on a wooden table. Based on typical dimensions of a Kinder chocolate bar, its length is approximately 10 cm, and its width is about 2 cm.
+
+3. Volume assessment:
+   - The bar is roughly rectangular with rounded edges. Using the approximate dimensions:
+     Length = 10 cm, Width = 2 cm, Thickness = 1 cm.
+     Volume = Length × Width × Thickness = 10 × 2 × 1 = 20 cm³.
+
+4. Density selection:
+   - Chocolate has a density of approximately 1.3 g/cm³.
+
+5. Weight calculation:
+   - Weight = Volume × Density = 20 cm³ × 1.3 g/cm³ = 26 g.
+
+6. Plausibility check:
+   - The estimated weight of 26 g aligns with the typical weight of a Kinder chocolate bar, which is around 21–26 g. This is reasonable and consistent with expectations.
+
+7. State final estimate:
+   - The estimated weight of the 'barre de chocolat kinder' is 26 g."
+p8a2w5,viande,44.0,40.0,4.0,0.02247765006385696,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/9db1412f-0390-4151-9d81-2b27a4f9a0d9,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The 'viande' (meat) is located on the bottom left of the plate. It appears to be a cooked piece of ground meat, irregularly shaped, with a slightly charred surface.
+
+2. Choose a physical reference to calibrate scale:
+   - The plate is a standard dinner plate with a diameter of approximately 26 cm. The meat occupies a small portion of the plate, roughly 6 cm × 4 cm in area.
+
+3. Volume assessment:
+   - The meat is irregularly shaped but appears to be about 1.5 cm thick on average. Using the approximate dimensions (6 cm × 4 cm × 1.5 cm), the volume is:
+     Volume = 6 × 4 × 1.5 = 36 cm³.
+
+4. Density selection:
+   - Cooked meat has a density of approximately 1.0–1.2 g/ml. Using 1.1 g/ml as a reasonable estimate:
+     Weight = Volume × Density = 36 × 1.1 = 39.6 g.
+
+5. Plausibility check:
+   - The estimated weight of 39.6 g is reasonable for a small piece of cooked ground meat. It is lighter than a smartphone (≈170 g) and heavier than a large egg (≈60 g).
+
+6. Final estimate:
+   - Rounding to the nearest whole number, the weight of the 'viande' is approximately 40 g."
+xjvrtk,galette millet maïs haricots noirs,80.0,76.0,4.0,0.04086845466155811,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/54ee4857-524c-436a-a31b-a1013669f8c1,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The 'galette millet maïs haricots noirs' are the two round, orange-brown patties with visible black beans and corn kernels. They are whole and appear compact. 
+
+2. Choose a physical reference: The container is a standard rectangular food container, approximately 20 cm in length and 12 cm in width. Each galette is roughly circular with a diameter of about 6 cm and a thickness of about 1.5 cm. 
+
+3. Volume assessment: The volume of one galette can be approximated as a cylinder: 
+   Volume = π × (radius)^2 × height = 3.14 × (3 cm)^2 × 1.5 cm ≈ 42.4 cm³ per galette. 
+   For two galettes: 42.4 cm³ × 2 = 84.8 cm³. 
+
+4. Density selection: The galettes are dense and compact, with a mix of millet, corn, and black beans. A reasonable density estimate is 0.9 g/cm³ (similar to cooked grains). 
+
+5. Weight calculation: 
+   Weight = volume × density = 84.8 cm³ × 0.9 g/cm³ ≈ 76.3 g. 
+
+6. Plausibility check: The implied density (76.3 g ÷ 84.8 cm³ ≈ 0.9 g/cm³) is consistent with the expected density for this type of food. The weight is reasonable for two small, dense patties. 
+
+7. Final estimate: The weight of the 'galette millet maïs haricots noirs' is approximately 76 g."
+p96w4a,oeuf,29.0,25.0,4.0,0.014814814814814815,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/4e021399-8a90-44fe-b06c-0955cd2280f7,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The egg (""oeuf"") is visible on the right side of the plate. It is a hard-boiled egg, cut in half, with the yolk and white clearly visible.
+
+2. Choose at least one physical reference to calibrate scale:
+   - The plate appears to be a standard dinner plate with a diameter of approximately 26 cm. The egg half is roughly 4 cm in diameter, consistent with a medium-sized egg.
+
+3. Volume assessment:
+   - A medium-sized egg typically has a volume of about 50 ml. Since only half the egg is visible, the volume is approximately 25 ml.
+
+4. Density selection:
+   - The density of a hard-boiled egg is approximately 1.0 g/ml.
+
+5. Weight calculation:
+   - Weight = volume × density = 25 ml × 1.0 g/ml = 25 g.
+
+6. Plausibility check:
+   - The estimated weight of 25 g for half an egg is reasonable, as a whole medium-sized egg typically weighs around 50 g.
+
+7. State final estimate:
+   - The weight of the egg (half) is estimated to be 25 g."
+r3bub9,salade verte,21.0,17.0,4.0,0.010727969348659003,https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/d936efff-6fc8-4d66-8681-db5d7fd4f9c4,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The salade verte (green salad) is located at the bottom right of the plate. It consists of lettuce leaves with a light dressing, appearing as a loose pile of leaves. 
+
+2. Choose a physical reference: The plate is a standard dinner plate with a diameter of approximately 26 cm. The salade verte occupies about 1/6 of the plate's surface area. 
+
+3. Volume assessment: The pile of lettuce is loosely packed and has an approximate thickness of 2–3 cm. The area it covers is about 1/6 of the plate, which is roughly 88 cm² (1/6 of the plate's area, π × (13 cm)²). The volume is therefore approximately 88 cm² × 2.5 cm = 220 cm³. 
+
+4. Density selection: Lettuce has a low density of about 0.05–0.1 g/ml. Using an average density of 0.075 g/ml, the weight is 220 cm³ × 0.075 g/ml = 16.5 g. 
+
+5. Plausibility check: The estimated weight of 16.5 g is reasonable for a small portion of loosely packed lettuce. It is lighter than a smartphone (≈170 g) and consistent with expectations for this type of food. 
+
+6. Final estimate: The weight of the salade verte is approximately 17 g (rounded to the nearest whole number)."
+2ahgvr,graines de chia,8.0,11.6,3.5999999999999996,0.0036781609195402293,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/aa859e5b-563f-472c-9914-036722ebf60e,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate: The target food item, 'graines de chia,' is visible as small black seeds dispersed throughout the mixture in the bowl. They are mixed into the blanc battu, oats, and honey.
+
+2. Choose a physical reference: The bowl is a standard medium-sized bowl, approximately 15 cm in diameter and 6 cm in height. The mixture fills about 2/3 of the bowl.
+
+3. Volume assessment: The total volume of the mixture is estimated to be about 2/3 of the bowl's capacity. Assuming the bowl holds approximately 500 ml when full, the mixture's volume is about 330 ml. Chia seeds are a small fraction of the mixture, visually estimated at 5% of the total volume. Thus, the chia seeds' volume is approximately 330 ml × 0.05 = 16.5 ml.
+
+4. Density selection: Chia seeds have a density of approximately 0.7 g/ml.
+
+5. Weight calculation: Weight = volume × density = 16.5 ml × 0.7 g/ml = 11.55 g, rounded to 11.6 g.
+
+6. Plausibility check: The estimated weight of 11.6 g for the chia seeds is reasonable given their small size and the proportion visible in the mixture.
+
+7. State final estimate."
+m4egh2,pain,84.0,81.0,3.0,0.03218390804597701,https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/e8255768-2401-491d-9b2f-35168137da3b,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is 'pain' (bread). It appears as three slices of bread on the plate, each spread with butter and strawberry jam. The bread is sliced from a loaf and has a typical thickness for such slices.
+
+2. Choose a physical reference to calibrate scale:
+   - The plate is a standard dinner plate, approximately 26 cm in diameter. Each slice of bread is roughly 10 cm long and 6 cm wide, with a thickness of about 1.5 cm.
+
+3. Volume assessment:
+   - The volume of one slice of bread can be estimated as 10 cm × 6 cm × 1.5 cm = 90 cm³.
+   - There are three slices, so the total volume is 90 cm³ × 3 = 270 cm³.
+
+4. Density selection:
+   - Bread has a typical density of 0.25–0.35 g/cm³. Using an average density of 0.3 g/cm³, the weight of the bread can be calculated.
+
+5. Weight calculation:
+   - Weight = volume × density = 270 cm³ × 0.3 g/cm³ = 81 g.
+
+6. Plausibility check:
+   - The estimated weight of 81 g for three slices of bread is reasonable, as each slice would weigh approximately 27 g, which aligns with expectations for bread slices of this size and thickness.
+
+7. Final estimate:
+   - The weight of the bread is approximately 81 g."
+6fwmw2,blevita,19.0,21.0,2.0,0.004853128991060026,https://www.myfoodrepo.org/api/v1/subjects/6fwmw2/dish_media/9d7b61b8-02b0-4d63-838a-54edfe54552b,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The target food item is the stack of four rectangular Blevita crackers visible in the image. Each cracker is whole and flat. 
+
+2. Choose a physical reference: The crackers are placed on a wooden surface, and their size can be estimated relative to a standard cracker size, approximately 5 cm × 7 cm. 
+
+3. Volume assessment: Each cracker is approximately 5 cm × 7 cm in area and about 0.3 cm thick. The volume of one cracker is therefore 5 × 7 × 0.3 = 10.5 cm³. For four crackers, the total volume is 10.5 × 4 = 42 cm³. 
+
+4. Density selection: Crackers are dry and porous, with an estimated density of 0.5 g/cm³. 
+
+5. Weight calculation: Weight = volume × density = 42 cm³ × 0.5 g/cm³ = 21 g. 
+
+6. Plausibility check: The implied density (21 g ÷ 42 cm³ = 0.5 g/cm³) is reasonable for dry crackers. The weight of 21 g for four crackers aligns with expectations for this type of food. 
+
+7. Final estimate: The total weight of the four Blevita crackers is approximately 21 g."
+p96w4a,tomme fleurette,14.0,16.0,2.0,0.0035759897828863347,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/a11463a4-ab51-4b83-a55f-d4edfb527b13,"Let's work this out in a step-by-step way to be sure we have the right answer.
+
+1. Locate & isolate: The tomme fleurette is the small piece of cheese on the bottom left of the plate, with a creamy texture and a rind visible. It is a small wedge-shaped piece.
+
+2. Choose a physical reference to calibrate scale: The dinner plate is approximately 26 cm in diameter. The tomme fleurette piece appears to be about 4 cm long, 3 cm wide, and 1.5 cm thick.
+
+3. Volume assessment: The tomme fleurette is roughly wedge-shaped, so we approximate its volume as a rectangular prism for simplicity. Volume = length × width × thickness = 4 cm × 3 cm × 1.5 cm = 18 cm³.
+
+4. Density selection: Tomme fleurette is a soft cheese, so we use a density of approximately 0.9 g/ml (or 0.9 g/cm³).
+
+5. Weight calculation: Weight = volume × density = 18 cm³ × 0.9 g/cm³ = 16.2 g.
+
+6. Plausibility check: The estimated weight of 16.2 g is reasonable for a small wedge of soft cheese. It is lighter than a smartphone (≈170 g) and heavier than a large egg (≈60 g).
+
+7. Final estimate: The weight of the tomme fleurette is approximately 16 g."
+xjvrtk,œuf dur,50.0,51.5,1.5,0.009578544061302681,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/b53715cb-f3f5-4abf-bd1d-b7264f7f0a86,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate: The œuf dur (hard-boiled egg) is located on the left side of the plate. It is cut into two halves, showing the yolk and white. The shape is typical of a medium-sized egg.
+
+2. Choose a physical reference: The fork next to the plate is approximately 20 cm long, which helps us estimate the size of the egg halves. Each half appears to be about 4.5 cm in length and 3.5 cm in width, consistent with a medium-sized egg.
+
+3. Volume assessment: A medium-sized egg typically has a volume of about 50 ml. Since the egg is hard-boiled, its volume remains unchanged.
+
+4. Density selection: The density of a hard-boiled egg is approximately 1.03 g/ml.
+
+5. Weight calculation: Weight = volume × density = 50 ml × 1.03 g/ml = 51.5 g.
+
+6. Plausibility check: The estimated weight of 51.5 g is reasonable for a medium-sized hard-boiled egg. It is slightly heavier than a large egg yolk and white combined, which aligns with expectations.
+
+7. Final estimate: The weight of the œuf dur is approximately 51.5 g."
+2ahgvr,crème de marrons,13.0,12.0,1.0,0.0016602809706257981,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/6b1cc73c-e22b-4132-970e-e37910b8b407,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The crème de marrons (chestnut cream) is spread on the visible piece of bread. It appears to be a thin, even layer with some slight texture.
+
+2. Choose a physical reference to calibrate scale:
+   - The bread slice is approximately the size of a small piece of baguette, roughly 10 cm in length and 5 cm in width. This will serve as the reference.
+
+3. Volume assessment:
+   - The spread covers most of the bread surface, approximately 10 cm × 5 cm = 50 cm².
+   - Assuming an average thickness of 2 mm (0.2 cm) for the spread, the volume is:
+     Volume = 50 cm² × 0.2 cm = 10 cm³.
+
+4. Density selection:
+   - Crème de marrons has a density similar to other sweet spreads, approximately 1.2 g/ml (1.2 g/cm³).
+
+5. Weight calculation:
+   - Weight = Volume × Density = 10 cm³ × 1.2 g/cm³ = 12 g.
+
+6. Plausibility check:
+   - The estimated weight of 12 g for the spread aligns with expectations for a thin layer of a dense sweet spread on a small piece of bread. It is lighter than a smartphone (≈170 g) and heavier than a large egg yolk (≈10 g).
+
+7. Final estimate:
+   - The weight of the crème de marrons is approximately 12 g."
+p96w4a,beurre,3.0,4.0,1.0,0.0003831417624521073,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/a11463a4-ab51-4b83-a55f-d4edfb527b13,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The beurre (butter) is located on the bottom left of the plate. It is a small, rounded portion, likely scooped with a spoon or knife.
+
+2. Choose at least one physical reference to calibrate scale:
+   - The plate is a standard dinner plate with a diameter of approximately 26 cm. The butter portion is small and can be compared to the size of the cheese pieces nearby.
+
+3. Volume assessment:
+   - The butter appears to be roughly hemispherical. Estimating its diameter to be about 2.5 cm, the volume of a hemisphere is (2/3)πr³. Using r = 1.25 cm:
+     Volume = (2/3) × 3.14 × (1.25³) ≈ 4.1 cm³.
+
+4. Density selection:
+   - Butter has a density of approximately 0.9 g/ml (or 0.9 g/cm³).
+
+5. Weight calculation:
+   - Weight = volume × density = 4.1 cm³ × 0.9 g/cm³ ≈ 3.7 g.
+
+6. Plausibility check:
+   - The estimated weight of 3.7 g is reasonable for a small portion of butter, which is lighter than a smartphone (≈170 g) and heavier than a coin (≈2 g).
+
+7. Final estimate:
+   - The weight of the butter is approximately 4 g."
+ppf8hc,parmesan,14.0,15.0,1.0,0.0017879948914431673,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/2833b10a-52c7-409b-ad86-f6147c323f9e,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The parmesan is not directly visible as a distinct layer or chunks in the image. It is likely grated and mixed into the risotto, contributing to its creamy texture. 
+
+2. Reference object: The risotto is served on a standard dinner plate, which typically has a diameter of approximately 26 cm. The portion of risotto occupies a central area of about 12 cm in diameter. 
+
+3. Volume assessment: The risotto appears to be about 1.5 cm thick on average. Using the visible area (approximated as a circle with a 12 cm diameter), the volume is calculated as: 
+   Area = π × (radius)^2 = 3.14 × (6 cm)^2 ≈ 113 cm². 
+   Volume = Area × thickness = 113 cm² × 1.5 cm ≈ 170 cm³. 
+
+4. Density selection: Risotto has a density of approximately 0.9 g/ml (or 0.9 g/cm³) due to its creamy consistency and the inclusion of parmesan. 
+
+5. Weight calculation: 
+   Weight = Volume × Density = 170 cm³ × 0.9 g/cm³ ≈ 153 g. 
+
+6. Plausibility check: The estimated weight of 153 g for the risotto portion is reasonable for a single serving. Parmesan typically constitutes about 10% of the total weight of a risotto dish. 
+   Parmesan weight = 10% × 153 g ≈ 15 g. 
+
+7. Final estimate: The weight of the parmesan in the risotto is approximately 15 g."
+p96w4a,tarte à la rhubarbe,105.0,106.0,1.0,0.013409961685823755,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/e0c92380-fc15-4bbe-90fb-cc2936321050,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The target food is a slice of rhubarb tart. It is triangular in shape, with visible rhubarb pieces on top and a pastry crust at the base. 
+
+2. Choose a physical reference: The slice is on a standard dinner plate (Ø ≈ 26 cm). The knife and fork are also visible, with the knife length ≈ 20 cm. These references help estimate the size of the tart slice. 
+
+3. Volume assessment: The slice appears to cover approximately one-sixth of a full tart. Assuming the full tart has a diameter of 26 cm, the area of the full tart is πr² = 3.14 × (13 cm)² ≈ 530.7 cm². The area of the slice is approximately 530.7 cm² ÷ 6 ≈ 88.5 cm². The thickness of the tart is estimated to be about 2 cm, giving a volume of 88.5 cm² × 2 cm ≈ 177 cm³. 
+
+4. Density selection: A rhubarb tart is a mix of pastry, fruit, and filling. Based on the density guide, a reasonable estimate for this type of food is 0.6 g/ml (or 0.6 g/cm³). 
+
+5. Weight calculation: Weight = volume × density = 177 cm³ × 0.6 g/cm³ ≈ 106.2 g. 
+
+6. Plausibility check: The implied density is 106.2 g ÷ 177 cm³ ≈ 0.6 g/cm³, which is within the expected range for this type of food. The weight is reasonable for a single slice of tart. 
+
+7. Final estimate: The weight of the tarte à la rhubarbe slice is approximately 106 g."
+wrah5h,sauce vinaigrette,28.0,29.0,1.0,0.0035759897828863347,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/712f4686-2c54-47d3-a8f2-811e15f6e76b,"Let's work this out in a step by step way to be sure we have the right answer. The target food item is 'sauce vinaigrette'.
+
+1. Locate & isolate: The vinaigrette is not directly visible but is likely coating the quinoa, vegetables, and tofu. It appears to be a light dressing, as no pooling is visible.
+
+2. Reference object: The container is a rectangular metal lunchbox, approximately 18 cm × 12 cm. The depth of the container is estimated to be 4 cm. The vinaigrette is likely a thin layer distributed across the food.
+
+3. Volume assessment: The total food volume in the container is approximately 18 × 12 × 3 cm = 648 cm³. Assuming the vinaigrette is a thin coating, it likely accounts for about 5% of the total volume, or 32.4 cm³.
+
+4. Density selection: Vinaigrette has a density close to oil, approximately 0.9 g/ml.
+
+5. Weight calculation: Weight = volume × density = 32.4 cm³ × 0.9 g/ml = 29.2 g.
+
+6. Plausibility check: The estimated weight of 29.2 g is reasonable for a light coating of vinaigrette in a dish of this size. It is consistent with expectations for a dressing portion.
+
+7. Final estimate: The weight of the vinaigrette is approximately 29 g."
+p8a2w5,beurre,5.0,4.5,0.5,0.00031928480204342275,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/9e3bfdbf-2b6e-41be-93ee-6610250b8c4e,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The butter (beurre) is visible on the plate as a small rectangular piece with ridges, placed near the bottom right of the plate. It appears to be a single serving cut from a larger block.
+
+2. Choose a physical reference: The plate is a standard dinner plate, approximately 26 cm in diameter. The butter piece is roughly 2.5 cm × 2 cm × 1 cm in size.
+
+3. Volume assessment: The butter's volume can be calculated as length × width × height = 2.5 cm × 2 cm × 1 cm = 5 cm³.
+
+4. Density selection: Butter has a density of approximately 0.9 g/cm³.
+
+5. Weight calculation: Weight = volume × density = 5 cm³ × 0.9 g/cm³ = 4.5 g.
+
+6. Plausibility check: The estimated weight of 4.5 g is reasonable for a small serving of butter, consistent with its size and density.
+
+7. Final estimate: The weight of the butter is approximately 4.5 g."
+p96w4a,beurre,3.0,2.7,0.2999999999999998,0.00011494252873563211,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/1be5e2de-f1fe-4789-baf2-13f24ce8ca0a,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The butter (beurre) is spread thinly on the slice of tresse (braided bread) beneath the apricot jam (confiture abricot). It is not visible in large amounts but is present as a thin layer.
+
+2. Choose a physical reference to calibrate scale:
+   - The plate is a standard dinner plate with a diameter of approximately 26 cm. The slice of tresse is about 10 cm long and 6 cm wide.
+
+3. Volume assessment:
+   - The butter is spread thinly over the surface of the bread. The visible area of the bread is approximately 10 cm × 6 cm = 60 cm². Assuming an average thickness of 0.5 mm (0.05 cm) for the butter layer, the volume is 60 cm² × 0.05 cm = 3 cm³.
+
+4. Density selection:
+   - Butter has a density of approximately 0.9 g/cm³.
+
+5. Weight calculation:
+   - Weight = volume × density = 3 cm³ × 0.9 g/cm³ = 2.7 g.
+
+6. Plausibility check:
+   - The estimated weight of 2.7 g is reasonable for a thin layer of butter spread on a single slice of bread. It is lighter than a smartphone (≈170 g) and heavier than a small coin (≈1 g).
+
+7. Final estimate:
+   - The weight of the butter is approximately 2.7 g."
+p96w4a,demi croissant,14.0,14.0,0.0,0.0,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/a7d36c03-057f-474b-9b76-5296d4f9faef,"Let's work this out in a step by step way to be sure we have the right answer. 
+
+1. Locate & isolate: The target food item is the 'demi croissant,' which is visible on the plate. It is a small, crescent-shaped pastry, cut in half, with some butter and apricot jam spread on top. 
+
+2. Choose a physical reference: The plate appears to be a standard dessert plate with a diameter of approximately 20 cm. The croissant occupies a small portion of the plate, and its size can be estimated relative to the plate. 
+
+3. Volume assessment: The visible portion of the croissant is about 6 cm in length, 3 cm in width, and 2.5 cm in height. This gives a volume of approximately 6 × 3 × 2.5 = 45 cm³. 
+
+4. Density selection: Croissants are light and airy, with a density of approximately 0.25–0.35 g/cm³. Using an average density of 0.3 g/cm³, the weight is calculated as 45 × 0.3 = 13.5 g. 
+
+5. Plausibility check: The estimated weight of 13.5 g is reasonable for a small piece of croissant, as croissants are known to be light and flaky. 
+
+6. Final estimate: The weight of the 'demi croissant' is approximately 14 g, rounded to the nearest whole number."
+8japfq,yaourt nature,118.0,118.0,0.0,0.0,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/885c0212-0193-4a37-b6a9-a1dab36f03c5,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate:
+   - The target food item is 'yaourt nature' (plain yogurt). It is in a small plastic container, partially visible with the yogurt inside.
+   - The yogurt is in a semi-liquid state, filling the container.
+
+2. Choose a physical reference to calibrate scale:
+   - The apple next to the yogurt container is a good reference. A typical apple of this size is approximately 7–8 cm in diameter.
+   - The yogurt container appears to be a standard single-serving size, approximately 5 cm in diameter and 6 cm in height.
+
+3. Volume assessment:
+   - The yogurt container is cylindrical. Using the approximate dimensions (diameter = 5 cm, height = 6 cm), the volume can be calculated as:
+     Volume = π × (radius)^2 × height = 3.14 × (2.5 cm)^2 × 6 cm ≈ 117.75 cm³.
+   - The container appears to be nearly full, so the yogurt volume is approximately 117.75 cm³.
+
+4. Density selection:
+   - Yogurt has a density of approximately 0.9–1.0 g/ml. Using 1.0 g/ml for simplicity, the weight of the yogurt is approximately equal to its volume in grams.
+
+5. Weight calculation:
+   - Weight = volume × density = 117.75 cm³ × 1.0 g/cm³ ≈ 118 g.
+
+6. Plausibility check:
+   - A standard single-serving yogurt container typically weighs around 120 g, which aligns with this estimate. The calculation is consistent with expectations.
+
+7. Final estimate:
+   - The weight of the 'yaourt nature' is approximately 118 g."
+p8a2w5,barre de chocolat kinder,21.0,21.0,0.0,0.0,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/0845ef8b-a437-4236-a4f5-49280aac5c51,"Let's work this out in a step by step way to be sure we have the right answer.
+
+1. Locate & isolate: The target food item is a 'barre de chocolat kinder,' visible as a single, intact chocolate bar with a segmented design.
+
+2. Choose a physical reference: The wooden table's planks provide a reference for scale. Each plank appears to be approximately 10 cm wide, and the chocolate bar spans slightly less than the width of one plank, suggesting a length of about 8 cm. The bar's width is approximately 2 cm, and its thickness is about 1 cm.
+
+3. Volume assessment: The chocolate bar is roughly a rectangular prism. Its volume can be calculated as:
+   Volume = length × width × thickness = 8 cm × 2 cm × 1 cm = 16 cm³.
+
+4. Density selection: Chocolate typically has a density of about 1.3 g/cm³.
+
+5. Weight calculation: Weight = volume × density = 16 cm³ × 1.3 g/cm³ = 20.8 g.
+
+6. Plausibility check: The estimated weight of 20.8 g is reasonable for a small chocolate bar of this size. It aligns with expectations for similar products.
+
+7. Final estimate: The weight of the 'barre de chocolat kinder' is approximately 21 g."

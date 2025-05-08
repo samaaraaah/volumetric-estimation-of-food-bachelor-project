@@ -1,4 +1,4 @@
-result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc
+result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc,model
 ../data/result/result_7aa63dcf-66f6-4758-b290-5680318bfc29.json,28.336734693877553,42.86948750972378,48.53285893679364,
 ../data/result/result_7aa63dcf-66f6-4758-b290-5680318bfc29.json,27.797752808988765,45.73723112677467,52.38147901399067, removed water
 ../data/result/result_bf71e825-bbae-4e17-a0f4-6d96783d6708.json,27.183673469387756,39.514864581807615,47.64315613227292,precison about container and volume rich but lighter foods
@@ -51,3 +51,10 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc
 ../data/result/result_d5bc9ca1-783c-4980-9c8c-90c12efc924f.json,24.96969696969697,42.22936256548063,40.32381183906649,mix of the 2 last prompt on whole data reorganized prompt and be especially cautious with small and large portions,"be especially cautious with small\n and large portions"
 ../data/result/result_7991a4a9-4a77-43fa-bb39-65b6817a9271.json,29.606060606060606,47.81067385722631,56.11681050200559,added that it must act like it has no access to data and removed the examples in the specification about light and dense foods
 ../data/result/result_d19c3270-5f4c-4cfb-9e21-8d7e14ece178.json,25.830779944289695,47.345422822243506,31.310931748284887,same prompt as result_d5bc9ca1 on whole data,on whole dataset
+----prompt optimization
+../data/result/result_972cf570-4290-447a-9478-4e701ab0fab6.json,50.150000000000006,69.25757315448868,110.69835249042147,first try to optimize prompt really bad result (model="o3")
+../data/result/result_d15309ec-5496-47cd-9495-8ae28b44a68c.json,48.07142857142857,87.15338788358211,93.14775, 1st
+../data/result/result_1f3d0615-e414-4f02-a508-590487a3e11f.json,41.03,62.85110304271143,84.80977809422096,improve last prompt
+../data/result/result_d46ea8b0-be50-455d-b9cf-e33806cfba57.json,39.17,69.17452156390976,66.8063367746529,improve last prompt
+../data/result/result_3cb25645-945c-4ca2-9a3f-c4d2b31f2977.json,38.78787878787879,71.28431876531046,79.28236295125805,bad so changed a bit the prompt optimizer prompt and ran it on the last prompt not this one
+../data/result/result_579b9e1a-4a21-46f1-9def-27122bd5c0b3.json,38.515151515151516,73.23159530275527,84.05707593688363

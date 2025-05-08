@@ -1,4 +1,5 @@
 import os
+from datetime import datetime
 from dotenv import load_dotenv
 import openai
 import argparse 
@@ -24,43 +25,43 @@ with open(f"../data/prompt/{args.prompt}", "r", encoding="utf-8") as f:
 # Step 2: Read error cases from CSV
 with open(f"../data/comparison/{args.errors}", "r", encoding="utf-8") as f:
     reader = csv.DictReader(f)
-    errors = [row for row in reader]
+    results = [row for row in reader]
 
 # Keep only the first 20 error cases
-errors = errors[:20]
+errors = results[:20]
+
+# Keep 20 best estimations
+best = results[-20:]
 
 # Step 3: Create optimization instruction
 instruction = f"""
-You are an expert in prompt optimization systems. Your task is to improve the effectiveness of prompt optimization prompts - the prompts used to guide the improvement of task-specific prompts.
+You are an expert in improving prompts for AI systems. Your task is to help optimize the following prompt used for food weight estimation.
 
-Below is the current prompt used for food weight estimation. Then, you will find several real-world error examples from a system using this prompt.
+Below is the current prompt followed by several examples where the model made significant errors and other where it performed well.
 
-Your goal: Optimize the prompt to reduce the types of errors shown. Keep the structure similar, but improve reasoning guidance, especially for:
-- Chopped food (e.g., tomatoes misestimated when chopped)
-- Overestimation of low-density food in jars or bowls (e.g., porridge, hummus)
-- Misjudgment of spread-out but dense foods (e.g., gratins, salads)
-- Partial foods mixed with others
-- Misuse of volume assumptions
-- Use of reference items
+Your goal: Refine the prompt to reduce recurring failure modes, using both good and bad examples as guidance. The current prompt already performs well—make small, targeted improvements only where needed, and preserve the structure, logic, and reasoning flow as much as possible. Where applicable, favor visual cues such as shape, texture, and shadow over strict geometric calculations.
+
+Use the error cases to identify failure modes, and the good examples to understand what works well.
 
 ## Current Prompt:
 {current_prompt}
 
-## Output Format:
-<effectiveness_analysis>
-Analysis of how well this optimization prompt guides improvements
-</effectiveness_analysis>
+## Your Response Format:
+<error_analysis>
+1. Identify the most common types of mistakes
+2. Explain why the current prompt fails to prevent them
+</error_analysis>
 
-<improvement_strategy>
-Specific changes to enhance optimization capabilities
-</improvement_strategy>
+<recommendations>
+Clear suggestions to improve the prompt
+Encourage reasoning grounded in visual appearance (texture, shape, color, shadow, visual mass) rather than strict reliance on geometric volume calculations (plate diameter × height, etc.), except when clearly useful.
+</recommendations>
 
-<improved_optimization_prompt>
-The enhanced prompt for optimizing task-specific prompts
-</improved_optimization_prompt>
+<revised_prompt>
+Your improved version of the original prompt
+</revised_prompt>
 
-
-## Examples of high-error outputs:
+## High-error examples:
 """
 
 for e in errors:
@@ -73,15 +74,30 @@ Predicted weight: {e["predicted_weight"]}g
 Error: {e["absolute_error"]}g
 Reasoning: {e["reasoning"]}
 Image: {e["url"]}
+
+## Good performance examples:
+"""
+    
+for b in best:
+    instruction += f"""
+----
+Key: {b["key"]}
+Description: {b["description"]}
+True weight: {b["weight"]}g
+Predicted weight: {b["predicted_weight"]}g
+Error: {b["absolute_error"]}g
+Reasoning: {b["reasoning"]}
+Image: {b["url"]}
 """
 
-instruction += "\n## Please provide a refined prompt that addresses these common failures while keeping the structure clear and robust."
+instruction += "\n## Please suggest a stronger prompt that addresses the patterns of failure shown above."
+
 
 # Step 4: Send request to GPT-o3
 response = client.chat.completions.create(
     model="o3",
     messages=[
-        {"role": "system", "content": "You are an expert in prompt optimization for machine learning and computer vision tasks."},
+        {"role": "system", "content": "You are an expert in prompt optimization, with a focus on visual reasoning and volume/weight estimation tasks."},
         {"role": "user", "content": instruction}
     ],
     temperature=1
@@ -92,7 +108,13 @@ optimized_prompt = response.choices[0].message.content
 print(optimized_prompt)
 
 # Step 6: Save output to file
-output_path = f"../data/prompt/optimized/optimized_{args.prompt.replace('.md', '')}.md"
+timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+base = args.prompt.replace(".md", "")        # Remove extension
+parts = base.split("_")                   # Split by underscore
+
+# parts[1] is the number, parts[2] is the ID (we want only parts[1])
+prompt_number = parts[0] + "_" + parts[1]
+output_path = f"../data/prompt/optimized/optimized_{prompt_number}_{timestamp}.md"
 with open(output_path, "w", encoding="utf-8") as out_file:
     out_file.write(optimized_prompt)
 
