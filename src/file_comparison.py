@@ -3,8 +3,8 @@ import argparse
 import pandas as pd
 
 parser = argparse.ArgumentParser(description="Comparison script between 2 files.")
-parser.add_argument("--file1", type=str, required=False, default=False, help="File name 1.")
-parser.add_argument("--file2", type=str, required=True, help="File name 2.")
+parser.add_argument("--file1", type=str, required=False, default=False, help="File name 1 without the extension.")
+parser.add_argument("--file2", type=str, required=True, help="File name 2 without the extension.")
 args = parser.parse_args()
 file1 = pd.read_csv(f"../data/comparison/sorted_{args.file1}.csv")
 file2 = pd.read_csv(f"../data/comparison/sorted_{args.file2}.csv")

@@ -57,4 +57,10 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc,model
 ../data/result/result_1f3d0615-e414-4f02-a508-590487a3e11f.json,41.03,62.85110304271143,84.80977809422096,improve last prompt
 ../data/result/result_d46ea8b0-be50-455d-b9cf-e33806cfba57.json,39.17,69.17452156390976,66.8063367746529,improve last prompt
 ../data/result/result_3cb25645-945c-4ca2-9a3f-c4d2b31f2977.json,38.78787878787879,71.28431876531046,79.28236295125805,bad so changed a bit the prompt optimizer prompt and ran it on the last prompt not this one
-../data/result/result_579b9e1a-4a21-46f1-9def-27122bd5c0b3.json,38.515151515151516,73.23159530275527,84.05707593688363
+../data/result/result_579b9e1a-4a21-46f1-9def-27122bd5c0b3.json,38.515151515151516,73.23159530275527,84.05707593688363,prompt_opti ran on prompt_44 but bad results
+----reworked the prompt optimizer prompt
+../data/result/result_cc49802e-431e-4213-bd52-34a259bb46a1.json,33.73,51.934650292082,69.09908627032159,optimized prompt_40 (this is prompt_47)
+../data/result/result_e920b796-8323-4b6a-903c-13123419488d.json,43.04040404040404,64.24961559788615,90.70796351084813,optimized prompt_47 (this is prompt_48)
+../data/result/result_5a16e5de-0f6c-45b8-bbae-75e8ee2547fe.json,34.11,63.71660403294152,62.97591076302361,optimized prompt_48 (this is prompt_49)
+../data/result/result_4722850e-e34a-4c7d-be8d-015a1f2c2c82.json,33.04,51.580656517935665,59.68268660258693,optimized prompt_49 (this is prompt_50)
+../data/result/result_9e6d5204-4015-4700-93d8-794ca599d7bf.json,41.41414141414141,56.49586702413488,86.24543885601578,optimized prompt_50 (this is prompt_51)

@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import openai
 import argparse 
 import csv
+import re
 
 # Argument parsing
 parser = argparse.ArgumentParser(description="Prompt optimizer.")
@@ -39,9 +40,24 @@ You are an expert in improving prompts for AI systems. Your task is to help opti
 
 Below is the current prompt followed by several examples where the model made significant errors and other where it performed well.
 
-Your goal: Refine the prompt to reduce recurring failure modes, using both good and bad examples as guidance. The current prompt already performs well—make small, targeted improvements only where needed, and preserve the structure, logic, and reasoning flow as much as possible. Where applicable, favor visual cues such as shape, texture, and shadow over strict geometric calculations.
+Your goal: Refine the prompt to reduce recurring failure modes, using both good and bad examples as guidance. The current prompt already performs well—make small, targeted improvements only where needed, and preserve the structure, logic, and reasoning flow as much as possible. 
 
 Use the error cases to identify failure modes, and the good examples to understand what works well.
+
+Important: The <revised_prompt> must be presented as a clean, final version—do not highlight or annotate changes inside it (e.g., using bold, comments, or explanations). All change explanations should go in the <recommendations> section only.
+
+## Requirements to keep in the revised prompt:
+- Assume all images were taken in Switzerland; leverage common Swiss portion sizes where relevant.
+- Emphasize visual grounding: prioritise cues like texture, shape, shadow, and relative size over rigid calculations (e.g., plate diameter × height).
+- Preserve the final instruction to return a JSON with:
+  {{
+    "reasoning": "Let’s work this out in a step by step way to be sure we have the right answer…",
+    "food_name": estimated_weight_in_grams
+  }}
+– Replace food_name with exactly the specified food name from the input (no translation).  
+– Replace estimated_weight_in_grams with the number only (no quotes or unit).
+- Do not output any text outside of the JSON block.
+- Preserve the existing structure of steps and instructions in the current prompt. Do not add new sections unless they directly address recurring failure modes.
 
 ## Current Prompt:
 {current_prompt}
@@ -54,7 +70,6 @@ Use the error cases to identify failure modes, and the good examples to understa
 
 <recommendations>
 Clear suggestions to improve the prompt
-Encourage reasoning grounded in visual appearance (texture, shape, color, shadow, visual mass) rather than strict reliance on geometric volume calculations (plate diameter × height, etc.), except when clearly useful.
 </recommendations>
 
 <revised_prompt>
@@ -90,7 +105,10 @@ Reasoning: {b["reasoning"]}
 Image: {b["url"]}
 """
 
-instruction += "\n## Please suggest a stronger prompt that addresses the patterns of failure shown above."
+instruction += """\n## Please suggest a stronger prompt that addresses the patterns of failure shown above. 
+Important: The <revised_prompt> must be presented as a clean, final version—do not highlight or annotate changes inside it (e.g., using bold, comments, or explanations). 
+All change explanations should go in the <recommendations> section only. """
+
 
 
 # Step 4: Send request to GPT-o3
@@ -120,3 +138,16 @@ with open(output_path, "w", encoding="utf-8") as out_file:
 
 print(f"Optimized prompt saved to: {output_path}")
 
+# Step 7: Extract and save only the revised prompt
+match = re.search(r"<revised_prompt>\s*(.*?)\s*</revised_prompt>", optimized_prompt, re.DOTALL)
+if match:
+    revised_prompt = match.group(1).strip()
+    # Compute the incremented prompt number (e.g., from "prompt_40" to "prompt_41")
+    prefix, num = prompt_number.split("_")
+    incremented_num = int(num) + 1
+    new_prompt_filename = f"../data/prompt/prompt_{incremented_num}_.md"
+    with open(new_prompt_filename, "w", encoding="utf-8") as out_file:
+        out_file.write(revised_prompt)
+    print(f"Revised prompt saved to: {new_prompt_filename}")
+else:
+    print("Failed to extract <revised_prompt> block.")

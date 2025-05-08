@@ -1,57 +1,139 @@
-# volumetric-estimation-of-food-bachelor-project
+# Volumetric Estimation of Food — Bachelor Project
 
-## Version 1 (v1-2025-04-03):  
-give the llm one food class per image  
-weight data not cleaned  
+## Overview
 
-### Files:  
-data/v1/comparison_data/comparison_{result_file_name}: contains the key, image_id, url, description, weight, predicted_weight, absolute_error of each food class that was annotated  
-data/v1/comparison_data/sorted_{result_file_name}: contains the same lines as comparison file but with the absolute error sorted in decreasing order  
-data/v1/prompt_data/prompt_{result_file_id}: contains the prompt used to generate the corresponding result file, using ChatGPT 4o (2024-11-20)  
-data/v1/result/result_file_name: contains the resulting file from the LLM prediction  
-data/weight_data.csv: original data  
-data/v1/weight_data_ready.csv: original data formatted for the benchmarking tool  
-data/v1/weight_data_sample.csv: sample (100) from original data  
-data/v1/weight_data_sample_ready.csv: sample (100) from original data formatted for the benchmarking tool  
-src/v1/comparison.py: script that creates the files in the folder comparison_data from a result file and writes the results of the metrics in metrics_results.csv  
-src/v1/format.py: script that creates the formatted files for the benchmarking tool  
-src/v1/metrics_results.csv: file containing the metrics results for each result file  
+This project explores the use of large language models (LLMs) to estimate the weight of specific food items from images, with a focus on **prompt engineering**, **systematic evaluation**, and **iterative optimization**. The final pipeline operates on a cleaned and structured dataset, leveraging image-level annotations and automatic prompt refinement to improve accuracy.
 
-## Version 2 :  
-give the llm all the food items on the image, ask it to evaluate the weight of only one food item  
-data cleaned (in process)
+An initial prototype (Version 1) was developed as a baseline to understand the challenges. The final version (Version 2) implements a more robust and scalable approach.
 
 
-data/cleaned/weight_data_cleaned.csv: original data, cleaned  
-data/cleaned/weight_data_cleaned_grouped.csv: cleaned data with an additional column containing all the food items on the picture  
-data/cleaned/weight_data_cleaned_sample.csv: sample (100) from cleaned data  
-data/ready/weight_data_cleaned_ready.csv: cleaned data formatted for the benchmarking tool  
-data/ready/weight_data_cleaned_sample_ready.csv: sample (100) from cleaned data formatted for the benchmarking tool  
-data/comparison/sorted_{result_file_name}: contains the same lines as comparison file but with the absolute error sorted in decreasing order  
-data/prompt/prompt_{result_file_id}: contains the prompt used to generate the corresponding result file, using ChatGPT 4o (2024-11-20)  
-data/result/result_file_name: contains the resulting file from the LLM prediction  
-data/weight_data.csv: original data  
-data/removed_logs.csv: contains the removed rows and the reason why it was removed  
-src/format.py: script that creates the formatted files for the benchmarking tool  
-src/comparison.py: script that creates the files in the folder comparison from a result file and writes the results of the metrics in metrics_results.csv  
-src/metrics_results.csv: file containing the metrics results for each result file  
-  
-  
-When deleting rows in weight_data_cleaned.csv, always put the deleted row in removed_logs.csv and add a reason. Then run:  
-```python format.py --liquid```: to update the file weight_data_cleaned_ready.csv.  
-Then run python ```format.py --no-liquid``` with:  
-```--sample```: to generate a new sample file from the new cleaned data  
-( ```--no-liquid```: generates a new file (ready and grouped) excluding the data that contains liquids such as water, milk, coffee, tea, bier, wine, juice, oil etc.)
+## Pipeline Summary
 
-Once a result has been obtained, put the corresponding file in data/result and run:  
-- If the data is a sample data : ```python comparison.py --json {result_file_name}```: to create a sorted_{result_file_name} with the errors sorted by absolute value  
-- If the data is the whole data : ```python comparison.py --json {result_file_name} --wholedata```: to create a sorted_{result_file_name} with the errors sorted by the total dish weighed absolute error  
-The following arguments are available:  
-```--no-liquid```: use it to indicate that the data doesn't contain liquids  
-```--errors```: use it to display the 20 highest errors in the terminal  
+1. **Data preparation**  
+   Format raw food data into a structure accepted by the benchmarking tool.
 
-Prompt optimization using OpenAI API:  
-The following file contains the code to automatically optimize a prompt using GPT-o3???? for now **src/prompt_opti.py**. The available arguments are:  
-```--prompt```: indicate the name of the file containing the prompt to be optimized  
-```--errors```: indicate the name of the file containing the results generated by this prompt  
-The optimized prompt will be saved to **data/prompt/optimized** with the name of the original prompt and a timestamp.  
+2. **LLM prediction**  
+   Generate predictions using ChatGPT based on a tailored prompt.
+
+3. **Result analysis**  
+   Evaluate predictions by comparing them to ground truth weights and computing errors.
+
+4. **Prompt optimization**  
+   Analyze error-prone predictions and automatically optimize the prompt with GPT-o3.
+
+5. **Re-evaluation**  
+   Test the new prompt on the same data and compare performance.
+
+---
+
+## Version 1 (v1-2025-04-03)
+
+> **Description:** First attempt to test the feasibility of using an LLM for food weight estimation with minimal data preparation. This version was not used in the final evaluation but is retained for transparency and traceability. Each prompt asked the LLM to estimate the weight of a single food class per image. No cleaning or grouping of data was applied.
+
+### Folder structure
+
+#### `data/v1/`
+
+| File / Folder | Description |
+|---------------|-------------|
+| `weight_data.csv` | Original raw data |
+| `weight_data_ready.csv` | Formatted version for benchmarking |
+| `weight_data_sample.csv` | Random 100-sample subset |
+| `weight_data_sample_ready.csv` | Formatted sample data |
+| `result/result_file_name` | LLM output predictions |
+| `comparison_data/comparison_{result_file_name}` | Raw comparison between predictions and ground truth |
+| `comparison_data/sorted_{result_file_name}` | Same as above, but sorted by absolute error |
+| `prompt_data/prompt_{result_file_id}` | Prompt used for the prediction file |
+
+#### `src/v1/`
+
+| File | Description |
+|------|-------------|
+| `format.py` | Formats data for benchmarking |
+| `comparison.py` | Computes and saves prediction errors |
+| `metrics_results.csv` | Metrics summary for each result file |
+
+---
+
+## Version 2
+
+> **Description:** A refined version where the model is given all the food item present on the image but is asked to estimate only one target item. Includes a cleaned and more structured dataset.
+
+### Folder structure
+
+#### `data/`
+
+| File / Folder | Description |
+|---------------|-------------|
+| `weight_data.csv` | Original raw data |
+| `cleaned/weight_data_cleaned.csv` | Cleaned dataset |
+| `cleaned/weight_data_cleaned_no_liquid.csv` | Same as above without liquids |
+| `cleaned/weight_data_cleaned_grouped.csv` | Cleaned data + list of all food items per image |
+| `cleaned/weight_data_cleaned_grouped_no_liquid.csv` | Same as above without liquids |
+| `cleaned/weight_data_cleaned_sample_{timestamp}.csv` | 100-sample subset from grouped cleaned data |
+| `ready` | Contains all the files from the cleaned folder formatted for benchmarking |
+| `removed_logs.csv` | Log of removed rows and their removal reasons |
+| `comparison/sorted_{result_file_name}` | Sorted error output |
+| `prompt/optimized/optimized_prompt_{prompt_nb}_{timestamp}` | Result of automatic prompt optimization |
+| `prompt/prompt_{prompt_nb}_{result_file_id}` | Prompt used to generate the corresponding prediction |
+| `result/{result_file_id}` | LLM output predictions |
+
+`systematically_wrong.csv`, `sample_for_testing.csv` — *to be removed*
+
+---
+
+#### `src/`
+
+| File | Description |
+|------|-------------|
+| `format.py` | Prepares data (raw → ready format), supports filtering out liquids |
+| `comparison.py` | Compares prediction vs. ground truth and generates error metrics |
+| `file_comparison.py` | Compares two prediction files line-by-line to determine which one performs better |
+| `metrics_results.csv` | Summary of all model runs |
+| `comparisonfile.csv` | Output of `file_comparison.py` (latest comparison run) |
+
+---
+
+## Data cleaning procedure
+
+1. When deleting a row in `weight_data_cleaned.csv`, **add it to `removed_logs.csv`** with a reason for deletion.
+2. Update the ready files using:   
+   ```python format.py --liquid```  
+3. Regenerate the version without liquids:   
+   ```python format.py --no-liquid```  
+4. Regenerate the sample without liquids:  
+   ```python format.py --no-liquid --sample```  
+
+---
+
+## Running comparisons
+
+Once a result file has been generated by the LLM, it can be evaluated with the following steps:  
+
+If the data is a **sample**:  
+```python comparison.py --json {result_file_name}```  
+This will generate a `sorted_{result_file_name}` file with predictions sorted by absolute error.
+
+If the data is the **full dataset**:  
+```python comparison.py --json {result_file_name} --wholedata```  
+This will sort based on total dish weight absolute error.   
+
+**Optional arguments:**
+- ```--liquid```: to specify that the dataset contains liquids.
+- ```--errors```: display the top 20 highest error examples in the terminal.
+
+---
+
+## Prompt optimization using OpenAI API
+
+Optimize a prompt using:  
+```python prompt_opti.py --prompt {prompt_file} --errors {result_file}```  
+
+Arguments:  
+- ```--prompt```: Name of the file containing the prompt to optimize (e.g. prompt_3_...)  
+- ```--errors```: JSON file containing model predictions generated using that prompt  
+
+Output:  
+Optimized prompt: `data/prompt/optimized/optimized_prompt_{prompt_nb}_{timestamp}.md`  
+New base prompt: `data/prompt/prompt_{n}_.md`, where n is the original prompt number incremented by 1.
+
