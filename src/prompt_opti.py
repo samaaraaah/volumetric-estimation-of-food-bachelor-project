@@ -117,9 +117,10 @@ Reasoning: {b["reasoning"]}
 Image: {b["url"]}
 """
 
-instruction += """\n## Please suggest a stronger prompt that addresses the patterns of failure shown above. 
+instruction += """\n## Please suggest a slightly improved prompt that addresses the specific patterns of failure shown above, while preserving the overall structure and content of the current prompt as much as possible.  
 Important: The <revised_prompt> must be presented as a clean, final version—do not highlight or annotate changes inside it (e.g., using bold, comments, or explanations). 
-All change explanations should go in the <recommendations> section only. """
+All change explanations should go in the <recommendations> section only. 
+"""
 
 
 

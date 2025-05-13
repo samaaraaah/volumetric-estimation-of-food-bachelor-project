@@ -66,8 +66,14 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc,model
 ../data/result/result_9e6d5204-4015-4700-93d8-794ca599d7bf.json,41.41414141414141,56.49586702413488,86.24543885601578,optimized prompt_50 (this is prompt_51)
 ----reworked the prompt optimizer prompt
 ../data/result/result_c9cc0eeb-18af-4590-8854-1786c3e7602a.json,36.98,55.55043718765453,70.29037617182864,optimized prompt_40 (this is prompt_52)
-../data/result/result_cb6e41d7-53e7-4165-b47b-4e4d8b12dfb0.json,38.15,61.59436320793796,71.91396701079863,used prompt_40 with chatgpt-4.1 to see if this is why it is performing worse,,GPT-4.1
-../data/result/result_38f72be5-0127-4a99-89e7-d5ad67607f70.json,37.217171717171716,58.99402595424099,68.21246301775147,in optimizer said to pay attention to gpt 4.1 prompting rules (this is prompt_53),,GPT-4.1
+../data/result/result_cb6e41d7-53e7-4165-b47b-4e4d8b12dfb0.json,38.15,61.59436320793796,71.91396701079863,used prompt_40 with chatgpt-4.1 to see if this is why it is performing worse,,GPT-4.1 mini
+../data/result/result_38f72be5-0127-4a99-89e7-d5ad67607f70.json,37.217171717171716,58.99402595424099,68.21246301775147,in optimizer said to pay attention to gpt 4.1 prompting rules (this is prompt_53),,GPT-4.1 mini
 ../data/result/result_bf08b166-a94a-4dee-9648-4b1c12a46954.json,27.050505050505052,42.20104018509551,49.701587870105065,using prompt_53 with GPT-4o,,GPT-4o
-../data/result/GEMINI_result_ad71a5ed-15d2-4ce9-a114-f93f8eade9f1.json,8.0,21.052631578947366,8.0,prompt_40 with gemini but most output format is wrong so actually error is not that low,,Gemini
-../data/result/GEMINI_result_98eb8b5c-064a-4cf2-b103-ba2e1aa5190e.json,32.93939393939394,61.2756879254791,63.045581621490214,prompt_40 with gemini just modified some things for the output format,,Gemini
+../data/result/GEMINI_result_98eb8b5c-064a-4cf2-b103-ba2e1aa5190e.json,32.93939393939394,61.2756879254791,63.045581621490214,prompt_40 with gemini just modified some things for the output format,,Gemini 2.0
+../data/result/result_91827e01-e47e-4e6e-85eb-a2f9d261f12f.json,33.975,61.83012323324299,61.95555951109529,with examples,few-shots,GPT-4.1 mini
+../data/result/result_caede11d-f63d-41fa-842e-6b191072e2bb.json,37.195,59.75381714426023,69.77613622878842,without examples,zero-shot,GPT-4.1 mini
+../data/result/result_4ec5ac4e-0ba9-401c-aea3-54ca90843368.json,36.03,58.792367798578795,68.4124836833986,no examples but structured following the suggestions from openai,,GPT-4.1 mini
+../data/result/result_18b4d4ca-d313-4653-b108-64cee2dc8d9b.json,34.27272727272727,59.97869282397112,60.50431506016774,added a section validation check and examples,,GPT-4.1 mini
+../data/result/result_8acd6d5c-57a7-4495-8915-82c59f60da8d.json,36.755,62.45154192365936,66.81600806930106,tried to optimize last prompt with optimizer not good :(,,GPT-4.1 mini
+../data/result/result_63d4b257-9abc-4a55-b8ef-20255034f89d.json,32.815,55.33185646432502,53.40898303073455,same prompt as above with gpt-4o,,GPT-4o
+../data/result/result_8f347ff1-c4d7-4843-a39e-1736246dc192.json,44.24242424242424,70.78815486132896,80.39048886737658
