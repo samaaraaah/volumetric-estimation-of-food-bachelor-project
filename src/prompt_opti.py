@@ -36,7 +36,7 @@ best = results[-20:]
 
 # Step 3: Create optimization instruction
 instruction = f"""
-You are an expert in improving prompts for AI systems. Your task is to help optimize the following prompt used for food weight estimation.
+You are an expert in prompt optimization for AI systems. Your task is to improve the following prompt, which is used to guide a model in estimating the weight of food from images using **GPT-4.1**.
 
 Below is the current prompt followed by several examples where the model made significant errors and other where it performed well.
 
@@ -44,7 +44,11 @@ Your goal: Refine the prompt to reduce recurring failure modes, using both good 
 
 Use the error cases to identify failure modes, and the good examples to understand what works well.
 
-Important: The <revised_prompt> must be presented as a clean, final version—do not highlight or annotate changes inside it (e.g., using bold, comments, or explanations). All change explanations should go in the <recommendations> section only.
+## Optimization Objectives:
+- Improve performance on difficult visual estimation cases (e.g., small portions, occluded items)
+- Reduce reliance on strict calculations (e.g., plate size × height) in favor of more visual reasoning (e.g., texture, shadow, shape)
+- Ensure all required output constraints and formatting rules are preserved
+- Make only targeted, minimal edits—avoid restructuring unless necessary
 
 ## Requirements to keep in the revised prompt:
 - Assume all images were taken in Switzerland; leverage common Swiss portion sizes where relevant.
@@ -58,6 +62,14 @@ Important: The <revised_prompt> must be presented as a clean, final version—do
 – Replace estimated_weight_in_grams with the number only (no quotes or unit).
 - Do not output any text outside of the JSON block.
 - Preserve the existing structure of steps and instructions in the current prompt. Do not add new sections unless they directly address recurring failure modes.
+- Do not annotate or comment changes inside the <revised_prompt> — explain changes only in <recommendations>
+
+## Additional Constraints:
+- The final prompt will be used with **GPT-4.1** for food volume estimation.
+- Leverage all relevant **prompting techniques optimized for GPT-4.1**, such as precise role assignment, step-by-step visual reasoning, example conditioning, and structured JSON output control.
+- Do **not** include any sections listing common food weights, standard portion sizes, or reference plate dimensions.
+- The goal is to rely entirely on **visual evaluation**, leveraging image cues such as shape, texture, size relative to other objects, and shadows.
+- Avoid hardcoding values or inserting factual databases; the LLM should infer weights based solely on what is visually observed.
 
 ## Current Prompt:
 {current_prompt}
@@ -123,7 +135,6 @@ response = client.chat.completions.create(
 
 # Step 5: Save the optimized prompt
 optimized_prompt = response.choices[0].message.content
-print(optimized_prompt)
 
 # Step 6: Save output to file
 timestamp = datetime.now().strftime("%Y%m%d_%H%M")

@@ -48,7 +48,7 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc,model
 ../data/result/result_af6cb1d2-dd0f-4e10-ae1f-f434df2b938e.json,26.595959595959595,46.452774143219,48.060532393339,restructured prompt again --> reasoning steps/volume and density assessment/specific edge cases/special considerations
 ../data/result/result_670b6f6c-8179-41d1-ae5c-9e23606a63f5.json,26.88819007686932,47.74602643467282,32.421440530316346,same prompt as result_81b1d8a4 on whole data,on whole dataset
 ../data/result/result_69531381-3aca-43e7-a81f-f7a2ba5d083d.json,27.31122448979592,49.14961605673513,48.75686059275522,simplified the instructions
-../data/result/result_d5bc9ca1-783c-4980-9c8c-90c12efc924f.json,24.96969696969697,42.22936256548063,40.32381183906649,mix of the 2 last prompt on whole data reorganized prompt and be especially cautious with small and large portions,"be especially cautious with small\n and large portions"
+../data/result/result_d5bc9ca1-783c-4980-9c8c-90c12efc924f.json,24.96969696969697,42.22936256548063,40.32381183906649,mix of the 2 last prompt on whole data reorganized prompt and be especially cautious with small and large portions,"be especially cautious with small\n and large portions",GPT-4o
 ../data/result/result_7991a4a9-4a77-43fa-bb39-65b6817a9271.json,29.606060606060606,47.81067385722631,56.11681050200559,added that it must act like it has no access to data and removed the examples in the specification about light and dense foods
 ../data/result/result_d19c3270-5f4c-4cfb-9e21-8d7e14ece178.json,25.830779944289695,47.345422822243506,31.310931748284887,same prompt as result_d5bc9ca1 on whole data,on whole dataset
 ----prompt optimization
@@ -64,3 +64,10 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc,model
 ../data/result/result_5a16e5de-0f6c-45b8-bbae-75e8ee2547fe.json,34.11,63.71660403294152,62.97591076302361,optimized prompt_48 (this is prompt_49)
 ../data/result/result_4722850e-e34a-4c7d-be8d-015a1f2c2c82.json,33.04,51.580656517935665,59.68268660258693,optimized prompt_49 (this is prompt_50)
 ../data/result/result_9e6d5204-4015-4700-93d8-794ca599d7bf.json,41.41414141414141,56.49586702413488,86.24543885601578,optimized prompt_50 (this is prompt_51)
+----reworked the prompt optimizer prompt
+../data/result/result_c9cc0eeb-18af-4590-8854-1786c3e7602a.json,36.98,55.55043718765453,70.29037617182864,optimized prompt_40 (this is prompt_52)
+../data/result/result_cb6e41d7-53e7-4165-b47b-4e4d8b12dfb0.json,38.15,61.59436320793796,71.91396701079863,used prompt_40 with chatgpt-4.1 to see if this is why it is performing worse,,GPT-4.1
+../data/result/result_38f72be5-0127-4a99-89e7-d5ad67607f70.json,37.217171717171716,58.99402595424099,68.21246301775147,in optimizer said to pay attention to gpt 4.1 prompting rules (this is prompt_53),,GPT-4.1
+../data/result/result_bf08b166-a94a-4dee-9648-4b1c12a46954.json,27.050505050505052,42.20104018509551,49.701587870105065,using prompt_53 with GPT-4o,,GPT-4o
+../data/result/GEMINI_result_ad71a5ed-15d2-4ce9-a114-f93f8eade9f1.json,8.0,21.052631578947366,8.0,prompt_40 with gemini but most output format is wrong so actually error is not that low,,Gemini
+../data/result/GEMINI_result_98eb8b5c-064a-4cf2-b103-ba2e1aa5190e.json,32.93939393939394,61.2756879254791,63.045581621490214,prompt_40 with gemini just modified some things for the output format,,Gemini
