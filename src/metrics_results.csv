@@ -73,7 +73,7 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc,model
 ../data/result/result_91827e01-e47e-4e6e-85eb-a2f9d261f12f.json,33.975,61.83012323324299,61.95555951109529,with examples,few-shots,GPT-4.1 mini
 ../data/result/result_caede11d-f63d-41fa-842e-6b191072e2bb.json,37.195,59.75381714426023,69.77613622878842,without examples,zero-shot,GPT-4.1 mini
 ../data/result/result_4ec5ac4e-0ba9-401c-aea3-54ca90843368.json,36.03,58.792367798578795,68.4124836833986,no examples but structured following the suggestions from openai,,GPT-4.1 mini
-../data/result/result_18b4d4ca-d313-4653-b108-64cee2dc8d9b.json,34.27272727272727,59.97869282397112,60.50431506016774,added a section validation check and examples,,GPT-4.1 mini
+../data/result/result_18b4d4ca-d313-4653-b108-64cee2dc8d9b.json,34.27272727272727,59.97869282397112,60.50431506016774,added a section validation check and examples,added validation check section\n (with reasoning),GPT-4.1 mini
+../data/result/result_b2876e42-f6fe-4411-ab1e-cb1e6332618c.json,31.358585858585858,59.01305758261691,67.10824115716544,same as above but without reasoning,without reasoning,GPT-4.1 mini
 ../data/result/result_8acd6d5c-57a7-4495-8915-82c59f60da8d.json,36.755,62.45154192365936,66.81600806930106,tried to optimize last prompt with optimizer not good :(,,GPT-4.1 mini
 ../data/result/result_63d4b257-9abc-4a55-b8ef-20255034f89d.json,32.815,55.33185646432502,53.40898303073455,same prompt as above with gpt-4o,,GPT-4o
-../data/result/result_8f347ff1-c4d7-4843-a39e-1736246dc192.json,44.24242424242424,70.78815486132896,80.39048886737658
