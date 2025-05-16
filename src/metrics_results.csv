@@ -77,3 +77,12 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc,model
 ../data/result/result_b2876e42-f6fe-4411-ab1e-cb1e6332618c.json,31.358585858585858,59.01305758261691,67.10824115716544,same as above but without reasoning,without reasoning,GPT-4.1 mini
 ../data/result/result_8acd6d5c-57a7-4495-8915-82c59f60da8d.json,36.755,62.45154192365936,66.81600806930106,tried to optimize last prompt with optimizer not good :(,,GPT-4.1 mini
 ../data/result/result_63d4b257-9abc-4a55-b8ef-20255034f89d.json,32.815,55.33185646432502,53.40898303073455,same prompt as above with gpt-4o,,GPT-4o
+../data/result/result_78d98f36-eb49-4df1-a8dc-3f26976f5ca3.json,36.57575757575758,63.183885112612934,69.14034449296459,modified a bit the structure so that it doesn't rely too much on strict volume calculations (volume x density),,GPT-4.1 mini
+../data/result/result_a8f0826b-0480-4561-a6e8-26e312d9a0d7.json,41.881443298969074,71.87937187598891,81.0175739119401,said to be cautious with deep containers and consider if food density is light/medium/dense,,GPT-4.1 mini
+../data/result/result_b9ed2479-a5b6-4330-a83b-ab6353d55706.json,34.36868686868687,76.14089601797097,60.247052388476966,added portion size calibration and few changes in other sentences,added section with portion sizes\n for common foods,GPT-4.1 mini
+../data/result/result_8859738b-bf83-4405-908e-684843639973.json,79.62626262626263,184.46621437167022,98.77741387675886,insisted on underestimation -> now overestimating,,GPT-4.1 mini
+../data/result/result_0ee02236-f18b-4474-b619-3fbf60b1a372.json,38.898989898989896,95.48416375888367,56.51100036465297,went back to prompt_60 and insisted that the portion size calibration are guidelines and that it should rely first on visual estimation,insisted it should rely first on\n visual cues,GPT-4.1 mini
+../data/result/result_715e86d7-4df4-42cf-8006-16e5f60a37e9.json,38.03,87.74123663327211,51.45449151536727,pay attention to side dishes,pay attention to side dishes,GPT-4.1 mini
+../data/result/result_d4b037c7-3445-47ee-bb10-897c7ffca840.json,33.30808080808081,84.09909977840753,49.34673702086366,insisted again on small portions and not to rely solely on the portion size guidelines,pay attention to small portions,GPT-4.1 mini
+../data/result/result_0cdbe4f7-2b86-4496-969e-3db644de0d84.json,30.392857142857142,58.38521128012991,43.18050089445438,same as above gut with GPT-4o,GPT-4o,GPT-4o
+../data/result/result_5ed186b1-8879-42d5-9348-746113dc1a98.json,34.65151515151515,70.39777777826622,60.049410477695396,removed the portion guide for salads,,GPT-4.1 mini
