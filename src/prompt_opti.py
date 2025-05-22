@@ -51,6 +51,7 @@ Use the error cases to identify failure modes, and the good examples to understa
 - Make only targeted, minimal edits—avoid restructuring unless necessary
 
 ## Requirements to keep in the revised prompt:
+- Keep the exact same examples
 - Assume all images were taken in Switzerland; leverage common Swiss portion sizes where relevant.
 - Emphasize visual grounding: prioritise cues like texture, shape, shadow, and relative size over rigid calculations (e.g., plate diameter × height).
 - Preserve the final instruction to return a JSON with:

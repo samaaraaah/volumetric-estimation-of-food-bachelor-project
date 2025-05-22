@@ -1,8 +1,0 @@
-key,dish_id,eaten_at,eaten_at_utc_offset,image_id,weight,description,remarks,estimation_average,url
-2ahgvr,363593,2022-05-15T07:58:02Z,120,b8540d8b-d377-4484-abcd-0071bf431d0d,46,Porridge,"Avoine, lait ", 200-250,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/b8540d8b-d377-4484-abcd-0071bf431d0d
-2ahgvr,364088,2022-05-16T19:44:21Z,120,db02ddb8-4bbb-4f48-bc32-55a1cde35ba5,45,Humus,,200,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/db02ddb8-4bbb-4f48-bc32-55a1cde35ba5
-2ahgvr,363970,2022-05-16T11:36:47Z,120,a35f3211-3b33-4826-97b8-3af69655dada,48,Porridge salé,,200,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/a35f3211-3b33-4826-97b8-3af69655dada
-2ahgvr,363969,2022-05-16T11:35:57Z,120,3718d88c-ba98-4da1-84dc-7d5ad0a4df92,118,Colrave crue ,,200-250,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/3718d88c-ba98-4da1-84dc-7d5ad0a4df92 
-wrah5h,360155,2022-05-05T18:00:33Z,120,c046d407-be90-4ba8-bd3e-1c782a42d292,75,compte de pommes sans sucres ajoutés,dessert,200,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/c046d407-be90-4ba8-bd3e-1c782a42d292 
-xjvrtk,365083,2022-05-21T11:41:16Z,120,5ccbcf64-3631-48df-9e8a-85fb33dbf912,500,tomates cerises,faim,200-250,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/ee053338-3341-4a7f-af2d-e3e7f67e466a
-8japfq,363775,2022-05-15T17:43:07Z,120,9ac9736b-e0d1-4862-9981-1f47f8109d18,183,"Pizza champignons, olives, courgettes ",,300-400,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/9ac9736b-e0d1-4862-9981-1f47f8109d18

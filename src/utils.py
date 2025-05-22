@@ -23,3 +23,6 @@ def append_to_csv(mae, weighted_mae, mape, result_file_name):
         df_metrics.to_csv(metrics_file, mode='w', header=True, index=False)
 
     print(f"Metrics for {result_file_name} have been added to the results file {metrics_file}.")
+
+
+

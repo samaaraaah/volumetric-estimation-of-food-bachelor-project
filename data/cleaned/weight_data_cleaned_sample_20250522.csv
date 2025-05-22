@@ -1,0 +1,251 @@
+key,dish_id,eaten_at,eaten_at_utc_offset,image_id,weight,description,remarks,all_food_items
+ppf8hc,363122,2022-05-13T15:34:07Z,120,7ba1f50a-fb62-4e65-89ea-a193ab96c0db,115.0,crème caramel ,,crème caramel 
+wrah5h,365355,2022-05-22T13:57:37Z,120,5de398c7-684b-448d-ba0a-f318d009bccd,205.0,"délice des dieux (biscuit, fruits rouges, séré+mascarpone) ",dessert,"délice des dieux (biscuit, fruits rouges, séré+mascarpone) "
+wrah5h,364536,2022-05-18T17:55:48Z,120,1876b0b6-568d-4583-8186-073df252e6c9,85.0,gaufre à la patate douce,souper,"gaufre à la patate douce, sauce demi crème acidulée, citron, aneth, saumon fumé "
+wrah5h,365178,2022-05-21T17:53:17Z,120,ee6e8045-59f2-4294-ae6a-1d5695abc176,48.0,tomates ,souper,"concombre , tomates "
+p96w4a,359995,2022-05-05T11:59:49Z,120,58f82c5a-4b79-4f95-9f8f-0b55a93d8383,191.0,chili ,"sauce tomate + haricots rouges + poivron. Pas cuisine moi-même, impossible d'être plus précises sur les quantités de chaque ingredient","pâtes , cervelas, chili , crème fraîche "
+xjvrtk,362213,2022-05-11T09:58:55Z,120,8fb08d9a-4e44-4251-a0e4-26441252d211,300.0,courgette et oignons,midi,"courgette et oignons, galettes millet haricots noirs maïs"
+ppf8hc,363906,2022-05-16T08:09:45Z,120,ab73a92d-e2b8-41ed-b24c-9a71a70e004a,30.0,noix de cajou ,"non grillée, non salée ",noix de cajou 
+p96w4a,360139,2022-05-05T17:39:56Z,120,828972fc-fa12-4270-a960-fc59367fc91e,214.0,purée de pdt,,"purée de pdt, viande ragoût , carotte, sauce "
+wrah5h,364118,2022-05-17T04:51:43Z,120,2e7b02f3-969a-4269-bf8a-ee2710c121bc,24.0,myrtilles ,déjeuner,"porridge , framboises , myrtilles , pépites chocolat noir, purée de cacahuète "
+wrah5h,364054,2022-05-16T17:37:31Z,120,7b0475df-5b02-4072-abb9-ef75acf0f031,72.0,tiramisu ,dessert,"tiramisu , forêt noir "
+m4egh2,366318,2022-05-28T13:26:30Z,120,f218b781-84b2-41d2-b7fe-b01c9a162f8a,77.0,banane ,,Banane 
+ppf8hc,365914,2022-05-25T17:49:01Z,120,4d4e6539-b86f-4019-b2aa-0c15dbce0667,236.0,pâtes carbonara ,,"pâtes carbonara , gruyère "
+wrah5h,359754,2022-05-04T17:21:31Z,120,19a2e7b0-7aad-44c5-b52a-d67294d4ef49,65.0,galette wraps,souper,"galette wraps, demi crème acidulée , avocat, tomates, carottes , tranche jambon , gruyère râpé"
+p8a2w5,361123,2022-05-08T12:45:34Z,120,7b64b358-b611-4155-8e79-6f3ce5b4f11a,164.0,tarte aux fraises,,tarte aux fraises
+2ahgvr,366813,2022-05-31T21:14:01Z,120,fb2a197e-9ecd-4c2c-b686-2bc13e28ef1c,47.0,tartine avec crème de marrons et beurre,,Tartine avec crème de marrons et beurre
+p96w4a,361038,2022-05-08T09:55:25Z,120,7bd6e67d-b1ca-42e4-a5ca-713b7fadda27,21.0,bout de gruyère ,brunch,"pain (baguette), croissants au jambon , radis, carotte, pommes, bout de gruyère , salami, lard"
+r3bub9,366049,2022-05-26T11:47:08Z,120,d936efff-6fc8-4d66-8681-db5d7fd4f9c4,29.0,sauce oignons,,"sauce oignons, rôti , salade de carottes, salade de riz, salade verte, salade russe"
+wrah5h,364046,2022-05-16T17:18:01Z,120,1550c506-8c95-461f-b658-8f427dc2a0af,91.0,haricots rouges ,souper,"haricots rouges , pâtes, mozzarella "
+2ahgvr,364191,2022-05-17T10:00:01Z,120,c476a6d0-acb2-45fd-b168-84822bc98003,315.0,salade grecque,"Poivrons, concombre, oignons frais, olives, feta ","Salade grecque, Sauce à salade maison"
+8japfq,363792,2022-05-15T18:35:02Z,120,078e41ee-9489-4b78-94b3-a6298acfbbb2,57.0,cookie ,,Cookie 
+r3bub9,365522,2022-05-23T14:55:49Z,120,8c1803d2-590b-472d-9d8a-898649b2ae5f,81.0,croissant au chocolat ,oups j'ai croqué dedans avant de faire la photo,croissant au chocolat 
+ppf8hc,362975,2022-05-13T09:06:45Z,120,320b93f1-8b0b-42f3-84c6-2929825a090f,21.0,feuilletés sauce tomate ,,feuilletés sauce tomate 
+8japfq,365201,2022-05-21T19:01:28Z,120,762d78e1-34d1-4942-b2a4-1094509831e3,71.0,mozarella,,"Mozarella, Olives, Salade verte "
+p96w4a,365026,2022-05-21T07:48:19Z,120,6b14a3f8-bfc1-4e9d-9ce7-f884774afb59,22.0,pain,,"pain, beurre, confiture , pain, beurre , Nutella"
+xjvrtk,362646,2022-05-12T10:26:53Z,120,611431d0-f119-4ef8-ad73-bb27c5075c3c,100.0,thon,midi,"couscous, thon, vinaigre, graines de courge"
+8japfq,361729,2022-05-10T05:25:33Z,120,aec8837c-53fa-470e-b484-737ecb280e65,53.0,muesli nature ,,"Yaourt nature , Muesli nature "
+xjvrtk,364303,2022-05-17T17:22:05Z,120,b41068f9-5a0e-4c11-bf1b-7389d3917889,200.0,ananas,souper,ananas
+r3bub9,366478,2022-05-30T10:00:00Z,120,b1cddb5b-7db0-4fb4-9340-d84cd4187243,38.0,fromage,,"mayonnaise, pain bis, cornichons, fromage"
+xjvrtk,359289,2022-05-03T12:54:20Z,120,7d1aaf24-b020-4315-aa15-db38f40e72be,120.0,kiwi,midi dessert ,"séré maigre, kiwi, miel"
+p96w4a,365837,2022-05-25T10:23:58Z,120,5ebafbd6-315d-44a6-8508-ba143d23adb2,54.0,délice tomate mozzarella ,,"tomate, mozarella, vinaigre balsamique , délice tomate mozzarella "
+wrah5h,365263,2022-05-22T07:35:39Z,120,c73a766e-70bf-435f-b53a-6b981cf634e3,51.0,pain,déjeuner,"pain, nutella , fraises , framboises "
+r3bub9,366478,2022-05-30T10:00:00Z,120,b1cddb5b-7db0-4fb4-9340-d84cd4187243,14.0,mayonnaise,,"mayonnaise, pain bis, cornichons, fromage"
+6fwmw2,360730,2022-05-07T11:16:32Z,120,1a96e805-fc15-4295-90a7-73a41fcb683f,49.0,salade de céleri ,,"Poulet rôti , Salade de pomme de terre, Salade de carotte , Salade de céleri "
+2ahgvr,358872,2022-05-02T11:45:33Z,120,d50294a6-302a-456b-a1e1-1d7ecf04f774,93.0,carotte pelée ,,Carotte pelée 
+p8a2w5,362829,2022-05-12T18:03:34Z,120,82b53493-1c97-472b-9ec6-8cc698b8cfe4,271.0,"dalh de lentilles corail (lentilles corail, oignon, carottes, tomates concassées, 1cs huilde d'olive, épices)",,"riz, dalh de lentilles corail (lentilles corail, oignon, carottes, tomates concassées, 1CS huilde d'olive, épices)"
+wrah5h,359586,2022-05-04T10:18:36Z,120,f727ac79-973e-4b92-8f2b-cda94222d4a7,52.0,porc,dîner,"polenta , aubergine grillée , porc, sauce blanche (crème, moutarde)"
+8japfq,363946,2022-05-16T10:51:31Z,120,b6659a8f-25e7-44f7-a351-7873f60f1586,196.0,ratatouille ,,"Ratatouille , Boulgour , Gruyère, Oeuf au plat "
+8japfq,363998,2022-05-16T14:07:51Z,120,957d68a9-f6f0-4c22-9da8-5d4457f515e5,47.0,cookie,,Cookie
+xjvrtk,358466,2022-05-01T10:27:25Z,120,f607625b-a07d-423e-a564-4d96ebadf084,250.0,tarte flambée pomme rhubarbe,midi,tarte flambée pomme rhubarbe
+m4egh2,363177,2022-05-13T18:00:27Z,120,40709ed3-1ed0-49ed-89e9-67c7e3184f7f,18.0,sauce curry avec mayonnaise,,"Sauce curry avec mayonnaise, Poulet, salade verte "
+xjvrtk,364964,2022-05-20T19:02:30Z,120,e969cc59-48a6-4ea9-a4f6-0105d72ef771,35.0,yogourt nature,souper,"anchois , pain complet , yogourt nature, confiture mirabelle "
+xjvrtk,358669,2022-05-01T21:07:31Z,120,ce668b40-a61f-4ac1-abfd-a150071ddd76,417.0,salade de tomates ,salade soir,"salade de tomates , vinaigre balsamique, graines de lin"
+p8a2w5,358668,2022-05-01T21:00:00Z,120,2d5a86c1-d431-454a-b6ff-f1abdfc85095,26.0,chocolat,,chocolat
+8japfq,364381,2022-05-18T05:56:23Z,120,63d7962e-f953-4987-96fb-2f843d8a12d1,99.0,pain aux fruits ,,Pain aux fruits 
+xjvrtk,362646,2022-05-12T10:26:53Z,120,611431d0-f119-4ef8-ad73-bb27c5075c3c,15.0,graines de courge,midi,"couscous, thon, vinaigre, graines de courge"
+ppf8hc,366414,2022-05-29T10:56:14Z,120,1f280cd7-2448-47d9-a198-235eb8d19e29,18.0,chocolat noir ,,chocolat noir 
+8japfq,364552,2022-05-18T18:56:59Z,120,8cc023af-a7ff-499f-8a9b-454ef2e943ae,8.0,caviar d'aubergine ,,"Reblochon , Pain aux graines , Tapenade olive noire , Caviar d'aubergine , Taboulé aux poivrons et tomates "
+wrah5h,358691,2022-05-02T04:48:16Z,120,67b0dffa-f510-4356-979c-09189a0d604d,10.0,purée cacahuète ,déjeuner,"purée cacahuète , pépites chocolat noir, 1/2 banane "
+xjvrtk,365141,2022-05-21T15:49:29Z,120,c70f93c3-23cc-4817-bbe9-93091771b273,200.0,tonic au gingembre, verre (j'ai pris la photo de la bouteille vide comme j'ai oublié de la faire avant de boire),tonic au gingembre
+wrah5h,359754,2022-05-04T17:21:31Z,120,19a2e7b0-7aad-44c5-b52a-d67294d4ef49,39.0,avocat,souper,"galette wraps, demi crème acidulée , avocat, tomates, carottes , tranche jambon , gruyère râpé"
+p8a2w5,358511,2022-05-01T12:22:49Z,120,ae0562ae-9c02-43e0-86e6-4a403128587b,37.0,"fromages (manchego, 2 sortes de gruyères, raclette)",repas,"fromages (manchego, 2 sortes de Gruyères, raclette), pain provencales"
+2ahgvr,358749,2022-05-02T07:41:31Z,120,aa859e5b-563f-472c-9914-036722ebf60e,8.0,graines de chia,Mélange,"Blanc battu, Flocons d'avoine, Graines de chia, Miel"
+m4egh2,365673,2022-05-24T10:19:19Z,120,6b91ac4b-1f0f-4176-bf40-a12a6cd892e2,98.0,sauce aux champignons (crème + ail + champignon),,"Pâtes, Courgettes gratinée , Sauce aux champignons (crème + ail + champignon)"
+p96w4a,365168,2022-05-21T17:28:57Z,120,7004d086-abf6-4e9f-a945-0d22f3a60a84,13.0,vinaigre balsamique ,,"salade verte, tomate, oignon, pomme, radis, vinaigre balsamique "
+p96w4a,365420,2022-05-22T19:29:26Z,120,4779863e-2d2c-45b2-a564-73da174fa019,55.0,boule de glace vanille,,"boule de glace vanille, chocolat chaud, compote fraise rhubarbe maison"
+m4egh2,365795,2022-05-25T05:20:11Z,120,9942fa79-be93-458e-b6a9-22fda9333ff4,170.0,yogourt orange sanguine,,"Mélange de céréales , Myrtilles, Yogourt orange sanguine"
+p96w4a,363937,2022-05-16T10:30:17Z,120,84905336-4de3-4568-8ab7-ad7669f93f6b,19.0,salade verte avec sauce ,,salade verte avec sauce 
+2ahgvr,366388,2022-05-29T07:28:29Z,120,6b1cc73c-e22b-4132-970e-e37910b8b407,13.0,crème de marrons,,"Pain , Crème de marrons"
+p96w4a,360139,2022-05-05T17:39:56Z,120,828972fc-fa12-4270-a960-fc59367fc91e,60.0,sauce ,,"purée de pdt, viande ragoût , carotte, sauce "
+p96w4a,365337,2022-05-22T12:53:44Z,120,ea5f58cc-2c17-4ecc-ad47-54141658e911,1.0,oignon,,"pain, beurre , jambon, oignon, crème balsamique , radis, salami"
+6fwmw2,360311,2022-05-06T07:22:36Z,120,fc43899a-21ef-45e8-95b0-d10af04f9539,146.0,fraises ,,Fraises 
+p8a2w5,362829,2022-05-12T18:03:34Z,120,82b53493-1c97-472b-9ec6-8cc698b8cfe4,185.0,riz,,"riz, dalh de lentilles corail (lentilles corail, oignon, carottes, tomates concassées, 1CS huilde d'olive, épices)"
+ppf8hc,362024,2022-05-10T18:55:32Z,120,bf22a1b3-a8b6-4823-a44b-0893c3097763,316.0,boulettes au légumes à la sauce tomate ,,"pates, boulettes au légumes à la sauce tomate , gruyère "
+wrah5h,361019,2022-05-08T09:14:21Z,120,1c8bc1a8-fbe8-4520-b82e-b07adc59e499,47.0,gaufre ,déjeuner ,"gaufre , compote pomme"
+wrah5h,359586,2022-05-04T10:18:36Z,120,f727ac79-973e-4b92-8f2b-cda94222d4a7,209.0,polenta ,dîner,"polenta , aubergine grillée , porc, sauce blanche (crème, moutarde)"
+xjvrtk,362235,2022-05-11T10:23:17Z,120,4c27b970-43cc-443a-93d5-6a8777362594,150.0,yogourt figue sans sucre,midi,yogourt figue sans sucre
+m4egh2,363761,2022-05-15T16:48:41Z,120,7ff5fe61-b9cd-45c6-8df8-44a690a86b0c,82.0,"salade de pâtes, cornichon, fromage, tomate",,"Salade de riz, poivon,cornichon, Salade de pâtes, cornichon, fromage, tomate, Sauce coktail, Crevettes , Concombre, Sauce salade"
+xjvrtk,359276,2022-05-03T12:27:15Z,120,d8aaea52-09df-4596-892c-0d03f5b6b9cd,170.0,boulgour,midi,"boulgour, ratatouille, œuf dur"
+r3bub9,366355,2022-05-28T19:16:45Z,120,9fe3d12f-bfa6-421e-a861-be4fba09fc13,38.0,cacahuètes,,cacahuètes
+p8a2w5,362710,2022-05-12T12:13:11Z,120,e4f800da-c429-4a04-823c-ac3792f64c00,171.0,yogourt industriel à l'abricot avec morceaux ,,yogourt industriel à l'abricot avec morceaux 
+p8a2w5,364784,2022-05-20T07:06:28Z,120,4fb4c5be-8035-4321-b876-62099731b721,78.0,céréales ,,céréales 
+xjvrtk,361984,2022-05-10T17:18:36Z,120,050419f6-32ae-4276-9993-de18feaccbd1,200.0,poire,souper,poire
+wrah5h,358634,2022-05-01T18:18:34Z,120,a52672d9-9e62-4a28-8952-792840f894b6,176.0,yogourt chocolat ,dessert,"yogourt chocolat , yogourt chocolat , yogourt chocolat "
+p8a2w5,365217,2022-05-21T20:31:56Z,120,ff6e3f38-43e0-4b06-8a58-63fa5b77ccc8,29.0,avocat,,"poulet, 2eme poulet, avocat, carottes , lard, pain"
+p96w4a,359995,2022-05-05T11:59:49Z,120,58f82c5a-4b79-4f95-9f8f-0b55a93d8383,130.0,cervelas,,"pâtes , cervelas, chili , crème fraîche "
+xjvrtk,359371,2022-05-03T16:45:06Z,120,1fa390c1-9169-42c0-abbd-3aa6e1a5c90b,20.0,vinaigre,souper,"concombre, tomate, carotte, graines de courge, vinaigre, sérac"
+p96w4a,361046,2022-05-08T10:18:16Z,120,a11463a4-ab51-4b83-a55f-d4edfb527b13,16.0,fromage de brebis/chèvre (2 bouts),brunch,"pain (baguette), truite, fromage (etivaz), tomme de savoie, fromage de brebis/chèvre (2 bouts), tomme fleurette, brie, fromage de chèvre frais à la figue, beurre"
+2ahgvr,359049,2022-05-02T19:15:07Z,120,c9826c1c-42e1-4363-9dcc-cf68d7642c4e,63.0,gyozas végétariens (3 pièces),,Gyozas végétariens (3 pièces)
+p8a2w5,365999,2022-05-26T11:02:03Z,120,e7f3470c-66d1-410d-8423-4bc12438ecb0,60.0,mais,,"salade , brocolis , mais, pois chiches "
+p8a2w5,366565,2022-05-30T10:59:54Z,120,d767c564-a3e6-4306-b022-ea44636699d8,28.0,mayonnaise,,"tortilla, aubergines sautées, salade russe, mayonnaise"
+2ahgvr,363746,2022-05-15T16:23:07Z,120,feb15752-d5e3-4f73-8eeb-9fb560cc6f6b,55.0,toast ,,"Toast , Fromage frais"
+p8a2w5,365210,2022-05-21T19:50:57Z,120,9b2c7383-a434-4260-ac30-86103e4546ea,143.0,artichaut ,,artichaut 
+8japfq,362230,2022-05-11T10:16:06Z,120,885c0212-0193-4a37-b6a9-a1dab36f03c5,118.0,yaourt nature ,,"Pomme, Yaourt nature "
+p8a2w5,363019,2022-05-13T10:44:55Z,120,5ddea52e-8411-4822-893f-d8420fa6cb40,281.0,dahl de lentille ,repas,"riz, dahl de lentille "
+p96w4a,365397,2022-05-22T17:37:14Z,120,4e021399-8a90-44fe-b06c-0955cd2280f7,29.0,oeuf,,"riz, tomate cerise, pêche , maïs, asperges, thon, haricot rouge, oeuf, sauce à salade"
+8japfq,363355,2022-05-14T10:57:34Z,120,0bd218b2-a4c6-4605-8737-2055d3040f25,37.0,cottage cheese aux herbes,,"Fraises, Brioche au chocolat, Pain aux noix, Hummous , Cottage cheese aux herbes, St-félicien , Tomates rôties , Oeuf au plat "
+6fwmw2,362234,2022-05-11T10:21:39Z,120,1da85bf5-675f-472d-8594-733069301dd5,138.0,perle de blé ,,"Haticot coco , Crevette , Perle de blé , Sauce crème 15% au safran "
+r3bub9,364623,2022-05-19T09:37:34Z,120,b1c79503-9afe-45a3-9889-94724bfcf2b2,37.0,oeuf,brouillé ,"tomates, avocat, wrap, oeuf"
+p96w4a,363697,2022-05-15T13:10:44Z,120,fab584a3-42d9-4217-a493-ec0d71878e56,34.0,houmous au basilic (acheté),,"mozarella , tomate , salade verte , oignons nouveaux , carotte, graine de tournesol, œuf , vinaigre balsamique crème , houmous au basilic (acheté)"
+2ahgvr,365114,2022-05-21T13:22:05Z,120,b24759a6-90ea-4f9e-a1ad-d52af234de62,21.0,mayonnaise thomy,,"Asperges, Mayonnaise Thomy"
+m4egh2,365572,2022-05-23T19:15:13Z,120,32c03d9e-2971-4f4b-bbec-4efde05dbf93,138.0,pâtes,,"Pâtes, Courgettes gratinée , Sauce aux champignons (crème + ail + champignon)"
+ppf8hc,359392,2022-05-03T17:10:57Z,120,95e84def-c82b-4360-8390-f5153ff61064,150.0,poivrons jaune,,"quinoa et boulgour au curry , poivrons jaune"
+2ahgvr,364967,2022-05-20T19:18:17Z,120,5b8a0853-ecc4-4015-bc9a-2b50766f873a,76.0,brochette de boeuf,,"Sauce andalouse, Pain, Brochette de boeuf, Salade de pâtes, Mergez"
+wrah5h,359207,2022-05-03T10:17:17Z,120,712f4686-2c54-47d3-a8f2-811e15f6e76b,46.0,tomate,dîner,"quinoa, mangue, betterave, avocat , carotte râpées, tomate, tofu à la mangue , échalotes , oignons en bottes "
+wrah5h,358990,2022-05-02T17:22:29Z,120,bba5cf64-1d08-40cb-bc6c-bfdd2a7c2116,65.0,betterave ,souper,"quinoa , betterave , mangue , concombre , tomate, avocat "
+2ahgvr,363970,2022-05-16T11:36:47Z,120,a35f3211-3b33-4826-97b8-3af69655dada,48.0,porridge salé,,Porridge salé
+p8a2w5,365982,2022-05-26T08:38:44Z,120,7daff41f-6328-4146-8d14-b015551594c4,65.0,cereales,,cereales
+p96w4a,363637,2022-05-15T10:38:46Z,120,b948411c-820d-4c9e-b53f-b3c44d2249dd,17.0,rondelle de citron,,rondelle de citron
+8japfq,364710,2022-05-19T17:46:36Z,120,c95525c1-9115-4146-aad9-d4c6b8a6b3cf,51.0,oeuf au plat ,,"Boulgour , Tomates cerises , Feta, Pousses de graines , Oeuf au plat "
+wrah5h,360153,2022-05-05T17:55:05Z,120,1be13f84-6a0b-4b1c-bff5-fc0a0fcf87b8,73.0,fondant au chocolat maison,dessert,fondant au chocolat maison
+ppf8hc,359421,2022-05-03T18:24:12Z,120,5075016a-7232-4e6b-aaec-431f15ae7253,23.0,lapin au chocolat ,,lapin au chocolat 
+wrah5h,359102,2022-05-03T04:48:12Z,120,97652ee3-3e16-4d7d-bafa-ffb83df2257c,10.0,purée cacahuète ,déjeuner,"purée cacahuète , pépites de chocolat noir, 1/2 banane"
+xjvrtk,358470,2022-05-01T10:40:30Z,120,f87a2a81-9c85-454b-af47-38ed4c42554b,400.0,soupe à la tomate ,midi,soupe à la tomate 
+r3bub9,365761,2022-05-24T19:04:43Z,120,d985ac93-4b39-4db6-a618-c60859b4f22b,113.0,tomates,elles seront rapidement passées à la poêle ,"pâtes , tomates, ail"
+2ahgvr,365589,2022-05-23T19:42:27Z,120,a2d48966-aa71-4479-8b0f-d28dbf8ffab6,7.0,moutarde,,"Pain pita, Jambon, Moutarde"
+2ahgvr,366814,2022-05-31T21:16:06Z,120,39ffd518-c349-4e45-ae4e-4679a17bd8bf,50.0,tartine nutela,,Tartine nutela
+wrah5h,359428,2022-05-03T17:57:22Z,120,a52672d9-9e62-4a28-8952-792840f894b6,176.0,yogourt chocolat ,dessert,"yogourt chocolat , yogourt chocolat , yogourt chocolat "
+p96w4a,365807,2022-05-25T06:35:36Z,120,32043e73-8b8d-43a6-b1a0-3cf935affee5,3.0,beurre,,"pain, beurre, mélasse , pain, beurre, pâte à tartiner"
+ppf8hc,365889,2022-05-25T14:58:42Z,120,a5b2e3a2-95b9-4bbc-9b67-a20ebcac6ff7,125.0,yaourt moka,,Yaourt moka
+ppf8hc,363009,2022-05-13T10:33:01Z,120,ddb88e9f-bf1c-4010-9d5a-1181e9cbe810,97.0,pomme de terre duchesse ,,"pomme de terre duchesse , poissons panés, ketchup , mayonnaise "
+m4egh2,362944,2022-05-13T07:30:05Z,120,3d2544a5-ac3b-4aeb-895a-a9fb413ec0ed,39.0,blévita graines de courges,,Blévita graines de courges
+2ahgvr,366704,2022-05-31T08:18:33Z,120,cca1db77-eb8e-454d-8ea2-e23840f01b97,7.0,miel,Muesli,"Yogourt nature, Flocons d'avoine, Son d'avoine, Miel, Graine de chia, Purée d'amande"
+p96w4a,365180,2022-05-21T17:58:33Z,120,700b5570-50ed-4924-98cb-282dc92430e5,15.0,saumon,,"saumon, crevettes"
+p96w4a,363601,2022-05-15T08:31:12Z,120,0c836c4f-c291-4337-a78c-461d7f66fb81,5.0,mélasse,,"pain, beurre, confiture abricot , pain, beurre, mélasse"
+m4egh2,363004,2022-05-13T10:27:58Z,120,0e163ff7-c733-41f3-8cc9-764fb3886aa2,150.0,riz,,"riz, asperges, Fenouille, Viande de porc avec sauce aux champignon"
+ppf8hc,364199,2022-05-17T10:15:37Z,120,fa24ac3d-41bd-47e9-899a-26fab1d92362,32.0,poulet ,2 ème assiette ,"frites , poulet "
+xjvrtk,358474,2022-05-01T10:42:55Z,120,42d05c13-cf2c-433e-a2d3-78a67d41cf05,20.0,fromage pâte dure ,midi,"pomme, fromage pâte dure "
+ppf8hc,365565,2022-05-23T18:41:21Z,120,e006559d-62c1-44d4-8a5c-ba881c44c149,54.0,oeuf ,,"galette au sarrasin , gruyère , jambon blanc , oeuf "
+p8a2w5,359259,2022-05-03T11:26:30Z,120,a78123a9-a71d-44cc-a512-4b8f9c048b9b,85.0,carottes,repas,"pain, tranches de porc, carottes"
+ppf8hc,363009,2022-05-13T10:33:01Z,120,ddb88e9f-bf1c-4010-9d5a-1181e9cbe810,11.0,ketchup ,,"pomme de terre duchesse , poissons panés, ketchup , mayonnaise "
+m4egh2,365859,2022-05-25T11:12:01Z,120,3e5798b3-c7e0-4d8e-a593-5298c2102755,290.0,gnocchi au basilic,,"Gnocchi au basilic, Chou-fleur, Fromage râpé"
+p8a2w5,358640,2022-05-01T18:43:46Z,120,a80cc37c-4f30-4827-84cd-91a2f89042c2,48.0,pillons de poulet,repas 2eme service,"salade tomate mozzarella concombres , pillons de poulet, pain blanc"
+6fwmw2,365756,2022-05-24T18:29:38Z,120,ec6d03db-ac9d-4ca2-92e1-96ab989361cb,295.0,mélange de porc et légumes façon thaï ,,"Nouille de riz , Mélange de porc et légumes façon thaï "
+r3bub9,365436,2022-05-23T04:24:41Z,120,6da3acd7-23d1-4c66-baf1-93c7fc41087d,121.0,kiwi,,kiwi
+wrah5h,363862,2022-05-16T04:49:49Z,120,c0fb0561-9aaf-42ef-b18e-2677b0c8f7d7,40.0,flocons d'avoine,déjeuner ,"flocons d'avoine, graines de chia, pépites de chocolat , purée de cacahuète , framboises, myrtilles"
+ppf8hc,366624,2022-05-30T16:18:23Z,120,5ed8ce20-0563-4e69-8fad-260878497dad,53.0,tresse au beurre ,,"tresse au beurre , gruyère "
+p8a2w5,365088,2022-05-21T11:54:37Z,120,273d9044-6fbe-4ba8-948d-3ce80f7976f0,38.0,œuf ,,"patates sautés , œuf "
+p96w4a,365026,2022-05-21T07:48:19Z,120,6b14a3f8-bfc1-4e9d-9ce7-f884774afb59,30.0,pain,,"pain, beurre, confiture , pain, beurre , Nutella"
+xjvrtk,358669,2022-05-01T21:07:31Z,120,ce668b40-a61f-4ac1-abfd-a150071ddd76,10.0,graines de lin,salade soir,"salade de tomates , vinaigre balsamique, graines de lin"
+p96w4a,362707,2022-05-12T12:04:20Z,120,86da771f-1d27-4626-b23c-0274d35df787,62.0,kiwi,,"kiwi, 2 biscuits Nutella "
+2ahgvr,364189,2022-05-17T09:53:36Z,120,e6a9b184-1bd0-4fe5-a0d9-2962cbf7c29a,40.0,humus maison,"Pois-chiches, tahini, jus de citron, huile d'olive",Humus maison
+m4egh2,364327,2022-05-17T19:12:56Z,120,c31013e3-9c81-4ba6-b85b-e3c45b062457,13.0,panais,,"Pommes de terre, Fêta, Carottes, Panais, Aubergines, Racines rouges"
+r3bub9,365667,2022-05-24T10:09:31Z,120,f07a0774-2ab0-4231-b431-1d5f34d84b29,9.0,gruyère ,,"gruyère , mozzarella , pain bis, tomates "
+r3bub9,366641,2022-05-30T17:54:02Z,120,6f0647af-ce31-45ac-abc9-d335ba8bcd5e,43.0,poivron,,"poulet, wrap, poivron, tomates, salade verte, avocat"
+6fwmw2,362234,2022-05-11T10:21:39Z,120,1da85bf5-675f-472d-8594-733069301dd5,66.0,sauce crème 15% au safran ,,"Haticot coco , Crevette , Perle de blé , Sauce crème 15% au safran "
+p96w4a,363601,2022-05-15T08:31:12Z,120,0c836c4f-c291-4337-a78c-461d7f66fb81,26.0,pain,,"pain, beurre, confiture abricot , pain, beurre, mélasse"
+p8a2w5,365095,2022-05-21T12:13:31Z,120,a32f4df7-de95-4851-81a8-4259891b6bd4,98.0,nectarine,,nectarine
+6fwmw2,365668,2022-05-24T10:10:36Z,120,a2a7a39e-6053-4f38-806d-2bfed94b37c0,122.0,brocoli ,,"Œufs au plat, Brocoli , Semoule "
+8japfq,364834,2022-05-20T10:25:09Z,120,b233fd7c-865a-4287-818f-8d4fe868585e,125.0,fallafels,,"Épinards frais , Pousses de graines , Tomates cerises , Fallafels"
+wrah5h,359472,2022-05-04T04:51:33Z,120,337ec001-6209-48a3-ab06-cbf3ac51ca9c,172.0,yogourt vanille ,déjeuner,yogourt vanille 
+2ahgvr,363593,2022-05-15T07:58:02Z,120,b8540d8b-d377-4484-abcd-0071bf431d0d,46.0,porridge,"Avoine, lait ","Porridge, Purée d'amande "
+xjvrtk,361915,2022-05-10T14:25:07Z,120,c95d8fb6-a802-4585-b763-b8342bbd4ca8,180.0,yogourt nature maigre,goûter,yogourt nature maigre
+xjvrtk,362443,2022-05-11T18:20:13Z,120,397afb74-d345-4fda-a427-ee570908ee67,180.0,yogourt,souper,"compote rhubarbe, yogourt"
+p96w4a,363194,2022-05-13T18:42:44Z,120,2560a081-c1dd-48cf-aa05-a02ed674827f,157.0,"gratin pates avec thon, petits pois, poivrons et fromage à gratiner",Je n'ai pas cuisiné ce plat. je n'ai pas le détail des poids de chaque ingrédient ,"gratin pates avec thon, petits pois, poivrons et fromage à gratiner"
+ppf8hc,364323,2022-05-17T18:42:41Z,120,0f125347-e590-4f41-ba0e-ffd810afad09,64.0,poulet ,,"poulet , poivrons "
+8japfq,363355,2022-05-14T10:57:34Z,120,0bd218b2-a4c6-4605-8737-2055d3040f25,54.0,oeuf au plat ,,"Fraises, Brioche au chocolat, Pain aux noix, Hummous , Cottage cheese aux herbes, St-félicien , Tomates rôties , Oeuf au plat "
+m4egh2,363641,2022-05-15T10:51:45Z,120,1f732396-f9f9-451f-bb51-ade259131e78,33.0,confiture fraise,,"Pain, Beurre, Confiture fraise, Framboises, Myrtilles"
+wrah5h,358419,2022-05-01T08:40:33Z,120,f362f600-6edc-47fa-a44a-4f443a173953,33.0,pancake,déjeuner,"pancake, pépites de chocolat noir, pancake, pépites de chocolat noir"
+xjvrtk,364561,2022-05-18T20:00:07Z,120,62c48fc7-a443-4018-9e30-62ecd36ead23,500.0,cidre ,soirée,cidre 
+6fwmw2,365668,2022-05-24T10:10:36Z,120,a2a7a39e-6053-4f38-806d-2bfed94b37c0,96.0,œufs au plat,,"Œufs au plat, Brocoli , Semoule "
+r3bub9,365761,2022-05-24T19:04:43Z,120,d985ac93-4b39-4db6-a618-c60859b4f22b,108.0,pâtes ,tagliatelles ,"pâtes , tomates, ail"
+p96w4a,365337,2022-05-22T12:53:44Z,120,ea5f58cc-2c17-4ecc-ad47-54141658e911,2.0,crème balsamique ,,"pain, beurre , jambon, oignon, crème balsamique , radis, salami"
+ppf8hc,362937,2022-05-13T07:13:09Z,120,23166ad4-f303-46da-ab59-6d3b8943e904,94.0,pain au céréales ,,"pain au céréales , pâte à tartiner au chocolat "
+p96w4a,361263,2022-05-08T19:36:06Z,120,24e67f58-05a7-45b3-b02a-fedafc6871c8,60.0,fruits rouges décongelés ,,"bircher maison, fruits rouges décongelés "
+wrah5h,364304,2022-05-17T17:25:06Z,120,b60a4dee-442d-447d-8d78-db9521763ffa,116.0,tranche gâteau rhubarbe ,dessert,tranche gâteau rhubarbe 
+8japfq,359114,2022-05-03T05:45:55Z,120,c79855ed-5948-4858-9b6d-264b75558907,64.0,muesli nature,,"Muesli nature, Yaourt nature "
+xjvrtk,362183,2022-05-11T08:20:47Z,120,af556f5b-dc95-48cc-b14f-8726a04c2529,20.0,fraise,pause,fraise
+wrah5h,361024,2022-05-08T09:17:11Z,120,0547baf7-3bf0-459d-b26f-4eb4c74bda8c,15.0,pâte à tartiner au chocolat ,déjeuner ,"gaufre , pâte à tartiner au chocolat "
+p96w4a,363731,2022-05-15T15:13:29Z,120,fa947463-60ae-4d88-91f8-d3d83659663e,112.0,gâteau au fromage blanc ,,gâteau au fromage blanc 
+ppf8hc,362210,2022-05-11T09:56:22Z,120,a240c2fe-3f03-48ac-b042-ee673b3425b0,135.0,filet de poulet pané ,"panure maison, cuite à la poêle ","filet de poulet pané , riz basmati"
+8japfq,362126,2022-05-11T06:07:23Z,120,7a440282-acb9-4f0f-9f6a-ea8124ad66ef,62.0,muesli nature,,"Pomme , Muesli nature"
+wrah5h,361317,2022-05-09T04:50:13Z,120,c34091b7-c42f-4e93-ae39-bb28aa3b7819,59.0,banane ,déjeuner ,"flocons d'avoine, graines de chia, pépites de chocolat , purée de cacahuète , banane "
+p8a2w5,365218,2022-05-21T20:46:54Z,120,c9125670-8a67-4884-9958-ce18c6ccbe72,49.0,salade,,"boeuf, saucisse , poulet , salade"
+xjvrtk,365504,2022-05-23T11:13:31Z,120,bdb98a92-fcc8-4f1c-9acb-da9162427c7b,336.0,"légumes cuits: côtes de bette, betterave rouge, fenouil, carottes",midi,"légumes cuits: côtes de bette, betterave rouge, fenouil, carottes, omelette à la ciboulette"
+p8a2w5,359106,2022-05-03T05:05:44Z,120,fd55317a-e792-439f-bff1-811093d38657,51.0,céréales ,petit dej,céréales 
+ppf8hc,360559,2022-05-06T19:18:47Z,120,8551517c-a8fb-4fec-864e-92e0e6190a4b,151.0,spaghetti ,,spaghetti 
+p8a2w5,365217,2022-05-21T20:31:56Z,120,ff6e3f38-43e0-4b06-8a58-63fa5b77ccc8,30.0,lard,,"poulet, 2eme poulet, avocat, carottes , lard, pain"
+2ahgvr,365114,2022-05-21T13:22:05Z,120,b24759a6-90ea-4f9e-a1ad-d52af234de62,177.0,asperges,,"Asperges, Mayonnaise Thomy"
+p96w4a,359916,2022-05-05T08:11:20Z,120,a0fc1136-90f4-4311-ac49-169af42b0117,7.0,beurre ,,"pain, beurre , Nutella , mélasse "
+2ahgvr,366422,2022-05-29T11:50:35Z,120,55942abb-1eae-446a-8c69-bf40fe9d9495,92.0,glace sorbet framboise,,"Glace sorbet framboise, Pomme"
+2ahgvr,366704,2022-05-31T08:18:33Z,120,cca1db77-eb8e-454d-8ea2-e23840f01b97,6.0,graine de chia,Muesli,"Yogourt nature, Flocons d'avoine, Son d'avoine, Miel, Graine de chia, Purée d'amande"
+xjvrtk,365083,2022-05-21T11:41:16Z,120,5ccbcf64-3631-48df-9e8a-85fb33dbf912,500.0,tomates cerises,faim,tomates cerises
+wrah5h,359761,2022-05-04T17:40:59Z,120,15c5b550-a52d-4597-8089-e0fbb593cb97,41.0,tofu à la mangue,souper,"galette wraps, fêta , gruyère râpé, aubergines , tofu à la mangue"
+p8a2w5,360193,2022-05-05T19:02:47Z,120,62095991-e788-405d-a5d5-b5ad2d8bd2e0,142.0,riz,,riz
+m4egh2,364122,2022-05-17T05:04:14Z,120,e8255768-2401-491d-9b2f-35168137da3b,6.0,beurre,,"Pain, Beurre, Confiture fraise"
+p96w4a,365274,2022-05-22T08:50:13Z,120,e9242585-5554-4e43-9c4f-ad25bd136e29,5.0,confiture fraise,,"tresse, beurre, confiture fraise"
+ppf8hc,366477,2022-05-29T18:14:48Z,120,f3337fd9-3578-4c7f-9384-bd7ee642348b,43.0,poivrons ,,"pomme de terre au four , poivrons , ketchup "
+xjvrtk,363933,2022-05-16T10:27:34Z,120,bc9c353c-4fd3-41d7-b5ab-cc73e9587d47,87.0,oeufs au plat,midi,"pois chiches, oeufs au plat, brocolis, carottes, asperges, tronc de brocolis cru, ciboulette"
+xjvrtk,364751,2022-05-19T23:30:37Z,120,9f3cc64b-7ef7-4fff-b125-8e011b8ffb93,145.0,aubergine au four,faim en rentrant,"tomate, oeufs brouillés, aubergine au four, parmesan"
+ppf8hc,364981,2022-05-20T20:06:40Z,120,0dd585cb-01fc-46ce-ba68-63b5667be3b7,33.0,poulet,,"aubergine , poulet"
+m4egh2,364190,2022-05-17T09:54:23Z,120,1be0c018-c909-437a-bb34-9818f24a9b6a,59.0,asperges,,"Riz casimir, Poulet + sauce curry, Asperges"
+ppf8hc,364132,2022-05-17T06:15:45Z,120,104945fb-5bd2-431c-a232-fc8d6146ac8d,97.0,pain,,"pain, pâte à tartiner au chocolat "
+2ahgvr,357716,2022-04-28T16:29:00Z,120,31792c68-de04-433c-a306-7598eada2d2f,129.0,pomme,Exercice,Pomme
+ppf8hc,359301,2022-05-03T13:34:55Z,120,84834690-c588-4017-b4da-163765ca1bfa,122.0,yaourt moka ,,Yaourt moka 
+p8a2w5,366081,2022-05-26T19:42:21Z,120,4f96d4f3-ccf5-48a1-bc78-4d09451b3545,232.0,ratatouille,,"riz, oeufs, ratatouille"
+xjvrtk,365185,2022-05-21T18:20:36Z,120,12babb66-d6e5-4c11-afc5-25290865b2a5,83.0,œuf au plat,souper,"betterave rouge cuite, œuf au plat, sauce à salade, sardine à la tomate"
+m4egh2,366652,2022-05-30T18:47:56Z,120,1433b4f9-85ec-4321-944a-d971fef9b19d,122.0,asperges,,"couscous complet, Chou-fleur, Poulet, Asperges"
+8japfq,359015,2022-05-02T17:42:28Z,120,59fa1abc-3369-4e41-bf8c-134cdf293f78,19.0,pain tartiné au pesto ,,"Tomates cerises , Pain tartiné au pesto "
+wrah5h,359586,2022-05-04T10:18:36Z,120,f727ac79-973e-4b92-8f2b-cda94222d4a7,26.0,"sauce blanche (crème, moutarde)",dîner,"polenta , aubergine grillée , porc, sauce blanche (crème, moutarde)"
+p8a2w5,366616,2022-05-30T15:06:31Z,120,0ca82ce9-fdff-42cb-bb19-4bfd8d280feb,171.0,yogourt à la cerise ,,yogourt à la cerise 
+xjvrtk,361548,2022-05-09T13:50:31Z,120,aa2df550-5243-4537-ad8b-9d79fc7007b4,115.0,pomme,faim,pomme
+8japfq,363736,2022-05-15T15:27:46Z,120,de554885-68af-4989-b977-79eff1160205,22.0,noix de pécan ,,"yaourt nature, Ananas , Myrtilles, Noix de pécan "
+r3bub9,366049,2022-05-26T11:47:08Z,120,d936efff-6fc8-4d66-8681-db5d7fd4f9c4,57.0,salade de riz,,"sauce oignons, rôti , salade de carottes, salade de riz, salade verte, salade russe"
+m4egh2,366265,2022-05-28T06:36:17Z,120,46c1d23a-f389-4a7e-9f37-e58c81310310,5.0,beurre,,"Pain Toast, Beurre, Miel, Yogourt à la banane"
+p8a2w5,365840,2022-05-25T10:29:14Z,120,9e3bfdbf-2b6e-41be-93ee-6610250b8c4e,5.0,beurre,,"tomates , mozzarella , petits pains grillés , beurre, charcuterie poulet rôti "
+ppf8hc,359392,2022-05-03T17:10:57Z,120,95e84def-c82b-4360-8390-f5153ff61064,236.0,quinoa et boulgour au curry ,,"quinoa et boulgour au curry , poivrons jaune"
+8japfq,364167,2022-05-17T08:15:06Z,120,8e36de78-7564-4fa9-ad72-9b970af50b78,151.0,pomme,,Pomme
+8japfq,364897,2022-05-20T14:33:55Z,120,94b397f7-cbf1-4759-a3ef-09da42129d6a,79.0,pains aux noix ,,"Banane, Pains aux noix "
+8japfq,364834,2022-05-20T10:25:09Z,120,b233fd7c-865a-4287-818f-8d4fe868585e,80.0,tomates cerises ,,"Épinards frais , Pousses de graines , Tomates cerises , Fallafels"
+8japfq,359241,2022-05-03T10:54:01Z,120,d3483c57-c2e2-4657-825f-52070e3da0b8,82.0,cottage cheese,,"Cottage cheese, Salade de pomme de terre, Salade verte"
+p8a2w5,365217,2022-05-21T20:31:56Z,120,ff6e3f38-43e0-4b06-8a58-63fa5b77ccc8,46.0,2eme poulet,,"poulet, 2eme poulet, avocat, carottes , lard, pain"
+8japfq,364418,2022-05-18T09:47:39Z,120,e3dd97fc-f060-4191-b7c5-c7c2100b5e6e,89.0,tomate ,,"Blé, Gratin de côte de bette, crème et tomates séchées , Tomate "
+r3bub9,364223,2022-05-17T10:56:13Z,120,17c1535c-dc84-4dbb-9668-1d3f9a4a135d,16.0,tomates cerises,juste pour la couleur,"tomates cerises, salade iceberg, raviolis a la courge"
+p96w4a,365807,2022-05-25T06:35:36Z,120,32043e73-8b8d-43a6-b1a0-3cf935affee5,6.0,mélasse ,,"pain, beurre, mélasse , pain, beurre, pâte à tartiner"
+xjvrtk,365452,2022-05-23T05:56:32Z,120,e0477112-b06c-49d6-b9c8-d0a2da930ee7,108.0,nectarine,matin,nectarine
+m4egh2,363801,2022-05-15T19:07:06Z,120,d7009008-3580-4a9e-808a-c4de4b6bc975,184.0,mc fleury,,Mc Fleury
+xjvrtk,362861,2022-05-12T19:55:42Z,120,3cd99914-215e-449e-91bf-df5d8df2a5f6,40.0,gorgonzola,souper,"myrtilles, gorgonzola"
+r3bub9,366275,2022-05-28T08:19:48Z,120,a7bab571-59ca-4bcf-8b36-7fecf406be5f,167.0,yogourt nature,,yogourt nature
+wrah5h,357715,2022-04-28T16:28:59Z,120,e6d3974b-3b59-4d78-a205-0acb6833086b,126.0,pomme,essai,pomme
+xjvrtk,364951,2022-05-20T18:39:04Z,120,38b90b00-cd60-4ff1-a7b0-5dbfb9125944,143.0,concombre,souper,"betterave cuite, concombre, yogourt nature, vinaigre , gomasio"
+p96w4a,365168,2022-05-21T17:28:57Z,120,7004d086-abf6-4e9f-a945-0d22f3a60a84,21.0,salade verte,,"salade verte, tomate, oignon, pomme, radis, vinaigre balsamique "
+wrah5h,361208,2022-05-08T17:26:11Z,120,bd7799bb-241d-4652-8129-fbaf9bb88d41,149.0,pizza aux épinards ,souper,pizza aux épinards 
+r3bub9,364223,2022-05-17T10:56:13Z,120,17c1535c-dc84-4dbb-9668-1d3f9a4a135d,143.0,raviolis a la courge,ils sont pas terribles ,"tomates cerises, salade iceberg, raviolis a la courge"
+xjvrtk,361816,2022-05-10T10:22:28Z,120,dcb5120a-7ecd-4610-9642-e76c616b6016,60.0,crème caramel,midi dessert,crème caramel
+wrah5h,363941,2022-05-16T10:36:32Z,120,cb6a4333-4844-427b-b4a5-d13df89508f1,183.0,poire,dessert,poire
+m4egh2,365764,2022-05-24T19:47:28Z,120,55d40c39-e6b8-407a-9e3e-881d42568328,22.0,salade verte ,,"Salade verte , Tomate, Mélange de graines, Viande séchée des grissons : porc, vinaigre balsamique, Pâtes aux légumes (aubergines et carottes)"
+2ahgvr,364977,2022-05-20T20:02:27Z,120,a1dcaa3e-bad0-4d16-a8e3-c6217544e407,112.0,salade de pâtes,,Salade de pâtes
+p96w4a,360802,2022-05-07T13:53:48Z,120,7258b52f-5aff-4a96-9e46-08cccb80fa0b,116.0,sandwich jambon,boulangerie boillat ,"canapé au saumon, sandwich jambon"
+p96w4a,365918,2022-05-25T18:12:45Z,120,0b30b5d8-e33f-4dd8-9031-8ca14d954da4,15.0,agneau ,,"salade verte, radis, tomate, oignon , crème balsamique , pain libanais , poulet, agneau "
+wrah5h,364284,2022-05-17T16:15:21Z,120,fcf4b7f7-6426-46b7-94d2-af87390ce037,16.0,olives,collation,"tomates cerises , olives"
+2ahgvr,364967,2022-05-20T19:18:17Z,120,5b8a0853-ecc4-4015-bc9a-2b50766f873a,104.0,salade de pâtes,,"Sauce andalouse, Pain, Brochette de boeuf, Salade de pâtes, Mergez"
+p96w4a,361046,2022-05-08T10:18:16Z,120,a11463a4-ab51-4b83-a55f-d4edfb527b13,14.0,fromage de chèvre frais à la figue,brunch ,"pain (baguette), truite, fromage (etivaz), tomme de savoie, fromage de brebis/chèvre (2 bouts), tomme fleurette, brie, fromage de chèvre frais à la figue, beurre"
+2ahgvr,366718,2022-05-31T09:57:51Z,120,5540e99f-84bd-4971-a7b2-caab6b4282bb,153.0,steak végétarien et sauce aux oignons,,"Steak végétarien et sauce aux oignons, Pâtes, Gratin de côtes de bettes, Chou romanesco, Parmesan"
+wrah5h,364046,2022-05-16T17:18:01Z,120,1550c506-8c95-461f-b658-8f427dc2a0af,54.0,mozzarella ,souper,"haricots rouges , pâtes, mozzarella "
+p8a2w5,358511,2022-05-01T12:22:49Z,120,ae0562ae-9c02-43e0-86e6-4a403128587b,12.0,pain provencales,repas,"fromages (manchego, 2 sortes de Gruyères, raclette), pain provencales"
+ppf8hc,361423,2022-05-09T09:17:18Z,120,a3b29f98-c619-45f6-b68a-d8489eb14614,41.0,pain ,,pain 
+wrah5h,361211,2022-05-08T17:32:15Z,120,00056f27-22c2-4991-962f-b10ce2f94f89,34.0,mozzarella ,souper,"mozzarella , tomate cerise , basilic "
+8japfq,363775,2022-05-15T17:43:07Z,120,9ac9736b-e0d1-4862-9981-1f47f8109d18,183.0,"pizza champignons, olives, courgettes ",,"Pizza champignons, olives, courgettes "
+wrah5h,358436,2022-05-01T09:05:00Z,120,44dced6c-1e38-4273-850f-0c8ac1916cdf,66.0,orange,déjeuner,"pomme, orange, kiwi"
+m4egh2,366295,2022-05-28T10:46:13Z,120,7e7c07da-f8a5-4c6a-96b0-28284727895f,90.0,oeufs  ,,"Pâtes, Oeufs  , Ketchup"
+r3bub9,366804,2022-05-31T19:17:21Z,120,207070c9-c6dd-4cf9-b0a7-5979b06babc3,305.0,risotto aux asperges,,risotto aux asperges
+r3bub9,364462,2022-05-18T12:40:00Z,120,2330c992-3298-44c3-90c9-1d04e574f1ab,81.0,croissant au fromage frais ,,croissant au fromage frais 
+p96w4a,363601,2022-05-15T08:31:12Z,120,0c836c4f-c291-4337-a78c-461d7f66fb81,5.0,confiture abricot ,,"pain, beurre, confiture abricot , pain, beurre, mélasse"
+6fwmw2,360730,2022-05-07T11:16:32Z,120,1a96e805-fc15-4295-90a7-73a41fcb683f,108.0,salade de pomme de terre,,"Poulet rôti , Salade de pomme de terre, Salade de carotte , Salade de céleri "
+m4egh2,363761,2022-05-15T16:48:41Z,120,7ff5fe61-b9cd-45c6-8df8-44a690a86b0c,5.0,sauce salade,,"Salade de riz, poivon,cornichon, Salade de pâtes, cornichon, fromage, tomate, Sauce coktail, Crevettes , Concombre, Sauce salade"
+ppf8hc,366635,2022-05-30T17:30:31Z,120,5dfa5302-a2e6-4c74-94fd-8e014ec012bc,140.0,poissons panés ,,"pâtes , brocolis , poissons panés , mayonnaise "
+m4egh2,365860,2022-05-25T11:21:06Z,120,0babd97c-30ea-4b6d-9a13-32aff4add8f8,156.0,pêche,,"Pêche, pêche"
+2ahgvr,366718,2022-05-31T09:57:51Z,120,5540e99f-84bd-4971-a7b2-caab6b4282bb,74.0,chou romanesco,,"Steak végétarien et sauce aux oignons, Pâtes, Gratin de côtes de bettes, Chou romanesco, Parmesan"
+p96w4a,362939,2022-05-13T07:15:08Z,120,e036b3f8-ccaa-47a4-af6e-0a6de159b9bc,3.0,beurre ,,"pain, beurre, mélasse , pain, beurre , confiture "
+wrah5h,365350,2022-05-22T13:47:13Z,120,c4d2e0f7-71f7-4e23-bc37-43a0aff738da,47.0,pain ,dîner,"omelette aux tomates, pain "
+p8a2w5,358738,2022-05-02T07:26:06Z,120,9909ddbe-3881-4bba-9d91-aa2a002a7bb7,45.0,céréales ,petit dej,céréales 
+xjvrtk,365113,2022-05-21T13:15:57Z,120,fb18c515-abdf-434a-a433-9969b1061d3c,300.0,côtes de bettes à la sauce tomate,repas,"côtes de bettes à la sauce tomate, omelette au persil"
+m4egh2,366150,2022-05-27T09:55:15Z,120,1381e1a0-c925-4eac-92f2-59d1223c728c,149.0,quinoa,,"Quinoa, Asperges, Saumon"
+m4egh2,365611,2022-05-24T05:26:49Z,120,4093cefe-321e-4e99-928d-b2f744506237,9.0,beurre,,"Pain, Beurre, Confiture framboise, Miel"
+wrah5h,359207,2022-05-03T10:17:17Z,120,712f4686-2c54-47d3-a8f2-811e15f6e76b,80.0,tofu à la mangue ,dîner,"quinoa, mangue, betterave, avocat , carotte râpées, tomate, tofu à la mangue , échalotes , oignons en bottes "
+8japfq,361364,2022-05-09T07:13:06Z,120,4460b576-039f-437e-bd10-9241cf72ce0b,113.0,brioche au chocolat ,,"Brioche au chocolat , Pain aux noix"
+p8a2w5,358643,2022-05-01T19:00:18Z,120,2552a096-42ab-4f6b-a34f-8f011d1ec91e,169.0,fraises avec sucre,dessert,fraises avec sucre
+2ahgvr,366718,2022-05-31T09:57:51Z,120,5540e99f-84bd-4971-a7b2-caab6b4282bb,69.0,gratin de côtes de bettes,,"Steak végétarien et sauce aux oignons, Pâtes, Gratin de côtes de bettes, Chou romanesco, Parmesan"
+xjvrtk,358786,2022-05-02T09:36:34Z,120,d130b57d-355f-4a62-bd0b-21090532c912,192.0,pomme,faim,pomme
+6fwmw2,360210,2022-05-05T19:27:10Z,120,4198fd55-f46c-4b22-a0ab-215e7f648628,102.0,maïs en boîte,,"Salade , Avocat , Tomate cerise , Maïs en boîte, Thon"

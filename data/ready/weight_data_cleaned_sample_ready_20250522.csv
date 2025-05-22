@@ -1,0 +1,251 @@
+id,00_MSG_00_TEXT,00_MSG_01_IMAGE,00_MSG_02_TEXT
+0,crème caramel ,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/7ba1f50a-fb62-4e65-89ea-a193ab96c0db,crème caramel 
+1,"délice des dieux (biscuit, fruits rouges, séré+mascarpone) ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/5de398c7-684b-448d-ba0a-f318d009bccd,"délice des dieux (biscuit, fruits rouges, séré+mascarpone) "
+2,"gaufre à la patate douce, sauce demi crème acidulée, citron, aneth, saumon fumé ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/1876b0b6-568d-4583-8186-073df252e6c9,gaufre à la patate douce
+3,"concombre , tomates ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/ee6e8045-59f2-4294-ae6a-1d5695abc176,tomates 
+4,"pâtes , cervelas, chili , crème fraîche ",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/58f82c5a-4b79-4f95-9f8f-0b55a93d8383,chili 
+5,"courgette et oignons, galettes millet haricots noirs maïs",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/8fb08d9a-4e44-4251-a0e4-26441252d211,courgette et oignons
+6,noix de cajou ,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/ab73a92d-e2b8-41ed-b24c-9a71a70e004a,noix de cajou 
+7,"purée de pdt, viande ragoût , carotte, sauce ",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/828972fc-fa12-4270-a960-fc59367fc91e,purée de pdt
+8,"porridge , framboises , myrtilles , pépites chocolat noir, purée de cacahuète ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/2e7b02f3-969a-4269-bf8a-ee2710c121bc,myrtilles 
+9,"tiramisu , forêt noir ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/7b0475df-5b02-4072-abb9-ef75acf0f031,tiramisu 
+10,banane ,https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/f218b781-84b2-41d2-b7fe-b01c9a162f8a,banane 
+11,"pâtes carbonara , gruyère ",https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/4d4e6539-b86f-4019-b2aa-0c15dbce0667,pâtes carbonara 
+12,"galette wraps, demi crème acidulée , avocat, tomates, carottes , tranche jambon , gruyère râpé",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/19a2e7b0-7aad-44c5-b52a-d67294d4ef49,galette wraps
+13,tarte aux fraises,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/7b64b358-b611-4155-8e79-6f3ce5b4f11a,tarte aux fraises
+14,tartine avec crème de marrons et beurre,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/fb2a197e-9ecd-4c2c-b686-2bc13e28ef1c,tartine avec crème de marrons et beurre
+15,"pain (baguette), croissants au jambon , radis, carotte, pommes, bout de gruyère , salami, lard",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/7bd6e67d-b1ca-42e4-a5ca-713b7fadda27,bout de gruyère 
+16,"sauce oignons, rôti , salade de carottes, salade de riz, salade verte, salade russe",https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/d936efff-6fc8-4d66-8681-db5d7fd4f9c4,sauce oignons
+17,"haricots rouges , pâtes, mozzarella ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/1550c506-8c95-461f-b658-8f427dc2a0af,haricots rouges 
+18,"salade grecque, sauce à salade maison",https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/c476a6d0-acb2-45fd-b168-84822bc98003,salade grecque
+19,cookie ,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/078e41ee-9489-4b78-94b3-a6298acfbbb2,cookie 
+20,croissant au chocolat ,https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/8c1803d2-590b-472d-9d8a-898649b2ae5f,croissant au chocolat 
+21,feuilletés sauce tomate ,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/320b93f1-8b0b-42f3-84c6-2929825a090f,feuilletés sauce tomate 
+22,"mozarella, olives, salade verte ",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/762d78e1-34d1-4942-b2a4-1094509831e3,mozarella
+23,"pain, beurre, confiture , pain, beurre , nutella",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/6b14a3f8-bfc1-4e9d-9ce7-f884774afb59,pain
+24,"couscous, thon, vinaigre, graines de courge",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/611431d0-f119-4ef8-ad73-bb27c5075c3c,thon
+25,"yaourt nature , muesli nature ",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/aec8837c-53fa-470e-b484-737ecb280e65,muesli nature 
+26,ananas,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/b41068f9-5a0e-4c11-bf1b-7389d3917889,ananas
+27,"mayonnaise, pain bis, cornichons, fromage",https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/b1cddb5b-7db0-4fb4-9340-d84cd4187243,fromage
+28,"séré maigre, kiwi, miel",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/7d1aaf24-b020-4315-aa15-db38f40e72be,kiwi
+29,"tomate, mozarella, vinaigre balsamique , délice tomate mozzarella ",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/5ebafbd6-315d-44a6-8508-ba143d23adb2,délice tomate mozzarella 
+30,"pain, nutella , fraises , framboises ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/c73a766e-70bf-435f-b53a-6b981cf634e3,pain
+31,"mayonnaise, pain bis, cornichons, fromage",https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/b1cddb5b-7db0-4fb4-9340-d84cd4187243,mayonnaise
+32,"poulet rôti , salade de pomme de terre, salade de carotte , salade de céleri ",https://www.myfoodrepo.org/api/v1/subjects/6fwmw2/dish_media/1a96e805-fc15-4295-90a7-73a41fcb683f,salade de céleri 
+33,carotte pelée ,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/d50294a6-302a-456b-a1e1-1d7ecf04f774,carotte pelée 
+34,"riz, dalh de lentilles corail (lentilles corail, oignon, carottes, tomates concassées, 1cs huilde d'olive, épices)",https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/82b53493-1c97-472b-9ec6-8cc698b8cfe4,"dalh de lentilles corail (lentilles corail, oignon, carottes, tomates concassées, 1cs huilde d'olive, épices)"
+35,"polenta , aubergine grillée , porc, sauce blanche (crème, moutarde)",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/f727ac79-973e-4b92-8f2b-cda94222d4a7,porc
+36,"ratatouille , boulgour , gruyère, oeuf au plat ",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/b6659a8f-25e7-44f7-a351-7873f60f1586,ratatouille 
+37,cookie,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/957d68a9-f6f0-4c22-9da8-5d4457f515e5,cookie
+38,tarte flambée pomme rhubarbe,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/f607625b-a07d-423e-a564-4d96ebadf084,tarte flambée pomme rhubarbe
+39,"sauce curry avec mayonnaise, poulet, salade verte ",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/40709ed3-1ed0-49ed-89e9-67c7e3184f7f,sauce curry avec mayonnaise
+40,"anchois , pain complet , yogourt nature, confiture mirabelle ",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/e969cc59-48a6-4ea9-a4f6-0105d72ef771,yogourt nature
+41,"salade de tomates , vinaigre balsamique, graines de lin",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/ce668b40-a61f-4ac1-abfd-a150071ddd76,salade de tomates 
+42,chocolat,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/2d5a86c1-d431-454a-b6ff-f1abdfc85095,chocolat
+43,pain aux fruits ,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/63d7962e-f953-4987-96fb-2f843d8a12d1,pain aux fruits 
+44,"couscous, thon, vinaigre, graines de courge",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/611431d0-f119-4ef8-ad73-bb27c5075c3c,graines de courge
+45,chocolat noir ,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/1f280cd7-2448-47d9-a198-235eb8d19e29,chocolat noir 
+46,"reblochon , pain aux graines , tapenade olive noire , caviar d'aubergine , taboulé aux poivrons et tomates ",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/8cc023af-a7ff-499f-8a9b-454ef2e943ae,caviar d'aubergine 
+47,"purée cacahuète , pépites chocolat noir, 1/2 banane ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/67b0dffa-f510-4356-979c-09189a0d604d,purée cacahuète 
+48,tonic au gingembre,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/c70f93c3-23cc-4817-bbe9-93091771b273,tonic au gingembre
+49,"galette wraps, demi crème acidulée , avocat, tomates, carottes , tranche jambon , gruyère râpé",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/19a2e7b0-7aad-44c5-b52a-d67294d4ef49,avocat
+50,"fromages (manchego, 2 sortes de gruyères, raclette), pain provencales",https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/ae0562ae-9c02-43e0-86e6-4a403128587b,"fromages (manchego, 2 sortes de gruyères, raclette)"
+51,"blanc battu, flocons d'avoine, graines de chia, miel",https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/aa859e5b-563f-472c-9914-036722ebf60e,graines de chia
+52,"pâtes, courgettes gratinée , sauce aux champignons (crème + ail + champignon)",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/6b91ac4b-1f0f-4176-bf40-a12a6cd892e2,sauce aux champignons (crème + ail + champignon)
+53,"salade verte, tomate, oignon, pomme, radis, vinaigre balsamique ",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/7004d086-abf6-4e9f-a945-0d22f3a60a84,vinaigre balsamique 
+54,"boule de glace vanille, chocolat chaud, compote fraise rhubarbe maison",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/4779863e-2d2c-45b2-a564-73da174fa019,boule de glace vanille
+55,"mélange de céréales , myrtilles, yogourt orange sanguine",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/9942fa79-be93-458e-b6a9-22fda9333ff4,yogourt orange sanguine
+56,salade verte avec sauce ,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/84905336-4de3-4568-8ab7-ad7669f93f6b,salade verte avec sauce 
+57,"pain , crème de marrons",https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/6b1cc73c-e22b-4132-970e-e37910b8b407,crème de marrons
+58,"purée de pdt, viande ragoût , carotte, sauce ",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/828972fc-fa12-4270-a960-fc59367fc91e,sauce 
+59,"pain, beurre , jambon, oignon, crème balsamique , radis, salami",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/ea5f58cc-2c17-4ecc-ad47-54141658e911,oignon
+60,fraises ,https://www.myfoodrepo.org/api/v1/subjects/6fwmw2/dish_media/fc43899a-21ef-45e8-95b0-d10af04f9539,fraises 
+61,"riz, dalh de lentilles corail (lentilles corail, oignon, carottes, tomates concassées, 1cs huilde d'olive, épices)",https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/82b53493-1c97-472b-9ec6-8cc698b8cfe4,riz
+62,"pates, boulettes au légumes à la sauce tomate , gruyère ",https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/bf22a1b3-a8b6-4823-a44b-0893c3097763,boulettes au légumes à la sauce tomate 
+63,"gaufre , compote pomme",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/1c8bc1a8-fbe8-4520-b82e-b07adc59e499,gaufre 
+64,"polenta , aubergine grillée , porc, sauce blanche (crème, moutarde)",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/f727ac79-973e-4b92-8f2b-cda94222d4a7,polenta 
+65,yogourt figue sans sucre,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/4c27b970-43cc-443a-93d5-6a8777362594,yogourt figue sans sucre
+66,"salade de riz, poivon,cornichon, salade de pâtes, cornichon, fromage, tomate, sauce coktail, crevettes , concombre, sauce salade",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/7ff5fe61-b9cd-45c6-8df8-44a690a86b0c,"salade de pâtes, cornichon, fromage, tomate"
+67,"boulgour, ratatouille, œuf dur",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/d8aaea52-09df-4596-892c-0d03f5b6b9cd,boulgour
+68,cacahuètes,https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/9fe3d12f-bfa6-421e-a861-be4fba09fc13,cacahuètes
+69,yogourt industriel à l'abricot avec morceaux ,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/e4f800da-c429-4a04-823c-ac3792f64c00,yogourt industriel à l'abricot avec morceaux 
+70,céréales ,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/4fb4c5be-8035-4321-b876-62099731b721,céréales 
+71,poire,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/050419f6-32ae-4276-9993-de18feaccbd1,poire
+72,"yogourt chocolat , yogourt chocolat , yogourt chocolat ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/a52672d9-9e62-4a28-8952-792840f894b6,yogourt chocolat 
+73,"poulet, 2eme poulet, avocat, carottes , lard, pain",https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/ff6e3f38-43e0-4b06-8a58-63fa5b77ccc8,avocat
+74,"pâtes , cervelas, chili , crème fraîche ",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/58f82c5a-4b79-4f95-9f8f-0b55a93d8383,cervelas
+75,"concombre, tomate, carotte, graines de courge, vinaigre, sérac",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/1fa390c1-9169-42c0-abbd-3aa6e1a5c90b,vinaigre
+76,"pain (baguette), truite, fromage (etivaz), tomme de savoie, fromage de brebis/chèvre (2 bouts), tomme fleurette, brie, fromage de chèvre frais à la figue, beurre",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/a11463a4-ab51-4b83-a55f-d4edfb527b13,fromage de brebis/chèvre (2 bouts)
+77,gyozas végétariens (3 pièces),https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/c9826c1c-42e1-4363-9dcc-cf68d7642c4e,gyozas végétariens (3 pièces)
+78,"salade , brocolis , mais, pois chiches ",https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/e7f3470c-66d1-410d-8423-4bc12438ecb0,mais
+79,"tortilla, aubergines sautées, salade russe, mayonnaise",https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/d767c564-a3e6-4306-b022-ea44636699d8,mayonnaise
+80,"toast , fromage frais",https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/feb15752-d5e3-4f73-8eeb-9fb560cc6f6b,toast 
+81,artichaut ,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/9b2c7383-a434-4260-ac30-86103e4546ea,artichaut 
+82,"pomme, yaourt nature ",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/885c0212-0193-4a37-b6a9-a1dab36f03c5,yaourt nature 
+83,"riz, dahl de lentille ",https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/5ddea52e-8411-4822-893f-d8420fa6cb40,dahl de lentille 
+84,"riz, tomate cerise, pêche , maïs, asperges, thon, haricot rouge, oeuf, sauce à salade",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/4e021399-8a90-44fe-b06c-0955cd2280f7,oeuf
+85,"fraises, brioche au chocolat, pain aux noix, hummous , cottage cheese aux herbes, st-félicien , tomates rôties , oeuf au plat ",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/0bd218b2-a4c6-4605-8737-2055d3040f25,cottage cheese aux herbes
+86,"haticot coco , crevette , perle de blé , sauce crème 15% au safran ",https://www.myfoodrepo.org/api/v1/subjects/6fwmw2/dish_media/1da85bf5-675f-472d-8594-733069301dd5,perle de blé 
+87,"tomates, avocat, wrap, oeuf",https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/b1c79503-9afe-45a3-9889-94724bfcf2b2,oeuf
+88,"mozarella , tomate , salade verte , oignons nouveaux , carotte, graine de tournesol, œuf , vinaigre balsamique crème , houmous au basilic (acheté)",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/fab584a3-42d9-4217-a493-ec0d71878e56,houmous au basilic (acheté)
+89,"asperges, mayonnaise thomy",https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/b24759a6-90ea-4f9e-a1ad-d52af234de62,mayonnaise thomy
+90,"pâtes, courgettes gratinée , sauce aux champignons (crème + ail + champignon)",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/32c03d9e-2971-4f4b-bbec-4efde05dbf93,pâtes
+91,"quinoa et boulgour au curry , poivrons jaune",https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/95e84def-c82b-4360-8390-f5153ff61064,poivrons jaune
+92,"sauce andalouse, pain, brochette de boeuf, salade de pâtes, mergez",https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/5b8a0853-ecc4-4015-bc9a-2b50766f873a,brochette de boeuf
+93,"quinoa, mangue, betterave, avocat , carotte râpées, tomate, tofu à la mangue , échalotes , oignons en bottes ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/712f4686-2c54-47d3-a8f2-811e15f6e76b,tomate
+94,"quinoa , betterave , mangue , concombre , tomate, avocat ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/bba5cf64-1d08-40cb-bc6c-bfdd2a7c2116,betterave 
+95,porridge salé,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/a35f3211-3b33-4826-97b8-3af69655dada,porridge salé
+96,cereales,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/7daff41f-6328-4146-8d14-b015551594c4,cereales
+97,rondelle de citron,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/b948411c-820d-4c9e-b53f-b3c44d2249dd,rondelle de citron
+98,"boulgour , tomates cerises , feta, pousses de graines , oeuf au plat ",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/c95525c1-9115-4146-aad9-d4c6b8a6b3cf,oeuf au plat 
+99,fondant au chocolat maison,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/1be13f84-6a0b-4b1c-bff5-fc0a0fcf87b8,fondant au chocolat maison
+100,lapin au chocolat ,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/5075016a-7232-4e6b-aaec-431f15ae7253,lapin au chocolat 
+101,"purée cacahuète , pépites de chocolat noir, 1/2 banane",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/97652ee3-3e16-4d7d-bafa-ffb83df2257c,purée cacahuète 
+102,soupe à la tomate ,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/f87a2a81-9c85-454b-af47-38ed4c42554b,soupe à la tomate 
+103,"pâtes , tomates, ail",https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/d985ac93-4b39-4db6-a618-c60859b4f22b,tomates
+104,"pain pita, jambon, moutarde",https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/a2d48966-aa71-4479-8b0f-d28dbf8ffab6,moutarde
+105,tartine nutela,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/39ffd518-c349-4e45-ae4e-4679a17bd8bf,tartine nutela
+106,"yogourt chocolat , yogourt chocolat , yogourt chocolat ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/a52672d9-9e62-4a28-8952-792840f894b6,yogourt chocolat 
+107,"pain, beurre, mélasse , pain, beurre, pâte à tartiner",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/32043e73-8b8d-43a6-b1a0-3cf935affee5,beurre
+108,yaourt moka,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/a5b2e3a2-95b9-4bbc-9b67-a20ebcac6ff7,yaourt moka
+109,"pomme de terre duchesse , poissons panés, ketchup , mayonnaise ",https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/ddb88e9f-bf1c-4010-9d5a-1181e9cbe810,pomme de terre duchesse 
+110,blévita graines de courges,https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/3d2544a5-ac3b-4aeb-895a-a9fb413ec0ed,blévita graines de courges
+111,"yogourt nature, flocons d'avoine, son d'avoine, miel, graine de chia, purée d'amande",https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/cca1db77-eb8e-454d-8ea2-e23840f01b97,miel
+112,"saumon, crevettes",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/700b5570-50ed-4924-98cb-282dc92430e5,saumon
+113,"pain, beurre, confiture abricot , pain, beurre, mélasse",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/0c836c4f-c291-4337-a78c-461d7f66fb81,mélasse
+114,"riz, asperges, fenouille, viande de porc avec sauce aux champignon",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/0e163ff7-c733-41f3-8cc9-764fb3886aa2,riz
+115,"frites , poulet ",https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/fa24ac3d-41bd-47e9-899a-26fab1d92362,poulet 
+116,"pomme, fromage pâte dure ",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/42d05c13-cf2c-433e-a2d3-78a67d41cf05,fromage pâte dure 
+117,"galette au sarrasin , gruyère , jambon blanc , oeuf ",https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/e006559d-62c1-44d4-8a5c-ba881c44c149,oeuf 
+118,"pain, tranches de porc, carottes",https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/a78123a9-a71d-44cc-a512-4b8f9c048b9b,carottes
+119,"pomme de terre duchesse , poissons panés, ketchup , mayonnaise ",https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/ddb88e9f-bf1c-4010-9d5a-1181e9cbe810,ketchup 
+120,"gnocchi au basilic, chou-fleur, fromage râpé",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/3e5798b3-c7e0-4d8e-a593-5298c2102755,gnocchi au basilic
+121,"salade tomate mozzarella concombres , pillons de poulet, pain blanc",https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/a80cc37c-4f30-4827-84cd-91a2f89042c2,pillons de poulet
+122,"nouille de riz , mélange de porc et légumes façon thaï ",https://www.myfoodrepo.org/api/v1/subjects/6fwmw2/dish_media/ec6d03db-ac9d-4ca2-92e1-96ab989361cb,mélange de porc et légumes façon thaï 
+123,kiwi,https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/6da3acd7-23d1-4c66-baf1-93c7fc41087d,kiwi
+124,"flocons d'avoine, graines de chia, pépites de chocolat , purée de cacahuète , framboises, myrtilles",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/c0fb0561-9aaf-42ef-b18e-2677b0c8f7d7,flocons d'avoine
+125,"tresse au beurre , gruyère ",https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/5ed8ce20-0563-4e69-8fad-260878497dad,tresse au beurre 
+126,"patates sautés , œuf ",https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/273d9044-6fbe-4ba8-948d-3ce80f7976f0,œuf 
+127,"pain, beurre, confiture , pain, beurre , nutella",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/6b14a3f8-bfc1-4e9d-9ce7-f884774afb59,pain
+128,"salade de tomates , vinaigre balsamique, graines de lin",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/ce668b40-a61f-4ac1-abfd-a150071ddd76,graines de lin
+129,"kiwi, 2 biscuits nutella ",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/86da771f-1d27-4626-b23c-0274d35df787,kiwi
+130,humus maison,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/e6a9b184-1bd0-4fe5-a0d9-2962cbf7c29a,humus maison
+131,"pommes de terre, fêta, carottes, panais, aubergines, racines rouges",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/c31013e3-9c81-4ba6-b85b-e3c45b062457,panais
+132,"gruyère , mozzarella , pain bis, tomates ",https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/f07a0774-2ab0-4231-b431-1d5f34d84b29,gruyère 
+133,"poulet, wrap, poivron, tomates, salade verte, avocat",https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/6f0647af-ce31-45ac-abc9-d335ba8bcd5e,poivron
+134,"haticot coco , crevette , perle de blé , sauce crème 15% au safran ",https://www.myfoodrepo.org/api/v1/subjects/6fwmw2/dish_media/1da85bf5-675f-472d-8594-733069301dd5,sauce crème 15% au safran 
+135,"pain, beurre, confiture abricot , pain, beurre, mélasse",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/0c836c4f-c291-4337-a78c-461d7f66fb81,pain
+136,nectarine,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/a32f4df7-de95-4851-81a8-4259891b6bd4,nectarine
+137,"œufs au plat, brocoli , semoule ",https://www.myfoodrepo.org/api/v1/subjects/6fwmw2/dish_media/a2a7a39e-6053-4f38-806d-2bfed94b37c0,brocoli 
+138,"épinards frais , pousses de graines , tomates cerises , fallafels",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/b233fd7c-865a-4287-818f-8d4fe868585e,fallafels
+139,yogourt vanille ,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/337ec001-6209-48a3-ab06-cbf3ac51ca9c,yogourt vanille 
+140,"porridge, purée d'amande ",https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/b8540d8b-d377-4484-abcd-0071bf431d0d,porridge
+141,yogourt nature maigre,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/c95d8fb6-a802-4585-b763-b8342bbd4ca8,yogourt nature maigre
+142,"compote rhubarbe, yogourt",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/397afb74-d345-4fda-a427-ee570908ee67,yogourt
+143,"gratin pates avec thon, petits pois, poivrons et fromage à gratiner",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/2560a081-c1dd-48cf-aa05-a02ed674827f,"gratin pates avec thon, petits pois, poivrons et fromage à gratiner"
+144,"poulet , poivrons ",https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/0f125347-e590-4f41-ba0e-ffd810afad09,poulet 
+145,"fraises, brioche au chocolat, pain aux noix, hummous , cottage cheese aux herbes, st-félicien , tomates rôties , oeuf au plat ",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/0bd218b2-a4c6-4605-8737-2055d3040f25,oeuf au plat 
+146,"pain, beurre, confiture fraise, framboises, myrtilles",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/1f732396-f9f9-451f-bb51-ade259131e78,confiture fraise
+147,"pancake, pépites de chocolat noir, pancake, pépites de chocolat noir",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/f362f600-6edc-47fa-a44a-4f443a173953,pancake
+148,cidre ,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/62c48fc7-a443-4018-9e30-62ecd36ead23,cidre 
+149,"œufs au plat, brocoli , semoule ",https://www.myfoodrepo.org/api/v1/subjects/6fwmw2/dish_media/a2a7a39e-6053-4f38-806d-2bfed94b37c0,œufs au plat
+150,"pâtes , tomates, ail",https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/d985ac93-4b39-4db6-a618-c60859b4f22b,pâtes 
+151,"pain, beurre , jambon, oignon, crème balsamique , radis, salami",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/ea5f58cc-2c17-4ecc-ad47-54141658e911,crème balsamique 
+152,"pain au céréales , pâte à tartiner au chocolat ",https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/23166ad4-f303-46da-ab59-6d3b8943e904,pain au céréales 
+153,"bircher maison, fruits rouges décongelés ",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/24e67f58-05a7-45b3-b02a-fedafc6871c8,fruits rouges décongelés 
+154,tranche gâteau rhubarbe ,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/b60a4dee-442d-447d-8d78-db9521763ffa,tranche gâteau rhubarbe 
+155,"muesli nature, yaourt nature ",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/c79855ed-5948-4858-9b6d-264b75558907,muesli nature
+156,fraise,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/af556f5b-dc95-48cc-b14f-8726a04c2529,fraise
+157,"gaufre , pâte à tartiner au chocolat ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/0547baf7-3bf0-459d-b26f-4eb4c74bda8c,pâte à tartiner au chocolat 
+158,gâteau au fromage blanc ,https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/fa947463-60ae-4d88-91f8-d3d83659663e,gâteau au fromage blanc 
+159,"filet de poulet pané , riz basmati",https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/a240c2fe-3f03-48ac-b042-ee673b3425b0,filet de poulet pané 
+160,"pomme , muesli nature",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/7a440282-acb9-4f0f-9f6a-ea8124ad66ef,muesli nature
+161,"flocons d'avoine, graines de chia, pépites de chocolat , purée de cacahuète , banane ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/c34091b7-c42f-4e93-ae39-bb28aa3b7819,banane 
+162,"boeuf, saucisse , poulet , salade",https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/c9125670-8a67-4884-9958-ce18c6ccbe72,salade
+163,"légumes cuits: côtes de bette, betterave rouge, fenouil, carottes, omelette à la ciboulette",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/bdb98a92-fcc8-4f1c-9acb-da9162427c7b,"légumes cuits: côtes de bette, betterave rouge, fenouil, carottes"
+164,céréales ,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/fd55317a-e792-439f-bff1-811093d38657,céréales 
+165,spaghetti ,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/8551517c-a8fb-4fec-864e-92e0e6190a4b,spaghetti 
+166,"poulet, 2eme poulet, avocat, carottes , lard, pain",https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/ff6e3f38-43e0-4b06-8a58-63fa5b77ccc8,lard
+167,"asperges, mayonnaise thomy",https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/b24759a6-90ea-4f9e-a1ad-d52af234de62,asperges
+168,"pain, beurre , nutella , mélasse ",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/a0fc1136-90f4-4311-ac49-169af42b0117,beurre 
+169,"glace sorbet framboise, pomme",https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/55942abb-1eae-446a-8c69-bf40fe9d9495,glace sorbet framboise
+170,"yogourt nature, flocons d'avoine, son d'avoine, miel, graine de chia, purée d'amande",https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/cca1db77-eb8e-454d-8ea2-e23840f01b97,graine de chia
+171,tomates cerises,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/5ccbcf64-3631-48df-9e8a-85fb33dbf912,tomates cerises
+172,"galette wraps, fêta , gruyère râpé, aubergines , tofu à la mangue",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/15c5b550-a52d-4597-8089-e0fbb593cb97,tofu à la mangue
+173,riz,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/62095991-e788-405d-a5d5-b5ad2d8bd2e0,riz
+174,"pain, beurre, confiture fraise",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/e8255768-2401-491d-9b2f-35168137da3b,beurre
+175,"tresse, beurre, confiture fraise",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/e9242585-5554-4e43-9c4f-ad25bd136e29,confiture fraise
+176,"pomme de terre au four , poivrons , ketchup ",https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/f3337fd9-3578-4c7f-9384-bd7ee642348b,poivrons 
+177,"pois chiches, oeufs au plat, brocolis, carottes, asperges, tronc de brocolis cru, ciboulette",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/bc9c353c-4fd3-41d7-b5ab-cc73e9587d47,oeufs au plat
+178,"tomate, oeufs brouillés, aubergine au four, parmesan",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/9f3cc64b-7ef7-4fff-b125-8e011b8ffb93,aubergine au four
+179,"aubergine , poulet",https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/0dd585cb-01fc-46ce-ba68-63b5667be3b7,poulet
+180,"riz casimir, poulet + sauce curry, asperges",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/1be0c018-c909-437a-bb34-9818f24a9b6a,asperges
+181,"pain, pâte à tartiner au chocolat ",https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/104945fb-5bd2-431c-a232-fc8d6146ac8d,pain
+182,pomme,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/31792c68-de04-433c-a306-7598eada2d2f,pomme
+183,yaourt moka ,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/84834690-c588-4017-b4da-163765ca1bfa,yaourt moka 
+184,"riz, oeufs, ratatouille",https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/4f96d4f3-ccf5-48a1-bc78-4d09451b3545,ratatouille
+185,"betterave rouge cuite, œuf au plat, sauce à salade, sardine à la tomate",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/12babb66-d6e5-4c11-afc5-25290865b2a5,œuf au plat
+186,"couscous complet, chou-fleur, poulet, asperges",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/1433b4f9-85ec-4321-944a-d971fef9b19d,asperges
+187,"tomates cerises , pain tartiné au pesto ",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/59fa1abc-3369-4e41-bf8c-134cdf293f78,pain tartiné au pesto 
+188,"polenta , aubergine grillée , porc, sauce blanche (crème, moutarde)",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/f727ac79-973e-4b92-8f2b-cda94222d4a7,"sauce blanche (crème, moutarde)"
+189,yogourt à la cerise ,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/0ca82ce9-fdff-42cb-bb19-4bfd8d280feb,yogourt à la cerise 
+190,pomme,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/aa2df550-5243-4537-ad8b-9d79fc7007b4,pomme
+191,"yaourt nature, ananas , myrtilles, noix de pécan ",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/de554885-68af-4989-b977-79eff1160205,noix de pécan 
+192,"sauce oignons, rôti , salade de carottes, salade de riz, salade verte, salade russe",https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/d936efff-6fc8-4d66-8681-db5d7fd4f9c4,salade de riz
+193,"pain toast, beurre, miel, yogourt à la banane",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/46c1d23a-f389-4a7e-9f37-e58c81310310,beurre
+194,"tomates , mozzarella , petits pains grillés , beurre, charcuterie poulet rôti ",https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/9e3bfdbf-2b6e-41be-93ee-6610250b8c4e,beurre
+195,"quinoa et boulgour au curry , poivrons jaune",https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/95e84def-c82b-4360-8390-f5153ff61064,quinoa et boulgour au curry 
+196,pomme,https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/8e36de78-7564-4fa9-ad72-9b970af50b78,pomme
+197,"banane, pains aux noix ",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/94b397f7-cbf1-4759-a3ef-09da42129d6a,pains aux noix 
+198,"épinards frais , pousses de graines , tomates cerises , fallafels",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/b233fd7c-865a-4287-818f-8d4fe868585e,tomates cerises 
+199,"cottage cheese, salade de pomme de terre, salade verte",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/d3483c57-c2e2-4657-825f-52070e3da0b8,cottage cheese
+200,"poulet, 2eme poulet, avocat, carottes , lard, pain",https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/ff6e3f38-43e0-4b06-8a58-63fa5b77ccc8,2eme poulet
+201,"blé, gratin de côte de bette, crème et tomates séchées , tomate ",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/e3dd97fc-f060-4191-b7c5-c7c2100b5e6e,tomate 
+202,"tomates cerises, salade iceberg, raviolis a la courge",https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/17c1535c-dc84-4dbb-9668-1d3f9a4a135d,tomates cerises
+203,"pain, beurre, mélasse , pain, beurre, pâte à tartiner",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/32043e73-8b8d-43a6-b1a0-3cf935affee5,mélasse 
+204,nectarine,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/e0477112-b06c-49d6-b9c8-d0a2da930ee7,nectarine
+205,mc fleury,https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/d7009008-3580-4a9e-808a-c4de4b6bc975,mc fleury
+206,"myrtilles, gorgonzola",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/3cd99914-215e-449e-91bf-df5d8df2a5f6,gorgonzola
+207,yogourt nature,https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/a7bab571-59ca-4bcf-8b36-7fecf406be5f,yogourt nature
+208,pomme,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/e6d3974b-3b59-4d78-a205-0acb6833086b,pomme
+209,"betterave cuite, concombre, yogourt nature, vinaigre , gomasio",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/38b90b00-cd60-4ff1-a7b0-5dbfb9125944,concombre
+210,"salade verte, tomate, oignon, pomme, radis, vinaigre balsamique ",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/7004d086-abf6-4e9f-a945-0d22f3a60a84,salade verte
+211,pizza aux épinards ,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/bd7799bb-241d-4652-8129-fbaf9bb88d41,pizza aux épinards 
+212,"tomates cerises, salade iceberg, raviolis a la courge",https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/17c1535c-dc84-4dbb-9668-1d3f9a4a135d,raviolis a la courge
+213,crème caramel,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/dcb5120a-7ecd-4610-9642-e76c616b6016,crème caramel
+214,poire,https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/cb6a4333-4844-427b-b4a5-d13df89508f1,poire
+215,"salade verte , tomate, mélange de graines, viande séchée des grissons : porc, vinaigre balsamique, pâtes aux légumes (aubergines et carottes)",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/55d40c39-e6b8-407a-9e3e-881d42568328,salade verte 
+216,salade de pâtes,https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/a1dcaa3e-bad0-4d16-a8e3-c6217544e407,salade de pâtes
+217,"canapé au saumon, sandwich jambon",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/7258b52f-5aff-4a96-9e46-08cccb80fa0b,sandwich jambon
+218,"salade verte, radis, tomate, oignon , crème balsamique , pain libanais , poulet, agneau ",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/0b30b5d8-e33f-4dd8-9031-8ca14d954da4,agneau 
+219,"tomates cerises , olives",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/fcf4b7f7-6426-46b7-94d2-af87390ce037,olives
+220,"sauce andalouse, pain, brochette de boeuf, salade de pâtes, mergez",https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/5b8a0853-ecc4-4015-bc9a-2b50766f873a,salade de pâtes
+221,"pain (baguette), truite, fromage (etivaz), tomme de savoie, fromage de brebis/chèvre (2 bouts), tomme fleurette, brie, fromage de chèvre frais à la figue, beurre",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/a11463a4-ab51-4b83-a55f-d4edfb527b13,fromage de chèvre frais à la figue
+222,"steak végétarien et sauce aux oignons, pâtes, gratin de côtes de bettes, chou romanesco, parmesan",https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/5540e99f-84bd-4971-a7b2-caab6b4282bb,steak végétarien et sauce aux oignons
+223,"haricots rouges , pâtes, mozzarella ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/1550c506-8c95-461f-b658-8f427dc2a0af,mozzarella 
+224,"fromages (manchego, 2 sortes de gruyères, raclette), pain provencales",https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/ae0562ae-9c02-43e0-86e6-4a403128587b,pain provencales
+225,pain ,https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/a3b29f98-c619-45f6-b68a-d8489eb14614,pain 
+226,"mozzarella , tomate cerise , basilic ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/00056f27-22c2-4991-962f-b10ce2f94f89,mozzarella 
+227,"pizza champignons, olives, courgettes ",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/9ac9736b-e0d1-4862-9981-1f47f8109d18,"pizza champignons, olives, courgettes "
+228,"pomme, orange, kiwi",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/44dced6c-1e38-4273-850f-0c8ac1916cdf,orange
+229,"pâtes, oeufs  , ketchup",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/7e7c07da-f8a5-4c6a-96b0-28284727895f,oeufs  
+230,risotto aux asperges,https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/207070c9-c6dd-4cf9-b0a7-5979b06babc3,risotto aux asperges
+231,croissant au fromage frais ,https://www.myfoodrepo.org/api/v1/subjects/r3bub9/dish_media/2330c992-3298-44c3-90c9-1d04e574f1ab,croissant au fromage frais 
+232,"pain, beurre, confiture abricot , pain, beurre, mélasse",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/0c836c4f-c291-4337-a78c-461d7f66fb81,confiture abricot 
+233,"poulet rôti , salade de pomme de terre, salade de carotte , salade de céleri ",https://www.myfoodrepo.org/api/v1/subjects/6fwmw2/dish_media/1a96e805-fc15-4295-90a7-73a41fcb683f,salade de pomme de terre
+234,"salade de riz, poivon,cornichon, salade de pâtes, cornichon, fromage, tomate, sauce coktail, crevettes , concombre, sauce salade",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/7ff5fe61-b9cd-45c6-8df8-44a690a86b0c,sauce salade
+235,"pâtes , brocolis , poissons panés , mayonnaise ",https://www.myfoodrepo.org/api/v1/subjects/ppf8hc/dish_media/5dfa5302-a2e6-4c74-94fd-8e014ec012bc,poissons panés 
+236,"pêche, pêche",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/0babd97c-30ea-4b6d-9a13-32aff4add8f8,pêche
+237,"steak végétarien et sauce aux oignons, pâtes, gratin de côtes de bettes, chou romanesco, parmesan",https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/5540e99f-84bd-4971-a7b2-caab6b4282bb,chou romanesco
+238,"pain, beurre, mélasse , pain, beurre , confiture ",https://www.myfoodrepo.org/api/v1/subjects/p96w4a/dish_media/e036b3f8-ccaa-47a4-af6e-0a6de159b9bc,beurre 
+239,"omelette aux tomates, pain ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/c4d2e0f7-71f7-4e23-bc37-43a0aff738da,pain 
+240,céréales ,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/9909ddbe-3881-4bba-9d91-aa2a002a7bb7,céréales 
+241,"côtes de bettes à la sauce tomate, omelette au persil",https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/fb18c515-abdf-434a-a433-9969b1061d3c,côtes de bettes à la sauce tomate
+242,"quinoa, asperges, saumon",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/1381e1a0-c925-4eac-92f2-59d1223c728c,quinoa
+243,"pain, beurre, confiture framboise, miel",https://www.myfoodrepo.org/api/v1/subjects/m4egh2/dish_media/4093cefe-321e-4e99-928d-b2f744506237,beurre
+244,"quinoa, mangue, betterave, avocat , carotte râpées, tomate, tofu à la mangue , échalotes , oignons en bottes ",https://www.myfoodrepo.org/api/v1/subjects/wrah5h/dish_media/712f4686-2c54-47d3-a8f2-811e15f6e76b,tofu à la mangue 
+245,"brioche au chocolat , pain aux noix",https://www.myfoodrepo.org/api/v1/subjects/8japfq/dish_media/4460b576-039f-437e-bd10-9241cf72ce0b,brioche au chocolat 
+246,fraises avec sucre,https://www.myfoodrepo.org/api/v1/subjects/p8a2w5/dish_media/2552a096-42ab-4f6b-a34f-8f011d1ec91e,fraises avec sucre
+247,"steak végétarien et sauce aux oignons, pâtes, gratin de côtes de bettes, chou romanesco, parmesan",https://www.myfoodrepo.org/api/v1/subjects/2ahgvr/dish_media/5540e99f-84bd-4971-a7b2-caab6b4282bb,gratin de côtes de bettes
+248,pomme,https://www.myfoodrepo.org/api/v1/subjects/xjvrtk/dish_media/d130b57d-355f-4a62-bd0b-21090532c912,pomme
+249,"salade , avocat , tomate cerise , maïs en boîte, thon",https://www.myfoodrepo.org/api/v1/subjects/6fwmw2/dish_media/4198fd55-f46c-4b22-a0ab-215e7f648628,maïs en boîte

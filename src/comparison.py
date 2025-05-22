@@ -26,7 +26,7 @@ else:
     if args.wholedata:
         csv_file = "../data/cleaned/weight_data_cleaned_no_liquid.csv" 
     else:
-        csv_file = "../data/cleaned/weight_data_cleaned_sample_20250422.csv"
+        csv_file = "../data/cleaned/weight_data_cleaned_sample_20250522.csv" # Change file name when new sample
 json_file = f"../data/result/{args.json}"  
 
 if args.liquidsonly:

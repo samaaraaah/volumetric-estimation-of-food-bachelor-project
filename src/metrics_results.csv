@@ -24,7 +24,6 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc,model
 ../data/result/result_a5d2269f-440b-4759-9bcf-3dba93d9c9e2.json,26.823848238482384,49.69612532517006,33.71620427149805, prompt close to above but had to be more precise about the output format
 ../data/result/result_c9bb3e9e-dd32-4ece-b47b-633e80884e72.json,27.443181818181817,51.651518436111424,55.95693779904306, prompt close as above with liquids
 ../data/result/result_9d0a75f4-9844-4141-91ce-54173e3bb44f.json,25.08080808080808,43.4495220006715,34.301371365880414, prompt close as above without liquids
-------------------------------------------
 ../data/result/result_379aca64-4d8a-4768-a976-2e255c32f26f.json,29.282828282828284,48.45707085762851,39.93771667662881,food from switzerland and pay attention to volume (depth),food from Switzerland
 ../data/result/result_e3837957-e058-491d-8f87-a5f89001ce64.json,29.681818181818183,52.61883571296514,40.588224745965334,food from switzerland and removed other stuff i had added in the prompt above
 ../data/result/result_c95a336d-4270-4261-9dcc-880293627fcd.json,27.5,46.761242995885894,35.21590062111801,reorganized prompt by adding a section "visual estimation tips",reorganized prompt by adding\n a section "visual estimation tips"
@@ -37,7 +36,7 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc,model
 ../data/result/result_8fd7d825-b86b-4ee5-b4b5-f81ef84e020f.json,26.01013986013986,47.070056195710066,31.824408653810256,same prompt as result_664de1d8 on whole data,on whole dataset
 ../data/result/result_42d9ecda-0dd0-478e-84f9-e23bb4b8f88b.json,27.181818181818183,45.47443673756643,37.453078302450685, have removed '- Adjust for partial visibility: if the food is mixed or partially hidden estimate the full portion.' and added to adjust for food that is not present as a whole
 ../data/result/result_e0a4e02b-959f-405a-857a-95c380e48a71.json,29.7979797979798,54.05564936882833,40.04736467236467, added this back ^ and added to infer weight from standard portion size if food is processed even if packaging not visible -> worse
-----new sample data
+,,,,new sample data (22.04)
 ../data/result/result_ba64de88-0d39-4cc7-8e62-c5969bdabfac.json,29.484848484848484,47.860757236919156,53.93205299623192, new sample data and used prompt from result_664de1d8 (just cleaned the data again),new sample data with last best prompt
 ../data/result/result_fdce660a-8af0-4a14-ad13-27770a4474f6.json,28.474747474747474,50.12249603207775,47.65965722620639, specified food item name is in french and added to always double check the answers,specified food item name is in french and\n to always double check the answers
 ../data/result/result_126ca656-54da-4896-8668-28db59e1bb8d.json,33.535353535353536,56.297914832849486,59.54187431627568, tried adding a section to treat mixed dishes but didn't perform well
@@ -51,20 +50,20 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc,model
 ../data/result/result_d5bc9ca1-783c-4980-9c8c-90c12efc924f.json,24.96969696969697,42.22936256548063,40.32381183906649,mix of the 2 last prompt on whole data reorganized prompt and be especially cautious with small and large portions,"be especially cautious with small\n and large portions",GPT-4o
 ../data/result/result_7991a4a9-4a77-43fa-bb39-65b6817a9271.json,29.606060606060606,47.81067385722631,56.11681050200559,added that it must act like it has no access to data and removed the examples in the specification about light and dense foods
 ../data/result/result_d19c3270-5f4c-4cfb-9e21-8d7e14ece178.json,25.830779944289695,47.345422822243506,31.310931748284887,same prompt as result_d5bc9ca1 on whole data,on whole dataset
-----prompt optimization
+,,,,prompt optimization
 ../data/result/result_972cf570-4290-447a-9478-4e701ab0fab6.json,50.150000000000006,69.25757315448868,110.69835249042147,first try to optimize prompt really bad result (model="o3")
 ../data/result/result_d15309ec-5496-47cd-9495-8ae28b44a68c.json,48.07142857142857,87.15338788358211,93.14775, 1st
 ../data/result/result_1f3d0615-e414-4f02-a508-590487a3e11f.json,41.03,62.85110304271143,84.80977809422096,improve last prompt
 ../data/result/result_d46ea8b0-be50-455d-b9cf-e33806cfba57.json,39.17,69.17452156390976,66.8063367746529,improve last prompt
 ../data/result/result_3cb25645-945c-4ca2-9a3f-c4d2b31f2977.json,38.78787878787879,71.28431876531046,79.28236295125805,bad so changed a bit the prompt optimizer prompt and ran it on the last prompt not this one
 ../data/result/result_579b9e1a-4a21-46f1-9def-27122bd5c0b3.json,38.515151515151516,73.23159530275527,84.05707593688363,prompt_opti ran on prompt_44 but bad results
-----reworked the prompt optimizer prompt
+,,,,reworked the prompt optimizer prompt
 ../data/result/result_cc49802e-431e-4213-bd52-34a259bb46a1.json,33.73,51.934650292082,69.09908627032159,optimized prompt_40 (this is prompt_47)
 ../data/result/result_e920b796-8323-4b6a-903c-13123419488d.json,43.04040404040404,64.24961559788615,90.70796351084813,optimized prompt_47 (this is prompt_48)
 ../data/result/result_5a16e5de-0f6c-45b8-bbae-75e8ee2547fe.json,34.11,63.71660403294152,62.97591076302361,optimized prompt_48 (this is prompt_49)
 ../data/result/result_4722850e-e34a-4c7d-be8d-015a1f2c2c82.json,33.04,51.580656517935665,59.68268660258693,optimized prompt_49 (this is prompt_50)
 ../data/result/result_9e6d5204-4015-4700-93d8-794ca599d7bf.json,41.41414141414141,56.49586702413488,86.24543885601578,optimized prompt_50 (this is prompt_51)
-----reworked the prompt optimizer prompt
+,,,,reworked the prompt optimizer prompt
 ../data/result/result_c9cc0eeb-18af-4590-8854-1786c3e7602a.json,36.98,55.55043718765453,70.29037617182864,optimized prompt_40 (this is prompt_52)
 ../data/result/result_cb6e41d7-53e7-4165-b47b-4e4d8b12dfb0.json,38.15,61.59436320793796,71.91396701079863,used prompt_40 with chatgpt-4.1 to see if this is why it is performing worse,,GPT-4.1 mini
 ../data/result/result_38f72be5-0127-4a99-89e7-d5ad67607f70.json,37.217171717171716,58.99402595424099,68.21246301775147,in optimizer said to pay attention to gpt 4.1 prompting rules (this is prompt_53),,GPT-4.1 mini
@@ -84,5 +83,17 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc,model
 ../data/result/result_0ee02236-f18b-4474-b619-3fbf60b1a372.json,38.898989898989896,95.48416375888367,56.51100036465297,went back to prompt_60 and insisted that the portion size calibration are guidelines and that it should rely first on visual estimation,insisted it should rely first on\n visual cues,GPT-4.1 mini
 ../data/result/result_715e86d7-4df4-42cf-8006-16e5f60a37e9.json,38.03,87.74123663327211,51.45449151536727,pay attention to side dishes,pay attention to side dishes,GPT-4.1 mini
 ../data/result/result_d4b037c7-3445-47ee-bb10-897c7ffca840.json,33.30808080808081,84.09909977840753,49.34673702086366,insisted again on small portions and not to rely solely on the portion size guidelines,pay attention to small portions,GPT-4.1 mini
-../data/result/result_0cdbe4f7-2b86-4496-969e-3db644de0d84.json,30.392857142857142,58.38521128012991,43.18050089445438,same as above gut with GPT-4o,GPT-4o,GPT-4o
+../data/result/result_0cdbe4f7-2b86-4496-969e-3db644de0d84.json,30.392857142857142,58.38521128012991,43.18050089445438,same prompt as result_d4b037c7,GPT-4o,GPT-4o
+../data/result/result_42d53b5d-2a11-41ea-a081-99e04ba6ffb2.json,39.08870967741935,57.46907628469543,67.41445537205418,same prompt as result_d4b037c7 but has a lot of mismatched row i.e. did not estimate the specified food but another one,,GPT-4.1 nano
+../data/result/result_0e910e53-d8b1-4045-a38c-4e37b4487238.json,25.695,42.89044247097297,46.77388157114038,same prompt as result_d4b037c7,,GPT-4.1
 ../data/result/result_5ed186b1-8879-42d5-9348-746113dc1a98.json,34.65151515151515,70.39777777826622,60.049410477695396,removed the portion guide for salads,,GPT-4.1 mini
+,,,,new sample data (20.05)
+../data/result/result_e54c26d1-ca77-4a3d-ba6b-fa587c95b0a3.json,34.54639175257732,53.06491077957622,57.27843223604536,almost same prompt as result_d4b037c7,,GPT-4.1 mini
+../data/result/result_d87cba1e-26fd-4990-b8b2-0336d1f0cfeb.json,36.59183673469388,58.60118044844235,55.3156991093465,modified some reference ranges and insisted again on visual estimation over sticking to the reference ranges,,GPT-4.1 mini
+../data/result/result_de08497d-5fec-431b-a0fd-ab2ad2eaa85b.json,35.92857142857143,54.561638479453464,58.891865296304395,specifications about chuncks and counting items,,GPT-4.1 mini
+../data/result/result_05705b68-6c46-4e19-849b-a4bceb297a8d.json,40.494949494949495,88.02615485007132,46.296631848219995,specification about salads leafy salads and legume dishes,,GPT-4.1 mini
+../data/result/result_27d1593b-078c-4248-b2c4-6f1eea796480.json,41.217171717171716,83.4964927522582,64.43120213929744,tried prompt_69 on old sample and did not perform well at all,,GPT-4.1 mini
+,,,,chose to resample the data but this time the sample size will be 250 (22.05)
+../data/result/result_1c735d6f-31cf-4dd5-8bbf-fbdcef852dfd.json,37.89473684210526,73.71418846387066,59.078367025466,mix of prompt_64 and prompt_69,,GPT-4.1 mini
+../data/result/result_ab60e4c7-0a7c-4c38-bdae-ca9611834c2a.json,36.678137651821864,68.72116631859309,58.28133136608228,modified small things to insist on infering the portion size small/medium/large,,GPT-4.1 mini
+../data/result/result_d32cb29f-142b-43e5-b124-12ca2a0685be.json,34.028112449799195,64.54844741217599,54.75985833369326,removed swiss portions guideline for it to rely more on visual cues,,GPT-4.1 mini
