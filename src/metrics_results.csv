@@ -92,8 +92,14 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc,model
 ../data/result/result_d87cba1e-26fd-4990-b8b2-0336d1f0cfeb.json,36.59183673469388,58.60118044844235,55.3156991093465,modified some reference ranges and insisted again on visual estimation over sticking to the reference ranges,,GPT-4.1 mini
 ../data/result/result_de08497d-5fec-431b-a0fd-ab2ad2eaa85b.json,35.92857142857143,54.561638479453464,58.891865296304395,specifications about chuncks and counting items,,GPT-4.1 mini
 ../data/result/result_05705b68-6c46-4e19-849b-a4bceb297a8d.json,40.494949494949495,88.02615485007132,46.296631848219995,specification about salads leafy salads and legume dishes,,GPT-4.1 mini
-../data/result/result_27d1593b-078c-4248-b2c4-6f1eea796480.json,41.217171717171716,83.4964927522582,64.43120213929744,tried prompt_69 on old sample and did not perform well at all,,GPT-4.1 mini
+../data/result/result_27d1593b-078c-4248-b2c4-6f1eea796480.json,41.217171717171716,83.4964927522582,64.43120213929744,tried prompt_69 on old sample (22.04) and did not perform well at all,,GPT-4.1 mini
 ,,,,chose to resample the data but this time the sample size will be 250 (22.05)
 ../data/result/result_1c735d6f-31cf-4dd5-8bbf-fbdcef852dfd.json,37.89473684210526,73.71418846387066,59.078367025466,mix of prompt_64 and prompt_69,,GPT-4.1 mini
 ../data/result/result_ab60e4c7-0a7c-4c38-bdae-ca9611834c2a.json,36.678137651821864,68.72116631859309,58.28133136608228,modified small things to insist on infering the portion size small/medium/large,,GPT-4.1 mini
 ../data/result/result_d32cb29f-142b-43e5-b124-12ca2a0685be.json,34.028112449799195,64.54844741217599,54.75985833369326,removed swiss portions guideline for it to rely more on visual cues,,GPT-4.1 mini
+../data/result/result_dc50a853-a3be-4f84-8821-6461836b493d.json,35.663967611336034,66.38828576989802,56.203622081605936,added a section with common estimation errors,,GPT-4.1 mini
+../data/result/result_1c3d0d9d-44f6-4469-b5de-3e62d0a752ad.json,31.42929292929293,59.457939939301106,55.1285799522673,tried prompt_73 on old sample (22.04),,GPT-4.1 mini
+../data/result/result_25e968a8-9df1-41e2-8570-7fc821b63d6b.json,33.42857142857143,52.06017024051184,53.59178532311063,used Claude AI to take the best of both best performing prompts (prompt_73 and prompt_40 on old sample (20.05)),,GPT-4.1 mini
+../data/result/result_bc1fcfce-fcce-44cd-ab9d-573691e15480.json,34.025252525252526,53.56282699567161,49.51433596248135,added role objective and final instructions back,,GPT-4.1 mini
+../data/result/result_145221eb-6295-4b6a-b74c-cd6ec5f896f0.json,37.91836734693877,53.66154947528619,66.01229283283942
+../data/result/result_145221eb-6295-4b6a-b74c-cd6ec5f896f0.json,37.91836734693877,53.66154947528619,66.01229283283942

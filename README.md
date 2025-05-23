@@ -91,6 +91,8 @@ An initial prototype (Version 1) was developed as a baseline to understand the c
 | `metrics_results.csv` | Summary of all model runs |
 | `comparisonfile.csv` | Output of `file_comparison.py` (latest comparison run) |
 
+to delete: file comparison or add explanation if useful  
+
 ---
 
 ## Data cleaning procedure
