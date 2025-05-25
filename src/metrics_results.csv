@@ -101,5 +101,9 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc,model
 ../data/result/result_1c3d0d9d-44f6-4469-b5de-3e62d0a752ad.json,31.42929292929293,59.457939939301106,55.1285799522673,tried prompt_73 on old sample (22.04),,GPT-4.1 mini
 ../data/result/result_25e968a8-9df1-41e2-8570-7fc821b63d6b.json,33.42857142857143,52.06017024051184,53.59178532311063,used Claude AI to take the best of both best performing prompts (prompt_73 and prompt_40 on old sample (20.05)),,GPT-4.1 mini
 ../data/result/result_bc1fcfce-fcce-44cd-ab9d-573691e15480.json,34.025252525252526,53.56282699567161,49.51433596248135,added role objective and final instructions back,,GPT-4.1 mini
-../data/result/result_145221eb-6295-4b6a-b74c-cd6ec5f896f0.json,37.91836734693877,53.66154947528619,66.01229283283942
-../data/result/result_145221eb-6295-4b6a-b74c-cd6ec5f896f0.json,37.91836734693877,53.66154947528619,66.01229283283942
+../data/result/result_145221eb-6295-4b6a-b74c-cd6ec5f896f0.json,37.91836734693877,53.66154947528619,66.01229283283942,used the optimizer to get suggestions and adapted it,,GPT-4.1 mini
+../data/result/result_22ae3843-43c8-436f-9d4e-18d2532efb0c.json,41.82142857142857,54.83898502248389,70.85286249331193,same as last prompt but zero-shot (on old sample 20.05),,GPT-4.1 mini
+../data/result/result_ae725bc5-9a0e-4b7d-8860-7124d374427b.json,37.41836734693877,53.298876782048886,55.18405627198124,added specification that Swiss portions are smaller is just a guideline,,GPT-4.1 mini
+../data/result/result_be110eb4-399b-4ed8-aada-bf5ccfe610ec.json,41.395833333333336,62.540948896004444,55.99422946367957,specifications abound counting pieces and containers,,GPT-4.1 mini
+../data/result/result_0cddf69d-5786-453d-84f8-8c226c45c4e5.json,35.30612244897959,49.62507801196374,56.78517008262689,added a final error prevention check (on sample 20.05),,GPT-4.1 mini
+../data/result/result_19edb608-1b03-4427-a7de-c5454188fba9.json,33.464646464646464,52.07782301907836,50.79769771903645,same prompt as above on sample 22.05,,GPT-4.1 mini

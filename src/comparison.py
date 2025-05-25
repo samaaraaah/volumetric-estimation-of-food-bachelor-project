@@ -12,7 +12,8 @@ parser.add_argument("--wholedata", action="store_true", required=False, default=
 parser.add_argument("--json", type=str, required=True, help="Path to the JSON predictions file.")
 parser.add_argument("--liquid", action="store_true", required=False, help="The data contains liquids.")
 parser.add_argument("--no-liquid", dest="liquid", action="store_false", help="Use it to indicate that the data doesn't contain liquids.")
-parser.add_argument("--errors", action="store_true", required=False, help="Use it to show top 20 highest errors in terminal.")
+parser.add_argument("--errors", action="store_true", required=False, help="Use it to display top 20 highest errors in terminal.")
+parser.add_argument("--best", action="store_true", required=False, help="Use it to display top 20 lowest errors in terminal.")
 parser.add_argument("--liquidsonly", action="store_true", required=False, help="The data contains only liquids.")
 args = parser.parse_args()
 
@@ -142,6 +143,25 @@ if args.errors:
 
     print("\nTop 20 highest absolute errors with reasoning:\n" + "-"*60)
     top_errors = df_comparison.sort_values(by="absolute_error", ascending=False).head(20)
+
+    for i, row in top_errors.iterrows():
+        print(f"\n#{i+1} - Key: {row['key']}")
+        print(f"Description: {row['description']}")
+        print(f"True weight: {row['weight']} g")
+        print(f"Predicted weight: {row['predicted_weight']} g")
+        print(f"Absolute error: {row['absolute_error']} g")
+        print(f"URL: {row['url']}")
+        print("Reasoning:")
+        wrapped_reasoning = textwrap.fill(str(row['reasoning']), width=100)
+        print(wrapped_reasoning)
+        print("-" * 60)
+
+if args.best:
+    # Display the 10 lowest absolute errors with wrapped reasoning
+    import textwrap
+
+    print("\nTop 20 lowest absolute errors with reasoning:\n" + "-"*60)
+    top_errors = df_comparison.sort_values(by="absolute_error", ascending=False).tail(20)
 
     for i, row in top_errors.iterrows():
         print(f"\n#{i+1} - Key: {row['key']}")
