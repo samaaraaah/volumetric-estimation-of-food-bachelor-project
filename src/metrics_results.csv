@@ -108,4 +108,3 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc,model
 ../data/result/result_0cddf69d-5786-453d-84f8-8c226c45c4e5.json,35.30612244897959,49.62507801196374,56.78517008262689,added a final error prevention check (on sample 20.05),,GPT-4.1 mini
 ../data/result/result_19edb608-1b03-4427-a7de-c5454188fba9.json,33.464646464646464,52.07782301907836,50.79769771903645,same prompt as above on sample 22.05,,GPT-4.1 mini
 ../data/result/result_f7409570-4c5b-4cc7-b8b1-cf4a80d1010e.json,32.41693430656934,58.94784729349204,38.453489640661935,with prompt_75 on whole data,whole data,GPT-4.1 mini 
-../data/result/result_f7409570-4c5b-4cc7-b8b1-cf4a80d1010e.json,32.41693430656934,58.94784729349204,38.453489640661935

@@ -3,78 +3,85 @@ import argparse
 import time
 import re
 
-# Command line argument parsing
-parser = argparse.ArgumentParser(description="Formatting files for bechmarking tool.")
-parser.add_argument("--sample", action="store_true", help="Use it to indicate that the data needs to be sampled again")
-parser.add_argument("--no-sample", dest="sample", action="store_false", help="Use it to indicate that the data only needs to be cleaned")
-parser.add_argument("--liquid", action="store_true", help="The data will contain liquids")
-parser.add_argument("--no-liquid", dest="liquid", action="store_false", help="Use it to create a file with the whole data without liquids")
-parser.add_argument("--size", type=int, default=100, required=False, help="Use it to specify the sample size, default is 100.")
-args = parser.parse_args()
-
-input_file = "../data/cleaned/weight_data_cleaned.csv" 
-grouped_file = "../data/cleaned/weight_data_cleaned_grouped.csv"
-output_file = "../data/ready/weight_data_cleaned_ready.csv" # Formatted for the benchmarking tool
-sample_output_file = "no sample output file modified"
-if args.sample:
-    timestamp = time.strftime("%Y%m%d")
-    sample_file = f"../data/cleaned/weight_data_cleaned_sample_{timestamp}.csv"
-    sample_output_file = f"../data/ready/weight_data_cleaned_sample_ready_{timestamp}.csv"  # Formatted for the benchmarking tool
-if not args.liquid:
-    grouped_file = "../data/cleaned/weight_data_cleaned_grouped_no_liquid.csv"
-    output_file = "../data/ready/weight_data_cleaned_ready_no_liquid.csv"
-    no_liquid_file = "../data/cleaned/weight_data_cleaned_no_liquid.csv" # Whole data without liquids
+def parse_args():
+    parser = argparse.ArgumentParser(description="Formatting files for benchmarking tool.")
+    parser.add_argument("--sample", action="store_true", help="Sample the data again")
+    parser.add_argument("--no-sample", dest="sample", action="store_false", help="Only clean the data")
+    parser.add_argument("--liquid", action="store_true", help="Keep liquids in the dataset")
+    parser.add_argument("--no-liquid", dest="liquid", action="store_false", help="Remove liquids from the dataset")
+    parser.add_argument("--size", type=int, default=100, help="Sample size (default: 100)")
+    return parser.parse_args()
 
 
-# Group all descriptions by image_id
-df = pd.read_csv(input_file)
-if not args.liquid:
-    liquids = ["eau", "thé", "café", "lait", "bière", "vin", "sirop", "jus", "rosé", "espresso", "biere", "cacao", "capuccino", "spritz", "hugo", "jus", "huile de colza", "huile", "cappuccino", "vinaigrette"] # Add liquids to automatically remove "cidre", "tonic au gingembre"
+def remove_liquids(df):
+    # List of liquid-related food terms to filter out
+    liquids = [
+        "eau", "thé", "café", "lait", "bière", "vin", "sirop", "jus", "rosé",
+        "espresso", "biere", "cacao", "capuccino", "spritz", "hugo",
+        "huile de colza", "huile", "cappuccino", "vinaigrette"
+    ] # Liquids to add for next formatting: "cidre", "tonic au gingembre"
+
+    # Build a regex pattern that matches any of the liquid terms
     pattern = r'\b(?:' + '|'.join(map(re.escape, liquids)) + r')\b'
 
-    df = df[~df["description"].str.contains(pattern, case=False, na=False, regex=True)]
-    df.to_csv(no_liquid_file, index=False)
+    # Remove rows where the description contains any of the listed liquids
+    return df[~df["description"].str.contains(pattern, case=False, na=False, regex=True)]
 
-grouped_descriptions = df.groupby("image_id")["description"].apply(lambda x: ", ".join(x)).reset_index()
-grouped_descriptions.rename(columns={"description": "all_food_items"}, inplace=True)
 
-# Merge back to the original DataFrame
-df_grouped = pd.merge(df, grouped_descriptions, on="image_id", how="left")
+def group_descriptions(df):
+    # Group descriptions by image_id and concatenate them into a single string
+    grouped = df.groupby("image_id")["description"].apply(lambda x: ", ".join(x)).reset_index()
+    grouped.rename(columns={"description": "all_food_items"}, inplace=True)
+    
+    # Merge back the grouped descriptions with the original dataframe
+    return pd.merge(df, grouped, on="image_id", how="left")
 
-# Save to a new file
-df_grouped.to_csv(grouped_file, index=False)
 
-if args.sample:
-    # Create the sample file
-    random_seed = 30
-    sample_df = df_grouped.sample(n=args.size, random_state=random_seed) # Fixed random sample
-    sample_df["description"] = sample_df["description"].str.lower() 
-    sample_df.to_csv(sample_file, index=False)
+def create_output_df(df):
+    # Format the dataframe for the benchmarking tool 
+    return pd.DataFrame({
+        'id': range(len(df)),
+        '00_MSG_00_TEXT': df['all_food_items'].str.lower(),
+        '00_MSG_01_IMAGE': df.apply(lambda row: f"https://www.myfoodrepo.org/api/v1/subjects/{row['key']}/dish_media/{row['image_id']}", axis=1),
+        '00_MSG_02_TEXT': df['description'].str.lower()
+    })
 
-# Create the new CSV with 'id', '00_MSG_00_TEXT', '00_MSG_01_IMAGE' and '00_MSG_02_TEXT'
-output_data = {
-    'id': range(len(df_grouped)),  
-    '00_MSG_00_TEXT': df_grouped['all_food_items'].str.lower(), # Retrieve all the food items present on the picture
-    '00_MSG_01_IMAGE': df_grouped.apply(lambda row: f"https://www.myfoodrepo.org/api/v1/subjects/{row['key']}/dish_media/{row['image_id']}", axis=1),  # Generate the URL
-    '00_MSG_02_TEXT': df_grouped['description'].str.lower() # Retrieve the description given by the user
-}
 
-if args.sample:
-    sample_output_data = {
-        'id': range(len(sample_df)),  
-        '00_MSG_00_TEXT': sample_df['all_food_items'].str.lower(), # Retrieve all the food items present on the picture
-        '00_MSG_01_IMAGE': sample_df.apply(lambda row: f"https://www.myfoodrepo.org/api/v1/subjects/{row['key']}/dish_media/{row['image_id']}", axis=1),  # Generate the URL
-        '00_MSG_02_TEXT': sample_df['description'].str.lower() # Retrieve the description given by the user
-    }
+def main():
+    args = parse_args()
 
-# Create a new DataFrame for the output
-output_df = pd.DataFrame(output_data)
-if args.sample:
-    sample_output_df = pd.DataFrame(sample_output_data)
+    input_file = "../data/cleaned/weight_data_cleaned.csv"
+    grouped_file = "../data/cleaned/weight_data_cleaned_grouped.csv"
+    output_file = "../data/ready/weight_data_cleaned_ready.csv"
 
-# Save the output DataFrame to a new CSV
-output_df.to_csv(output_file, index=False)
-if args.sample:
-    sample_output_df.to_csv(sample_output_file, index=False)
+    df = pd.read_csv(input_file)
 
-print(f"Output saved to {output_file} and {sample_output_file}")
+    if not args.liquid:
+        df = remove_liquids(df)
+        df.to_csv("../data/cleaned/weight_data_cleaned_no_liquid.csv", index=False)
+        grouped_file = "../data/cleaned/weight_data_cleaned_grouped_no_liquid.csv"
+        output_file = "../data/ready/weight_data_cleaned_ready_no_liquid.csv"
+
+    df_grouped = group_descriptions(df)
+    df_grouped.to_csv(grouped_file, index=False)
+
+    if args.sample:
+        timestamp = time.strftime("%Y%m%d")
+        sample_file = f"../data/cleaned/weight_data_cleaned_sample_{timestamp}.csv"
+        sample_output_file = f"../data/ready/weight_data_cleaned_sample_ready_{timestamp}.csv"
+        sample_df = df_grouped.sample(n=args.size, random_state=30)
+        sample_df["description"] = sample_df["description"].str.lower()
+        sample_df.to_csv(sample_file, index=False)
+        sample_output_df = create_output_df(sample_df)
+        sample_output_df.to_csv(sample_output_file, index=False)
+
+    output_df = create_output_df(df_grouped)
+    output_df.to_csv(output_file, index=False)
+
+    print(f"Output saved to {output_file}")
+    if args.sample:
+        print(f"Sample output saved to {sample_output_file}")
+
+
+if __name__ == "__main__":
+    main()
