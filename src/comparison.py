@@ -19,7 +19,7 @@ def load_data(args):
     if args.liquid:
         csv_file = "../data/cleaned/weight_data_cleaned.csv" if args.wholedata else "../data/cleaned/weight_data_cleaned_sample.csv"
     else:
-        csv_file = "../data/cleaned/weight_data_cleaned_no_liquid.csv" if args.wholedata else "../data/cleaned/weight_data_cleaned_sample_20250520.csv"
+        csv_file = "../data/cleaned/weight_data_cleaned_no_liquid.csv" if args.wholedata else "../data/cleaned/weight_data_cleaned_sample_20250520.csv" # To modify depending on the sample being evaluated
     json_file = f"../data/result/{args.json}"
 
     with open(json_file, "r", encoding="utf-8") as f:
