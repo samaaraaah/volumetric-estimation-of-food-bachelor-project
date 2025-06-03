@@ -11,7 +11,7 @@ def parse_arguments():
     parser.add_argument("--liquid", action="store_true", help="The data contains liquids.")
     parser.add_argument("--no-liquid", dest="liquid", action="store_false", help="The data does not contain liquids.")
     parser.add_argument("--errors", action="store_true", help="Display top 20 highest errors.")
-    parser.add_argument("--best", action="store_true", help="Display top 20 lowest errors.")
+    parser.add_argument("--best", action="store_true", help="Display 20 lowest errors.")
     return parser.parse_args()
 
 def load_data(args):
