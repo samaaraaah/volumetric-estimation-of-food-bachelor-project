@@ -12,9 +12,10 @@ An initial prototype (Version 1) was developed as a baseline to understand the c
 - [Version 1](#version-1-v1-2025-04-03)
 - [Version 2](#version-2)
 - [Data Cleaning Procedure](#data-cleaning-procedure-formatpy)
+- [Running LLM Predictions](#running-llm-predictions)
 - [Running Comparisons](#running-comparisons-comparisonspy)
 - [Automatic Prompt Optimization](#automatic-prompt-optimization-using-openai-api-prompt_optipy)
-- [Prompt Engineering](#prompt-engineering)
+- [Prompt Engineering Strategy](#prompt-engineering-strategy)
 - [Results](#results)
 
 ## Pipeline Summary
@@ -29,7 +30,7 @@ An initial prototype (Version 1) was developed as a baseline to understand the c
 3. **Result analysis**  
    Evaluate predictions by comparing them to ground truth weights and computing errors.
 
-4. **Prompt optimization**  
+4. **Prompt optimization (optional)**  
    Analyze error-prone predictions and automatically optimize the prompt with GPT-o3.
 
 5. **Re-evaluation**  
@@ -118,6 +119,26 @@ An initial prototype (Version 1) was developed as a baseline to understand the c
 **Optional argument:**
 - ```--size```: to specify the size of the sample, default = 100.
 
+**Remark:** When running `format.py`, the cleaned (full) dataset is overwritten, hence previous versions are lost. If you want to keep a history of changes, you can modify the script to generate new files with timestamps (as is already done for sample files).  
+This behavior (keeping only one version) is the current design of the project. Timestamped versioning for the full dataset has not been implemented.  
+`weight_data.csv` contains the original raw data and should not be modified.
+
+---
+
+## Running LLM predictions
+
+Predictions are generated using the benchmarking tool, which requires:
+- A `.csv` dataset file (produced by `format.py` and stored in the `ready` folder)
+- A prompt (to be copy-pasted manually)
+
+To run predictions:
+1. Upload the dataset to the benchmarking tool
+2. Create a *New Experiment* 
+3. Select the desired LLM
+4. Paste the prompt
+5. Create a *New Result* under that experiment
+6. Download the result and add it to the `result` folder
+
 ---
 
 ## Running comparisons (comparisons.py)
@@ -140,7 +161,7 @@ This will sort based on total dish weight absolute error.
 **Remark**:
 Make sure that the variable ```csv_file``` in the function ```load_data``` is the name of the file containing the ground truth values
 that should be compared with the results i.e. for a comparison with the full dataset `../data/cleaned/weight_data_cleaned_no_liquid.csv` and with a sample dataset `../data/cleaned/weight_data_cleaned_sample_{timestamp}.csv`.  
-It is important to note that when running the comparison on a sample dataset, the Weighted MAE is computed relative to the total weight of the entire sample, as complete dishes are not always included in the subset.
+
 
 ---
 
@@ -162,7 +183,7 @@ Don't forget to put the OpenAI API key in a `.env` file as a value for the varia
 
 ---
 
-## Prompt Engineering
+## Prompt Engineering Strategy
 
 I began my project by designing a prompt compatible with GPT-4o, the model used by MyFoodRepo at the time. I iteratively refined this prompt through more than 60 versions, experimenting with changes in structure, tone, and content.
 
@@ -170,7 +191,7 @@ Initially, I adopted a structured format composed of: *Given, Task, Instructions
 
 During testing, I observed that liquids were often poorly estimated, which significantly increased overall error. To address this, I removed liquids from the task, a decision validated by Prof. Salathé, as the project’s primary focus was on solid foods.
 
-As the prompt evolved, it became increasingly complex, with many detailed subsections. However, upon switching to GPT-4.1 mini after its release, performance initially dropped considerably. By restructuring the prompt according to [OpenAI’s guidelines](https://cookbook.openai.com/examples/gpt4-1_prompting_guide) for GPT-4.1 prompting, I was able to improve accuracy. Unlike GPT-4o, GPT-4.1 mini was more effective with few-shot examples rather than zero-shot prompting.
+As the prompt evolved, it became increasingly complex, with many detailed subsections. However, upon switching to GPT-4.1 mini (2025-04-14) after its release, performance initially dropped considerably. By restructuring the prompt according to [OpenAI’s guidelines](https://cookbook.openai.com/examples/gpt4-1_prompting_guide) for GPT-4.1 prompting, I was able to improve accuracy. Unlike GPT-4o, GPT-4.1 mini was more effective with few-shot examples rather than zero-shot prompting.
 
 **The final prompt structure includes the following sections:**
 - Role and objective
@@ -198,17 +219,21 @@ As the prompt evolved, it became increasingly complex, with many detailed subsec
 - **Specifying the pictures were taken in Switzerland:**  
    Adding geographic context did not immediately improve estimation accuracy, but the LLM began referencing it in its reasoning to tailor predictions. I chose to keep it, as it likely helps align the model’s assumptions with culturally relevant portion sizes and reduces bias toward American-style servings, especially when used with a well-structured prompt.
 
+**Automatic Prompt Optimization**
+This feature was briefly explored when I was looking for new prompt ideas. Initially, GPT-o3 modified the original prompt too much. After instructing it to make only minimal changes, the output behaved as expected; however, this did not improve model performance. Even when incorporated into the pipeline and applied iteratively to predictions generated by the last suggested prompt, no performance gains were observed. As a result, I did not fully adopt this approach, I used it only occasionally to generate inspiration. Overall, this was an experimental test to evaluate whether automatic prompt optimization could boost results.
+
 
 # Results
 
 ## Overall performance
 The goal of this project was to identify a prompt for GPT-4.1 mini that minimized the weighted mean absolute error (Weighted MAE). I also tracked the mean absolute error (MAE) and mean absolute percentage error (MAPE) to gain insights into whether the model struggled more with heavy or light food items.
 
-The best-performing prompt achieved:  *TO FINISH*
-- **Weighted MAE:** XXg
-- **MAE:** YYg
-- **MAPE:** ZZ%
+The best-performing prompt achieved: 
+- **Weighted MAE:** 37.93g
+- **MAE:** 32.08g
+- **MAPE:** 62.33%
 
+See [metrics.md](./metrics.md) for full definitions and formulae of MAE, MAPE, and Weighted MAE.
 Full table of results is available in `metrics_results.csv`.
 
 
@@ -229,11 +254,15 @@ I was also curious to compare the performance of GPT-4.1 and its smaller variant
   <em>Figure 2: Performance comparison of GPT-4.1 mini, nano, and full GPT-4.1 using the same prompt on a sample dataset.</em>
 </p>
 
-We were also interested in understanding the distribution of errors. For the best-performing prompt ran on the whole dataset, we observed that 45% of dishes account for 80% of the total Weighted MAE, while only 20% of individual food items account for the same amount. This suggests that some dishes, possibly those with many components or unusual compositions, introduce disproportionate error. At the food item level, errors were often associated with mixed dishes mentioned as a single item (e.g., pizza or vegetable stews like *ratatouille*), as well as multiple identical items grouped together (e.g., a bowl of cherry tomatoes), which are more challenging to estimate accurately.
+We were also interested in understanding the distribution of errors. For the best-performing prompt ran on the whole dataset, we observed that 45% of dishes account for 80% of the total Weighted MAE, while only 22% of individual food items account for the same amount. This suggests that some dishes, possibly those with many components or unusual compositions, introduce disproportionate error. At the food item level, errors were often associated with mixed dishes mentioned as a single item (e.g., pizza or vegetable stews like *ratatouille*), as well as multiple identical items grouped together (e.g., a bowl of cherry tomatoes), which are more challenging to estimate accurately.
 ## HERE INCLUDE THE GRAPH FOR THE BEST PERFORMING PROMPT 
 <p align="center">
-  <img src="./src/outputs/cum_error_0522.png" alt="Distribution of the error." width="60%"><br>
+  <img src="./src/outputs/cum_error_0604.png" alt="Distribution of the error." width="60%"><br>
   <em>Figure 3: Cumulative distribution of error across dishes and food items.</em>
 </p>
 
-## TODO run again on 4.1 and 4.1 nano the best prompt
+Because it's interesting, i wanted to compare again the best performing prompt on different models. Here are the results:
+<p align="center">
+  <img src="./src/outputs/same_prompt_models_comparison_4.png" alt="Model comparison with best prompt" width="60%"><br>
+  <em>Figure 4: Performance comparison of GPT-4.1 mini, nano, and full GPT-4.1 using the best prompt on a sample dataset.</em>
+</p>

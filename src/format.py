@@ -18,8 +18,9 @@ def remove_liquids(df):
     liquids = [
         "eau", "thé", "café", "lait", "bière", "vin", "sirop", "jus", "rosé",
         "espresso", "biere", "cacao", "capuccino", "spritz", "hugo",
-        "huile de colza", "huile", "cappuccino", "vinaigrette"
-    ] # Liquids to add for next formatting: "cidre", "tonic au gingembre"
+        "huile de colza", "huile", "cappuccino", "vinaigrette",
+        "cidre", "tonic au gingembre", "gin tonic"
+    ] # Liquids to add for next formatting: 
 
     # Build a regex pattern that matches any of the liquid terms
     pattern = r'\b(?:' + '|'.join(map(re.escape, liquids)) + r')\b'

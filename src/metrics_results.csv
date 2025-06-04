@@ -111,3 +111,4 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc,model
 ../data/result/result_e605cd68-ba89-4ed3-bdfd-c715c3ceb6e8.json,36.696969696969695,52.0715212257951,60.35708967131156,added 2 sections to prompt_75 (relative weight validation and systematic bias check) and elements to the quality checklist,,GPT-4.1 mini
 ../data/result/result_8f7c401d-7a44-4d04-80b9-816f7243b00c.json,34.42424242424242,46.218784450364694,57.916923731517926,same prompt as above but zero-shot,,GPT-4.1 mini
 ../data/result/result_524eefc3-f216-4823-a23e-129ccccd2a20.json,35.833333333333336,45.7320415851554,73.68315739719553,same prompt as prompt_75 but zero-shot,,GPT-4.1 mini
+../data/result/result_c973eb45-5e06-4f8f-b3ed-632a160e655a.json,32.07611721611722,62.33562966128514,37.925006266585356,final check on whole cleaned dataset with prompt_75,,GPT-4.1 mini

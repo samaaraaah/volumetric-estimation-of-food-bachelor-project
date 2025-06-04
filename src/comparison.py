@@ -54,18 +54,21 @@ def compute_errors(df_comparison, args):
     df_comparison["weighed_absolute_error"] = df_comparison["absolute_error"] * df_comparison["weight"] / total_weight
 
     if args.wholedata:
-        # Compute weighted errors per dish
+        # Group by dish
         df_dish_weights = df_comparison.groupby("image_id")["weight"].sum().reset_index()
         df_dish_weights = df_dish_weights.rename(columns={"weight": "total_dish_weight"})
         df_comparison = df_comparison.merge(df_dish_weights, on="image_id")
+
+        # Per dish WMAE
         df_comparison["dish_weighted_ae"] = df_comparison["absolute_error"] * df_comparison["weight"] / df_comparison["total_dish_weight"]
 
+        # Total WMAE
         dish_wmae_df = df_comparison.groupby("image_id")["dish_weighted_ae"].sum().reset_index()
         weighted_absolute_error = dish_wmae_df["dish_weighted_ae"].mean()
         dish_wmae_df = dish_wmae_df.rename(columns={"dish_weighted_ae": "total_dish_wmae"})
         df_comparison = df_comparison.merge(dish_wmae_df, on="image_id")
     else:
-        weighted_absolute_error = (df_comparison["absolute_error"] * df_comparison["weight"]).sum() / total_weight
+        weighted_absolute_error = df_comparison["weighed_absolute_error"].sum()
 
     return df_comparison, mae, weighted_absolute_error, mape
 
