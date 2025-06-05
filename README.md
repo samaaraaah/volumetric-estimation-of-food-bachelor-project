@@ -2,11 +2,11 @@
 
 ## Overview
 
-This Bachelor project was carried out at the Digital Epidemiology Lab (EPFL), under the supervision of Prof. Marcel Salathé.
+This Bachelor project was conducted at the Digital Epidemiology Lab (EPFL), under the supervision of Prof. Marcel Salathé.
 
-The goal of the project was to evaluate and optimize a large language model (LLM)-based pipeline for estimating the weight of food items from images, with applications in personalized nutrition tracking. This work directly supports the development of the [MyFoodRepo](https://www.myfoodrepo.org) platform, an open-source food tracking tool used in digital health research.
+The goal was to contribute to ongoing work on the *MyFoodRepo* app, a tool that allows users to log meals via photographs, aiding nutrition research and personal health tracking. The project focused on optimizing and benchmarking prompting strategies for food volume estimation using multimodal large language models (MLLMs).
 
-The benchmarking tool used in this project was developed by the lab specifically for evaluating prompt-based pipelines and LLM outputs on structured datasets.
+The benchmarking tool used in this project was developed by the lab specifically for evaluating prompt-based pipelines and models outputs on structured datasets.
 
 An initial prototype (Version 1) was developed as a baseline to understand the challenges. The final version (Version 2) implements a more robust and scalable approach.
 
