@@ -107,8 +107,12 @@ result_file,MAE,MAPE,Weighted_MAE,remarks,plot_desc,model
 ../data/result/result_be110eb4-399b-4ed8-aada-bf5ccfe610ec.json,41.395833333333336,62.540948896004444,55.99422946367957,specifications abound counting pieces and containers,,GPT-4.1 mini
 ../data/result/result_0cddf69d-5786-453d-84f8-8c226c45c4e5.json,35.30612244897959,49.62507801196374,56.78517008262689,added a final error prevention check (on sample 20.05),,GPT-4.1 mini
 ../data/result/result_19edb608-1b03-4427-a7de-c5454188fba9.json,33.464646464646464,52.07782301907836,50.79769771903645,same prompt as above on sample 22.05,,GPT-4.1 mini
-../data/result/result_f7409570-4c5b-4cc7-b8b1-cf4a80d1010e.json,32.41693430656934,58.94784729349204,38.453489640661935,with prompt_75 on whole data,whole data,GPT-4.1 mini 
+../data/result/result_f7409570-4c5b-4cc7-b8b1-cf4a80d1010e.json,32.41693430656934,58.94784729349204,38.453489640661935,with prompt_75 on whole data (BEST RESULTS),whole data,GPT-4.1 mini 
 ../data/result/result_e605cd68-ba89-4ed3-bdfd-c715c3ceb6e8.json,36.696969696969695,52.0715212257951,60.35708967131156,added 2 sections to prompt_75 (relative weight validation and systematic bias check) and elements to the quality checklist,,GPT-4.1 mini
 ../data/result/result_8f7c401d-7a44-4d04-80b9-816f7243b00c.json,34.42424242424242,46.218784450364694,57.916923731517926,same prompt as above but zero-shot,,GPT-4.1 mini
 ../data/result/result_524eefc3-f216-4823-a23e-129ccccd2a20.json,35.833333333333336,45.7320415851554,73.68315739719553,same prompt as prompt_75 but zero-shot,,GPT-4.1 mini
 ../data/result/result_c973eb45-5e06-4f8f-b3ed-632a160e655a.json,32.07611721611722,62.33562966128514,37.925006266585356,final check on whole cleaned dataset with prompt_75,,GPT-4.1 mini
+../data/result/result_00af6079-22f9-4590-a83f-6da57689bc89.json,24.01063829787234,39.35841466742793,30.69153019447288,best prompt with GPT-4o on sample,,GPT-4o
+../data/result/result_030d8a61-0845-4537-b732-bf22c7241c83.json,40.989583333333336,63.522395840977694,62.990157480314956,best prompt with GPT-4.1 nano it estimated the wrong item for half the sample,,GPT-4.1 nano
+../data/result/result_d6eaaa07-b11b-469e-a008-7e63421414aa.json,26.7319587628866,42.08909258344631,43.3693715982187,best prompt with GPT-4.1 mini on sample,,GPT-4.1 mini
+../data/result/result_033feb01-a86d-4260-b0d5-317a8ded33a4.json,26.74,32.97087259841526,50.28373458602466,best prompt with GPT-4.1 on sample,,GPT-4.1
