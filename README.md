@@ -1,10 +1,14 @@
 # Volumetric Estimation of Food — Bachelor Project
 
-## Overview
+**Author:** Samarah Yassin  
+**Supervisor:** Prof. Marcel Salathé  
+**Date:** Spring 2025
 
 This Bachelor project was conducted at the Digital Epidemiology Lab (EPFL), under the supervision of Prof. Marcel Salathé.
 
-The goal was to contribute to ongoing work on the *MyFoodRepo* app, a tool that allows users to log meals via photographs, aiding nutrition research and personal health tracking. The project focused on optimizing and benchmarking prompting strategies for food volume estimation using multimodal large language models (MLLMs).
+## Overview
+
+The goal was to contribute to ongoing work on the [*MyFoodRepo*](https://www.myfoodrepo.org/) app, a tool that allows users to log meals via photographs, aiding nutrition research and personal health tracking. Estimating food weight directly from images can significantly improve dietary tracking by removing the need for manual input or scales, making this process faster, easier, and suitable for large-scale nutritional studies and real-world health applications. The project focused on optimizing and benchmarking prompting strategies for food volume estimation using multimodal large language models (MLLMs).
 
 The benchmarking tool used in this project was developed by the lab specifically for evaluating prompt-based pipelines and models outputs on structured datasets.
 
@@ -25,8 +29,8 @@ An initial prototype (Version 1) was developed as a baseline to understand the c
 ## Pipeline Summary
 
 1. **Data preparation**  
-   Format raw food data into a structure accepted by the benchmarking tool.  
    Clean the dataset to remove incorrect annotations to ensure data quality.
+   Format raw food data into a structure accepted by the benchmarking tool.  
 
 2. **LLM prediction**  
    Generate predictions using the benchmarking tool with a custom prompt.
@@ -56,7 +60,7 @@ An initial prototype (Version 1) was developed as a baseline to understand the c
 | `weight_data_ready.csv` | Formatted version for benchmarking |
 | `weight_data_sample.csv` | Random 100-sample subset |
 | `weight_data_sample_ready.csv` | Formatted sample data |
-| `result/{result_file_id}` | LLM output predictions |
+| `result/{result_file_name}` | LLM output predictions |
 | `comparison_data/comparison_{result_file_name}` | Raw comparison between predictions and ground truth |
 | `comparison_data/sorted_{result_file_name}` | Same as above, but sorted by absolute error |
 | `prompt_data/prompt_{result_file_id}` | Prompt used for the prediction file |
@@ -73,7 +77,7 @@ An initial prototype (Version 1) was developed as a baseline to understand the c
 
 ## Version 2
 
-**Description:** A refined version where the model is given all the food item present on the image but is asked to estimate only one target item. Includes a cleaned and more structured dataset.
+**Description:** A refined version where the model is given all the food items present in the image but is asked to estimate only one target item. Includes a cleaned and more structured dataset.
 
 ### Folder structure
 
@@ -86,7 +90,7 @@ An initial prototype (Version 1) was developed as a baseline to understand the c
 | `cleaned/weight_data_cleaned_grouped.csv` | Cleaned data + list of all food items per image |
 | `cleaned/weight_data_cleaned_grouped_no_liquid.csv` | Same as above without liquids |
 | `cleaned/weight_data_cleaned_sample_{timestamp}.csv` | Sample subset from grouped cleaned data |
-| `comparison/sorted_result_{result_file_id}` | Sorted error output |
+| `comparison/sorted_{result_file_name}` | Sorted error output |
 | `prompt/optimized/optimized_prompt_{prompt_nb}_{timestamp}` | Result of automatic prompt optimization |
 | `prompt/prompt_{prompt_nb}_{result_file_id}` | Prompt used to generate the corresponding prediction |
 | `ready` | Contains all the files from the cleaned folder formatted for benchmarking |
@@ -111,7 +115,7 @@ An initial prototype (Version 1) was developed as a baseline to understand the c
 ---
 
 ## Data cleaning procedure (format.py)
-1. When deleting a row in `weight_data_cleaned.csv`, **add it to `removed_logs.csv`** with a reason for deletion. To delete liquids automatically (by name) add it to the liquid list in the method ```remove_liquids``` in ```format.py```.
+1. When deleting a row in `weight_data_cleaned.csv`, **add it to `removed_logs.csv`** with a reason for deletion. To delete liquids automatically (by name), add it to the liquid list in the method ```remove_liquids``` in ```format.py```.
 2. Update the ready files using:   
    ```python format.py --liquid```  
 3. Generate a version without liquids:   
@@ -123,7 +127,8 @@ An initial prototype (Version 1) was developed as a baseline to understand the c
 **Optional argument:**
 - ```--size```: to specify the size of the sample, default = 100.
 
-**Remark:** When running `format.py`, the cleaned (full) dataset is overwritten, hence previous versions are lost. If you want to keep a history of changes, you can modify the script to generate new files with timestamps (as is already done for sample files).  
+**Remark:**  
+When running `format.py`, the cleaned (full) dataset is overwritten, hence previous versions are lost. If you want to keep a history of changes, you can modify the script to generate new files with timestamps (as is already done for sample files).  
 This behavior (keeping only one version) is the current design of the project. Timestamped versioning for the full dataset has not been implemented.  
 `weight_data.csv` contains the original raw data and should not be modified.
 
@@ -145,13 +150,15 @@ To run predictions:
 5. Create a *New Result* under that experiment
 6. Download the result and add it to the `result` folder
 
-Mutliple results can be created at the same time. The tool processes responses in the background and provides downloadable JSON files containing model outputs.
+Multiple results can be created at the same time. The tool processes responses in the background and provides downloadable JSON files containing model outputs.
 
 ---
 
-## Running comparisons (comparisons.py)
+## Running comparisons (comparisons.py) 
 
 Once a result file has been generated by the LLM, it can be evaluated with the following steps:  
+Make sure that the variable ```csv_file``` in the function ```load_data``` is the name of the file containing the ground truth values
+that should be compared with the results, i.e. for a comparison with the full dataset `../data/cleaned/weight_data_cleaned_no_liquid.csv` and with a sample dataset `../data/cleaned/weight_data_cleaned_sample_{timestamp}.csv`. 
 
 If the data is a **sample**:  
 ```python comparison.py --json {result_file_name}```  
@@ -163,13 +170,8 @@ This will sort based on total dish weight absolute error.
 
 **Optional arguments**:
 - ```--liquid```: to specify that the dataset contains liquids.
-- ```--errors```: display the top 20 highest errors examples in the terminal.
-- ```--best```: display the 20 lowest errors examples in the terminal.
-
-**Remark**:
-Make sure that the variable ```csv_file``` in the function ```load_data``` is the name of the file containing the ground truth values
-that should be compared with the results i.e. for a comparison with the full dataset `../data/cleaned/weight_data_cleaned_no_liquid.csv` and with a sample dataset `../data/cleaned/weight_data_cleaned_sample_{timestamp}.csv`.  
-
+- ```--errors```: display the top 20 highest error examples in the terminal.
+- ```--best```: display the 20 lowest error examples in the terminal.
 
 ---
 
@@ -177,6 +179,9 @@ that should be compared with the results i.e. for a comparison with the full dat
 
 Optimize a prompt using:  
 ```python prompt_opti.py --prompt {prompt_file} --errors {result_file}```  
+
+**Remark**:  
+Don't forget to put the OpenAI API key in a `.env` file as a value for the variable `OPENAI_API_KEY` and add `.env` in the `.gitignore`.
 
 **Arguments**:
 - ```--prompt```: name of the file containing the prompt to optimize (e.g. prompt_3_...)  
@@ -186,8 +191,6 @@ Optimize a prompt using:
 Optimized prompt: `data/prompt/optimized/optimized_prompt_{prompt_nb}_{timestamp}.md`, contains the base prompt and all the details about the modifications    
 New base prompt: `data/prompt/prompt_{n}_.md`, where n is the original prompt number incremented by 1  
 
-**Remark**:
-Don't forget to put the OpenAI API key in a `.env` file as a value for the variable `OPENAI_API_KEY` and add `.env` in the `.gitignore`.
 
 ---
 
@@ -199,21 +202,21 @@ Initially, I adopted a structured format composed of: *Given, Task, Instructions
 
 During testing, I observed that liquids were often poorly estimated, which significantly increased overall error. To address this, I removed liquids from the task, a decision validated by Prof. Salathé, as the project’s primary focus was on solid foods.
 
-As the prompt evolved, it became increasingly complex, with many detailed subsections. However, upon switching to GPT-4.1 mini (2025-04-14) after its release, performance initially dropped considerably. By restructuring the prompt according to [OpenAI’s guidelines](https://cookbook.openai.com/examples/gpt4-1_prompting_guide) for GPT-4.1 prompting, I was able to improve accuracy. Unlike GPT-4o, GPT-4.1 mini was more effective with few-shot examples rather than zero-shot prompting.
+As the prompt evolved, it became increasingly complex, with many detailed subsections. However, upon switching to GPT-4.1 mini (2025-04-14) after its release, performance initially dropped considerably (see [here](./src/outputs/same_prompt_models_comparison_1.png)). By restructuring the prompt according to [OpenAI’s guidelines](https://cookbook.openai.com/examples/gpt4-1_prompting_guide) for GPT-4.1 prompting, I was able to improve accuracy. Unlike GPT-4o, GPT-4.1 mini was more effective with few-shot examples rather than zero-shot prompting.
 
 **The final prompt structure includes the following sections:**
 - Role and objective
 - Input format
-- Critical rules to follow exactly: Key instructions (e.g., exclude container weight, base estimations solely on visible evidence)
-- Estimation methodology: Step-by-step reasoning strategy tailored for food estimation
-- Special cases: Instructions for handling mixed dishes, processed foods, and multiple items
+- Critical rules to follow exactly: key instructions (e.g., exclude container weight, base estimations solely on visible evidence)
+- Estimation methodology: step-by-step reasoning strategy tailored for food estimation
+- Special cases: instructions for handling mixed dishes, processed foods, and multiple items
 - Output format
-- Quality checklist: A series of questions to verify output quality before submission
+- Quality checklist: a series of questions to verify output quality before submission
 - Examples
-- Context: Recap of the task’s goals and high-priority guidelines
-- Final instructions: Key reminders in bullet-point form
+- Context: recap of the task’s goals and high-priority guidelines
+- Final instructions: key reminders in bullet-point form
 
-[Here](./data/prompt/final_prompt.md) is the final prompt.
+[Here](./data/prompt/final_prompt.md) is the final best-performing prompt.
 
 
 **Most impactful prompt strategies:**  
@@ -228,6 +231,8 @@ As the prompt evolved, it became increasingly complex, with many detailed subsec
 
 - **Specifying the pictures were taken in Switzerland:**  
    Adding geographic context did not immediately improve estimation accuracy, but the LLM began referencing it in its reasoning to tailor predictions. I chose to keep it, as it likely helps align the model’s assumptions with culturally relevant portion sizes and reduces bias toward American-style servings, especially when used with a well-structured prompt.
+
+More high-level comments on how the prompts evolved are available in [./metrics_results.csv](./src/metrics_results.csv).
 
 **Automatic Prompt Optimization**  
 This feature was briefly explored when I was looking for new prompt ideas. Initially, GPT-o3 modified the original prompt too much. After instructing it to make only minimal changes, the output behaved as expected; however, this did not improve model performance. Even when incorporated into the pipeline and applied iteratively to predictions generated by the last suggested prompt, no performance gains were observed. As a result, I did not fully adopt this approach, I used it only occasionally to generate inspiration. Overall, this was an experimental test to evaluate whether automatic prompt optimization could boost results.
@@ -248,8 +253,9 @@ A complete visualization is available [here](./src/outputs/best_prompt.png).
 
 Considering that the first prompts with GPT-4.1 mini produced a Weighted MAE of about 70g, this represents an improvement of nearly 50%, which reflects a significant performance improvement. The notably higher MAPE compared to the MAE indicates that the model performs worse on lighter food items. This suggests a potential direction for future prompt refinement.
 
-See [metrics.md](./metrics.md) for full definitions and formulae of MAE, MAPE, and Weighted MAE.  
-Full table of results is available in `metrics_results.csv`. Do not delete any rows from this file, adding new rows is permitted.
+See [metrics.md](./metrics.md) for full definitions and formulas of MAE, MAPE, and Weighted MAE.  
+
+The full table of results is available in `metrics_results.csv`. Do not delete any rows from this file, adding new rows is permitted.
 
 
 ## Model comparison
@@ -260,15 +266,23 @@ Following OpenAI’s recommendations, I restructured the prompt to include only 
 We were also interested in understanding the distribution of errors. For the best-performing prompt ran on the whole dataset, we observed that 45% of dishes account for 80% of the total Weighted MAE, while only 22% of individual food items account for the same amount. This suggests that some dishes, possibly those with many components or unusual compositions, introduce disproportionate error. At the food item level, errors were often associated with mixed dishes mentioned as a single item (e.g., pizza or vegetable stews like *ratatouille*), as well as multiple identical items grouped together (e.g., a bowl of cherry tomatoes), which are more challenging to estimate accurately.
 
 <p align="center">
-  <img src="./src/outputs/cum_error_0604.png" alt="Distribution of the error." width="60%"><br>
+  <img src="./src/outputs/cum_error_0604.png" alt="Distribution of the error." width="70%"><br>
   <em>Figure 1: Cumulative distribution of error across dishes and food items.</em>
 </p>
 
 Out of curiosity, I ran a final comparison using the best-performing GPT-4.1 mini prompt on all the other models. Here are the results on a sample dataset:
 
 <p align="center">
-  <img src="./src/outputs/best_prompt_models_comparison.png" alt="Model comparison with best prompt" width="60%"><br>
+  <img src="./src/outputs/best_prompt_models_comparison.png" alt="Model comparison with best prompt" width="70%"><br>
   <em>Figure 2: Performance comparison of GPT-4o, GPT-4.1 mini, nano, and full GPT-4.1 using the best prompt on a sample dataset.</em>
 </p>
 
-I had already ran a similar comparison when I started crafting a prompt for GPT-4.1 mini and the full GPT-4.1 model performed significantly better, with a Weighted MAE more than 20 g lower than that of GPT-4.1 nano (see [this](./src/outputs/same_prompt_models_comparison_3.png) graph). Interestingly, the full GPT-4.1 model, which previously outperformed the mini and nano versions, did not maintain that advantage here. While it still outperformed the nano version, it was slightly behind the mini version with this specific prompt. This highlights how sensitive these models are to prompt structure and how performance can shift depending on dataset composition and prompt optimization. Moreover, these models are not deterministic: same prompt and same data can lead to different outputs.
+I had already ran a similar comparison when I started crafting a prompt for GPT-4.1 mini and the full GPT-4.1 model performed significantly better, with a Weighted MAE more than 20g lower than that of GPT-4.1 nano (see [this](./src/outputs/same_prompt_models_comparison_3.png) graph). Interestingly, the full GPT-4.1 model, which previously outperformed the mini and nano versions, did not maintain that advantage here. While it still outperformed the nano version, it was slightly behind the mini version with this specific prompt. This highlights how sensitive these models are to prompt structure and how performance can shift depending on dataset composition and prompt optimization. Moreover, these models are not deterministic: the same prompt and the same data can lead to different outputs.
+
+The results achieved in this project underscore the critical importance of prompt engineering when working with multimodal large language models (MLLMs). As demonstrated, even small changes in prompt phrasing or structure can lead to significant variations in model performance. This sensitivity highlights how careful and systematic prompt design is essential to unlocking the full potential of these advanced AI systems, especially for complex tasks such as food volume estimation.
+
+Moreover, the observed variability suggests that manual prompt crafting can be both time-consuming and limited in scope. To address this, future work could focus on automating the prompt generation process, an option I began exploring during this project. Techniques such as meta-prompting, where the model helps generate or refine its own prompts, hold promise to enhance robustness and efficiency. Automating prompt optimization could lead to more consistent and scalable performance, enabling these models to be better integrated into real-world nutrition tracking applications.
+
+## Disclaimer
+Parts of this README were written and refined with the assistance of ChatGPT. The ideas, analysis, and code are my original work. AI was mainly used to improve clarity, structure, and phrasing.
+
