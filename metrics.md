@@ -77,4 +77,4 @@ Cons:
 **MAPE** contextualizes these errors relative to each food's size.  
 **Weighted MAE** focuses on evaluating entire meals where accuracy of high-weight items is most critical.
 
-Together, they offer a comprehensive view of the model’s strengths and weaknesses in estimating real-world food portions from visual data.
+Together, they offer a comprehensive view of the model’s strengths and weaknesses in estimating the volume of food from images.
